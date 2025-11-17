@@ -1,0 +1,2482 @@
+{
+    "intro": {
+        "titleLeft": "Twoje CV w trzech",
+        "titleSpan": "prostych",
+        "titleRight": "krokach",
+        "step1": "Wybierz szablon z naszej kolekcji.",
+        "step2": "Zbuduj swoje CV za pomocą naszego łatwego w użyciu kreatora CV.",
+        "step3": "Pobierz swoje CV.",
+        "login": "Zaloguj się",
+        "selectTemplate": "Wybierz szablon",
+        "rightReserved": "Wszelkie prawa zastrzeżone"
+    },
+    "selectionAction": {
+        "titleLeft": "Wybierz",
+        "titleSpan": "szablon",
+        "titleRight": "z listy.",
+        "templates": "Szablony",
+        "account": "Moje konto",
+        "admin": "Administrator"
+    },
+    "form": {
+        "untitled": "Bez tytułu",
+        "profileCompleteness": "Kompletność profilu",
+        "personalDetails": "Dane osobowe",
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "photo": "Zdjęcie",
+        "occupation": "Zawód",
+        "country": "Kraj",
+        "nationality": "Narodowość",
+        "city": "Miasto",
+        "address": "Adres",
+        "postalcode": "Kod pocztowy",
+        "dateOfBirth": "Data urodzenia",
+        "drivingLicense": "Prawo jazdy",
+        "profesionalSummary": "Podsumowanie zawodowe",
+        "profesionalSummarySubtitle": "Krótkie podsumowanie ogólnego doświadczenia.",
+        "employmentHistory": "Historia zatrudnienia",
+        "employmentHistorySubtitle": "W tej sekcji umieść ostatnie 10 lat odpowiedniego doświadczenia zawodowego i daty. Najnowsze stanowisko wymień jako pierwsze.",
+        "jobTitle": "Stanowisko",
+        "employer": "Pracodawca",
+        "begin": "Początek",
+        "end": "Koniec",
+        "description": "Opis",
+        "education": "Edukacja",
+        "educationSubtitle": "W tej sekcji umieść ostatnie 10 lat historii edukacji i daty. Najnowsze stanowisko wymień jako pierwsze.",
+        "school": "Szkoła",
+        "degree": "Stopień naukowy",
+        "courseDescription": "Opis kursu",
+        "languages": "Języki",
+        "laguagesSubtitle": "Wprowadź języki, w których możesz pracować.",
+        "language": "Język",
+        "level": "Poziom",
+        "skills": "Umiejętności",
+        "skillsSubtitle": "Wprowadź swoje umiejętności i oceń każdą z nich.",
+        "skillName": "Nazwa umiejętności",
+        "rating": "Ocena",
+        "addSkill": "Dodaj umiejętność",
+        "addLanguage": "Dodaj język",
+        "addJob": "Dodaj pracę",
+        "addEducation": "Dodaj edukację",
+        "showDetails": "Pokaż dodatkowe szczegóły",
+        "hideDetails": "Ukryj dodatkowe szczegóły",
+        "previous": "Poprzedni",
+        "next": "Następny",
+        "selectTemplate": "Wybierz szablon",
+        "save": "Zapisz",
+        "download": "Pobierz"
+    },
+    "login": {
+        "login": "Zaloguj się",
+        "email": "E-mail",
+        "googleLogin": "Zaloguj się za pomocą ",
+        "facebookLogin": "Zaloguj się za pomocą",
+        "or": "Lub",
+        "password": "Hasło",
+        "passwordRepeat": "Powtórz hasło",
+        "dontHaveAcc": "Nie masz konta? ",
+        "signup": "Zarejestruj się",
+        "passwordLost": "Zapomniałeś hasła? ",
+        "recoverPassword": "Odzyskaj hasło",
+        "register": "Zarejestruj się",
+        "alreadyHaveAccount": "Masz już konto?",
+        "passwordRecovery": "Odzyskiwanie hasła",
+        "recoverMyPassword": "Odzyskaj moje hasło"
+    },
+    "dashboard": {
+        "homepage": "Strona główna",
+        "dashboard": "Panel",
+        "coverLetter": "List motywacyjny",
+        "dashBoard": "Panel",
+        "goToResume": "Przejdź do CV",
+        "remove": "Usuń",
+        "addNew": "Dodaj nowy",
+        "addResume": "Dodaj CV",
+        "accountSettings": "Ustawienia konta",
+        "logout": "Wyloguj się",
+        "settings": "Ustawienia",
+        "personalInfo": "DANE OSOBOWE",
+        "firstname": "Imię",
+        "lastname": "Nazwisko",
+        "changePassword": "ZMIEŃ HASŁO",
+        "newPassword": "Nowe hasło",
+        "save": "Zapisz",
+        "commingSoon": "Wkrótce dostępne",
+        "adsManager": "Menedżer reklam",
+        "currentAds": "Aktualne reklamy",
+        "name": "Nazwa",
+        "date": "Data",
+        "bannerLink": "Link baneru",
+        "bannerName": "Nazwa baneru",
+        "destinationLink": "Link docelowy",
+        "add": "Dodaj",
+        "noAdsFound": "Nie znaleziono reklam!",
+        "pages": "Strony",
+        "currentPages": "Aktualne strony",
+        "addPages": "Dodaj strony",
+        "pageName": "Nazwa strony",
+        "addPage": "Dodaj stronę"
+    },
+    "resume": {
+        "personalSummary": "Podsumowanie osobiste",
+        "employmentHistory": "Historia zatrudnienia",
+        "educationHistory": "Historia edukacji",
+        "info": "Informacje",
+        "address": "Adres",
+        "phone": "Telefon",
+        "email": "E-mail",
+        "languages": "Języki",
+        "skills": "Umiejętności"
+    },
+    "Language": {
+        "elemntary": "Podstawowy",
+        "Intermediate": "Średniozaawansowany",
+        "Advanced": "Zaawansowany",
+        "Proficient": "Biegły"
+    },
+    "dashNew": {
+        "noDocumentFound": "Nie znaleziono dokumentów!",
+        "noDocumentFoundSub": "Możesz zacząć od utworzenia nowego CV lub listu motywacyjnego",
+        "personalDetails": "Dane osobowe",
+        "name": "Imię",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "address": "Adres",
+        "city": "Miasto",
+        "country": "Kraj",
+        "postalcode": "Kod pocztowy",
+        "skills": "Umiejętności",
+        "searchDocuments": "Szukaj dokumentów",
+        "resume": "CV",
+        "coverLetter": "List motywacyjny",
+        "clearAll": "Wyczyść wszystko",
+        "filter": "Filtruj",
+        "noSkillsAdded": "Nie dodano żadnych umiejętności",
+        "shareDocument": "Udostępnij ten dokument",
+        "link": "Link",
+        "linkDesc": "Możesz użyć tego udostępnionego linku, aby każdy mógł zobaczyć ten dokument",
+        "copy": "Kopiuj",
+        "copied": "Skopiowano",
+        "quickAccess": "Szybki dostęp",
+        "quickAccessDesc": "W tej sekcji znajdziesz wszystkie działania, które możesz wykonać na swoich dokumentach i koncie.",
+        "createDocument": "Utwórz dokument",
+        "favourites": "Ulubione",
+        "settings": "Ustawienia",
+        "statistics": "Statystyki",
+        "statisticsDesc": "Tutaj możesz zobaczyć swoje statystyki, ile dokumentów wygenerowałeś, ile pobrań miałeś",
+        "documentsGenerated": "Wygenerowane dokumenty",
+        "downloads": "Pobrania",
+        "favouitesDesc": "To lista Twoich ulubionych dokumentów, możesz je stąd usunąć.",
+        "noFavouritesFound": "Nie masz jeszcze żadnych ulubionych!",
+        "fullName": "Pełna nazwa",
+        "type": "Typ",
+        "summary": "Podsumowanie",
+        "close": "Zamknij",
+        "profil": "Profil",
+        "account": "Konto",
+        "upload": "Prześlij",
+        "remove": "Usuń",
+        "fullNameDesc": "Używamy go podczas tworzenia CV",
+        "emailDesc": "Do uwierzytelniania w aplikacji",
+        "description": "Opis",
+        "descriptionDesc": "Twój typ konta",
+        "changePassword": "Zmień hasło",
+        "newPassword": "Nowe hasło",
+        "sbsend": "Koniec subskrypcji",
+        "sbsendDesc": "Data wygaśnięcia Twojej subskrypcji",
+        "profileUpdated": "Profil zaktualizowany",
+        "profileUpdatedDesc": "Profil został zaktualizowany",
+        "passChanged": "Hasło zmienione",
+        "passChangedDesc": "Hasło zostało zmienione",
+        "passError": "Hasło za krótkie",
+        "passErrorDesc": "Hasło musi mieć co najmniej 6 znaków",
+        "profile": "Profil"
+    },
+    "static": {
+        "plansHeader": "Proste, przejrzyste ceny",
+        "plansDesc": "Aby pobrać swoje CV, wystarczy wykupić członkostwo Premium. Wybierz plan, który jest dla Ciebie najlepszy.",
+        "month": "Miesiąc",
+        "premiumMonth": "Premium Miesięcznie",
+        "premiumYear": "Premium 6 Miesięcy",
+        "premiumHalfYear": "Premium Rocznie",
+        "unlimitedPDF": "Nieograniczone pobieranie PDF",
+        "unlimitedResumes": "Nieograniczone CV",
+        "nonRecuring": "Płatność jednorazowa.",
+        "upgradeAndDownload": "Uaktualnij i pobierz",
+        "payment1": "Zdobądź wymarzoną pracę",
+        "payment2": "Płatność za pośrednictwem zaufanej usługi płatniczej",
+        "payment3": "Bezpieczne SSL / 256-bitowe bezpieczne potwierdzenie zakupu SSL",
+        "payment4": "7-dniowa gwarancja zwrotu pieniędzy",
+        "payment5": "Jak mogę anulować?",
+        "payment6": "Możesz łatwo anulować subskrypcję, po prostu kontaktując się z naszym zespołem wsparcia przez e-mail lub telefon, lub korzystając z naszej strony kontaktowej.",
+        "payment7": "Akceptowane metody płatności",
+        "payment8": "Całkowita kwota do zapłaty dzisiaj:",
+        "payment9": "Gdzie się znajdujesz?",
+        "payment10": "Proszę wpisać poniżej swój kraj i kod pocztowy. Zbieramy te informacje, aby walczyć z oszustwami i zagwarantować bezpieczeństwo Twojej płatności.",
+        "payment11": "Kraj",
+        "payment12": "Kod pocztowy",
+        "payment13": "Zapłać kartą",
+        "payment14": "powrót",
+        "payment15": "Posiadacz karty",
+        "payment16": "Adres",
+        "nav1": "Przejdź do aplikacji",
+        "nav2": "Skontaktuj się z nami",
+        "footer1": "Społecznościowe",
+        "footer2": "Skontaktuj się z nami",
+        "footer3": "Polityka prywatności",
+        "footer4": "Śledź nas w mediach społecznościowych, aby otrzymywać ekskluzywne materiały bezpośrednio do Twojego kanału",
+        "footer5": "O nas",
+        "footer6": "Copyright © 2021-2022 Wszelkie prawa zastrzeżone.",
+        "footer7": "Treści",
+        "footer8": "Strona główna"
+    },
+    "navbar": {
+        "home": "Strona główna",
+        "featuresNav": "Funkcje",
+        "resumeBuilderFeatures": "Funkcje kreatora CV",
+        "featureTagline": "Wszystko, czego potrzebujesz do idealnego CV",
+        "userCount": "+50 tys. użytkowników",
+        "exploreFeatures": "Poznaj wszystkie funkcje",
+        "freeToTry": "Darmowe do wypróbowania",
+        "startBuilding": "Zacznij tworzyć",
+        "pricing": "Cennik",
+        "contact": "Kontakt",
+        "signOut": "Wyloguj się",
+        "dashboard": "Panel",
+        "signIn": "Zaloguj się",
+        "getStarted": "Rozpocznij",
+        "viewAllFeatures": "Wyświetl wszystkie funkcje",
+        "popular": "Popularne",
+        "features": {
+            "atsOptimization": {
+                "title": "Optymalizacja ATS",
+                "description": "Pokonaj zautomatyzowane systemy rekrutacyjne",
+                "badge": "Inteligentny"
+            },
+            "aiBuilder": {
+                "title": "Kreator treści AI",
+                "description": "Pisanie CV wspomagane przez AI",
+                "badge": "AI"
+            },
+            "templates": {
+                "title": "Profesjonalne szablony",
+                "description": "Nowoczesne wzory dostosowane do branży"
+            },
+            "export": {
+                "title": "Eksport w wielu formatach",
+                "description": "PDF, DOCX i inne formaty"
+            },
+            "security": {
+                "title": "Prywatność i bezpieczeństwo",
+                "description": "Ochrona danych na poziomie bankowym",
+                "badge": "Bezpieczny"
+            },
+            "analytics": {
+                "title": "Analiza kariery",
+                "description": "Śledź sukcesy swoich aplikacji",
+                "badge": "Pro"
+            }
+        },
+        "resources": {
+            "learn": "Ucz się",
+            "documentation": {
+                "title": "Dokumentacja",
+                "description": "Kompletne przewodniki i referencje API"
+            },
+            "videoTutorials": {
+                "title": "Tutoriale wideo",
+                "description": "Ucz się z filmów krok po kroku"
+            },
+            "designCourse": {
+                "title": "Kurs projektowania",
+                "description": "Opanuj podstawy projektowania logo",
+                "badge": "Darmowy"
+            },
+            "community": "Społeczność",
+            "communityForum": {
+                "title": "Forum społecznościowe",
+                "description": "Połącz się z innymi projektantami"
+            },
+            "blog": {
+                "title": "Blog",
+                "description": "Najnowsze trendy i wskazówki dotyczące projektowania"
+            },
+            "support": "Wsparcie",
+            "helpCenter": {
+                "title": "Centrum pomocy",
+                "description": "Znajdź odpowiedzi na często zadawane pytania"
+            },
+            "faq": {
+                "title": "FAQ",
+                "description": "Często zadawane pytania"
+            },
+            "contactUs": {
+                "title": "Skontaktuj się z nami",
+                "description": "Skontaktuj się z naszym zespołem"
+            }
+        }
+    },
+    "homepageText": {
+        "text1": "Wyróżnij się z tłumu dzięki naszemu kreatorowi CV online",
+        "text2": "Nasz kreator CV to idealne narzędzie, które pomoże Ci stworzyć profesjonalne, dopracowane CV w zaledwie kilka minut. Dzięki naszemu intuicyjnemu projektowi i prostemu procesowi krok po kroku możesz łatwo stworzyć CV, które wyróżni się na tle konkurencji. Niezależnie od tego, czy jesteś świeżo upieczonym absolwentem, czy doświadczonym profesjonalistą, nasza aplikacja internetowa ma wszystko, czego potrzebujesz, aby przenieść swoją karierę na wyższy poziom",
+        "text3": "CV",
+        "text4": "List motywacyjny",
+        "text5": "Opinie",
+        "text6": "Wybierz, co chcesz stworzyć.",
+        "text7": "Opinie",
+        "text8": "Wzmocnij swoje CV dzięki naszym zaawansowanym funkcjom",
+        "text9": "Nasz kreator CV oferuje wiele funkcji, które pomagają użytkownikom stworzyć profesjonalne i skuteczne CV. Obejmują one sugestie predefiniowanych fraz, link do udostępniania, eksport do PDF, dostosowywalne szablony, automatyczne zapisywanie, sprawdzanie pisowni, śledzenie zmian, współpracę i zasoby do budowania marki osobistej. Wszystkie te funkcje sprawiają, że tworzenie profesjonalnego CV jest łatwe i wydajne."
+    },
+    "HomepageHero": {
+        "typingEffect": {
+            "sentence1": "Twórz profesjonalne CV za pomocą AI",
+            "sentence2": "Wybierz spośród ponad 50 szablonów eksperckich",
+            "sentence3": "Uzyskaj inteligentną pomoc w pisaniu",
+            "sentence4": "Podgląd zmian w czasie rzeczywistym",
+            "sentence5": "Zdaj rozmowy kwalifikacyjne z narzędziami przygotowawczymi AI"
+        },
+        "badge": "Kreator CV wspomagany przez AI",
+        "description": "Twórz oszałamiające, przyjazne dla ATS CV i listy motywacyjne z pomocą AI. Wybieraj spośród profesjonalnych szablonów, otrzymuj feedback w czasie rzeczywistym i szybciej zdobywaj wymarzoną pracę.",
+        "createResume": "Utwórz CV",
+        "createCoverLetter": "Utwórz list motywacyjny",
+        "stats": {
+            "users": "+5000 zadowolonych użytkowników",
+            "rating": "4.9/5"
+        },
+        "features": {
+            "freeToStart": "Darmowe do rozpoczęcia",
+            "noCreditCard": "Brak karty kredytowej"
+        }
+    },
+    "HomepageTrustedBy": {
+        "badge": "KOMPATYBILNY Z WIODĄCYMI PLATFORMAMI",
+        "title": "Bezproblemowa integracja z narzędziami branżowymi",
+        "description": "Nasz kreator CV wspomagany przez AI integruje się z popularnymi platformami i narzędziami używanymi przez profesjonalistów na całym świecie.",
+        "trustIndicators": {
+            "platforms": "Kompatybilny z ponad 30 głównymi platformami",
+            "countries": "Używany w ponad 120 krajach",
+            "technology": "Wiodąca technologia w branży"
+        }
+    },
+    "HomepageSteps": {
+        "badge": "SPRAWDZONE WYNIKI • ZAUFANE PRZEZ +50 TYSIĘCY PROFESJONALISTÓW",
+        "title": {
+            "part1": "Przekształć",
+            "part2": "swoją ścieżkę",
+            "part3": "kariery"
+        },
+        "description": "Dołącz do tysięcy profesjonalistów, którzy przyspieszyli swoje kariery dzięki naszemu kreatorowi CV wspomaganemu przez AI. Zostań zauważony, zdobądź rozmowy kwalifikacyjne i szybciej zapewnij sobie wymarzoną pracę.",
+        "benefits": [
+            {
+                "title": "Zdobądź więcej rozmów kwalifikacyjnych",
+                "description": "Nasze szablony zoptymalizowane pod kątem ATS i sugestie treści wspomagane przez AI pomagają Twojemu CV przejść przez zautomatyzowane systemy rekrutacyjne i trafić w ręce menedżerów ds. rekrutacji.",
+                "detail": "Dołącz do tysięcy profesjonalistów, którzy zwiększyli swoją skuteczność w zdobywaniu rozmów kwalifikacyjnych o 3x, korzystając z naszego sprawdzonego systemu."
+            },
+            {
+                "title": "Wyróżnij się z tłumu",
+                "description": "Dzięki profesjonalnym projektom i przekonującym rekomendacjom dotyczącym treści, zaprezentuj swoją unikalną propozycję wartości i szybciej zostań zauważony przez rekruterów.",
+                "detail": "Nasza inteligentna formatowanie i optymalizacja słów kluczowych zapewniają, że Twoje CV przyciągnie uwagę w ciągu kilku sekund."
+            },
+            {
+                "title": "Zbuduj pewność siebie podczas poszukiwania pracy",
+                "description": "Zaprezentuj swoją najlepszą profesjonalną stronę za pomocą dopracowanego, wolnego od błędów CV, które odzwierciedla Twój prawdziwy potencjał i osiągnięcia zawodowe.",
+                "detail": "Poczuj się pewnie, wiedząc, że Twoje materiały aplikacyjne są profesjonalnie przygotowane i zgodne z branżowymi standardami."
+            }
+        ],
+        "stats": [
+            { "number": "50K+", "label": "Zadowolonych użytkowników" },
+            { "number": "98.7%", "label": "Współczynnik sukcesu" },
+            { "number": "50+", "label": "Szablony" },
+            { "number": "24h", "label": "Średni czas" }
+        ],
+        "badges": {
+            "aiPowered": {
+                "title": "Wspomagany przez AI",
+                "subtitle": "Inteligentny kreator CV"
+            },
+            "atsOptimized": {
+                "title": "✓",
+                "subtitle": "Zoptymalizowany pod kątem ATS"
+            }
+        },
+        "cta": {
+            "title": "Gotowy, by zdobyć wymarzoną pracę?",
+            "description": "Dołącz do ponad 50 000 profesjonalistów, którzy zmienili swoje kariery. Zacznij tworzyć swoje zwycięskie CV już dziś.",
+            "button": "Rozpocznij swoją historię sukcesu",
+            "noCredit": "✨ Brak karty kredytowej • Darmowe szablony w zestawie"
+        }
+    },
+    "HomepageReviews": {
+        "badge": "OPINIE KLIENTÓW",
+        "title": {
+            "part1": "Co mówią",
+            "part2": "nasi",
+            "part3": " użytkownicy"
+        },
+        "description": "Dołącz do tysięcy zadowolonych osób poszukujących pracy, które zdobyły wymarzone stanowiska dzięki naszemu kreatorowi CV wspomaganemu przez AI.",
+        "navigation": {
+            "previous": "Poprzedni",
+            "next": "Następny",
+            "slideLabel": "Przejdź do slajdu {{number}}",
+            "pauseAutoplay": "Wstrzymaj autoodtwarzanie",
+            "startAutoplay": "Rozpocznij autoodtwarzanie"
+        },
+        "review": {
+            "category": "Technologia",
+            "verifiedBadge": "Zweryfikowany użytkownik",
+            "avatarAlt": "Zdjęcie profilowe użytkownika {{name}}",
+            "dateFormat": "MM/DD/RRRR"
+        }
+    },
+    "HomepagePricing": {
+        "badge": "PLANY CENOWE",
+        "header": "Wybierz idealny plan dla swoich potrzeb",
+        "description": "Uzyskaj nieograniczony dostęp do profesjonalnych szablonów i zaawansowanych funkcji dzięki naszym elastycznym opcjom cenowym.",
+        "plans": {
+            "monthly": {
+                "title": "Premium Miesięcznie",
+                "description": "Zapłać {{currency}}{{price}} za 1 miesiąc",
+                "perMonth": "miesiąc"
+            },
+            "halfYear": {
+                "title": "Premium Półrocznie",
+                "description": "Zapłać {{currency}}{{price}} za 6 miesięcy",
+                "perMonth": "miesiąc",
+                "mostPopular": "🔥 Najpopularniejszy"
+            },
+            "yearly": {
+                "title": "Premium Rocznie",
+                "description": "{{currency}}{{price}} za 1 rok",
+                "perMonth": "miesiąc"
+            }
+        },
+        "features": {
+            "unlimitedPDF": "Nieograniczone pobieranie PDF",
+            "unlimitedResumes": "Nieograniczone CV",
+            "nonRecurring": "Płatność jednorazowa"
+        },
+        "upgradeButton": "Uaktualnij i pobierz teraz",
+        "upgradeButtonStar": "Uaktualnij i pobierz teraz ⭐"
+    },
+    "Homepagefaqs": {
+        "badge": "BAZA WIEDZY",
+        "header": "Znajdź odpowiedź od razu",
+        "subtitle": "Wszystko, co musisz wiedzieć o tworzeniu profesjonalnych CV z pomocą AI",
+        "quickStats": {
+            "resumesCreated": "Stworzone CV",
+            "avgBuildTime": "Średni czas tworzenia CV",
+            "satisfaction": "Satysfakcja klienta",
+            "support": "Dostępne wsparcie"
+        },
+        "search": {
+            "placeholder": "Szukaj odpowiedzi...",
+            "categories": "Kategorie"
+        },
+        "categoryNames": {
+            "allQuestions": "Wszystkie pytania",
+            "gettingStarted": "Rozpoczęcie pracy",
+            "features": "Funkcje",
+            "billing": "Płatności",
+            "technical": "Techniczne"
+        },
+        "popularBadge": "Popularne",
+        "helpfulQuestion": "Czy to było pomocne?",
+        "noResults": {
+            "title": "Nie znaleziono wyników",
+            "message": "Spróbuj dostosować wyszukiwane hasła lub filtr kategorii"
+        },
+        "contactSupport": {
+            "title": "Potrzebujesz jeszcze pomocy?",
+            "description": "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc Ci osiągnąć sukces",
+            "contactButton": "Skontaktuj się z pomocą techniczną",
+            "docsButton": "Przeglądaj dokumentację"
+        },
+        "cta": {
+            "badge": "Gotowy, aby stworzyć swoje CV?",
+            "title": "Przekształć swoją karierę z pomocą AI-wspomaganych CV",
+            "description": "Dołącz do tysięcy profesjonalistów, którzy w kilka sekund stworzyli oszałamiające CV. Rozpocznij swoją ścieżkę kariery już dziś z naszą inteligentną platformą projektową.",
+            "button": "Zacznij tworzyć za darmo",
+            "freeCredits": "3 darmowe kredyty • Karta kredytowa nie jest wymagana",
+            "support": "Wsparcie 24/7",
+            "secure": "Bezpieczne i prywatne",
+            "instant": "Natychmiastowe wyniki"
+        },
+        "trustIndicators": {
+            "secure": "Bezpieczne i prywatne",
+            "instant": "Natychmiastowe wyniki",
+            "support": "Wsparcie 24/7"
+        }
+    },
+    "HomepageFooter": {
+        "headings": {
+            "aboutUs": "O nas",
+            "quickLinks": "Szybkie linki",
+            "stayUpdated": "Bądź na bieżąco",
+            "securePayments": "Bezpieczne płatności"
+        },
+        "aboutText": "Pomagamy osobom poszukującym pracy tworzyć profesjonalne CV w kilka minut. Naszą misją jest umożliwienie jednostkom znalezienia wymarzonych stanowisk dzięki wysokiej jakości dokumentom aplikacyjnym stworzonym przy wsparciu AI.",
+        "links": {
+            "pricing": "Cennik",
+            "contact": "Kontakt"
+        },
+        "newsletter": {
+            "description": "Zapisz się do naszego newslettera, aby otrzymywać najnowsze wskazówki dotyczące kariery, porady dotyczące CV i informacje o nowych funkcjach.",
+            "placeholder": "Wprowadź swój adres e-mail",
+            "buttonText": "Subskrybuj",
+            "privacyNote": "Szanujemy Twoją prywatność"
+        },
+        "paymentMethods": {
+            "visa": "visa",
+            "mastercard": "mastercard",
+            "paypal": "paypal",
+            "applepay": "applepay",
+            "googlepay": "googlepay",
+            "discover": "discover"
+        },
+        "legal": {
+            "privacyPolicy": "Polityka prywatności",
+            "termsOfService": "Warunki korzystania z usługi",
+            "cookiePolicy": "Polityka plików cookie",
+            "allRightsReserved": "Wszelkie prawa zastrzeżone."
+        }
+    },
+    "ActionSelection": {
+        "templateHeading": "Wybierz idealny",
+        "templateHeadingSpan": "szablon",
+        "templateDescription": "Wybierz spośród naszych profesjonalnie zaprojektowanych szablonów, aby stworzyć wyróżniające się CV",
+        "coverLetterHeading": "Wybierz swój",
+        "coverLetterHeadingSpan": "list motywacyjny",
+        "coverLetterDescription": "Wybierz szablon listu motywacyjnego, który będzie pasował do Twojego CV",
+        "search": {
+            "searchTemplates": "Szukaj szablonów...",
+            "searchCoverLetters": "Szukaj listów motywacyjnych...",
+            "noTemplatesFound": "Nie znaleziono szablonów",
+            "noTemplatesFoundDescription": "Spróbuj dostosować kryteria wyszukiwania lub przeglądać inne kategorie",
+            "clearFilters": "Wyczyść filtry",
+            "resultsInfo": "szablonów • Pokazywanie",
+            "resultsCount": "wyników",
+            "selectedTemplate": "wybrany"
+        },
+        "categories": {
+            "all": "Wszystkie",
+            "modern": "Nowoczesny",
+            "professional": "Profesjonalny",
+            "creative": "Kreatywny",
+            "simple": "Prosty",
+            "standard": "Standardowy"
+        },
+        "sortBy": {
+            "label": "Sortuj według",
+            "popular": "Popularność",
+            "name": "Nazwa",
+            "newest": "Najnowsze"
+        },
+        "viewMode": {
+            "grid": "Widok siatki",
+            "list": "Widok listy"
+        },
+        "templateCards": {
+            "popular": "Popularne",
+            "select": "Wybierz",
+            "selectTemplate": "Wybierz szablon",
+            "popularity": "% popularności",
+            "templateDescriptions": {
+                "professionalClassic": "Czysty i tradycyjny projekt, idealny do środowiska korporacyjnego",
+                "modernCreative": "Współczesny układ z kreatywnymi elementami",
+                "simpleElegant": "Minimalistyczny projekt skupiający się na czytelności treści",
+                "creativeBold": "Artystyczny szablon dla kreatywnych profesjonalistów",
+                "executivePro": "Wyrafinowany projekt dla stanowisk kierowniczych",
+                "techModern": "Nowoczesny szablon idealny dla branży technologicznej",
+                "designerSpecial": "Unikalny układ dla profesjonalistów zajmujących się projektowaniem",
+                "cleanSimple": "Prosty i profesjonalny",
+                "corporateElite": "Szablon premium dla korporacji",
+                "startupReady": "Dynamiczny szablon dla kultury startupowej",
+                "creativePro": "Profesjonalny szablon kreatywny",
+                "minimalPro": "Czysty minimalistyczny profesjonalny projekt",
+                "businessClassic": "Tradycyjny szablon biznesowy",
+                "modernEdge": "Najnowszy, nowoczesny projekt",
+                "artistPortfolio": "Idealny do portfolio artystycznych",
+                "standardProfessional": "Klasyczny format listu motywacyjnego",
+                "modernAppeal": "Współczesny projekt listu motywacyjnego",
+                "businessStandard": "Tradycyjny format biznesowy",
+                "creativeModern": "Nowoczesny kreatywny list motywacyjny"
+            }
+        },
+        "preview": {
+            "useTemplate": "Użyj szablonu",
+            "cancel": "Anuluj"
+        },
+        "pagination": {
+            "prev": "Poprz.",
+            "next": "Nast."
+        },
+        "loading": {
+            "processingTemplate": "Przetwarzanie szablonu",
+            "settingUp": "Konfigurowanie wybranego szablonu..."
+        }
+    },
+    "ProfileDisplay": {
+        "appName": "Nolito",
+        "search": "Szukaj",
+        "navigation": "NAWIGACJA",
+        "menu": {
+            "dashboard": "Panel",
+            "interviews": "Rozmowy kwalifikacyjne",
+            "settings": "Ustawienia"
+        }
+    },
+    "DashboardHomepage": {
+        "greeting": "Cześć! 👋",
+        "completeSteps": "Ukończ te kroki, aby znaleźć następną rolę",
+        "stepsCompletion": "ukończonych",
+        "showButton": "Pokaż",
+        "tabs": {
+            "resumes": "CV",
+            "coverLetters": "Listy motywacyjne"
+        },
+        "actions": {
+            "createNew": "Utwórz nowy",
+            "editResume": "Edytuj CV",
+            "shareResume": "Udostępnij CV",
+            "delete": "Usuń",
+            "createNewDocument": "Utwórz nowy dokument"
+        },
+        "promotion": {
+            "title": "Gotowy, aby dać impuls swojej karierze i zyskać większą widoczność?",
+            "description": "Wybierz swoje CV, a my wyślemy je do setek rekruterów w Twojej dziedzinie w zaledwie kilka kliknięć",
+            "startNow": "Rozpocznij teraz"
+        },
+        "card": {
+            "created": "Utworzono",
+            "untitledResume": "CV bez tytułu",
+            "aiJobMatching": "Dopasowanie ofert pracy AI",
+            "new": "NOWY",
+            "newResumeTitle": "Nowe CV",
+            "newResumeDescription": "Stwórz dopasowane CV do każdej aplikacji o pracę. Podwój swoje szanse na zatrudnienie!"
+        },
+        "emptyState": {
+            "noDocumentsFound": "Brak dostępnych dokumentów",
+            "emptyLibrary": "Twoja biblioteka dokumentów jest obecnie pusta.",
+            "createFirstDoc": "Utwórz swoje pierwsze CV lub list motywacyjny, aby rozpocząć."
+        },
+        "pagination": {
+            "page": "Strona",
+            "of": "z"
+        },
+        "confirmDelete": "Czy na pewno chcesz usunąć to CV? Tej operacji nie można cofnąć."
+    },
+    "DashboardSettings": {
+        "pageTitle": "Ustawienia",
+        "pageDescription": "Zarządzaj ustawieniami konta i profilu",
+        "tabs": {
+            "profile": "Profil",
+            "account": "Konto"
+        },
+        "profile": {
+            "title": "Profil",
+            "description": "Zaktualizuj swoje dane osobowe i zdjęcie profilowe",
+            "uploadPicture": "Prześlij zdjęcie profilowe",
+            "dragOrUpload": "Przeciągnij i upuść obraz lub kliknij, aby przesłać",
+            "uploadButton": "Prześlij",
+            "removeButton": "Usuń",
+            "fullName": "Pełna nazwa",
+            "fullNameDesc": "Twoje imię i nazwisko, jak pojawia się na Twoim koncie",
+            "phone": "Numer telefonu",
+            "address": "Adres",
+            "city": "Miasto",
+            "postalCode": "Kod pocztowy",
+            "country": "Kraj",
+            "placeholders": {
+                "fullName": "Wprowadź swoje pełne imię i nazwisko",
+                "phone": "Wprowadź swój numer telefonu",
+                "address": "Wprowadź swój adres",
+                "city": "Wprowadź swoje miasto",
+                "postalCode": "Wprowadź swój kod pocztowy",
+                "country": "Wprowadź swój kraj"
+            },
+            "saving": "Zapisywanie...",
+            "saveChanges": "Zapisz zmiany"
+        },
+        "account": {
+            "title": "Konto",
+            "description": "Zarządzaj bezpieczeństwem konta i subskrypcją",
+            "email": "Adres e-mail",
+            "emailDesc": "Twój adres e-mail nie może zostać zmieniony",
+            "subscription": "Subskrypcja",
+            "subscriptionDesc": "Twój obecny plan subskrypcji",
+            "subscriptionEnd": "Subskrypcja kończy się",
+            "subscriptionEndDesc": "Data odnowienia subskrypcji",
+            "noActiveSubscription": "Brak aktywnej subskrypcji",
+            "changePassword": "Zmień hasło",
+            "newPassword": "Nowe hasło",
+            "passwordStrength": {
+                "weak": "Słabe",
+                "fair": "Umiarkowane",
+                "good": "Dobre",
+                "strong": "Silne"
+            },
+            "passwordRequirement": "Hasło musi mieć co najmniej 6 znaków"
+        }
+    },
+    "contact": {
+        "title": "Skontaktuj się",
+        "subtitle": "Masz pytanie lub potrzebujesz pomocy? Wyślij nam wiadomość, a my skontaktujemy się z Tobą tak szybko, jak to możliwe!",
+        "form": {
+            "fullName": "Pełna nazwa *",
+            "fullNamePlaceholder": "Wprowadź swoje pełne imię i nazwisko",
+            "email": "Adres e-mail *",
+            "emailPlaceholder": "Wprowadź swój adres e-mail",
+            "message": "Wiadomość *",
+            "messagePlaceholder": "Opowiedz nam o swojej sprawie...",
+            "sendButton": "Wyślij wiadomość",
+            "sendingButton": "Wysyłanie wiadomości..."
+        },
+        "quickResponse": {
+            "title": "Szybka odpowiedź",
+            "text": "Zazwyczaj odpowiadamy w ciągu 24 godzin"
+        },
+        "success": {
+            "title": "Wiadomość wysłana pomyślnie!",
+            "text": "Dziękujemy za kontakt. Skontaktujemy się z Tobą wkrótce.",
+            "button": "Wyślij kolejną wiadomość"
+        },
+        "error": {
+            "general": "Coś poszło nie tak. Spróbuj ponownie."
+        }
+    },
+    "billing": {
+        "title": "Plany subskrypcji",
+        "subtitle": "Wybierz plan, który najlepiej Ci odpowiada",
+        "navbar": {
+            "home": "Strona główna",
+            "contact": "Kontakt"
+        },
+        "plans": {
+            "monthly": "Miesięcznie",
+            "quarterly": "Kwartalnie",
+            "yearly": "Rocznie",
+            "selectPlan": "Wybierz plan",
+            "perMonth": "/miesiąc",
+            "perQuarter": "/kwartał",
+            "perYear": "/rok",
+            "mostPopular": "Najpopularniejszy",
+            "bestValue": "Najlepsza wartość",
+            "unlimitedPDF": "Nieograniczone pobieranie PDF",
+            "unlimitedResumes": "Nieograniczone szablony CV",
+            "nonRecurring": "Płatność jednorazowa, niecykliczna"
+        },
+        "checkout": {
+            "title": "Dokończ swój zakup",
+            "subtitle": "Wprowadź dane płatności, aby zasubskrybować",
+            "securePayment": "Bezpieczna płatność",
+            "feature1": "Natychmiastowy dostęp do wszystkich funkcji premium",
+            "feature2": "Brak ukrytych opłat ani dodatkowych kosztów",
+            "feature3": "Anuluj w dowolnym momencie za pośrednictwem swojego konta",
+            "faqTitle": "Najczęściej zadawane pytania",
+            "faqContent": "Twoja subskrypcja zostanie aktywowana natychmiast po dokonaniu płatności. Możesz zarządzać swoją subskrypcją za pośrednictwem panelu sterowania konta.",
+            "totalPrice": "Cena całkowita",
+            "locationTitle": "Adres rozliczeniowy",
+            "locationDescription": "Proszę podać dane dotyczące rozliczenia",
+            "backToPlans": "Powrót do planów",
+            "cardDetails": "Dane karty",
+            "cardholderName": "Imię i nazwisko właściciela karty",
+            "cardNumber": "Numer karty",
+            "expiryDate": "Data ważności",
+            "cvv": "CVV",
+            "payNow": "Zapłać teraz",
+            "processing": "Przetwarzanie płatności...",
+            "subscriptionDetails": "Szczegóły subskrypcji",
+            "plan": "Plan",
+            "price": "Cena",
+            "billingFrequency": "Częstotliwość rozliczeń",
+            "paymentMethods": {
+                "title": "Wybierz metodę płatności",
+                "subtitle": "Wybierz preferowaną opcję płatności",
+                "creditCard": "Karta kredytowa",
+                "paypal": "PayPal"
+            },
+            "cardForm": {
+                "title": "Szczegóły płatności",
+                "subtitle": "Wprowadź bezpiecznie dane karty",
+                "cardholderName": "Imię i nazwisko właściciela karty",
+                "address": "Adres rozliczeniowy",
+                "country": "Kraj",
+                "postalCode": "Kod pocztowy"
+            },
+            "success": {
+                "title": "Płatność zakończona pomyślnie!",
+                "subtitle": "Twoja subskrypcja została aktywowana",
+                "message": "Dziękujemy za zakup. Masz teraz pełny dostęp do wszystkich funkcji premium.",
+                "button": "Przejdź do panelu"
+            },
+            "or": "LUB"
+        },
+        "success": {
+            "title": "Płatność zakończona pomyślnie!",
+            "subtitle": "Twoja subskrypcja została aktywowana",
+            "viewAccount": "Wyświetl konto",
+            "returnHome": "Wróć do strony głównej"
+        },
+        "error": {
+            "payment": "Płatność nie powiodła się. Spróbuj ponownie.",
+            "login": "Proszę zalogować się, aby zakończyć płatność.",
+            "general": "Coś poszło nie tak. Spróbuj ponownie."
+        }
+    },
+    "DashboardInterviews": {
+        "configurationScreen": {
+            "title": "Skonfiguruj swoje rozmowy kwalifikacyjne",
+            "subtitle": "Dostosuj swoje doświadczenie rozmowy kwalifikacyjnej, podając swoje stanowisko i preferencje",
+            "occupationLabel": "Twoja profesja",
+            "occupationPlaceholder": "Np.: Inżynier Oprogramowania, Nauczyciel, Pielęgniarka, Rolnik, Kucharz...",
+            "occupationHint": "Bądź precyzyjny co do swojej roli, aby uzyskać bardziej dopasowane pytania",
+            "questionCountLabel": "Liczba pytań",
+            "questionsText": "pytania",
+            "estimatedTime": "Szacowany czas:",
+            "minutesPerQuestion": "minuty na pytanie",
+            "interviewDetails": "Szczegóły rozmowy kwalifikacyjnej",
+            "type": "Typ:",
+            "questions": "Pytania:",
+            "timeLimit": "Limit czasu:",
+            "passingScore": "Wynik zaliczenia:",
+            "errorGenerating": "Błąd podczas generowania rozmowy kwalifikacyjnej:",
+            "tryAgainError": "Spróbuj ponownie lub wybierz inną profesję.",
+            "generatingQuestions": "Generowanie {{count}} spersonalizowanych pytań kwalifikacyjnych...",
+            "generatingHint": "Może to potrwać kilka sekund. Tworzymy pytania specyficzne dla Twojej profesji.",
+            "back": "Wstecz",
+            "startAssessment": "Rozpocznij ocenę",
+            "generatingInterview": "Generowanie rozmowy kwalifikacyjnej..."
+        },
+        "selectionScreen": {
+            "title": "Ocena Rozmowy Kwalifikacyjnej",
+            "subtitle": "Wybierz swój typ oceny i zakończ proces rozmowy kwalifikacyjnej",
+            "technicalTitle": "Ocena Techniczna",
+            "technicalDepartment": "Dział Techniczny",
+            "technicalDescription": "Oceń umiejętności techniczne, języki programowania, frameworki, metodologie i zdolności rozwiązywania problemów specyficzne dla Twojej roli.",
+            "behavioralTitle": "Ocena Behawioralna",
+            "behavioralDepartment": "Zasoby Ludzkie",
+            "behavioralDescription": "Oceń cechy przywódcze, umiejętności komunikacyjne, zdolności pracy zespołowej i sposób radzenia sobie w sytuacjach zawodowych.",
+            "focusAreas": "Obszary zainteresowania:",
+            "technicalSkills": "Umiejętności Techniczne",
+            "problemSolving": "Rozwiązywanie Problemów",
+            "bestPractices": "Dobre Praktyki",
+            "toolsTechnologies": "Narzędzia i Technologie",
+            "leadership": "Przywództwo",
+            "communication": "Komunikacja",
+            "teamwork": "Praca zespołowa",
+            "assessmentGuidelines": "Wytyczne dotyczące oceny",
+            "bestPracticesTitle": "✅ Dobre Praktyki",
+            "thingsToAvoid": "❌ Czego unikać",
+            "guideline1": "• Przed udzieleniem odpowiedzi uważnie przeczytaj każde pytanie",
+            "guideline2": "• Użyj funkcji flagowania, aby oznaczyć pytania do przeglądu",
+            "guideline3": "• Efektywnie zarządzaj swoim czasem",
+            "guideline4": "• Skorzystaj z funkcji pauzy, jeśli jest to konieczne",
+            "avoid1": "• Nie spiesz się z odpowiedziami",
+            "avoid2": "• Nie pozostawiaj pytań bez odpowiedzi",
+            "avoid3": "• Nie przełączaj się między aplikacjami",
+            "avoid4": "• Nie rozmyślaj zbyt długo nad odpowiedziami",
+            "continueToConfiguration": "Kontynuuj do konfiguracji",
+            "configurationHint": "Skonfiguruj swoją profesję i preferencje rozmowy kwalifikacyjnej"
+        },
+        "resultsScreen": {
+            "title": "Ocena Zakończona!",
+            "noDataAvailable": "Brak dostępnych danych z rozmowy kwalifikacyjnej",
+            "technicalInterview": "Techniczna",
+            "behavioralInterview": "Behawioralna",
+            "questionsText": "Pytania",
+            "overallPerformance": "Ogólna wydajność",
+            "passedAssessment": "✅ Ocena Zaliczone",
+            "failedAssessment": "❌ Nie osiągnięto wyniku zaliczenia (70%)",
+            "correctAnswers": "Poprawne odpowiedzi",
+            "incorrectAnswers": "Niepoprawne odpowiedzi"
+        },
+        "performanceLevels": {
+            "exceptional": "Wyjątkowy",
+            "excellent": "Doskonały",
+            "good": "Dobry",
+            "satisfactory": "Zadowalający",
+            "needsImprovement": "Wymaga poprawy"
+        },
+        "metricsScreen": {
+            "timeAnalysis": "Analiza czasu",
+            "totalTime": "Całkowity czas",
+            "avgPerQuestion": "Średnio na pytanie",
+            "fastest": "Najszybciej",
+            "slowest": "Najwolniej",
+            "activitySummary": "Podsumowanie aktywności",
+            "questionsAnswered": "Odpowiedzi na pytania",
+            "questionsFlagged": "Oznaczone pytania",
+            "completionRate": "Wskaźnik ukończenia",
+            "performanceByCategory": "Wydajność według kategorii",
+            "retakeAssessment": "Ponów ocenę",
+            "reviewAnswers": "Przegląd odpowiedzi",
+            "downloadReport": "Pobierz raport",
+            "backToDashboard": "Powrót do pulpitu nawigacyjnego",
+            "answerReview": "Przegląd odpowiedzi",
+            "question": "Pytanie",
+            "difficulty": {
+                "easy": "Łatwy",
+                "intermediate": "Średni",
+                "hard": "Trudny"
+            },
+            "correct": "✓ Poprawny",
+            "yourAnswer": "✗ Twoja odpowiedź",
+            "explanation": "Wyjaśnienie",
+            "timeSpent": "Spędzony czas:"
+        },
+        "interviewScreen": {
+            "loadingData": "Ładowanie danych rozmowy kwalifikacyjnej...",
+            "professionalEvaluation": "Ocena Profesjonalna",
+            "timeRemaining": "Pozostały czas",
+            "resume": "Wznów",
+            "pause": "Pauza",
+            "questionProgress": "Pytanie {current} z {total}",
+            "complete": "% Ukończono",
+            "interviewPaused": "Rozmowa kwalifikacyjna wstrzymana",
+            "pauseMessage": "Kliknij Wznów, aby kontynuować ocenę",
+            "flag": "Oznacz",
+            "flagged": "Oznaczony",
+            "previous": "Poprzedni",
+            "nextQuestion": "Następne pytanie",
+            "finishAssessment": "Zakończ ocenę"
+        },
+        "confirmationModal": {
+            "title": "Zakończyć Ocenę?",
+            "message": "Czy na pewno chcesz przesłać swoją ocenę? Nie będziesz mógł zmienić swoich odpowiedzi.",
+            "questionsAnswered": "Odpowiedzi na pytania:",
+            "questionsFlagged": "Oznaczone pytania:",
+            "timeUsed": "Wykorzystany czas:",
+            "unansweredWarning": "⚠️ Masz {count} nieodpowiedzianych pytań",
+            "continueInterview": "Kontynuuj rozmowę kwalifikacyjną",
+            "submitNow": "Prześlij teraz"
+        },
+        "common": {
+            "toggleSidebar": "Przełącz panel boczny",
+            "min": "min"
+        }
+    },
+    "BuildResume": {
+        "steps": {
+            "personalInfo": "Dane osobowe",
+            "workHistory": "Historia pracy",
+            "education": "Edukacja",
+            "skills": "Umiejętności",
+            "summary": "Podsumowanie"
+        },
+        "navigation": {
+            "previous": "Poprzedni",
+            "next": "Następny",
+            "preview": "Podgląd",
+            "download": "Pobierz",
+            "downloading": "Pobieranie...",
+            "complete": "Zakończono",
+            "current": "Aktualny",
+            "nextStep": "Następny: {{stepName}}"
+        },
+        "progress": {
+            "progress": "Postęp",
+            "completed": "ukończono",
+            "of": "z",
+            "step": "Krok {{current}}/{{total}}",
+            "completeness": "Ukończenie"
+        },
+        "sidebar": {
+            "helpSupport": "Pomoc i Wsparcie",
+            "privacyPolicy": "Polityka Prywatności",
+            "copyright": "© 2025 Bold Limited. Wszelkie prawa zastrzeżone."
+        },
+        "preview": {
+            "livePreview": "Podgląd na żywo",
+            "autoUpdating": "Automatyczne aktualizowanie",
+            "clickToView": "Kliknij, aby wyświetlić w pełnym rozmiarze",
+            "changeTemplate": "Zmień szablon",
+            "viewFullSize": "Wyświetl w pełnym rozmiarze",
+            "trustedBy": "Zaufane przez ponad 50 tys. profesjonalistów",
+            "joinSuccess": "Dołącz do historii sukcesu",
+            "resumePdf": "CV.pdf"
+        },
+        "templates": {
+            "professionalClassic": "Klasyczny Profesjonalny",
+            "modernCreative": "Nowoczesny Kreatywny",
+            "creativeBold": "Kreatywny Odważny",
+            "executivePro": "Profesjonalny Lider",
+            "techModern": "Nowoczesny Technologiczny",
+            "simpleElegant": "Prosty Elegancki",
+            "designerSpecial": "Specjalny dla Projektantów",
+            "cleanSimple": "Czysty Prosty",
+            "corporateElite": "Korporacyjna Elita",
+            "startupReady": "Gotowy na Start-up",
+            "creativePro": "Kreatywny Profesjonalista",
+            "minimalPro": "Minimalistyczny Profesjonalista",
+            "businessClassic": "Biznesowy Klasyczny",
+            "modernEdge": "Nowoczesny Z Krawędzią",
+            "artistPortfolio": "Portfolio Artysty",
+            "techInnovation": "Innowacje Technologiczne",
+            "executiveSuite": "Pakiet dla Kadry Kierowniczej",
+            "creativeShowcase": "Kreatywna Wystawa",
+            "cleanProfessional": "Czysty Profesjonalny",
+            "futureForward": "Przyszłościowy Nowoczesny",
+            "professional21": "Profesjonalny 21",
+            "professional22": "Profesjonalny 22",
+            "professional23": "Profesjonalny 23",
+            "professional24": "Profesjonalny 24",
+            "professional25": "Profesjonalny 25",
+            "professional26": "Profesjonalny 26",
+            "professional27": "Profesjonalny 27",
+            "professional28": "Profesjonalny 28",
+            "professional29": "Profesjonalny 29",
+            "professional30": "Profesjonalny 30",
+            "professional31": "Profesjonalny 31",
+            "professional32": "Profesjonalny 32",
+            "professional33": "Profesjonalny 33",
+            "professional34": "Profesjonalny 34",
+            "professional35": "Profesjonalny 35",
+            "professional36": "Profesjonalny 36",
+            "professional37": "Profesjonalny 37",
+            "professional38": "Profesjonalny 38",
+            "professional39": "Profesjonalny 39",
+            "professional40": "Profesjonalny 40",
+            "professional41": "Profesjonalny 41",
+            "professional42": "Profesjonalny 42",
+            "professional43": "Profesjonalny 43",
+            "professional44": "Profesjonalny 44",
+            "professional45": "Profesjonalny 45",
+            "professional46": "Profesjonalny 46",
+            "professional47": "Profesjonalny 47",
+            "professional48": "Profesjonalny 48",
+            "professional49": "Profesjonalny 49",
+            "professional50": "Profesjonalny 50"
+        },
+        "errors": {
+            "downloadFailed": "Pobieranie nie powiodło się. Spróbuj ponownie.",
+            "templateError": "Błąd szablonu",
+            "usingDefault": "Używanie domyślnego szablonu"
+        },
+        "analytics": {
+            "templateChanged": "Szablon zmieniony na: {{templateName}} ({{templateId}})"
+        }
+    },
+    "HeadingStep": {
+        "title": "Dane osobowe i kontaktowe",
+        "subtitle": "Opowiedz nam o sobie, aby pracodawcy mogli łatwo się z Tobą skontaktować. Wszystkie wymagane pola muszą być uzupełnione, aby kontynuować.",
+        "progress": {
+            "label": "Postęp: {{completed}}/{{total}} wymaganych pól",
+            "percentage": "{{percentage}}%"
+        },
+        "sections": {
+            "personalInfo": {
+                "title": "Dane osobowe",
+                "badge": "{{completed}}/3 Ukończono"
+            },
+            "contactInfo": {
+                "title": "Dane kontaktowe",
+                "badge": "{{completed}}/2 Ukończono"
+            },
+            "locationInfo": {
+                "title": "Informacje o lokalizacji",
+                "badge": "Opcjonalne",
+                "badgeWithCount": "{{completed}}/4 Opcjonalne"
+            }
+        },
+        "fields": {
+            "profilePhoto": {
+                "label": "Zdjęcie profilowe",
+                "hint": "Zalecane: Kwadratowe zdjęcie, maks. 5 MB"
+            },
+            "firstName": {
+                "label": "Imię",
+                "placeholder": "Wpisz swoje imię"
+            },
+            "lastName": {
+                "label": "Nazwisko",
+                "placeholder": "Wpisz swoje nazwisko"
+            },
+            "jobTitle": {
+                "label": "Stanowisko / Profesja",
+                "placeholder": "np. Inżynier oprogramowania, Menedżer marketingu, Analityk danych",
+                "hint": "Będzie to wyraźnie widoczne w Twoim CV"
+            },
+            "email": {
+                "label": "Adres e-mail",
+                "placeholder": "twoj.email@przyklad.pl",
+                "hint": "Użyj profesjonalnego adresu e-mail"
+            },
+            "phone": {
+                "label": "Numer telefonu",
+                "placeholder": "+48 123 456 789",
+                "hint": "Podaj kod kraju, jeśli dotyczy"
+            },
+            "address": {
+                "label": "Adres",
+                "placeholder": "Ulica (opcjonalnie)",
+                "hint": "Pełny adres jest opcjonalny, miasto i kraj są zazwyczaj wystarczające"
+            },
+            "city": {
+                "label": "Miasto",
+                "placeholder": "Miasto"
+            },
+            "postalCode": {
+                "label": "Kod pocztowy",
+                "placeholder": "Kod pocztowy"
+            },
+            "country": {
+                "label": "Kraj",
+                "placeholder": "Kraj"
+            }
+        },
+        "tips": {
+            "contactInfo": {
+                "title": "Wskazówki dotyczące danych kontaktowych",
+                "description": "Używaj profesjonalnego adresu e-mail i upewnij się, że Twój numer telefonu jest aktualny. W ten sposób pracodawcy będą mogli się z Tobą skontaktować."
+            },
+            "locationInfo": {
+                "title": "Informacje o lokalizacji",
+                "description": "Dodanie lokalizacji pomaga pracodawcom zrozumieć Twoją dostępność do lokalnych stanowisk i preferencje dotyczące pracy zdalnej."
+            }
+        },
+        "completion": {
+            "title": "Sekcja Ukończona!",
+            "description": "Świetnie! Wszystkie wymagane informacje zostały podane. Możesz teraz przejść do następnej sekcji lub dodać opcjonalne szczegóły."
+        },
+        "errors": {
+            "required": "{{field}} jest wymagane",
+            "invalidEmail": "Proszę podać prawidłowy adres e-mail",
+            "invalidPhone": "Proszę podać prawidłowy numer telefonu"
+        }
+    },
+    "WorkHistoryStep": {
+        "title": "Opowiedz nam o swoim doświadczeniu zawodowym",
+        "subtitle": "Zacznij od najnowszego stanowiska i cofaj się w czasie. Podaj swoje ostatnie 10 lat istotnego doświadczenia.",
+        "requiredNote": "* Wskazuje pole wymagane",
+        "defaultValues": {
+            "untitledPosition": "Stanowisko bez tytułu",
+            "noCompany": "Firma nie określona",
+            "present": "Obecnie"
+        },
+        "fields": {
+            "jobTitle": {
+                "label": "Stanowisko",
+                "placeholder": "Inżynier Oprogramowania"
+            },
+            "company": {
+                "label": "Firma",
+                "placeholder": "Google Inc."
+            },
+            "startDate": {
+                "label": "Data rozpoczęcia",
+                "placeholder": "Styczeń 2020"
+            },
+            "endDate": {
+                "label": "Data zakończenia",
+                "placeholder": "Grudzień 2023"
+            },
+            "currentWork": {
+                "label": "Pracuję tu obecnie"
+            },
+            "description": {
+                "label": "Opis stanowiska",
+                "placeholder": "Szczegółowo opisz swoje kluczowe obowiązki i osiągnięcia. Jaki wpływ miałeś? Jakie umiejętności wykorzystałeś?"
+            }
+        },
+        "actions": {
+            "addPosition": "Dodaj kolejne stanowisko",
+            "collapse": "Zwiń",
+            "expand": "Rozwiń",
+            "remove": "Usuń to stanowisko"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestie AI",
+            "tooltip": "Generuj sugestie AI",
+            "tooltipDisabled": "Najpierw uzupełnij Stanowisko i Firmę"
+        }
+    },
+    "EducationStep": {
+        "title": "Opowiedz nam o swoim wykształceniu",
+        "subtitle": "Podaj swoje wykształcenie. Zacznij od najnowszego.",
+        "requiredNote": "* Wskazuje pole wymagane",
+        "defaultValues": {
+            "school": "Nazwa Szkoły",
+            "degree": "Brak określonego stopnia",
+            "present": "Obecnie"
+        },
+        "fields": {
+            "school": {
+                "label": "Szkoła",
+                "placeholder": "Uniwersytet Kalifornijski"
+            },
+            "degree": {
+                "label": "Stopień naukowy",
+                "placeholder": "Licencjat Nauk Ścisłych"
+            },
+            "startDate": {
+                "label": "Data rozpoczęcia",
+                "placeholder": "Wrzesień 2018"
+            },
+            "endDate": {
+                "label": "Data zakończenia",
+                "placeholder": "Maj 2022"
+            },
+            "currentStudy": {
+                "label": "Uczę się tu obecnie"
+            },
+            "description": {
+                "label": "Opis wykształcenia",
+                "placeholder": "Odpowiednie kursy, osiągnięcia, wyróżnienia, średnia ocen, projekty badawcze, prace dyplomowe itp..."
+            }
+        },
+        "actions": {
+            "addEducation": "Dodaj kolejne wykształcenie",
+            "collapse": "Zwiń",
+            "expand": "Rozwiń",
+            "remove": "Usuń to wykształcenie"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestie AI",
+            "tooltip": "Generuj sugestie AI",
+            "tooltipDisabled": "Najpierw uzupełnij Szkołę i Stopień naukowy"
+        }
+    },
+    "SkillsStep": {
+        "title": "Jakie umiejętności chciałbyś podkreślić?",
+        "subtitle": "Wybierz umiejętności najbardziej istotne dla stanowiska, na które aplikujesz. Wymień zarówno umiejętności techniczne, jak i miękkie.",
+        "requiredNote": "* Dodaj co najmniej 3 umiejętności dla najlepszych wyników",
+        "defaultValues": {
+            "skillName": "Nazwa umiejętności",
+            "clickToAdd": "Kliknij, aby dodać szczegóły umiejętności"
+        },
+        "fields": {
+            "skillName": {
+                "label": "Nazwa umiejętności",
+                "placeholder": "np. JavaScript, Przywództwo, Zarządzanie projektami"
+            },
+            "proficiencyLevel": {
+                "label": "Poziom biegłości"
+            }
+        },
+        "skillLevels": {
+            "beginner": "Początkujący",
+            "intermediate": "Średniozaawansowany",
+            "advanced": "Zaawansowany",
+            "expert": "Ekspert"
+        },
+        "actions": {
+            "addSkill": "Dodaj kolejną umiejętność",
+            "collapse": "Zwiń",
+            "expand": "Rozwiń",
+            "remove": "Usuń tę umiejętność"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestie AI",
+            "generating": "Generowanie..."
+        },
+        "quickAdd": {
+            "title": "Szybkie dodawanie umiejętności",
+            "subtitle": "Kliknij, aby natychmiast dodać popularne umiejętności"
+        },
+        "popularSkills": ["JavaScript", "Python", "React", "Node.js", "SQL", "Git", "Komunikacja", "Przywództwo", "Rozwiązywanie problemów", "Praca zespołowa", "Zarządzanie projektami", "Analiza danych"]
+    },
+    "SummaryStep": {
+        "title": "Napisz profesjonalne podsumowanie",
+        "subtitle": "Twoje profesjonalne podsumowanie to krótkie stwierdzenie podkreślające Twoje kluczowe kwalifikacje i cele zawodowe.",
+        "professionalSummary": {
+            "title": "Podsumowanie Profesjonalne",
+            "description": "Zaprezentuj swoje doświadczenie i cele zawodowe"
+        },
+        "progress": {
+            "tooShort": "Zbyt krótkie - dodaj więcej szczegółów",
+            "gettingThere": "Prawie tam - dodaj więcej treści",
+            "goodLength": "Dobra długość - rozważ dodanie więcej",
+            "greatLength": "Świetna długość - dobrze szczegółowe",
+            "excellent": "Doskonałe - wyczerpujące podsumowanie"
+        },
+        "characterCount": "{{current}}/{{max}} znaków",
+        "content": {
+            "label": "Treść podsumowania",
+            "placeholder": "Napisz przekonujące podsumowanie, które pokazuje Twoje profesjonalne doświadczenie, kluczowe umiejętności i cele zawodowe. Podkreśl swoją unikalną propozycję wartości i to, co Cię wyróżnia..."
+        },
+        "ai": {
+            "generate": "✨ Generuj za pomocą AI",
+            "generating": "Generowanie...",
+            "tooltip": "Wygeneruj podsumowanie wzbogacone przez AI"
+        },
+        "errors": {
+            "noOccupation": "Proszę najpierw uzupełnić swoją profesję w kroku Dane Osobowe, aby wygenerować podsumowanie AI.",
+            "generationFailed": "Nie udało się wygenerować podsumowania AI. Spróbuj ponownie."
+        }
+    },
+    "EducationSuggestionModal": {
+        "title": "Sugestie edukacyjne AI",
+        "subtitle": "Wygeneruj profesjonalne opisy na podstawie szczegółów Twojego wykształcenia",
+        "educationDetails": {
+            "title": "Szczegóły wykształcenia",
+            "school": "Szkoła:",
+            "degree": "Stopień naukowy:",
+            "duration": "Czas trwania:",
+            "notSpecified": "Nie określono",
+            "present": "Obecnie"
+        },
+        "generateButton": {
+            "generate": "Wygeneruj opisy AI",
+            "generating": "Generowanie sugestii AI..."
+        },
+        "requirements": {
+            "fillFields": "Proszę najpierw wypełnić pola szkoły i stopnia naukowego"
+        },
+        "suggestions": {
+            "title": "Sugerowane opisy:",
+            "suggestionLabel": "Sugestia {{number}}",
+            "useThis": "Użyj tego"
+        },
+        "instructions": {
+            "title": "Kliknij \"Wygeneruj opisy AI\", aby uzyskać spersonalizowane sugestie dotyczące Twojego wykształcenia."
+        },
+        "actions": {
+            "close": "Zamknij"
+        },
+        "errors": {
+            "requiredFields": "Szkoła i stopień naukowy są wymagane do generowania sugestii",
+            "failed": "Nie udało się wygenerować sugestii. Spróbuj ponownie."
+        }
+    },
+    "InputField": {
+        "required": "To pole jest wymagane",
+        "accessibility": {
+            "required": "To pole jest wymagane"
+        }
+    },
+    "PhotoUpload": {
+        "actions": {
+            "addPhoto": "Dodaj zdjęcie",
+            "dropPhotoHere": "Upuść zdjęcie tutaj",
+            "clickOrDrag": "Kliknij lub przeciągnij",
+            "changePhoto": "Zmień zdjęcie",
+            "removePhoto": "Usuń zdjęcie",
+            "processing": "Przetwarzanie..."
+        },
+        "hints": {
+            "recommended": "Zalecane: Kwadratowe zdjęcie, maks. 5 MB"
+        },
+        "errors": {
+            "sizeLimit": "Obraz przekracza limit 5 MB",
+            "processingError": "Błąd przetwarzania obrazu",
+            "readingError": "Błąd odczytu pliku"
+        }
+    },
+    "ProgressCard": {
+        "accessibility": {
+            "progressBar": "Postęp: {{value}} z {{maxValue}}"
+        }
+    },
+    "SectionCard": {
+        "accessibility": {
+            "section": "Sekcja: {{title}}"
+        }
+    },
+    "WorkHistorySuggestionModal": {
+        "title": "Sugestie opisów od AI",
+        "subtitle": "Wygeneruj profesjonalne opisy na podstawie szczegółów Twojej pracy",
+        "positionDetails": {
+            "title": "Szczegóły stanowiska",
+            "jobTitle": "Stanowisko:",
+            "company": "Firma:",
+            "duration": "Czas trwania:",
+            "notSpecified": "Nie określono",
+            "present": "Obecnie"
+        },
+        "generateButton": {
+            "generate": "Wygeneruj opisy AI",
+            "generating": "Generowanie sugestii AI..."
+        },
+        "requirements": {
+            "fillFields": "Proszę najpierw wypełnić pola stanowiska i firmy"
+        },
+        "suggestions": {
+            "title": "Sugerowane opisy:",
+            "suggestionLabel": "Sugestia {{number}}",
+            "useThis": "Użyj tego"
+        },
+        "instructions": {
+            "title": "Kliknij \"Wygeneruj opisy AI\", aby uzyskać spersonalizowane sugestie dotyczące Twojego doświadczenia zawodowego."
+        },
+        "actions": {
+            "close": "Zamknij"
+        },
+        "errors": {
+            "requiredFields": "Stanowisko i firma są wymagane do generowania sugestii",
+            "failed": "Nie udało się wygenerować sugestii. Spróbuj ponownie."
+        }
+    },
+    "PreviewModal": {
+        "title": "Podgląd CV",
+        "subtitle": "{{templateName}} - Profesjonalny podgląd Twojego CV",
+        "actions": {
+            "downloadPdf": "Pobierz PDF",
+            "generatingPdf": "Generowanie PDF...",
+            "close": "Zamknij podgląd"
+        },
+        "keyboard": {
+            "escToClose": "aby zamknąć"
+        },
+        "errors": {
+            "noTemplate": "Nie podano komponentu szablonu",
+            "templateError": "Błąd podglądu szablonu",
+            "tryDifferent": "Spróbuj innego szablonu"
+        }
+    },
+    "TemplateSelectionModal": {
+        "header": {
+            "title": "Wybierz Szablon",
+            "subtitle": "Wybierz profesjonalny szablon dla swojego CV",
+            "closeLabel": "Zamknij wybór szablonu"
+        },
+        "search": {
+            "placeholder": "Wyszukaj szablony...",
+            "resultsFound": "{{count}} szablonów znaleziono",
+            "noResults": {
+                "title": "Nie znaleziono szablonów",
+                "message": "Spróbuj dostosować filtry wyszukiwania lub kategorii",
+                "clearFilters": "Wyczyść filtry"
+            }
+        },
+        "categories": {
+            "all": "Wszystkie",
+            "professional": "Profesjonalne",
+            "modern": "Nowoczesne",
+            "creative": "Kreatywne",
+            "simple": "Proste"
+        },
+        "sorting": {
+            "popular": "Najpopularniejsze",
+            "name": "Nazwa A-Z"
+        },
+        "viewMode": {
+            "grid": "Widok siatki",
+            "list": "Widok listy"
+        },
+        "templateCard": {
+            "badges": {
+                "popular": "Popularny",
+                "current": "Aktualny"
+            },
+            "actions": {
+                "favorite": "Dodaj do ulubionych",
+                "unfavorite": "Usuń z ulubionych",
+                "preview": "Podgląd szablonu",
+                "select": "Wybierz szablon",
+                "currentTemplate": "Aktualny szablon"
+            },
+            "popularity": "{{percentage}}% popularności"
+        },
+        "templateNames": {
+            "professionalClassic": "Klasyczny Profesjonalny",
+            "modernCreative": "Nowoczesny Kreatywny",
+            "creativeBold": "Kreatywny Odważny",
+            "executivePro": "Profesjonalny Lider",
+            "techModern": "Nowoczesny Technologiczny",
+            "simpleElegant": "Prosty Elegancki",
+            "designerSpecial": "Specjalny dla Projektantów",
+            "cleanSimple": "Czysty Prosty",
+            "corporateElite": "Korporacyjna Elita",
+            "startupReady": "Gotowy na Start-up",
+            "creativePro": "Kreatywny Profesjonalista",
+            "minimalPro": "Minimalistyczny Profesjonalista",
+            "businessClassic": "Biznesowy Klasyczny",
+            "modernEdge": "Nowoczesny Z Krawędzią",
+            "artistPortfolio": "Portfolio Artysty",
+            "techInnovation": "Innowacje Technologiczne",
+            "executiveSuite": "Pakiet dla Kadry Kierowniczej",
+            "creativeShowcase": "Kreatywna Wystawa",
+            "cleanProfessional": "Czysty Profesjonalny",
+            "futureForward": "Przyszłościowy Nowoczesny",
+            "professional21": "Profesjonalny 21",
+            "professional22": "Profesjonalny 22",
+            "professional23": "Profesjonalny 23",
+            "professional24": "Profesjonalny 24",
+            "professional25": "Profesjonalny 25",
+            "professional26": "Profesjonalny 26",
+            "professional27": "Profesjonalny 27",
+            "professional28": "Profesjonalny 28",
+            "professional29": "Profesjonalny 29",
+            "professional30": "Profesjonalny 30",
+            "professional31": "Profesjonalny 31",
+            "professional32": "Profesjonalny 32",
+            "professional33": "Profesjonalny 33",
+            "professional34": "Profesjonalny 34",
+            "professional35": "Profesjonalny 35",
+            "professional36": "Profesjonalny 36",
+            "professional37": "Profesjonalny 37",
+            "professional38": "Profesjonalny 38",
+            "professional39": "Profesjonalny 39",
+            "professional40": "Profesjonalny 40",
+            "professional41": "Profesjonalny 41",
+            "professional42": "Profesjonalny 42",
+            "professional43": "Profesjonalny 43",
+            "professional44": "Profesjonalny 44",
+            "professional45": "Profesjonalny 45",
+            "professional46": "Profesjonalny 46",
+            "professional47": "Profesjonalny 47",
+            "professional48": "Profesjonalny 48",
+            "professional49": "Profesjonalny 49",
+            "professional50": "Profesjonalny 50"
+        },
+        "templateDescriptions": {
+            "professionalClassic": "Czysty i tradycyjny design, idealny do środowisk korporacyjnych",
+            "modernCreative": "Nowoczesny układ z kreatywnymi elementami",
+            "creativeBold": "Artystyczny szablon dla kreatywnych profesjonalistów",
+            "executivePro": "Wyrafinowany design dla stanowisk kierowniczych",
+            "techModern": "Nowoczesny szablon, idealny dla branży technologicznej",
+            "simpleElegant": "Minimalistyczny design skupiony na przejrzystości treści",
+            "designerSpecial": "Unikalny układ dla profesjonalistów ds. projektowania",
+            "cleanSimple": "Czysty i prosty",
+            "corporateElite": "Premium szablon korporacyjny",
+            "startupReady": "Dynamiczny szablon dla kultury start-upów",
+            "creativePro": "Profesjonalny kreatywny szablon",
+            "minimalPro": "Czysty minimalistyczny profesjonalny design",
+            "businessClassic": "Klasyczny biznesowy szablon",
+            "modernEdge": "Nowoczesny, krawędziowy design",
+            "artistPortfolio": "Idealny do portfolio artystycznych",
+            "techInnovation": "Innowacyjny design dla profesjonalistów technologicznych",
+            "executiveSuite": "Premium pakiet wykonawczy",
+            "creativeShowcase": "Prezentacja Twojej kreatywnej pracy",
+            "cleanProfessional": "Czysty profesjonalny wygląd",
+            "futureForward": "Nowoczesny, przyszłościowy design",
+            "professional21": "Profesjonalny projekt szablonu",
+            "professional22": "Profesjonalny projekt szablonu",
+            "professional23": "Profesjonalny projekt szablonu",
+            "professional24": "Profesjonalny projekt szablonu",
+            "professional25": "Profesjonalny projekt szablonu",
+            "professional26": "Profesjonalny projekt szablonu",
+            "professional27": "Profesjonalny projekt szablonu",
+            "professional28": "Profesjonalny projekt szablonu",
+            "professional29": "Profesjonalny projekt szablonu",
+            "professional30": "Profesjonalny projekt szablonu",
+            "professional31": "Profesjonalny projekt szablonu",
+            "professional32": "Profesjonalny projekt szablonu",
+            "professional33": "Profesjonalny projekt szablonu",
+            "professional34": "Profesjonalny projekt szablonu",
+            "professional35": "Profesjonalny projekt szablonu",
+            "professional36": "Profesjonalny projekt szablonu",
+            "professional37": "Profesjonalny projekt szablonu",
+            "professional38": "Profesjonalny projekt szablonu",
+            "professional39": "Profesjonalny projekt szablonu",
+            "professional40": "Profesjonalny projekt szablonu",
+            "professional41": "Profesjonalny projekt szablonu",
+            "professional42": "Profesjonalny projekt szablonu",
+            "professional43": "Profesjonalny projekt szablonu",
+            "professional44": "Profesjonalny projekt szablonu",
+            "professional45": "Profesjonalny projekt szablonu",
+            "professional46": "Profesjonalny projekt szablonu",
+            "professional47": "Profesjonalny projekt szablonu",
+            "professional48": "Profesjonalny projekt szablonu",
+            "professional49": "Profesjonalny projekt szablonu",
+            "professional50": "Profesjonalny projekt szablonu"
+        },
+        "pagination": {
+            "previous": "Poprzedni",
+            "next": "Następny"
+        },
+        "preview": {
+            "title": "Podgląd szablonu",
+            "popularity": "{{percentage}}% popularności",
+            "actions": {
+                "cancel": "Anuluj",
+                "useTemplate": "Użyj szablonu"
+            }
+        },
+        "keyboard": {
+            "escToClose": "aby zamknąć"
+        },
+        "selectedTemplate": "\"{{templateId}}\" wybrano"
+    },
+    "missing1": {
+        "quickBuilder": {
+            "title": "Szybki",
+            "badge": "REKOMENDOWANE"
+        },
+        "stepByStep": {
+            "title": "Krok po Kroku",
+            "badge": "NOWY"
+        },
+        "portfolioBuilder": {
+            "title": "Portfolio",
+            "badge": "NOWY"
+        }
+    },
+    "DashboardPortfolios": {
+        "title": "Moje Portfolio",
+        "subtitle": "Zarządzaj i prezentuj swoją kolekcję portfolio",
+        "createPortfolio": "Utwórz Portfolio",
+        "searchPlaceholder": "Szukaj portfolio...",
+        "themes": {
+            "allThemes": "Wszystkie motywy",
+            "default": "Domyślny",
+            "darkTheme": "Ciemny motyw",
+            "minimal": "Minimalistyczny",
+            "creative": "Kreatywny",
+            "professional": "Profesjonalny"
+        },
+        "status": {
+            "published": "Opublikowano",
+            "draft": "Szkic"
+        },
+        "actions": {
+            "view": "Zobacz",
+            "edit": "Edytuj",
+            "delete": "Usuń",
+            "viewPreview": "Zobacz podgląd"
+        },
+        "stats": {
+            "views": "Wyświetlenia",
+            "updated": "Zaktualizowano"
+        },
+        "table": {
+            "portfolio": "Portfolio",
+            "theme": "Motyw",
+            "views": "Wyświetlenia",
+            "updated": "Zaktualizowano",
+            "actions": "Akcje"
+        },
+        "tooltips": {
+            "viewPortfolio": "Zobacz portfolio",
+            "editPortfolio": "Edytuj portfolio",
+            "deletePortfolio": "Usuń portfolio"
+        },
+        "search": {
+            "portfolioFound": "portfolio znaleziono",
+            "portfoliosFound": "portfolio znaleziono"
+        },
+        "emptyState": {
+            "title": "Nie znaleziono portfolio",
+            "noSearchResults": "Spróbuj dostosować kryteria wyszukiwania lub filtrowania.",
+            "noPortfolios": "Utwórz swoje pierwsze portfolio, aby zacząć!",
+            "createFirstPortfolio": "Utwórz swoje pierwsze portfolio"
+        },
+        "deleteConfirmation": "Czy na pewno chcesz usunąć to portfolio? Tej akcji nie można cofnąć.",
+        "messages": {
+            "loadError": "Nie udało się załadować portfolio",
+            "deleteSuccess": "Portfolio pomyślnie usunięto",
+            "deleteError": "Nie udało się usunąć portfolio"
+        }
+    },
+    "JobsUpdate": {
+    "JobsLandingHero": {
+      "typingEffect": {
+        "sentence1": "Znajdź pracę swoich marzeń już dziś",
+        "sentence2": "Połącz się z najlepszymi pracodawcami",
+        "sentence3": "Rozwiń swoją karierę",
+        "sentence4": "Odkryj możliwości pracy zdalnej",
+        "sentence5": "Dołącz do wiodących firm"
+      },
+      "badge": "Portal Pracy",
+      "description": "Odkryj tysiące ofert pracy od najlepszych firm. Niezależnie od tego, czy szukasz pracy zdalnej, awansu zawodowego, czy swojej pierwszej pracy, łączymy utalentowanych profesjonalistów z ich idealnym dopasowaniem.",
+      "searchPlaceholder": "Stanowisko, słowa kluczowe lub firma",
+      "locationPlaceholder": "Miasto, stan lub zdalnie",
+      "searchButton": "Szukaj pracy",
+      "browseJobs": "Przeglądaj oferty pracy",
+      "hotBadge": "GORĄCE",
+      "postJob": "Opublikuj ofertę pracy",
+      "employerBadge": "PRACODAWCA",
+      "careerResources": "Porady zawodowe",
+      "browse": "Przeglądaj",
+      "browseDesc": "Przeglądaj wszystkie możliwości",
+      "post": "Opublikuj",
+      "postDesc": "Zatrudnij najlepszych specjalistów",
+      "resources": "Zasoby",
+      "resourcesDesc": "Doradztwo zawodowe i porady",
+      "stats": {
+        "jobs": "Ponad 10 000 aktywnych ofert pracy",
+        "rating": "Ocena 4.8/5"
+      },
+      "features": {
+        "freeToApply": "Bezpłatna aplikacja",
+        "verifiedEmployers": "Zweryfikowani pracodawcy"
+      }
+    },
+    "LandingJobTopCompanies": {
+      "badge": "Najlepsi Pracodawcy",
+      "title": "Dołącz do wiodących firm",
+      "description": "Odkryj możliwości w światowej klasy firmach, które aktywnie rekrutują. Od startupów po firmy z listy Fortune 500 – znajdź swoje idealne dopasowanie.",
+      "featured": "Wyróżnione",
+      "viewAll": "Wyświetl wszystkie firmy",
+      "stats": {
+        "companies": "Firmy partnerskie",
+        "jobs": "Aktywne oferty pracy",
+        "hires": "Udane zatrudnienia"
+      }
+    },
+    "LandingJobsProcess": {
+      "badge": "Jak to działa",
+      "title": "Znajdź pracę swoich marzeń w",
+      "titleHighlight": "4 prostych krokach",
+      "description": "Nasz usprawniony proces sprawia, że szukanie pracy jest łatwe. Od odkrycia do zatrudnienia, prowadzimy Cię na każdym kroku, aby zapewnić znalezienie idealnej oferty.",
+      "featuresTitle": "Dlaczego wybrać naszą platformę?",
+      "featuresDescription": "Zapewniamy najnowocześniejsze narzędzia i funkcje, aby Twoje poszukiwania pracy były bardziej skuteczne i efektywne.",
+      "steps": {
+        "0": {
+          "title": "Szukaj i odkrywaj",
+          "description": "Przeglądaj tysiące ofert pracy od najlepszych firm. Użyj naszych zaawansowanych filtrów, aby znaleźć idealne dopasowanie do swoich umiejętności i preferencji."
+        },
+        "1": {
+          "title": "Utwórz profil",
+          "description": "Zbuduj swój profesjonalny profil za pomocą naszego kreatora CV. Pochwal się swoimi umiejętnościami, doświadczeniem i osiągnięciami, aby wyróżnić się z tłumu."
+        },
+        "2": {
+          "title": "Aplikuj natychmiast",
+          "description": "Aplikuj na wiele ofert pracy jednym kliknięciem. Nasz inteligentny system aplikacji automatycznie dostosowuje Twój profil do każdego stanowiska."
+        },
+        "3": {
+          "title": "Zostań zatrudniony",
+          "description": "Połącz się z menedżerami ds. rekrutacji, planuj rozmowy kwalifikacyjne i zdobądź pracę swoich marzeń. Wspieramy Cię przez cały proces."
+        }
+      },
+      "features": {
+        "0": {
+          "title": "Dopasowanie oparte na AI",
+          "description": "Nasz inteligentny algorytm dopasuje Cię do odpowiednich możliwości"
+        },
+        "1": {
+          "title": "Optymalizacja CV",
+          "description": "Automatycznie zoptymalizuj swoje CV pod kątem każdej aplikacji"
+        },
+        "2": {
+          "title": "Zweryfikowane firmy",
+          "description": "Wszyscy pracodawcy są weryfikowani pod kątem autentyczności i jakości"
+        }
+      },
+      "cta": {
+        "title": "Gotowy, by rozpocząć swoją podróż?",
+        "description": "Dołącz do tysięcy profesjonalistów, którzy znaleźli pracę swoich marzeń dzięki naszej platformie. Twoja następna okazja jest na wyciągnięcie ręki.",
+        "searchButton": "Rozpocznij wyszukiwanie pracy",
+        "profileButton": "Utwórz profil"
+      }
+    },
+    "LandingJobsFeatured": {
+      "badge": "Wyróżnione oferty pracy",
+      "title": "Odkryj swoją kolejną",
+      "titleHighlight": "Wymarzoną okazję",
+      "description": "Przeglądaj starannie wybrane oferty od najlepszych firm. Te wyróżnione stanowiska oferują wyjątkowy rozwój kariery, konkurencyjne wynagrodzenie i niesamowite środowiska pracy.",
+      "statsTitle": "Dołącz do tysięcy odnoszących sukcesy profesjonalistów",
+      "statsDescription": "Nasza platforma pomogła niezliczonym profesjonalistom znaleźć wymarzoną pracę w najlepszych firmach na całym świecie.",
+      "stats": {
+        "jobs": "Wyróżnione oferty pracy",
+        "success": "Współczynnik sukcesu",
+        "companies": "Najlepsze firmy"
+      },
+      "JobCard":{
+        "skills":{
+          "moreSkills":"+{0} więcej"
+        },
+        "badges":{
+          "featured":"⭐ Wyróżnione",
+          "urgent":"🔥 Pilne",
+          "remote":"🌍 Zdalnie"
+        },
+        "buttons":{
+          "applyNow":"Aplikuj teraz"
+        }
+      },
+      "viewAll": "Wyświetl wszystkie oferty pracy"
+    },
+    "MainJobListings": {
+      "jobSingular": "oferta pracy",
+      "jobPlural": "ofert pracy",
+      "found": "znaleziono",
+      "page": "Strona",
+      "of": "z",
+      "sort": "Sortuj",
+      "sortNewest": "Najnowsze",
+      "sortSalaryDesc": "Wynagrodzenie ↓",
+      "sortSalaryAsc": "Wynagrodzenie ↑",
+      "sortCompany": "Firma",
+      "sortRelevance": "Trafność",
+      "noJobsFound": "Nie znaleziono ofert pracy",
+      "tryAdjusting": "Spróbuj dostosować kryteria wyszukiwania lub filtry, aby odkryć więcej możliwości.",
+      "clearAllFilters": "Wyczyść wszystkie filtry",
+      "previous": "Poprzednia",
+      "next": "Następna"
+    },
+    "JobSearchBar": {
+      "heading": "Znajdź swoją następną okazję",
+      "subheading": "Odkryj oferty pracy od najlepszych firm na całym świecie",
+      "favorites": "Ulubione",
+      "postJob": "Opublikuj ofertę pracy",
+      "filters": "Filtry",
+      "searchPlaceholder": "Szukaj pracy, firm, słów kluczowych...",
+      "locationPlaceholder": "Lokalizacja (miasto, stan, kraj)",
+      "searchButton": "Szukaj"
+    },
+    "JobFilters": {
+      "title": "Filtry",
+      "clearAll": "Wyczyść wszystko",
+      "jobTypeTitle": "Rodzaj zatrudnienia",
+      "experienceLevelTitle": "Poziom doświadczenia",
+      "workModeTitle": "Tryb pracy",
+      "salaryRangeTitle": "Zakres wynagrodzenia",
+      "jobType": {
+        "fullTime": "Pełny etat",
+        "partTime": "Część etatu",
+        "contract": "Kontrakt",
+        "freelance": "Freelance"
+      },
+      "experienceLevel": {
+        "entryLevel": "Początkujący",
+        "junior": "Junior",
+        "midLevel": "Średnio zaawansowany",
+        "senior": "Senior",
+        "seniorLevel": "Poziom Senior",
+        "executive": "Wykonawczy/Dyrektor"
+      },
+      "salaryRange": {
+        "range1": "40 tys. $ - 60 tys. $",
+        "range2": "60 tys. $ - 80 tys. $",
+        "range3": "80 tys. $ - 120 tys. $",
+        "range4": "120 tys. $+ "
+      },
+      "workMode": {
+        "remote": "Zdalnie",
+        "onSite": "Na miejscu",
+        "hybrid": "Hybrydowo"
+      }
+    },
+    "JobDetailsModal": {
+      "tabs": {
+        "overview": "Przegląd",
+        "company": "Firma",
+        "details": "Szczegóły"
+      },
+      "jobDescription": "Opis stanowiska",
+      "responsibilities": "Obowiązki",
+      "requirements": "Wymagania",
+      "benefits": "Korzyści",
+      "companyInfo": "Informacje o firmie",
+      "location": "Lokalizacja",
+      "postedOn": "Opublikowano dnia",
+      "deadline": "Termin",
+      "apply": "Aplikuj teraz",
+      "share": "Udostępnij",
+      "save": "Zapisz",
+      "saved": "Zapisano",
+      "viewsPrefix": "👀",
+      "applicantsPrefix": "👥",
+      "viewsText": "wyświetleń w ciągu ostatnich 24h",
+      "applicantsText": "aplikacji",
+      "noDescription": "Brak opisu stanowiska.",
+      "noResponsibilities": "Nie podano konkretnych obowiązków.",
+      "noRequirements": "Nie podano konkretnych wymagań.",
+      "noBenefits": "Brak dostępnych informacji o świadczeniach.",
+      "urgencyPriority": "Priorytet",
+      "fastTrack": "Szybka ścieżka",
+      "qualifications": "Wymagania",
+      "qualifications.default": "Wymagania zostaną omówione podczas procesu rekrutacji.",
+      "jobDetails": {
+        "title": "Szczegóły oferty pracy",
+        "jobType": "Rodzaj zatrudnienia",
+        "workMode": "Tryb pracy",
+        "experienceLevel": "Poziom doświadczenia",
+        "location": "Lokalizacja",
+        "salary": "Wynagrodzenie",
+        "salaryRange": "Zakres wynagrodzenia",
+        "competitive": "Konkurencyjne",
+        "applicationDeadline": "Termin składania wniosków",
+        "postedDate": "Data publikacji",
+        "notSpecified": "Nieokreślony"
+      },
+      "jobDescription.default": "Dołącz do {{company}} jako {{title}}. Szukamy utalentowanego specjalisty do naszego zespołu.",
+      "aboutCompany": {
+        "title": "O firmie",
+        "defaultDescription": "Dowiedz się więcej o {{company}} podczas procesu rekrutacji. Szczegóły firmy i informacje o kulturze zostaną udostępnione kwalifikującym się kandydatom."
+      },
+      "actions": {
+        "applyNow": "Aplikuj teraz",
+        "save": "Zapisz",
+        "share": "Udostępnij",
+        "contact": "Kontakt",
+        "expand": "Rozwiń",
+        "collapse": "Zwiń"
+      },
+      "stats": {
+        "viewsToday": "wyświetleń dzisiaj",
+        "applications": "aplikacji",
+        "deadline": "Termin"
+      },
+      "defaultBenefits": {
+        "healthInsurance": {
+          "title": "Ubezpieczenie zdrowotne",
+          "description": "Szczegóły pokrycia medycznego zostaną omówione"
+        },
+        "timeOff": {
+          "title": "Czas wolny",
+          "description": "Urlop i czas osobisty"
+        },
+        "equipment": {
+          "title": "Sprzęt",
+          "description": "Dostarczony sprzęt do pracy"
+        },
+        "workMode": {
+          "title": "Tryb pracy",
+          "description": "Do uzgodnienia"
+        }
+      },
+      "noCompanyInfo": "Brak dostępnych informacji o firmie.",
+      "companyStats": {
+        "locationTBD": "Lokalizacja do ustalenia"
+      },
+      "applicationProcess": {
+        "applicationReview": "Przegląd aplikacji",
+        "initialInterview": "Wstępna rozmowa kwalifikacyjna",
+        "technicalAssessment": "Ocena techniczna",
+        "finalInterview": "Końcowa rozmowa kwalifikacyjna",
+        "duration": {
+          "days2to3": "2-3 dni",
+          "days3to5": "3-5 dni",
+          "week1to2": "1-2 tygodnie",
+          "mins30to45": "30-45 min",
+          "hours1to2": "1-2 godziny",
+          "mins45to60": "45-60 min"
+        },
+        "status": {
+          "pending": "oczekujące",
+          "completed": "ukończone",
+          "current": "aktualne",
+          "upcoming": "nadchodzące"
+        }
+      }
+    },
+    "CreateJobModal": {
+      "title": "Utwórz nowe ogłoszenie o pracę",
+      "requiredFields": "Wszystkie pola oznaczone * są wymagane",
+      "cancel": "Anuluj",
+      "submitting": "Wysyłanie...",
+      "submitApplication": "Wyślij aplikację",
+      "creatingJob": "Tworzenie oferty pracy...",
+      "createJobPosting": "Utwórz ogłoszenie o pracę",
+      "loadingCompanies": "Ładowanie firm...",
+      "selectCompany": "Wybierz firmę",
+      "noCompanies": "Nie masz żadnych zatwierdzonych firm. Proszę najpierw ją utworzyć.",
+      "noCompaniesDescription": "Musisz dodać i uzyskać zgodę na co najmniej jedną firmę, zanim będziesz mógł publikować oferty pracy. Użyj przycisku „Dodaj firmę” w swoim panelu.",
+      "sections": {
+        "jobInformation": "Informacje o pracy",
+        "location": "Lokalizacja i typ",
+        "compensation": "Wynagrodzenie i termin",
+        "jobDescription": "Opis stanowiska",
+        "requirements": "Wymagania i korzyści"
+      },
+      "fields": {
+        "jobTitle": "Stanowisko",
+        "company": "Firma",
+        "jobType": "Rodzaj zatrudnienia",
+        "workMode": "Tryb pracy",
+        "location": "Lokalizacja",
+        "country": "Kraj",
+        "experience": "Poziom doświadczenia",
+        "minSalary": "Min. wynagrodzenie",
+        "maxSalary": "Maks. wynagrodzenie",
+        "deadline": "Termin składania wniosków",
+        "jobDescription": "Opis stanowiska",
+        "requirements": "Wymagania",
+        "benefits": "Korzyści"
+      },
+      "placeholders": {
+        "jobTitle": "np. Senior Product Manager",
+        "location": "Zacznij wpisywać miasto, stan, kraj...",
+        "jobDescription": "Opisz rolę, obowiązki i co sprawia, że ta pozycja jest ekscytująca...",
+        "requirement": "np. 2+ lata doświadczenia w tworzeniu oprogramowania",
+        "benefit": "np. Ubezpieczenie zdrowotne, dopasowanie 401(k)"
+      },
+      "actions": {
+        "addRequirement": "Dodaj wymaganie",
+        "addBenefit": "Dodaj korzyść"
+      },
+      "jobTypes": {
+        "fullTime": "Pełny etat",
+        "partTime": "Część etatu",
+        "contract": "Kontrakt",
+        "freelance": "Freelance",
+        "internship": "Staż",
+        "temporary": "Tymczasowa"
+      },
+      "workModes": {
+        "onSite": "Na miejscu",
+        "remote": "Zdalnie",
+        "hybrid": "Hybrydowo"
+      },
+      "experienceLevels": {
+        "entryLevel": "Początkujący",
+        "junior": "Junior",
+        "midLevel": "Średnio zaawansowany",
+        "senior": "Senior",
+        "executive": "Wykonawczy"
+      }
+    },
+    "FavoritesModal": {
+      "title": "Ulubione oferty pracy",
+      "job": "oferta pracy",
+      "jobs": "ofert pracy",
+      "saved": "zapisano",
+      "removeFromFavorites": "Usuń z ulubionych",
+      "viewDetails": "Pokaż szczegóły",
+      "yourSavedJobs": "Twoje zapisane oferty pracy",
+      "browseJobs": "Przeglądaj oferty pracy",
+      "cleanUpMissingJobs": "Posprzątaj brakujące oferty pracy",
+      "missingJobsWarning": {
+        "title": "{0} Zapisana oferta pracy nie jest już dostępna",
+        "description": "Niektóre oferty pracy w Twoich ulubionych mogły zostać usunięte lub nie są już aktywne."
+      },
+      "noSavedJobs": "Brak zapisanych ofert pracy",
+      "noSavedJobsMessage": "Nie zapisałeś jeszcze żadnych ofert pracy. Kliknij ikonę zakładki przy ofercie pracy, aby zapisać ją na później."
+    },
+    "AppliedJobs": {
+      "title": "Złożone aplikacje",
+      "subtitle": "Śledź swoje aplikacje o pracę i ich aktualny status",
+      "loading": "Ładowanie Twoich aplikacji...",
+      "loginRequired": {
+        "title": "Proszę się zalogować",
+        "message": "Musisz być zalogowany, aby przeglądać swoje aplikacje o pracę."
+      },
+      "stats": {
+        "totalApplied": "Łącznie złożono",
+        "pending": "Oczekujące",
+        "interviews": "Rozmowy kwalifikacyjne",
+        "successRate": "Współczynnik sukcesu"
+      },
+      "search": {
+        "placeholder": "Szukaj pracy, firm lub lokalizacji..."
+      },
+      "filters": {
+        "allStatus": "Wszystkie statusy",
+        "underReview": "W trakcie weryfikacji",
+        "interview": "Rozmowa kwalifikacyjna",
+        "accepted": "Przyjęto",
+        "rejected": "Odrzucono"
+      },
+      "sort": {
+        "byDate": "Sortuj według daty",
+        "byCompany": "Sortuj według firmy",
+        "byStatus": "Sortuj według statusu"
+      },
+      "noApplications": {
+        "title": "Nie znaleziono aplikacji",
+        "filterMessage": "Spróbuj dostosować kryteria wyszukiwania lub filtry.",
+        "emptyMessage": "Nie złożyłeś jeszcze żadnych aplikacji o pracę. Zacznij odkrywać możliwości!"
+      },
+      "actions": {
+        "browseJobs": "Przeglądaj oferty pracy",
+        "moreDetails": "Więcej szczegółów",
+        "lessDetails": "Mniej szczegółów"
+      },
+      "jobInfo": {
+        "applied": "Aplikowano",
+        "status": "Status"
+      },
+      "jobDetails": {
+        "jobDescription": "Opis stanowiska",
+        "requirements": "Wymagania",
+        "noRequirements": "Nie podano konkretnych wymagań",
+        "applicationStatus": "Status aplikacji",
+        "status": "Status",
+        "appliedOn": "Aplikowano dnia",
+        "title": "Szczegóły oferty pracy",
+        "type": "Typ",
+        "mode": "Tryb",
+        "salary": "Wynagrodzenie"
+      }
+    },
+    "DashboardMessages": {
+      "search": {
+        "placeholder": "Szukaj"
+      },
+      "header": {
+        "title": "Wiadomości"
+      },
+      "noMessages": {
+        "title": "Brak wiadomości",
+        "message": "Pracodawcy skontaktują się z Tobą tutaj, jeśli będą zainteresowani Twoim profilem"
+      },
+      "status": {
+        "active": "Aktywny teraz"
+      },
+      "loading": {
+        "inProgress": "Ładowanie...",
+        "loadMore": "Załaduj starsze wiadomości",
+        "noMore": "Brak dalszych wiadomości",
+        "messages": "Ładowanie wiadomości..."
+      },
+      "errors": {
+        "loadFailed": "Nie udało się załadować wiadomości",
+        "sendFailed": "Nie udało się wysłać wiadomości. Proszę spróbować ponownie.",
+        "loadingError": "Błąd ładowania wiadomości: {{message}}",
+        "permission": "Odmowa dostępu lub błąd sieci",
+        "connection": "Sprawdź swoje reguły bezpieczeństwa Firebase i połączenie sieciowe."
+      },
+      "emptyState": {
+        "title": "Brak wiadomości w tej rozmowie",
+        "description": "To jest początek Twojej rozmowy z {{name}}.",
+        "hint": "Wiadomości pojawią się tutaj"
+      },
+      "input": {
+        "placeholder": "Wpisz wiadomość...",
+        "sendButton": "Wyślij"
+      },
+      "welcome": {
+        "title": "Witaj w Wiadomościach",
+        "description": "Wybierz rozmowę z paska bocznego, aby rozpocząć czatowanie ze swoimi kontaktami.",
+        "hint": "Wybierz rozmowę, aby rozpocząć wysyłanie wiadomości"
+      },
+      "conversation": {
+        "noMessages": "Brak wiadomości"
+      },
+      "time": {
+        "now": "Teraz",
+        "minutes": "{{count}} min temu",
+        "hours": "{{count}} godz. temu"
+      },
+      "user": {
+        "unknown": "Nieznany użytkownik"
+      }
+    },
+    "JobApplicationsModal": {
+      "header": {
+        "title": "Aplikacje dla",
+        "totalApplications": "wszystkich aplikacji"
+      },
+      "search": {
+        "placeholder": "Szukaj po nazwisku, e-mailu lub umiejętnościach..."
+      },
+      "filters": {
+        "allStatus": "Wszystkie statusy",
+        "pending": "Oczekujące",
+        "interview": "Rozmowa kwalifikacyjna",
+        "accepted": "Przyjęto",
+        "rejected": "Odrzucono"
+      },
+      "status": {
+        "pending": "Oczekujące",
+        "interview": "Rozmowa kwalifikacyjna",
+        "accepted": "Przyjęto",
+        "rejected": "Odrzucono"
+      },
+      "emptyState": {
+        "title": "Nie znaleziono aplikacji",
+        "noApplications": "Nikt jeszcze nie złożył aplikacji na to stanowisko.",
+        "noResults": "Żadne aplikacje nie odpowiadają Twoim bieżącym filtrom."
+      },
+      "coverLetter": {
+        "none": "Nie dostarczono listu motywacyjnego"
+      },
+      "applicantInfo": {
+        "experience": "doświadczenie",
+        "resumeAttached": "Dołączono CV",
+        "more": "więcej"
+      },
+      "buttons": {
+        "accept": "Akceptuj",
+        "reject": "Odrzuć",
+        "downloadResume": "Pobierz CV",
+        "sendEmail": "Wyślij e-mail",
+        "showResume": "Pokaż CV"
+      }
+    },
+    "EmployerDashboard": {
+      "loading": "Ładowanie Twoich ogłoszeń o pracę...",
+      "header": {
+        "title": "Ogłoszenia o pracę",
+        "subtitle": "Zarządzaj swoimi ogłoszeniami o pracę i przeglądaj aplikacje"
+      },
+      "buttons": {
+        "addCompany": "Dodaj firmę",
+        "company": "Firma",
+        "postNewJob": "Opublikuj nową ofertę pracy",
+        "newJob": "Nowa oferta pracy",
+        "postFirstJob": "Opublikuj swoją pierwszą ofertę pracy",
+        "applications": "Aplikacje",
+        "editJob": "Edytuj ofertę pracy",
+        "pause": "Wstrzymaj",
+        "activate": "Aktywuj",
+        "delete": "Usuń"
+      },
+      "stats": {
+        "totalJobs": "Wszystkie oferty pracy",
+        "active": "Aktywne",
+        "applications": "Aplikacje",
+        "views": "Wyświetlenia"
+      },
+      "search": {
+        "placeholder": "Szukaj ofert pracy po tytule, lokalizacji..."
+      },
+      "filters": {
+        "allStatus": "Wszystkie statusy",
+        "active": "Aktywne",
+        "pending": "Oczekujące na zatwierdzenie",
+        "paused": "Wstrzymane",
+        "closed": "Zamknięte",
+        "draft": "Szkic"
+      },
+      "sort": {
+        "byDate": "Sortuj według daty",
+        "byApplications": "Aplikacje",
+        "byViews": "Wyświetlenia",
+        "byTitle": "Tytuł"
+      },
+      "emptyState": {
+        "title": "Nie znaleziono ogłoszeń o pracę",
+        "noJobs": "Nie opublikowałeś jeszcze żadnych ofert pracy. Utwórz swoje pierwsze ogłoszenie, aby rozpocząć!",
+        "noResults": "Żadne oferty pracy nie odpowiadają Twoim bieżącym filtrom. Spróbuj dostosować kryteria wyszukiwania."
+      },
+      "jobDetails": {
+        "description": "Opis stanowiska",
+        "requirements": "Wymagania",
+        "moreRequirements": "+{{count}} więcej"
+      },
+      "jobInfo": {
+        "applications": "aplikacji",
+        "views": "wyświetleń",
+        "deadline": "Termin:"
+      },
+      "AddCompanyModal": {
+        "header": {
+          "title": "Dodaj firmę",
+          "subtitle": "Dodaj dane swojej firmy do przeglądu i zatwierdzenia"
+        },
+        "info": {
+          "title": "Proces weryfikacji firmy",
+          "description": "Wszystkie zgłoszenia firm są sprawdzane przez nasz zespół w celu zapewnienia jakości i autentyczności. Zostaniesz powiadomiony, gdy Twoja firma zostanie zatwierdzona i będzie mogła być używana do publikowania ofert pracy."
+        },
+        "form": {
+          "companyName": "Nazwa firmy *",
+          "website": "Strona internetowa",
+          "companyLogo": "Logo firmy (opcjonalnie)",
+          "industry": "Branża *",
+          "companySize": "Rozmiar firmy *",
+          "location": "Lokalizacja *",
+          "address": "Adres",
+          "phone": "Telefon",
+          "email": "E-mail",
+          "description": "Opis firmy",
+          "companyNamePlaceholder": "Wprowadź nazwę firmy"
+        },
+        "validation": {
+          "nameRequired": "Nazwa firmy jest wymagana",
+          "industryRequired": "Branża jest wymagana",
+          "sizeRequired": "Rozmiar firmy jest wymagany",
+          "locationRequired": "Lokalizacja jest wymagana",
+          "invalidWebsite": "Proszę wprowadzić prawidłowy URL strony internetowej",
+          "invalidImage": "Proszę wprowadzić prawidłowy URL obrazu",
+          "invalidEmail": "Proszę wprowadzić prawidłowy adres e-mail"
+        },
+        "industries": {
+          "technology": "Technologia",
+          "healthcare": "Opieka zdrowotna",
+          "finance": "Finanse",
+          "education": "Edukacja",
+          "retail": "Handel detaliczny",
+          "manufacturing": "Produkcja",
+          "consulting": "Doradztwo",
+          "marketing": "Marketing",
+          "realEstate": "Nieruchomości",
+          "hospitality": "Hotelarstwo",
+          "transportation": "Transport",
+          "energy": "Energetyka",
+          "media": "Media",
+          "government": "Rząd",
+          "nonprofit": "Organizacja non-profit",
+          "other": "Inne"
+        },
+        "companySizes": {
+          "size1to10": "1-10 pracowników",
+          "size11to50": "11-50 pracowników",
+          "size51to200": "51-200 pracowników",
+          "size201to500": "201-500 pracowników",
+          "size501to1000": "501-1000 pracowników",
+          "size1000plus": "1000+ pracowników"
+        },
+        "placeholders": {
+          "selectIndustry": "Wybierz branżę",
+          "selectCompanySize": "Wybierz rozmiar firmy"
+        },
+        "messages": {
+          "validationError": "Błąd walidacji",
+          "fixErrors": "Proszę poprawić błędy w formularzu",
+          "error": "Błąd",
+          "mustBeLoggedIn": "Musisz być zalogowany, aby dodać firmę",
+          "success": "Sukces",
+          "companyAdded": "Firma dodana pomyślnie! Zostanie ona sprawdzona przez nasz zespół.",
+          "failedToAdd": "Nie udało się dodać firmy",
+          "unexpectedError": "Wystąpił nieoczekiwany błąd"
+        },
+        "buttons": {
+          "cancel": "Anuluj",
+          "addCompany": "Dodaj firmę",
+          "addingCompany": "Dodawanie firmy..."
+        }
+      },
+      "CompaniesManagement": {
+        "loading": {
+          "companies": "Ładowanie Twoich firm..."
+        },
+        "header": {
+          "title": "Moje firmy",
+          "subtitle": "Zarządzaj swoimi firmami i śledź ich status zatwierdzenia"
+        },
+        "buttons": {
+          "addCompany": "Dodaj firmę",
+          "add": "Dodaj"
+        },
+        "infoBanner": {
+          "title": "Proces zatwierdzania firmy",
+          "message": "Wszystkie firmy muszą zostać zatwierdzone, zanim będzie można ich używać do publikowania ofert pracy. Tylko zatwierdzone firmy pojawią się w formularzu publikacji ofert pracy."
+        },
+        "stats": {
+          "totalCompanies": "Wszystkie firmy",
+          "approved": "Zatwierdzone",
+          "pending": "Oczekujące",
+          "rejected": "Odrzucone"
+        },
+        "search": {
+          "placeholder": "Szukaj firm po nazwie, branży, lokalizacji..."
+        },
+        "filters": {
+          "allStatus": "Wszystkie statusy",
+          "pending": "Oczekujące",
+          "approved": "Zatwierdzone",
+          "rejected": "Odrzucone"
+        },
+        "emptyState": {
+          "title": "Nie znaleziono firm",
+          "noCompanies": "Nie dodałeś jeszcze żadnych firm. Dodaj swoją pierwszą firmę, aby rozpocząć!",
+          "noMatches": "Brak firm odpowiadających Twoim bieżącym filtrom. Spróbuj dostosować kryteria wyszukiwania.",
+          "addFirstCompany": "Dodaj swoją pierwszą firmę"
+        },
+        "companyDetails": {
+          "description": "Opis firmy",
+          "visitWebsite": "Odwiedź stronę internetową"
+        },
+        "actions": {
+          "editCompany": "Edytuj firmę",
+          "delete": "Usuń"
+        }
+      },
+      "JobCard": {
+        "badges": {
+          "featured": "⭐ Wyróżnione",
+          "urgent": "🔥 Pilne",
+          "remote": "🌍 Zdalnie"
+        },
+        "jobDetails": {
+          "location": "Lokalizacja",
+          "type": "Rodzaj zatrudnienia",
+          "salary": "Wynagrodzenie",
+          "postedTime": "Czas publikacji"
+        },
+        "skills": {
+          "moreSkills": "+{0} więcej"
+        },
+        "buttons": {
+          "applyNow": "Aplikuj teraz"
+        }
+      }
+    },
+    "JobCard2": {
+      "alerts": {
+        "signInRequired": "Zaloguj się, aby aplikować na oferty pracy."
+      },
+      "applicationStatus": {
+        "loading": "Ładowanie...",
+        "applyNow": "Aplikuj teraz",
+        "pending": "Aplikacja oczekująca",
+        "interview": "Rozmowa kwalifikacyjna zaplanowana",
+        "accepted": "Aplikacja przyjęta",
+        "rejected": "Aplikacja odrzucona"
+      },
+      "jobInfo": {
+        "locationTBD": "Lokalizacja do ustalenia",
+        "applicants": "{{applicants}} aplikacji",
+        "requirements": "Wymagania",
+        "posted": "Opublikowano {{postedDate}}"
+      },
+      "buttons": {
+        "viewDetails": "Pokaż szczegóły"
+      }
+    },
+    "JobApplicationModal": {
+      "title": "Aplikuj na {{jobTitle}}",
+      "subtitle": "Wypełnij poniższy formularz, aby aplikować na to stanowisko",
+      "personalInfo": {
+        "heading": "Dane osobowe",
+        "fullName": "Pełne imię i nazwisko",
+        "email": "Adres e-mail",
+        "phone": "Numer telefonu",
+        "linkedin": "URL profilu LinkedIn",
+        "github": "URL GitHub/Portfolio",
+        "website": "Osobista strona internetowa"
+      },
+      "resume": {
+        "heading": "CV",
+        "selectResume": "Wybierz CV",
+        "browseResumes": "Przeglądaj CV",
+        "uploadNew": "Prześlij nowe CV",
+        "preview": "Podgląd CV",
+        "noResumes": "Nie znaleziono CV",
+        "createResume": "Najpierw utwórz CV",
+        "loading": "Ładowanie CV...",
+        "error": "Błąd ładowania CV",
+        "selectThis": "Wybierz to CV",
+        "createdAt": "Utworzono {{date}}"
+      },
+      "coverLetter": {
+        "heading": "List motywacyjny",
+        "placeholder": "Napisz krótki list motywacyjny, wyjaśniający, dlaczego pasujesz do tej roli...",
+        "loadTemplate": "Załaduj szablon",
+        "templates": {
+          "standard": "Standardowy",
+          "professional": "Profesjonalny",
+          "creative": "Kreatywny",
+          "technical": "Techniczny",
+          "career": "Zmiana kariery"
+        }
+      },
+      "buttons": {
+        "back": "Wstecz",
+        "submit": "Wyślij aplikację",
+        "submitting": "Wysyłanie...",
+        "cancel": "Anuluj",
+        "close": "Zamknij",
+        "viewMyApplications": "Zobacz moje aplikacje",
+        "browseMore": "Przeglądaj więcej ofert pracy"
+      },
+      "success": {
+        "title": "Aplikacja wysłana!",
+        "message": "Twoja aplikacja została pomyślnie wysłana. Skontaktujemy się wkrótce."
+      },
+      "error": {
+        "title": "Błąd aplikacji",
+        "message": "Wystąpił problem podczas wysyłania Twojej aplikacji. Proszę spróbować ponownie.",
+        "requiredFields": "Proszę wypełnić wszystkie wymagane pola"
+      },
+      "pagination": {
+        "prev": "Poprzednia",
+        "next": "Następna",
+        "page": "Strona {{current}} z {{total}}"
+      }
+    },
+    "ProfileDisplay2": {
+      "search": "Szukaj",
+      "navigation": "NAWIGACJA",
+      "menu": {
+        "dashboard": "Panel główny",
+        "interviews": "Rozmowy kwalifikacyjne",
+        "portfolios": "Portfolio",
+        "settings": "Ustawienia",
+        "appliedJobs": "Złożone aplikacje",
+        "messages": "Wiadomości",
+        "myJobs": "Moje oferty pracy",
+        "myCompanies": "Moje firmy"
+      }
+    },
+    "DashboardHomepageFix1":{
+      "subtitle":"Zarządzaj swoimi CV i listami motywacyjnymi"
+    }
+  }
+}

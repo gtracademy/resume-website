@@ -1,0 +1,2545 @@
+{
+    "intro": {
+        "titleLeft": "Ferilskráin þín í þremur",
+        "titleSpan": "einföldum",
+        "titleRight": "skrefum",
+        "step1": "Veldu sniðmát úr safni okkar.",
+        "step2": "Settu saman ferilskrána þína með auðveldum ferilskrárgerðarmanni okkar.",
+        "step3": "Sæktu ferilskrána þína.",
+        "login": "Innskráning",
+        "selectTemplate": "Velja sniðmát",
+        "rightReserved": "Allur réttur áskilinn"
+    },
+    "selectionAction": {
+        "titleLeft": "Veldu",
+        "titleSpan": "sniðmát",
+        "titleRight": "af listanum.",
+        "templates": "Sniðmát",
+        "account": "Mitt svæði",
+        "admin": "Admin"
+    },
+    "form": {
+        "untitled": "Án titils",
+        "profileCompleteness": "Prófíl heilleiki",
+        "personalDetails": "Persónulegar upplýsingar",
+        "firstName": "Fornafn",
+        "lastName": "Eftirnafn",
+        "email": "Netfang",
+        "phone": "Sími",
+        "photo": "Ljósmynd",
+        "occupation": "Starfsgrein",
+        "country": "Land",
+        "nationality": "Þjóðerni",
+        "city": "Borg",
+        "address": "Heimilisfang",
+        "postalcode": "Póstnúmer",
+        "dateOfBirth": "Fæðingardagur",
+        "drivingLicense": "Ökuskírteini",
+        "profesionalSummary": "Fagleg samantekt",
+        "profesionalSummarySubtitle": "Stutt samantekt um heildarupplifun þína.",
+        "employmentHistory": "Starfsferill",
+        "employmentHistorySubtitle": "Taktu með síðustu 10 árin af viðeigandi reynslu og dagsetningum í þennan hluta. Skráðu nýjasta starf þitt fyrst.",
+        "jobTitle": "Starfsheiti",
+        "employer": "Vinnuveitandi",
+        "begin": "Byrjun",
+        "end": "Lok",
+        "description": "Lýsing",
+        "education": "Menntun",
+        "educationSubtitle": "Taktu með síðustu 10 árin af menntunarferli og dagsetningum í þennan hluta. Skráðu nýjustu stöðu þína fyrst.",
+        "school": "Skóli",
+        "degree": "Gráða",
+        "courseDescription": "Námslýsing",
+        "languages": "Tungumál",
+        "laguagesSubtitle": "Vinsamlegast sláðu inn tungumálin sem þú getur unnið með.",
+        "language": "Tungumál",
+        "level": "Stig",
+        "skills": "Hæfni",
+        "skillsSubtitle": "Vinsamlegast sláðu inn hæfni þína og gefðu hverri þeirra einkunn.",
+        "skillName": "Nafn hæfni",
+        "rating": "Einkunn",
+        "addSkill": "Bæta við hæfni",
+        "addLanguage": "Bæta við tungumáli",
+        "addJob": "Bæta við starfi",
+        "addEducation": "Bæta við menntun",
+        "showDetails": "Sýna viðbótarupplýsingar",
+        "hideDetails": "Fela viðbótarupplýsingar",
+        "previous": "Fyrri",
+        "next": "Næsta",
+        "selectTemplate": "Velja sniðmát",
+        "save": "Vista",
+        "download": "Sækja"
+    },
+    "login": {
+        "login": "Innskráning",
+        "email": "Netfang",
+        "googleLogin": "Innskráning með ",
+        "facebookLogin": "Innskráning með",
+        "or": "Eða",
+        "password": "Lykilorð",
+        "passwordRepeat": "Endurtaka lykilorð",
+        "dontHaveAcc": "Áttu ekki aðgang? ",
+        "signup": "Nýskráning",
+        "passwordLost": "Gleymdirðu lykilorðinu þínu? ",
+        "recoverPassword": "Endurheimta lykilorð",
+        "register": "Nýskráning",
+        "alreadyHaveAccount": "Ertu nú þegar með aðgang?",
+        "passwordRecovery": "Endurheimt lykilorðs",
+        "recoverMyPassword": "Endurheimta lykilorðið mitt"
+    },
+    "dashboard": {
+        "homepage": "Heimasíða",
+        "dashboard": "Stjórnborð",
+        "coverLetter": "Fylgibréf",
+        "dashBoard": "Stjórnborð",
+        "goToResume": "Fara á ferilskrá",
+        "remove": "Fjarlægja",
+        "addNew": "Bæta við nýju",
+        "addResume": "Bæta við ferilskrá",
+        "accountSettings": "Reikningsstillingar",
+        "logout": "Útskráning",
+        "settings": "Stillingar",
+        "personalInfo": "PERSÓNULEGAR UPPLÝSINGAR",
+        "firstname": "Fornafn",
+        "lastname": "Eftirnafn",
+        "changePassword": "BREYTA LYKILORÐI",
+        "newPassword": "Nýtt lykilorð",
+        "save": "Vista",
+        "commingSoon": "Kemur fljótlega",
+        "adsManager": "Auglýsingastjóri",
+        "currentAds": "Núverandi auglýsingar",
+        "name": "Nafn",
+        "date": "Dagsetning",
+        "bannerLink": "Banner hlekkur",
+        "bannerName": "Banner nafn",
+        "destinationLink": "Áfangastaðar hlekkur",
+        "add": "Bæta við",
+        "noAdsFound": "Engar auglýsingar fundust!",
+        "pages": "Síður",
+        "currentPages": "Núverandi síður",
+        "addPages": "Bæta við síðum",
+        "pageName": "Nafn síðu",
+        "addPage": "Bæta við síðu"
+    },
+    "resume": {
+        "personalSummary": "Persónuleg samantekt",
+        "employmentHistory": "Starfsferill",
+        "educationHistory": "Menntunarferill",
+        "info": "Upplýsingar",
+        "address": "Heimilisfang",
+        "phone": "Sími",
+        "email": "Netfang",
+        "languages": "Tungumál",
+        "skills": "Hæfni"
+    },
+    "Language": {
+        "elemntary": "Grunnskóli",
+        "Intermediate": "Miðstig",
+        "Advanced": "Háþróað",
+        "Proficient": "Fljótandi"
+    },
+    "dashNew": {
+        "noDocumentFound": "Engin skjöl fundust!",
+        "noDocumentFoundSub": "Þú getur byrjað með því að búa til nýja ferilskrá eða kynningarbréf",
+        "personalDetails": "Persónulegar upplýsingar",
+        "name": "Nafn",
+        "email": "Netfang",
+        "phone": "Sími",
+        "address": "Heimilisfang",
+        "city": "Borg",
+        "country": "Land",
+        "postalcode": "Póstnúmer",
+        "skills": "Hæfni",
+        "searchDocuments": "Leita í skjölum",
+        "resume": "Ferilskrá",
+        "coverLetter": "Fylgibréf",
+        "clearAll": "Hreinsa allt",
+        "filter": "Sía",
+        "noSkillsAdded": "Engin færni bætt við",
+        "shareDocument": "Deila þessu skjali",
+        "link": "Hlekkur",
+        "linkDesc": "Þú getur notað þennan hlekk til að leyfa hverjum sem er að skoða þetta skjal",
+        "copy": "Afrita",
+        "copied": "Afritað",
+        "quickAccess": "Skjótur aðgangur",
+        "quickAccessDesc": "Í þessum hluta finnur þú allar aðgerðir sem þú getur framkvæmt á skjölum þínum og reikningi þínum.",
+        "createDocument": "Búa til skjal",
+        "favourites": "Eftirlæti",
+        "settings": "Stillingar",
+        "statistics": "Tölfræði",
+        "statisticsDesc": "Hér getur þú séð tölfræði þína, hversu mörg skjöl þú hefur búið til, hversu margar niðurhalanir þú hefur",
+        "documentsGenerated": "Skjöl búin til",
+        "downloads": "Niðurhalanir",
+        "favouitesDesc": "Þetta er listi yfir uppáhalds skjöl þín, þú getur fjarlægt þau héðan.",
+        "noFavouritesFound": "Þú hefur engin uppáhald ennþá!",
+        "fullName": "Fullt nafn",
+        "type": "Tegund",
+        "summary": "Samantekt",
+        "close": "Loka",
+        "profil": "Prófíll",
+        "account": "Reikningur",
+        "upload": "Hlaða upp",
+        "remove": "Fjarlægja",
+        "fullNameDesc": "Við notum það þegar við byggjum ferilskrá",
+        "emailDesc": "Til að auðkenna sig inn í forritið",
+        "description": "Lýsing",
+        "descriptionDesc": "Tegund reiknings þíns",
+        "changePassword": "Breyta lykilorði",
+        "newPassword": "Nýtt lykilorð",
+        "sbsend": "Áskrift lýkur",
+        "sbsendDesc": "Dagsetning þegar áskrift þín lýkur",
+        "profileUpdated": "Prófíll uppfærður",
+        "profileUpdatedDesc": "Prófíll uppfærður með góðum árangri",
+        "passChanged": "Lykilorðið breytt",
+        "passChangedDesc": "Lykilorðið breytt með góðum árangri",
+        "passError": "Lykilorð of stutt",
+        "passErrorDesc": "Lykilorð verður að vera að minnsta kosti 6 stafir",
+        "profile": "Prófíll"
+    },
+    "static": {
+        "plansHeader": "Einfalt, gegnsætt verðlag",
+        "plansDesc": "Til að sækja ferilskrána þína skaltu einfaldlega skrá þig í Premium aðild okkar. Veldu þann pakka sem hentar þér best.",
+        "month": "Mánuður",
+        "premiumMonth": "Premium Mánaðarlegur",
+        "premiumYear": "Premium 6 Mánuðir",
+        "premiumHalfYear": "Premium Árlegur",
+        "unlimitedPDF": "Ótakmarkað PDF niðurhal",
+        "unlimitedResumes": "Ótakmarkaðir ferilskrár",
+        "nonRecuring": "Ekki endurtekin greiðsla.",
+        "upgradeAndDownload": "Uppfæra og sækja",
+        "payment1": "Fáðu draumastarfið þitt",
+        "payment2": "Greiðsla í gegnum trausta greiðsluþjónustu",
+        "payment3": "SSL öruggt / 256-bita SSL örugg úttekt",
+        "payment4": "7 daga endurgreiðsluréttur",
+        "payment5": "Hvernig get ég sagt upp?",
+        "payment6": "Þú getur auðveldlega sagt upp áskrift þinni með því einfaldlega að hafa samband við stuðningslið okkar með tölvupósti eða síma, eða með því að nota sambandssíðuna okkar.",
+        "payment7": "Samþykktir greiðsluaðferðir",
+        "payment8": "Samtals gjaldfellt í dag:",
+        "payment9": "Hvar ertu staðsettur?",
+        "payment10": "Vinsamlegast sláðu inn land þitt og póstnúmer hér fyrir neðan. Við söfnum þessum upplýsingum til að berjast gegn svikum og tryggja öryggi greiðslu þinnar.",
+        "payment11": "Land",
+        "payment12": "Póstnúmer",
+        "payment13": "Greiða með korti",
+        "payment14": "til baka",
+        "payment15": "Korthafi",
+        "payment16": "Heimilisfang",
+        "nav1": "Fara í appið",
+        "nav2": "Hafðu samband",
+        "footer1": "Samfélagsmiðlar",
+        "footer2": "Hafðu samband",
+        "footer3": "Persónuverndarstefna",
+        "footer4": "Fylgdu okkur á samfélagsmiðlum til að fá sérstök auðlind beint í feed þinn",
+        "footer5": "Um okkur",
+        "footer6": " Copyright © 2021-2022 Allur réttur áskilinn.",
+        "footer7": "Innihald",
+        "footer8": "Heim"
+    },
+    "navbar": {
+        "home": "Heim",
+        "featuresNav": "Eiginleikar",
+        "resumeBuilderFeatures": "Eiginleikar ferilskrágerðarmanns",
+        "featureTagline": "Allt sem þú þarft fyrir fullkomna ferilskrá",
+        "userCount": "50K+ notendur",
+        "exploreFeatures": "Skoða alla eiginleika",
+        "freeToTry": "Ókeypis að prófa",
+        "startBuilding": "Byrja að byggja",
+        "pricing": "Verðlagning",
+        "contact": "Hafa samband",
+        "signOut": "Útskrá",
+        "dashboard": "Stjórnborð",
+        "signIn": "Innskrá",
+        "getStarted": "Byrjaðu",
+        "viewAllFeatures": "Skoða alla eiginleika",
+        "popular": "Vinsæll",
+        "features": {
+            "atsOptimization": {
+                "title": "ATS hagræðing",
+                "description": "Slá sjálfvirkt skimunarkerfi",
+                "badge": "Snjall"
+            },
+            "aiBuilder": {
+                "title": "AI Innihaldsbygging",
+                "description": "AI-knúin ferilskrárskrif",
+                "badge": "AI"
+            },
+            "templates": {
+                "title": "Fagleg sniðmát",
+                "description": "Nútíma, bransasértæk hönnun"
+            },
+            "export": {
+                "title": "Útflutningur í mörgum sniðum",
+                "description": "PDF, DOCX og fleiri snið"
+            },
+            "security": {
+                "title": "Persónuvernd og öryggi",
+                "description": "Gagnavernd á bankastigi",
+                "badge": "Öruggt"
+            },
+            "analytics": {
+                "title": "Ferilgreining",
+                "description": "Fylgstu með árangri umsókna þinna",
+                "badge": "Pro"
+            }
+        },
+        "resources": {
+            "learn": "Læra",
+            "documentation": {
+                "title": "Skjöl",
+                "description": "Heildarleiðbeiningar og API tilvísanir"
+            },
+            "videoTutorials": {
+                "title": "Vídeó námskeið",
+                "description": "Lærðu með skref-fyrir-skref vídeóum"
+            },
+            "designCourse": {
+                "title": "Hönnunarnámskeið",
+                "description": "Náðu tökum á grunnatriðum lógóhönnunar",
+                "badge": "Ókeypis"
+            },
+            "community": "Samfélag",
+            "communityForum": {
+                "title": "Samfélagsspjall",
+                "description": "Tengstu öðrum hönnuðum"
+            },
+            "blog": {
+                "title": "Blogg",
+                "description": "Nýjustu hönnunartrend og ráð"
+            },
+            "support": "Stuðningur",
+            "helpCenter": {
+                "title": "Hjálparmiðstöð",
+                "description": "Finndu svör við algengum spurningum"
+            },
+            "faq": {
+                "title": "Algengar spurningar",
+                "description": "Algengar spurningar"
+            },
+            "contactUs": {
+                "title": "Hafa samband",
+                "description": "Hafðu samband við teymi okkar"
+            }
+        }
+    },
+    "homepageText": {
+        "text1": "Skildu þig úr hópnum með ferilskrárbyggingarmanninum okkar á netinu",
+        "text2": "Ferilskrárbyggingarmaðurinn okkar er hið fullkomna tæki til að hjálpa þér að búa til faglega, fáguð ferilskrá á örfáum mínútum. Með innsæi hönnun okkar og einfaldri skref-fyrir-skref ferli getur þú auðveldlega byggt ferilskrá sem sker sig úr samkeppninni. Hvort sem þú ert nýútskrifaður eða reyndur fagmaður, hefur vefforritið okkar allt sem þú þarft til að taka feril þinn á næsta stig",
+        "text3": "Ferilskrá",
+        "text4": "Fylgibréf",
+        "text5": "Umsagnir",
+        "text6": "Veldu hvað þú vilt búa til.",
+        "text7": "Umsagnir",
+        "text8": "Efla ferilskrána þína með háþróuðum eiginleikum okkar",
+        "text9": "Ferilskrárbyggingarmaðurinn okkar býður upp á fjölbreytta eiginleika til að hjálpa notendum að búa til faglega og árangursríka ferilskrá. Meðal þeirra eru tillögur um fyrirskrifuð orðasambönd, deilanlegur hlekkur, PDF-útflutningur, sérhannaðar sniðmát, sjálfvirk vistun, stafsetningarpróf, breytingarskráning, samvinna og persónulegar auðkenningarauðlindir. Allir þessir eiginleikar gera það auðvelt og skilvirkt að búa til faglega ferilskrá."
+    },
+    "HomepageHero": {
+        "typingEffect": {
+            "sentence1": "Byggðu faglegar ferilskrár með gervigreind",
+            "sentence2": "Veldu úr 50+ sérfræðingasnidmátum",
+            "sentence3": "Fáðu snjalla skrifaðstoð",
+            "sentence4": "Sjáðu breytingar í rauntíma",
+            "sentence5": "Náðu árangri í viðtölum með gervigreindar undirbúningsverkfærum"
+        },
+        "badge": "Gervigreindar-knúinn ferilskrábyggingarmaður",
+        "description": "Búðu til glæsilegar, ATS-vænar ferilskrár og fylgibréf með gervigreindar aðstoð. Veldu úr faglegum sniðmátum, fáðu endurgjöf í rauntíma, og landaðu draumastarfi þínu hraðar.",
+        "createResume": "Búa til ferilskrá",
+        "createCoverLetter": "Búa til fylgibréf",
+        "stats": {
+            "users": "5.000+ ánægðir notendur",
+            "rating": "4.9/5"
+        },
+        "features": {
+            "freeToStart": "Ókeypis að byrja",
+            "noCreditCard": "Engin kreditkort"
+        }
+    },
+    "HomepageTrustedBy": {
+        "badge": "SAMHÆFÐUR VIÐ LEIÐANDI VETTVAÐI",
+        "title": "Vinnur óaðfinnanlega með iðnaðartólum",
+        "description": "Ferilskrágerðarmaðurinn okkar með gervigreind samþættist vinsælum vettvöngum og tólum sem notaðir eru af fagfólki um allan heim.",
+        "trustIndicators": {
+            "platforms": "Samhæfður 30+ stórum vettvöngum",
+            "countries": "Notaður í 120+ löndum",
+            "technology": "Iðnaðarleiðandi tækni"
+        }
+    },
+    "HomepageSteps": {
+        "badge": "SANNUÐ NIÐURSTÖÐUR • 50 ÞÚSUND+ FAGMENN TREYSTIR",
+        "title": {
+            "part1": "Umbreyttu",
+            "part2": "ferðalagi þínu",
+            "part3": "í starfsferlinum"
+        },
+        "description": "Vertu með í þúsundum fagaðila sem hafa hraðað feril sinn með gervigreindar-knúna ferilskráagerðarmanni okkar. Vertu áberandi, fáðu viðtöl og tryggðu þér draumastarfið hraðar en nokkru sinni fyrr.",
+        "benefits": [
+            {
+                "title": "Fáðu fleiri atvinnuviðtöl",
+                "description": "Okkar ATS-bjartsýnu sniðmát og gervigreindar-knúin innihaldstillögur hjálpa ferilskránni þinni að komast framhjá sjálfvirkum skimunarkerfum og í hendur ráðningastjóra.",
+                "detail": "Vertu með í þúsundum fagaðila sem hafa aukið viðtölsprósentu sína um 3x með því að nota sannað kerfi okkar."
+            },
+            {
+                "title": "Skerðu þig úr keppninni",
+                "description": "Með faglegri hönnun og sannfærandi innihaldsrágjöf, sýndu fram á þína einstöku verðmætatillögu og verðu fljótar tekið eftir af ráðningastjórnendum.",
+                "detail": "Okkar snjalla snið og orðlykilinn tryggja að ferilskráin þín veki athygli á sekúndum."
+            },
+            {
+                "title": "Byggðu sjálfstraust í atvinnuleitinni",
+                "description": "Kynntu þig frá þinni bestu hlið með fáðu, villulausu ferilskrá sem endurspeglar þitt sanna potential og faglegar afreksverk.",
+                "detail": "Finndu fyrir öryggi með því að vita að umsóknargögnin þín eru fagmannlega útfærð og samkvæmt iðnaðarstöðlum."
+            }
+        ],
+        "stats": [
+            { "number": "50K+", "label": "Ánægðir notendur" },
+            { "number": "98.7%", "label": "Árangursprósenta" },
+            { "number": "50+", "label": "Sniðmát" },
+            { "number": "24 klst.", "label": "Meðaltími" }
+        ],
+        "badges": {
+            "aiPowered": {
+                "title": "Gervigreindar-knúið",
+                "subtitle": "Snjall ferilskrágerðarmaður"
+            },
+            "atsOptimized": {
+                "title": "✓",
+                "subtitle": "ATS optimerað"
+            }
+        },
+        "cta": {
+            "title": "Tilbúinn til að landa draumastarfinu þínu?",
+            "description": "Sláðu þig saman við yfir 50.000 fagfólk sem hefur breytt ferli sínum. Byrjaðu að byggja upp vinnandi ferilskrána þína í dag.",
+            "button": "Byrjaðu þína velgengnisögu",
+            "noCredit": "✨ Engin kreditkort nauðsynleg • Ókeypis sniðmát innifalin"
+        }
+    },
+    "HomepageReviews": {
+        "badge": "UMSAGNIR VIÐSKIPTAVINA",
+        "title": {
+            "part1": "Hvað okkar",
+            "part2": "notendur",
+            "part3": "segja"
+        },
+        "description": "Sláðu þig saman við þúsundir ánægðra atvinnuleitenda sem hafa landað draumastarfi sínu með ferilskrárbyggingarmanninum okkar með gervigreind.",
+        "navigation": {
+            "previous": "Fyrri",
+            "next": "Næsta",
+            "slideLabel": "Fara á mynd {{number}}",
+            "pauseAutoplay": "Stöðva sjálfvirk spilun",
+            "startAutoplay": "Byrja sjálfvirka spilun"
+        },
+        "review": {
+            "category": "Tækni",
+            "verifiedBadge": "Staðfestur notandi",
+            "avatarAlt": "Prófílmynd {{name}}",
+            "dateFormat": "DD.MM.YYYY"
+        }
+    },
+    "HomepagePricing": {
+        "badge": "VERÐSKRÁIR",
+        "header": "Veldu hinn fullkomna plan fyrir þínar þarfir",
+        "description": "Fáðu ótakmarkaðan aðgang að faglegum sniðmátum og háþróuðum eiginleikum með sveigjanlegum verðoptions okkar.",
+        "plans": {
+            "monthly": {
+                "title": "Premium mánaðarlega",
+                "description": "Borgaðu {{currency}}{{price}} fyrir 1 mánuð",
+                "perMonth": "/mánuður"
+            },
+            "halfYear": {
+                "title": "Premium hálft ár",
+                "description": "Borgaðu {{currency}}{{price}} fyrir 6 mánuði",
+                "perMonth": "/mánuður",
+                "mostPopular": "🔥 Vinsælasta"
+            },
+            "yearly": {
+                "title": "Premium árlega",
+                "description": "{{currency}}{{price}} fyrir 1 ár",
+                "perMonth": "/mánuður"
+            }
+        },
+        "features": {
+            "unlimitedPDF": "Ótakmarkað niðurhal á PDF",
+            "unlimitedResumes": "Ótakmarkaðir ferilskrár",
+            "nonRecurring": "Einmálssgreiðsla, ekki endurtekin"
+        },
+        "upgradeButton": "Uppfæra og sækja núna",
+        "upgradeButtonStar": "Uppfæra og sækja núna ⭐"
+    },
+    "Homepagefaqs": {
+        "badge": "ÞEKKINGARGRUNNUR",
+        "header": "Finndu svarið þitt samstundis",
+        "subtitle": "Allt sem þú þarft að vita um að búa til faglegar ferilskrár með gervigreind",
+        "quickStats": {
+            "resumesCreated": "Ferilskrár búnar til",
+            "avgBuildTime": "Meðalbyggingartími",
+            "satisfaction": "Ánægja viðskiptavina",
+            "support": "Stuðningur í boði"
+        },
+        "search": {
+            "placeholder": "Leita að svörum...",
+            "categories": "Flokkar"
+        },
+        "categoryNames": {
+            "allQuestions": "Allar spurningar",
+            "gettingStarted": "Fyrstu skref",
+            "features": "Eiginleikar",
+            "billing": "Fakturering",
+            "technical": "Tæknilegt"
+        },
+        "popularBadge": "Vinsæll",
+        "helpfulQuestion": "Var þetta hjálpsamt?",
+        "noResults": {
+            "title": "Engin niðurstöður fundust",
+            "message": "Prófaðu að stilla leitarorðin þín eða flokkssíu"
+        },
+        "contactSupport": {
+            "title": "Þarftu ennþá hjálp?",
+            "description": "Stuðningsteymi okkar er til staðar allan sólarhringinn til að hjálpa þér að ná árangri",
+            "contactButton": "Hafa samband við stuðning",
+            "docsButton": "Skoða skjöl"
+        },
+        "cta": {
+            "badge": "Tilbúinn til að búa til ferilskrána þína?",
+            "title": "Umbreyttu ferli þínum með gervigreindar-knúnum ferilskrám",
+            "description": "Vertu með í þúsundum fagaðila sem hafa búið til glæsilegar ferilskrár á nokkrum sekúndum. Byrjaðu ferilferðalagið þitt í dag með snjalla hönnunar vettvangi okkar.",
+            "button": "Byrjaðu að búa til ókeypis",
+            "freeCredits": "3 ókeypis einingar • Engin kreditkort nauðsynleg",
+            "support": "Stuðningur 24/7",
+            "secure": "Öruggt og persónulegt",
+            "instant": "Augnabliks niðurstöður"
+        },
+        "trustIndicators": {
+            "secure": "Öruggt og persónulegt",
+            "instant": "Augnabliks niðurstöður",
+            "support": "Stuðningur 24/7"
+        }
+    },
+    "HomepageFooter": {
+        "headings": {
+            "aboutUs": "Um okkur",
+            "quickLinks": "Flýtivísar",
+            "stayUpdated": "Fylgstu með",
+            "securePayments": "Öruggar greiðslur"
+        },
+        "aboutText": "Við hjálpum atvinnuleitendum að búa til faglegar ferilskrár á nokkrum mínútum. Verkefni okkar er að styrkja einstaklinga til að landa draumastarfi sínu með hágæða, gervigreindar-smíðuðum umsóknargögnum.",
+        "links": {
+            "pricing": "Verðlagning",
+            "contact": "Hafa samband"
+        },
+        "newsletter": {
+            "description": "Gerast áskrifandi að fréttabréfi okkar til að fá nýjustu ferilráð, ferilskráráðgjöf og eiginleikauppfærslur.",
+            "placeholder": "Sláðu inn netfangið þitt",
+            "buttonText": "Gerast áskrifandi",
+            "privacyNote": "Við virðum persónuvernd þína"
+        },
+        "paymentMethods": {
+            "visa": "Visa",
+            "mastercard": "Mastercard",
+            "paypal": "Paypal",
+            "applepay": "Apple Pay",
+            "googlepay": "Google Pay",
+            "discover": "Discover"
+        },
+        "legal": {
+            "privacyPolicy": "Persónuverndarstefna",
+            "termsOfService": "Þjónustuskilmálar",
+            "cookiePolicy": "Kökustefna",
+            "allRightsReserved": "Allur réttur áskilinn."
+        }
+    },
+    "ActionSelection": {
+        "templateHeading": "Veldu þitt fullkomna",
+        "templateHeadingSpan": "sniðmát",
+        "templateDescription": "Veldu úr faglegu hönnuðu sniðmátunum okkar til að búa til ferilskrá sem stendur út",
+        "coverLetterHeading": "Veldu þitt",
+        "coverLetterHeadingSpan": "kynningarbréf",
+        "coverLetterDescription": "Veldu kynningarbréf sniðmát sem passar við ferilskrána þína",
+        "search": {
+            "searchTemplates": "Leita í sniðmátum...",
+            "searchCoverLetters": "Leita í kynningarbréfum...",
+            "noTemplatesFound": "Engin sniðmát fundust",
+            "noTemplatesFoundDescription": "Prófaðu að stilla leitarskilyrði þín eða skoðaðu mismunandi flokka",
+            "clearFilters": "Hreinsa síur",
+            "resultsInfo": "sniðmát • Sýni",
+            "resultsCount": "niðurstöður",
+            "selectedTemplate": "valið"
+        },
+        "categories": {
+            "all": "Öll",
+            "modern": "Nútímaleg",
+            "professional": "Fagleg",
+            "creative": "Skapandi",
+            "simple": "Einfalt",
+            "standard": "Standard"
+        },
+        "sortBy": {
+            "label": "Raða eftir",
+            "popular": "Vinsælast",
+            "name": "Nafn",
+            "newest": "Nýjast"
+        },
+        "viewMode": {
+            "grid": "Gitter sýn",
+            "list": "Listasýn"
+        },
+        "templateCards": {
+            "popular": "Vinsæll",
+            "select": "Velja",
+            "selectTemplate": "Velja sniðmát",
+            "popularity": "% vinsælleiki",
+            "templateDescriptions": {
+                "professionalClassic": "Hreint og hefðbundið hönnun fullkomið fyrir fyrirtækjaumhverfi",
+                "modernCreative": "Nútímalegt útlit með skapandi þáttum",
+                "simpleElegant": "Minimalísk hönnun með áherslu á innihaldsþætti",
+                "creativeBold": "Listrænt sniðmát fyrir skapandi fagmenn",
+                "executivePro": "Háþróuð hönnun fyrir yfirmannsstöður",
+                "techModern": "Nútímalegt sniðmát fullkomið fyrir tæknigeirann",
+                "designerSpecial": "Sérstakt útlit fyrir hönnuðir",
+                "cleanSimple": "Einfalt og fagmannlegt",
+                "corporateElite": "Premium fyrirtækjasniðmát",
+                "startupReady": "Dynamískur sniðmát fyrir startup menningu",
+                "creativePro": "Faglegt skapandi sniðmát",
+                "minimalPro": "Hreint minimalískt faglegt hönnun",
+                "businessClassic": "Hefðbundið viðskiptasniðmát",
+                "modernEdge": "Háþróuð nútímaleg hönnun",
+                "artistPortfolio": "Fullkomið fyrir skapandi eignasafn",
+                "standardProfessional": "Klassískt kynningarbréfasnið",
+                "modernAppeal": "Nútímalegt kynningarbréf hönnun",
+                "businessStandard": "Hefðbundið viðskiptasnið",
+                "creativeModern": "Nútímalegt skapandi kynningarbréf"
+            }
+        },
+        "preview": {
+            "useTemplate": "Nota sniðmát",
+            "cancel": "Hætta við"
+        },
+        "pagination": {
+            "prev": "Fyrri",
+            "next": "Næsta"
+        },
+        "loading": {
+            "processingTemplate": "Sniðmát er unnið",
+            "settingUp": "Stillingar valinnar sniðmáts..."
+        }
+    },
+    "ProfileDisplay": {
+        "appName": "Nolito",
+        "search": "Leita",
+        "navigation": "NAVIGATION",
+        "menu": {
+            "dashboard": "Stjórnborð",
+            "interviews": "Viðtöl",
+            "settings": "Stillingar"
+        }
+    },
+    "DashboardHomepage": {
+        "greeting": "Hæ! 👋",
+        "completeSteps": "Lokaðu þessum skrefum til að landa næsta hlutverki þínu",
+        "stepsCompletion": "af lokið",
+        "showButton": "Sýna",
+        "tabs": {
+            "resumes": "Ferilskrár",
+            "coverLetters": "Fylgibréf"
+        },
+        "actions": {
+            "createNew": "Búa til nýtt",
+            "editResume": "Breyta ferilskrá",
+            "shareResume": "Deila ferilskrá",
+            "delete": "Eyða",
+            "createNewDocument": "Búa til nýtt skjal"
+        },
+        "promotion": {
+            "title": "Tilbúinn til að gefa starfsleitinni þinni uppörvun og fá meiri sýnileika?",
+            "description": "Veldu ferilskrána þína og við sendum hana til hundruða ráðningafulltrúa á þínu sviði með fáeinum smellum",
+            "startNow": "Byrja núna"
+        },
+        "card": {
+            "created": "Búið til",
+            "untitledResume": "Ferilskrá án titils",
+            "aiJobMatching": "AI starfssamsvörun",
+            "new": "NÝTT",
+            "newResumeTitle": "Ný ferilskrá",
+            "newResumeDescription": "Búðu til sérsniðna ferilskrá fyrir hverja atvinnuumsókn. Tvöfaldaðu líkurnar þínar á að fá starf!"
+        },
+        "emptyState": {
+            "noDocumentsFound": "Engin skjöl tiltæk",
+            "emptyLibrary": "Skjalsafn þitt er tómtt.",
+            "createFirstDoc": "Búðu til fyrstu ferilskrána þína eða fylgibréf til að byrja."
+        },
+        "pagination": {
+            "page": "Síða",
+            "of": "af"
+        },
+        "confirmDelete": "Ertu viss um að þú viljir eyða þessari ferilskrá? Þessi aðgerð er ekki afturkræf."
+    },
+    "DashboardSettings": {
+        "pageTitle": "Stillingar",
+        "pageDescription": "Hafa umsjón með reiknings- og prófílstillingum þínum",
+        "tabs": {
+            "profile": "Prófíll",
+            "account": "Reikningur"
+        },
+        "profile": {
+            "title": "Prófíll",
+            "description": "Uppfærðu persónulegar upplýsingar þínar og prófílmynd",
+            "uploadPicture": "Hlaða upp prófílmynd",
+            "dragOrUpload": "Draga og sleppa mynd eða smella til að hlaða upp",
+            "uploadButton": "Hlaða upp",
+            "removeButton": "Fjarlægja",
+            "fullName": "Fullt nafn",
+            "fullNameDesc": "Nafn þitt eins og það birtist á reikningnum þínum",
+            "phone": "Símanúmer",
+            "address": "Heimilisfang",
+            "city": "Borg",
+            "postalCode": "Póstnúmer",
+            "country": "Land",
+            "placeholders": {
+                "fullName": "Sláðu inn fullt nafn þitt",
+                "phone": "Sláðu inn símanúmerið þitt",
+                "address": "Sláðu inn heimilisfangið þitt",
+                "city": "Sláðu inn borgina þína",
+                "postalCode": "Sláðu inn póstnúmerið þitt",
+                "country": "Sláðu inn landið þitt"
+            },
+            "saving": "Vistar...",
+            "saveChanges": "Vista breytingar"
+        },
+        "account": {
+            "title": "Reikningur",
+            "description": "Hafa umsjón með öryggi reikningsins þíns og áskrift",
+            "email": "Netfang",
+            "emailDesc": "Netfang þitt er ekki hægt að breyta",
+            "subscription": "Áskrift",
+            "subscriptionDesc": "Núverandi áskriftarplan þitt",
+            "subscriptionEnd": "Áskrift lýkur",
+            "subscriptionEndDesc": "Dagsetning endurnýjunar áskriftar þinnar",
+            "noActiveSubscription": "Engin virk áskrift",
+            "changePassword": "Breyta lykilorði",
+            "newPassword": "Nýtt lykilorð",
+            "passwordStrength": {
+                "weak": "Veikur",
+                "fair": "Miðlungs",
+                "good": "Góður",
+                "strong": "Sterkur"
+            },
+            "passwordRequirement": "Lykilorð verður að vera að minnsta kosti 6 stafir langt"
+        }
+    },
+    "contact": {
+        "title": "Hafðu samband",
+        "subtitle": "Hefur þú spurningu eða þarft aðstoð? Sendu okkur skilaboð og við svörum þér eins fljótt og auðið er!",
+        "form": {
+            "fullName": "Fullt nafn *",
+            "fullNamePlaceholder": "Sláðu inn fullt nafn þitt",
+            "email": "Netfang *",
+            "emailPlaceholder": "Sláðu inn netfangið þitt",
+            "message": "Skilaboð *",
+            "messagePlaceholder": "Segðu okkur frá fyrirspurn þinni...",
+            "sendButton": "Senda skilaboð",
+            "sendingButton": "Sendi skilaboð..."
+        },
+        "quickResponse": {
+            "title": "Skjótt svar",
+            "text": "Við svörum venjulega innan 24 klukkustunda"
+        },
+        "success": {
+            "title": "Skilaboð send með góðum árangri!",
+            "text": "Takk fyrir að hafa samband. Við munum hafa samband við þig fljótlega.",
+            "button": "Senda önnur skilaboð"
+        },
+        "error": {
+            "general": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+        }
+    },
+    "billing": {
+        "title": "Áskriftarplön",
+        "subtitle": "Veldu þann plan sem hentar þér best",
+        "navbar": {
+            "home": "Heim",
+            "contact": "Hafa samband"
+        },
+        "plans": {
+            "monthly": "Mánaðarlega",
+            "quarterly": "Ársfjórðungslega",
+            "yearly": "Árlega",
+            "selectPlan": "Velja plan",
+            "perMonth": "/mánuði",
+            "perQuarter": "/ársfjórðung",
+            "perYear": "/ári",
+            "mostPopular": "Vinsælast",
+            "bestValue": "Besta gildi",
+            "unlimitedPDF": "Ótakmarkað niðurhal á PDF",
+            "unlimitedResumes": "Ótakmörkuð ferilskrár sniðmát",
+            "nonRecurring": "Einmálssgreiðsla, ekki endurtekin"
+        },
+        "checkout": {
+            "title": "Lokaðu kaupum þínum",
+            "subtitle": "Sláðu inn greiðsluupplýsingar þínar til að gerast áskrifandi",
+            "securePayment": "Örugg greiðsla",
+            "feature1": "Augnabliks aðgangur að öllum premium eiginleikum",
+            "feature2": "Engin falin gjöld eða viðbótargjöld",
+            "feature3": "Hætta við hvenær sem er í gegnum reikninginn þinn",
+            "faqTitle": "Algengar spurningar",
+            "faqContent": "Áskrift þín verður virkjuð strax eftir greiðslu. Þú getur haft umsjón með áskrift þinni í gegnum stjórnborð reikningsins þíns.",
+            "totalPrice": "Samtals verð",
+            "locationTitle": "Greiðslustaður",
+            "locationDescription": "Vinsamlegast gefðu upplýsingar um greiðslustað þinn",
+            "backToPlans": "Til baka í plön",
+            "cardDetails": "Kortaupplýsingar",
+            "cardholderName": "Nafn korthafa",
+            "cardNumber": "Kortanúmer",
+            "expiryDate": "Gildistími",
+            "cvv": "CVV",
+            "payNow": "Borga núna",
+            "processing": "Vinnur greiðslu...",
+            "subscriptionDetails": "Áskriftarupplýsingar",
+            "plan": "Plan",
+            "price": "Verð",
+            "billingFrequency": "Greiðsluferli",
+            "paymentMethods": {
+                "title": "Velja greiðslumáta",
+                "subtitle": "Veldu þinn valinn greiðsluoption",
+                "creditCard": "Kreditkort",
+                "paypal": "PayPal"
+            },
+            "cardForm": {
+                "title": "Greiðsluupplýsingar",
+                "subtitle": "Sláðu inn kortaupplýsingar þínar örugglega",
+                "cardholderName": "Nafn korthafa",
+                "address": "Reikningsfang",
+                "country": "Land",
+                "postalCode": "Póstnúmer"
+            },
+            "success": {
+                "title": "Greiðsla tókst!",
+                "subtitle": "Áskrift þín hefur verið virkjuð",
+                "message": "Takk fyrir kaupin. Þú hefur nú fullan aðgang að öllum premium eiginleikum.",
+                "button": "Halda áfram á stjórnborð"
+            },
+            "or": "EÐA"
+        },
+        "success": {
+            "title": "Greiðsla tókst!",
+            "subtitle": "Áskrift þín hefur verið virkjuð",
+            "viewAccount": "Skoða reikning",
+            "returnHome": "Aftur heim"
+        },
+        "error": {
+            "payment": "Greiðsla mistókst. Vinsamlegast reyndu aftur.",
+            "login": "Vinsamlegast skráðu þig inn til að ljúka greiðslu.",
+            "general": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+        }
+    },
+    "DashboardInterviews": {
+        "configurationScreen": {
+            "title": "Stilla inn viðtal",
+            "subtitle": "Sérsníððu viðtalsupplifun þína með því að gefa upp starf þitt og óskir",
+            "occupationLabel": "Þitt starf",
+            "occupationPlaceholder": "T.d.: Hugbúnaðarverkfræðingur, Kennari, Hjúkrunarfræðingur, Bóndi, Matreiðslumaður...",
+            "occupationHint": "Vertu nákvæmur um starf þitt fyrir markvissari spurningar",
+            "questionCountLabel": "Fjöldi Spurninga",
+            "questionsText": "spurningar",
+            "estimatedTime": "Áætlaður tími:",
+            "minutesPerQuestion": "mínútur á spurningu",
+            "interviewDetails": "Viðtalsupplýsingar",
+            "type": "Tegund:",
+            "questions": "Spurningar:",
+            "timeLimit": "Tímamörk:",
+            "passingScore": "Lágmarksstig:",
+            "errorGenerating": "Villa við að búa til viðtal:",
+            "tryAgainError": "Vinsamlegast reyndu aftur eða prófaðu annað starf.",
+            "generatingQuestions": "Býr til {(count}} persónulegar viðtalspurningar...",
+            "generatingHint": "Þetta gæti tekið nokkrar sekúndur. Við erum að útbúa spurningar sem eru sérstakar fyrir þitt starf.",
+            "back": "Til baka",
+            "startAssessment": "Byrja Mat",
+            "generatingInterview": "Býr til Viðtal..."
+        },
+        "selectionScreen": {
+            "title": "Viðtalsmat",
+            "subtitle": "Veldu þína matsgerð og ljúktu viðtalsferlinu",
+            "technicalTitle": "Tæknilegt Mat",
+            "technicalDepartment": "Tæknideild",
+            "technicalDescription": "Meta tæknilega hæfni, forritunarmál, rammevirki, aðferðir og hæfni til að leysa vandamál sem eru sérstök fyrir þitt starf.",
+            "behavioralTitle": "Atferlismat",
+            "behavioralDepartment": "Mannauður",
+            "behavioralDescription": "Meta leiðtogahæfni, samskiptahæfni, hæfni til að vinna í teymi og hvernig þú tekst á við vinnuaðstæður.",
+            "focusAreas": "Áherslusvið:",
+            "technicalSkills": "Tæknileg Færni",
+            "problemSolving": "Vandamálalausn",
+            "bestPractices": "Bestu Vinnubrögð",
+            "toolsTechnologies": "Verkfæri og Tækni",
+            "leadership": "Leiðtogahæfni",
+            "communication": "Samskipti",
+            "teamwork": "Samvinna",
+            "assessmentGuidelines": "Matsleiðbeiningar",
+            "bestPracticesTitle": "✅ Bestu Vinnubrögð",
+            "thingsToAvoid": "❌ Hlutir til Að Forðast",
+            "guideline1": "• Lestu hverja spurningu vandlega áður en þú svarar",
+            "guideline2": "• Notaðu fánaaðgerðina til að merkja spurningar til endurskoðunar",
+            "guideline3": "• Stjórnaðu tíma þínum á áhrifaríkan hátt",
+            "guideline4": "• Nýttu þér stöðvunaraðgerðina ef þörf krefur",
+            "avoid1": "• Hættu þér ekki í gegnum spurningarnar",
+            "avoid2": "• Skildu engar spurningar eftir ósvaraðar",
+            "avoid3": "• Skiptu ekki á milli forrita",
+            "avoid4": "• Ekki ofhugsa svör þín",
+            "continueToConfiguration": "Halda áfram að Stillingum",
+            "configurationHint": "Stilla þitt starf og við óskir þínar"
+        },
+        "resultsScreen": {
+            "title": "Mat Ljúkt!",
+            "noDataAvailable": "Engin viðtalsskjöl tiltæk",
+            "technicalInterview": "Tæknilegt",
+            "behavioralInterview": "Atferlislegt",
+            "questionsText": "Spurningar",
+            "overallPerformance": "Heildarárangur",
+            "passedAssessment": "✅ Mat Samþykkt",
+            "failedAssessment": "❌ Náði ekki lágmarksstigum (70%)",
+            "correctAnswers": "Rétt Svör",
+            "incorrectAnswers": "Röng Svör"
+        },
+        "performanceLevels": {
+            "exceptional": "Undantekning",
+            "excellent": "Frábært",
+            "good": "Gott",
+            "satisfactory": "Ánægjulegt",
+            "needsImprovement": "Þarf að Bæta"
+        },
+        "metricsScreen": {
+            "timeAnalysis": "Tíma Greining",
+            "totalTime": "Heildartími",
+            "avgPerQuestion": "Meðaltal á Spurningu",
+            "fastest": "Hraðast",
+            "slowest": "Hægast",
+            "activitySummary": "Virknis Yfirlit",
+            "questionsAnswered": "Svörð Spurningar",
+            "questionsFlagged": "Merktar Spurningar",
+            "completionRate": "Frágangshlutfall",
+            "performanceByCategory": "Árangur eftir Flokki",
+            "retakeAssessment": "Endurtaka Mat",
+            "reviewAnswers": "Endurskoða Svör",
+            "downloadReport": "Hlaða Niður Skýrslu",
+            "backToDashboard": "Til baka á aðalborð",
+            "answerReview": "Svarskoðun",
+            "question": "Spurning",
+            "difficulty": {
+                "easy": "Auðvelt",
+                "intermediate": "Meðal",
+                "hard": "Erfitt"
+            },
+            "correct": "✓ Rétt",
+            "yourAnswer": "✗ Þitt Svar",
+            "explanation": "Útskýring",
+            "timeSpent": "Tími Varið:"
+        },
+        "interviewScreen": {
+            "loadingData": "Hleður viðtalsskjöl...",
+            "professionalEvaluation": "Fagleg Mat",
+            "timeRemaining": "Tími eftir",
+            "resume": "Halda áfram",
+            "pause": "Fresta",
+            "questionProgress": "Spurning {current} af {total}",
+            "complete": "% Ljóst",
+            "interviewPaused": "Viðtal Í Hléi",
+            "pauseMessage": "Smelltu á Halda Áfram til að halda áfram matsins",
+            "flag": "Merki",
+            "flagged": "Merkt",
+            "previous": "Fyrri",
+            "nextQuestion": "Næsta Spurning",
+            "finishAssessment": "Lúka Mats"
+        },
+        "confirmationModal": {
+            "title": "Lúka Mats?",
+            "message": "Ertu viss um að þú viljir senda inn matsgerðina þína? Þú getur ekki breytt svörum þínum.",
+            "questionsAnswered": "Svörð Spurningar:",
+            "questionsFlagged": "Merktar Spurningar:",
+            "timeUsed": "Tími Notaður:",
+            "unansweredWarning": "⚠️ Þú hefur {count} ósvaraðar spurningar",
+            "continueInterview": "Halda Áfram Viðtali",
+            "submitNow": "Sendu Nú"
+        },
+        "common": {
+            "toggleSidebar": "Velaðu á hliðarstikunni",
+            "min": "mín"
+        }
+    },
+    "BuildResume": {
+        "steps": {
+            "personalInfo": "Persónuupplýsingar",
+            "workHistory": "Starfsferill",
+            "education": "Menntun",
+            "skills": "Hæfni",
+            "summary": "Yfirlit"
+        },
+        "navigation": {
+            "previous": "Fyrri",
+            "next": "Næsta",
+            "preview": "Forskoða",
+            "download": "Hlaða Niður",
+            "downloading": "Hleður Niður...",
+            "complete": "Lokið",
+            "current": "Núverandi",
+            "nextStep": "Næsta: {{stepName}}"
+        },
+        "progress": {
+            "progress": "Framganga",
+            "completed": "lokið",
+            "of": "af",
+            "step": "Skref {{current}}/{{total}}",
+            "completeness": "Fullnaðarstig"
+        },
+        "sidebar": {
+            "helpSupport": "Hjálp og Stuðningur",
+            "privacyPolicy": "Persónuverndarstefna",
+            "copyright": "© 2025 Bold Limited. Allur réttur áskilinn."
+        },
+        "preview": {
+            "livePreview": "Bein Forskoðun",
+            "autoUpdating": "Sjálfvirk Uppfærsla",
+            "clickToView": "Smelltu til að skoða í fullri stærð",
+            "changeTemplate": "Breyta Sniðmáti",
+            "viewFullSize": "Skoða Full Stærð",
+            "trustedBy": "Treyst af yfir 50K fagfólki",
+            "joinSuccess": "Vertu hluti af velgengnissögum",
+            "resumePdf": "CV.pdf"
+        },
+        "templates": {
+            "professionalClassic": "Fagleg Klassísk",
+            "modernCreative": "Nútíma Skapandi",
+            "creativeBold": "Skapandi Djörf",
+            "executivePro": "Faglegur Stjórnandi",
+            "techModern": "Tæknileg Nútíma",
+            "simpleElegant": "Einföld Glæsileg",
+            "designerSpecial": "Hönnuður Sérstök",
+            "cleanSimple": "Hrein Einföld",
+            "corporateElite": "Fyrirtækja Elíta",
+            "startupReady": "Tilbúin fyrir Startups",
+            "creativePro": "Skapandi Fagleg",
+            "minimalPro": "Lágmarks Fagleg",
+            "businessClassic": "Fyrirtækja Klassísk",
+            "modernEdge": "Nútíma Brún",
+            "artistPortfolio": "Listamanna Portfolio",
+            "techInnovation": "Tæknileg Nýsköpun",
+            "executiveSuite": "Stjórnenda Svíta",
+            "creativeShowcase": "Skapandi Sýning",
+            "cleanProfessional": "Hrein Fagleg",
+            "futureForward": "Framtíðar Nútíma",
+            "professional21": "Fagleg 21",
+            "professional22": "Fagleg 22",
+            "professional23": "Fagleg 23",
+            "professional24": "Fagleg 24",
+            "professional25": "Fagleg 25",
+            "professional26": "Fagleg 26",
+            "professional27": "Fagleg 27",
+            "professional28": "Fagleg 28",
+            "professional29": "Fagleg 29",
+            "professional30": "Fagleg 30",
+            "professional31": "Fagleg 31",
+            "professional32": "Fagleg 32",
+            "professional33": "Fagleg 33",
+            "professional34": "Fagleg 34",
+            "professional35": "Fagleg 35",
+            "professional36": "Fagleg 36",
+            "professional37": "Fagleg 37",
+            "professional38": "Fagleg 38",
+            "professional39": "Fagleg 39",
+            "professional40": "Fagleg 40",
+            "professional41": "Fagleg 41",
+            "professional42": "Fagleg 42",
+            "professional43": "Fagleg 43",
+            "professional44": "Fagleg 44",
+            "professional45": "Fagleg 45",
+            "professional46": "Fagleg 46",
+            "professional47": "Fagleg 47",
+            "professional48": "Fagleg 48",
+            "professional49": "Fagleg 49",
+            "professional50": "Fagleg 50"
+        },
+        "errors": {
+            "downloadFailed": "Niðurhal mistókst. Reyndu aftur.",
+            "templateError": "Villa í Sniðmáti",
+            "usingDefault": "Notar sjálfgefið sniðmát"
+        },
+        "analytics": {
+            "templateChanged": "Sniðmát breytt í: {{templateName}} ({{templateId}})"
+        }
+    },
+    "HeadingStep": {
+        "title": "Persónulegar og Samskipta Upplýsingar",
+        "subtitle": "Segðu okkur frá þér svo að vinnuveitendur geti auðveldlega haft samband við þig. Öll nauðsynleg svið verða að vera fyllt út til að halda áfram.",
+        "progress": {
+            "label": "Árangur: {{completed}}/{{total}} nauðsynleg svið",
+            "percentage": "{{percentage}}%"
+        },
+        "sections": {
+            "personalInfo": {
+                "title": "Persónulegar Upplýsingar",
+                "badge": "{{completed}}/3 Ljúkt"
+            },
+            "contactInfo": {
+                "title": "Samskipta Upplýsingar",
+                "badge": "{{completed}}/2 Ljúkt"
+            },
+            "locationInfo": {
+                "title": "Staðsetningar Upplýsingar",
+                "badge": "Valfrjálst",
+                "badgeWithCount": "{{completed}}/4 Valfrjálst"
+            }
+        },
+        "fields": {
+            "profilePhoto": {
+                "label": "Prófill Mynd",
+                "hint": "Mælt með: Kvadratísk mynd, max 5 MB"
+            },
+            "firstName": {
+                "label": "Fornafn",
+                "placeholder": "Sláðu inn fornafn þitt"
+            },
+            "lastName": {
+                "label": "Eftirnafn",
+                "placeholder": "Sláðu inn eftirnafn þitt"
+            },
+            "jobTitle": {
+                "label": "Starfsheiti / Starf",
+                "placeholder": "t.d. Hugbúnaðarverkfræðingur, Markaðsstjóri, Greinandi Gagna",
+                "hint": "Þetta mun birtast áberandi á ferilskránni þinni"
+            },
+            "email": {
+                "label": "Netfang",
+                "placeholder": "þitt.netfang@dæmi.is",
+                "hint": "Notaðu faglegt netfang"
+            },
+            "phone": {
+                "label": "Símanúmer",
+                "placeholder": "+354 123 4567",
+                "hint": "Innfeltu landnúmer ef við á"
+            },
+            "address": {
+                "label": "Heimilisfang",
+                "placeholder": "Gata (valfrjálst)",
+                "hint": "Fullt heimilisfang er valfrjálst, borg og land eru venjulega nægjanleg"
+            },
+            "city": {
+                "label": "Borg",
+                "placeholder": "Borg"
+            },
+            "postalCode": {
+                "label": "Póstnúmer",
+                "placeholder": "Póstnúmer"
+            },
+            "country": {
+                "label": "Land",
+                "placeholder": "Land"
+            }
+        },
+        "tips": {
+            "contactInfo": {
+                "title": "Ráðleggingar fyrir Samskipta Upplýsingar",
+                "description": "Notaðu faglegt netfang og vertu viss um að símanúmerið þitt sé uppfært. Þannig munu vinnuveitendur hafa samband við þig."
+            },
+            "locationInfo": {
+                "title": "Staðsetningar Upplýsingar",
+                "description": "Að bæta við staðsetningu hjálpar vinnuveitendum að skilja framboð þitt fyrir staðbundin störf og óskir þínar um fjarvinnu."
+            }
+        },
+        "completion": {
+            "title": "Deild Ljúkt!",
+            "description": "Frábært! Öll nauðsynleg gögn hafa verið gefin. Þú getur nú haldið áfram í næsta kafla eða haldið áfram að bæta við valfrjálsum upplýsingum."
+        },
+        "errors": {
+            "required": "{{field}} er nauðsynlegt",
+            "invalidEmail": "Vinsamlegast sláðu inn gilt netfang",
+            "invalidPhone": "Vinsamlegast sláðu inn gilt símanúmer"
+        }
+    },
+    "WorkHistoryStep": {
+        "title": "Segðu okkur frá starfsreynslu þinni",
+        "subtitle": "Byrjaðu með nýjustu stöðu þína og vinnið afturábak. Innifalið síðustu 10 ára viðeigandi reynslu þína.",
+        "requiredNote": "* Gefur til kynna nauðsynlegt reit",
+        "defaultValues": {
+            "untitledPosition": "Stöðu án Titils",
+            "noCompany": "Ekkert fyrirtæki tilgreint",
+            "present": "Nútíð"
+        },
+        "fields": {
+            "jobTitle": {
+                "label": "Starfsheiti",
+                "placeholder": "Hugbúnaðarverkfræðingur"
+            },
+            "company": {
+                "label": "Fyrirtæki",
+                "placeholder": "Google Inc."
+            },
+            "startDate": {
+                "label": "Upphafsdagur",
+                "placeholder": "Janúar 2020"
+            },
+            "endDate": {
+                "label": "Lokadagur",
+                "placeholder": "Desember 2023"
+            },
+            "currentWork": {
+                "label": "Ég vinn hér núna"
+            },
+            "description": {
+                "label": "Starfslýsing",
+                "placeholder": "Lýstu þínum helstu ábyrgðum og árangri í smáatriðum. Hver var áhrif þín? Hvaða hæfni notaðirðu?"
+            }
+        },
+        "actions": {
+            "addPosition": "Bæta við Annarri Stöðu",
+            "collapse": "Loka",
+            "expand": "Opna",
+            "remove": "Fjarlægja þessa stöðu"
+        },
+        "ai": {
+            "suggestions": "✨ AI Tillögur",
+            "tooltip": "Búa til AI tillögur",
+            "tooltipDisabled": "Fylltu fyrst út Starfsheiti og Fyrirtæki"
+        }
+    },
+    "EducationStep": {
+        "title": "Segðu okkur frá menntun þinni",
+        "subtitle": "Fylgdu menntunarferli þínu. Byrjaðu með nýjustu menntun þinni.",
+        "requiredNote": "* Gefur til kynna nauðsynlegt reit",
+        "defaultValues": {
+            "school": "Skóla Nafn",
+            "degree": "Enginn gráðu tilgreind",
+            "present": "Nútíð"
+        },
+        "fields": {
+            "school": {
+                "label": "Skóli",
+                "placeholder": "Háskólinn í Kaliforníu"
+            },
+            "degree": {
+                "label": "Gráða",
+                "placeholder": "Bakkalár í Vísindum"
+            },
+            "startDate": {
+                "label": "Upphafsdagur",
+                "placeholder": "September 2018"
+            },
+            "endDate": {
+                "label": "Lokadagur",
+                "placeholder": "Maí 2022"
+            },
+            "currentStudy": {
+                "label": "Ég stunda nám hér núna"
+            },
+            "description": {
+                "label": "Menntunarlýsing",
+                "placeholder": "Viðeigandi námskeið, árangur, viðurkenningar, meðaleinkunn, rannsóknarverkefni, lokaverkefni osfrv..."
+            }
+        },
+        "actions": {
+            "addEducation": "Bæta við Annarri Menntun",
+            "collapse": "Loka",
+            "expand": "Opna",
+            "remove": "Fjarlægja þessa menntun"
+        },
+        "ai": {
+            "suggestions": "✨ AI Tillögur",
+            "tooltip": "Búa til AI tillögur",
+            "tooltipDisabled": "Fylltu fyrst út Skóla og Gráðu"
+        }
+    },
+    "SkillsStep": {
+        "title": "Hvaða hæfni viltu leggja áherslu á?",
+        "subtitle": "Veldu hæfni sem er mest viðeigandi fyrir starfið sem þú sækir um. Innifalið bæði tæknilega og mjúka færni.",
+        "requiredNote": "* Bættu við að minnsta kosti 3 færni fyrir bestu niðurstöður",
+        "defaultValues": {
+            "skillName": "Hæfni Nafn",
+            "clickToAdd": "Smelltu til að bæta við hæfnisupplýsingum"
+        },
+        "fields": {
+            "skillName": {
+                "label": "Hæfni Nafn",
+                "placeholder": "t.d. JavaScript, Leiðtogahæfni, Verkefnastjórnun"
+            },
+            "proficiencyLevel": {
+                "label": "Hæfnisstig"
+            }
+        },
+        "skillLevels": {
+            "beginner": "Byrjandi",
+            "intermediate": "Miðstig",
+            "advanced": "Lengra kominn",
+            "expert": "Sérfræðingur"
+        },
+        "actions": {
+            "addSkill": "Bæta við Annarri Hæfni",
+            "collapse": "Loka",
+            "expand": "Opna",
+            "remove": "Fjarlægja þessa hæfni"
+        },
+        "ai": {
+            "suggestions": "✨ AI Tillögur",
+            "generating": "Býr til..."
+        },
+        "quickAdd": {
+            "title": "Hröð Bæting Hæfni",
+            "subtitle": "Smelltu til að bæta við vinsæla hæfni samstundis"
+        },
+        "popularSkills": ["JavaScript", "Python", "React", "Node.js", "SQL", "Git", "Samskipti", "Leiðtogahæfni", "Vandamála leysi", "Samvinna", "Verkefnastjórnun", "Gagna Greining"]
+    },
+    "SummaryStep": {
+        "title": "Skrifaðu faglegt yfirlit",
+        "subtitle": "Faglegt yfirlit þitt er stutt yfirlýsing sem dregur fram helstu hæfni þína og starfsmarkmið.",
+        "professionalSummary": {
+            "title": "Fagleg Yfirlit",
+            "description": "Sýna fram á bakgrunn þinn og starfsmarkmið"
+        },
+        "progress": {
+            "tooShort": "Of stutt - bættu við meiri upplýsingum",
+            "gettingThere": "Næstum því - bættu við meira efni",
+            "goodLength": "Góð lengd - íhugaðu að bæta við meira",
+            "greatLength": "Frábær lengd - vel útfært",
+            "excellent": "Framúrskarandi - ítarlegt yfirlit"
+        },
+        "characterCount": "{{current}}/{{max}} stafir",
+        "content": {
+            "label": "Yfirlits Efni",
+            "placeholder": "Skrifaðu sannfærandi yfirlit sem sýnir fram á faglegt bakgrunn þitt, helstu hæfni og starfsmarkmið. Leggðu áherslu á einstakt virðisframboð þitt og hvað gerir þig sérstakan..."
+        },
+        "ai": {
+            "generate": "✨ Búa til með AI",
+            "generating": "Býr til...",
+            "tooltip": "Búa til AI-bætt yfirlit"
+        },
+        "errors": {
+            "noOccupation": "Vinsamlegast fylltu út starf þitt í Persónulegar Upplýsingar kaflanum fyrst til að búa til AI yfirlit.",
+            "generationFailed": "Tókst ekki að búa til AI yfirlit. Reyndu aftur."
+        }
+    },
+    "EducationSuggestionModal": {
+        "title": "AI Menntunartillögur",
+        "subtitle": "Búðu til faglegar lýsingar byggðar á upplýsingum um menntun þína",
+        "educationDetails": {
+            "title": "Menntunar Upplýsingar",
+            "school": "Skóli:",
+            "degree": "Gráða:",
+            "duration": "Tímabil:",
+            "notSpecified": "Ekki tilgreint",
+            "present": "Núverandi"
+        },
+        "generateButton": {
+            "generate": "Búa til AI Lýsingar",
+            "generating": "Býr til AI Tillögur..."
+        },
+        "requirements": {
+            "fillFields": "Vinsamlegast fylltu út Skóla og Gráðu sviðin fyrst"
+        },
+        "suggestions": {
+            "title": "Tillögur Lýsingar:",
+            "suggestionLabel": "Tillaga {{number}}",
+            "useThis": "Nota Þetta"
+        },
+        "instructions": {
+            "title": "Smelltu á \"Búa til AI Lýsingar\" til að fá persónulegar tillögur fyrir menntunarferil þinn."
+        },
+        "actions": {
+            "close": "Loka"
+        },
+        "errors": {
+            "requiredFields": "Skóli og gráða eru nauðsynleg til að búa til tillögur",
+            "failed": "Tókst ekki að búa til tillögur. Reyndu aftur."
+        }
+    },
+    "InputField": {
+        "required": "Þetta reitur er nauðsynlegur",
+        "accessibility": {
+            "required": "Þetta reitur er nauðsynlegur"
+        }
+    },
+    "PhotoUpload": {
+        "actions": {
+            "addPhoto": "Bæta við Ljósmynd",
+            "dropPhotoHere": "Slepptu mynd hér",
+            "clickOrDrag": "Smelltu eða Dragðu",
+            "changePhoto": "Breyta Mynd",
+            "removePhoto": "Fjarlægja Mynd",
+            "processing": "Vinnur..."
+        },
+        "hints": {
+            "recommended": "Mælt með: Kvadratísk mynd, max 5 MB"
+        },
+        "errors": {
+            "sizeLimit": "Myndin fer yfir 5 MB mörkin",
+            "processingError": "Villa við myndvinnslu",
+            "readingError": "Villa við lestur skráar"
+        }
+    },
+    "ProgressCard": {
+        "accessibility": {
+            "progressBar": "Framganga: {{value}} af {{maxValue}}"
+        }
+    },
+    "SectionCard": {
+        "accessibility": {
+            "section": "Hluti: {{title}}"
+        }
+    },
+    "WorkHistorySuggestionModal": {
+        "title": "AI Starfsferils Tillögur",
+        "subtitle": "Búðu til faglegar lýsingar byggðar á upplýsingum um starf þitt",
+        "positionDetails": {
+            "title": "Starfs Upplýsingar",
+            "jobTitle": "Starfsheiti:",
+            "company": "Fyrirtæki:",
+            "duration": "Tímabil:",
+            "notSpecified": "Ekki tilgreint",
+            "present": "Nútíð"
+        },
+        "generateButton": {
+            "generate": "Búa til AI Lýsingar",
+            "generating": "Býr til AI Tillögur..."
+        },
+        "requirements": {
+            "fillFields": "Vinsamlegast fylltu út Starfsheiti og Fyrirtæki sviðin fyrst"
+        },
+        "suggestions": {
+            "title": "Tillögur Lýsingar:",
+            "suggestionLabel": "Tillaga {{number}}",
+            "useThis": "Nota Þetta"
+        },
+        "instructions": {
+            "title": "Smelltu á \"Búa til AI Lýsingar\" til að fá persónulegar tillögur fyrir starfsreynslu þína."
+        },
+        "actions": {
+            "close": "Loka"
+        },
+        "errors": {
+            "requiredFields": "Starfsheiti og Fyrirtæki eru nauðsynleg til að búa til tillögur",
+            "failed": "Tókst ekki að búa til tillögur. Reyndu aftur."
+        }
+    },
+    "PreviewModal": {
+        "title": "Ferilskrá Forskoðun",
+        "subtitle": "{{templateName}} - Fagleg útsýni á ferilskrá þína",
+        "actions": {
+            "downloadPdf": "Hlaða Niður PDF",
+            "generatingPdf": "Býr til PDF...",
+            "close": "Loka Forskoðun"
+        },
+        "keyboard": {
+            "escToClose": "til að loka"
+        },
+        "errors": {
+            "noTemplate": "Enginn sniðmátsþáttur veittur",
+            "templateError": "Villa í Sniðmáts Forskoðun",
+            "tryDifferent": "Reyndu annað sniðmát"
+        }
+    },
+    "TemplateSelectionModal": {
+        "header": {
+            "title": "Velja Sniðmát",
+            "subtitle": "Veldu faglegt sniðmát fyrir ferilskrá þína",
+            "closeLabel": "Loka Sniðmatsvali"
+        },
+        "search": {
+            "placeholder": "Leita að sniðmötum...",
+            "resultsFound": "{{count}} sniðmöt fundust",
+            "noResults": {
+                "title": "Engin sniðmöt fundust",
+                "message": "Reyndu að breyta leit- eða síureglum þínum",
+                "clearFilters": "Hreinsa Síur"
+            }
+        },
+        "categories": {
+            "all": "Allt",
+            "professional": "Fagleg",
+            "modern": "Nútíma",
+            "creative": "Skapandi",
+            "simple": "Einfalt"
+        },
+        "sorting": {
+            "popular": "Vinsælast",
+            "name": "Nafn A-Z"
+        },
+        "viewMode": {
+            "grid": "Rutustilling",
+            "list": "Listastilling"
+        },
+        "templateCard": {
+            "badges": {
+                "popular": "Vinsælt",
+                "current": "Núverandi"
+            },
+            "actions": {
+                "favorite": "Bæta við í uppáhald",
+                "unfavorite": "Fjarlægja úr uppáhald",
+                "preview": "Forskoða Sniðmát",
+                "select": "Velja Sniðmát",
+                "currentTemplate": "Núverandi Sniðmát"
+            },
+            "popularity": "{{percentage}}% vinsældir"
+        },
+        "templateNames": {
+            "professionalClassic": "Fagleg Klassísk",
+            "modernCreative": "Nútíma Skapandi",
+            "creativeBold": "Skapandi Djörf",
+            "executivePro": "Faglegur Stjórnandi",
+            "techModern": "Tæknileg Nútíma",
+            "simpleElegant": "Einföld Glæsileg",
+            "designerSpecial": "Hönnuður Sérstök",
+            "cleanSimple": "Hrein Einföld",
+            "corporateElite": "Fyrirtækja Elíta",
+            "startupReady": "Tilbúin fyrir Startups",
+            "creativePro": "Skapandi Fagleg",
+            "minimalPro": "Lágmarks Fagleg",
+            "businessClassic": "Fyrirtækja Klassísk",
+            "modernEdge": "Nútíma Brún",
+            "artistPortfolio": "Listamanna Portfolio",
+            "techInnovation": "Tæknileg Nýsköpun",
+            "executiveSuite": "Stjórnenda Svíta",
+            "creativeShowcase": "Skapandi Sýning",
+            "cleanProfessional": "Hrein Fagleg",
+            "futureForward": "Framtíðar Nútíma",
+            "professional21": "Fagleg 21",
+            "professional22": "Fagleg 22",
+            "professional23": "Fagleg 23",
+            "professional24": "Fagleg 24",
+            "professional25": "Fagleg 25",
+            "professional26": "Fagleg 26",
+            "professional27": "Fagleg 27",
+            "professional28": "Fagleg 28",
+            "professional29": "Fagleg 29",
+            "professional30": "Fagleg 30",
+            "professional31": "Fagleg 31",
+            "professional32": "Fagleg 32",
+            "professional33": "Fagleg 33",
+            "professional34": "Fagleg 34",
+            "professional35": "Fagleg 35",
+            "professional36": "Fagleg 36",
+            "professional37": "Fagleg 37",
+            "professional38": "Fagleg 38",
+            "professional39": "Fagleg 39",
+            "professional40": "Fagleg 40",
+            "professional41": "Fagleg 41",
+            "professional42": "Fagleg 42",
+            "professional43": "Fagleg 43",
+            "professional44": "Fagleg 44",
+            "professional45": "Fagleg 45",
+            "professional46": "Fagleg 46",
+            "professional47": "Fagleg 47",
+            "professional48": "Fagleg 48",
+            "professional49": "Fagleg 49",
+            "professional50": "Fagleg 50"
+        },
+        "templateDescriptions": {
+            "professionalClassic": "Hreint og hefðbundið útlit, fullkomið fyrir fyrirtækjaumhverfi",
+            "modernCreative": "Nútímalegt útlit með skapandi þáttum",
+            "creativeBold": "Listrænt sniðmát fyrir skapandi fagfólk",
+            "executivePro": "Vandað útlit fyrir æðstu stöður",
+            "techModern": "Nútímalegt sniðmát, fullkomið fyrir tæknigeirann",
+            "simpleElegant": "Lágmarks útlit með áherslu á skýrleika efnis",
+            "designerSpecial": "Einstakt útlit fyrir hönnunarfræðinga",
+            "cleanSimple": "Hreint og einfalt",
+            "corporateElite": "Vandað fyrirtækjasniðmát",
+            "startupReady": "Hæfilegt sniðmát fyrir sprotafyrirtæki",
+            "creativePro": "Faglegt skapandi sniðmát",
+            "minimalPro": "Hreint lágmarks faglegt útlit",
+            "businessClassic": "Hefðbundið viðskiptasniðmát",
+            "modernEdge": "Nútímalegt framúrstefnuhönnun",
+            "artistPortfolio": "Fullkomið fyrir skapandi einkasöfn",
+            "techInnovation": "Nýstárleg hönnun fyrir tæknifræðinga",
+            "executiveSuite": "Vandað framkvæmdastjórnasvið",
+            "creativeShowcase": "Sýning á skapandi verkum þínum",
+            "cleanProfessional": "Hreint faglegt útlit",
+            "futureForward": "Framtíðar nútímaleg hönnun",
+            "professional21": "Fagleg sniðmátshönnun",
+            "professional22": "Fagleg sniðmátshönnun",
+            "professional23": "Fagleg sniðmátshönnun",
+            "professional24": "Fagleg sniðmátshönnun",
+            "professional25": "Fagleg sniðmátshönnun",
+            "professional26": "Fagleg sniðmátshönnun",
+            "professional27": "Fagleg sniðmátshönnun",
+            "professional28": "Fagleg sniðmátshönnun",
+            "professional29": "Fagleg sniðmátshönnun",
+            "professional30": "Fagleg sniðmátshönnun",
+            "professional31": "Fagleg sniðmátshönnun",
+            "professional32": "Fagleg sniðmátshönnun",
+            "professional33": "Fagleg sniðmátshönnun",
+            "professional34": "Fagleg sniðmátshönnun",
+            "professional35": "Fagleg sniðmátshönnun",
+            "professional36": "Fagleg sniðmátshönnun",
+            "professional37": "Fagleg sniðmátshönnun",
+            "professional38": "Fagleg sniðmátshönnun",
+            "professional39": "Fagleg sniðmátshönnun",
+            "professional40": "Fagleg sniðmátshönnun",
+            "professional41": "Fagleg sniðmátshönnun",
+            "professional42": "Fagleg sniðmátshönnun",
+            "professional43": "Fagleg sniðmátshönnun",
+            "professional44": "Fagleg sniðmátshönnun",
+            "professional45": "Fagleg sniðmátshönnun",
+            "professional46": "Fagleg sniðmátshönnun",
+            "professional47": "Fagleg sniðmátshönnun",
+            "professional48": "Fagleg sniðmátshönnun",
+            "professional49": "Fagleg sniðmátshönnun",
+            "professional50": "Fagleg sniðmátshönnun"
+        },
+        "pagination": {
+            "previous": "Fyrri",
+            "next": "Næsta"
+        },
+        "preview": {
+            "title": "Sniðmát Forskoðun",
+            "popularity": "{{percentage}}% vinsældir",
+            "actions": {
+                "cancel": "Hætta við",
+                "useTemplate": "Nota Sniðmát"
+            }
+        },
+        "keyboard": {
+            "escToClose": "til að loka"
+        },
+        "selectedTemplate": "\"{{templateId}}\" valið"
+    },
+    "missing1": {
+        "quickBuilder": {
+            "title": "Fljótur",
+            "badge": "RÁÐLEGT"
+        },
+        "stepByStep": {
+            "title": "Leiddur",
+            "badge": "NÝTT"
+        },
+        "portfolioBuilder": {
+            "title": "Portfólíó",
+            "badge": "NÝTT"
+        }
+    },
+    "DashboardPortfolios": {
+        "title": "Mín Portfólíó",
+        "subtitle": "Skoðaðu og stjórnaðu safni þínu af portfólíum",
+        "createPortfolio": "Búa til Portfólíó",
+        "searchPlaceholder": "Leita að portfólíum...",
+        "themes": {
+            "allThemes": "Öll Sniðmöt",
+            "default": "Sjálfgefið",
+            "darkTheme": "Dökkt Sniðmát",
+            "minimal": "Lágmarks",
+            "creative": "Skapandi",
+            "professional": "Fagleg"
+        },
+        "status": {
+            "published": "Birta",
+            "draft": "Drög"
+        },
+        "actions": {
+            "view": "Skoða",
+            "edit": "Breyta",
+            "delete": "Eyða",
+            "viewPreview": "Skoða Forskoðun"
+        },
+        "stats": {
+            "views": "Skoðanir",
+            "updated": "Uppfært"
+        },
+        "table": {
+            "portfolio": "Portfólíó",
+            "theme": "Sniðmát",
+            "views": "Skoðanir",
+            "updated": "Uppfært",
+            "actions": "Aðgerðir"
+        },
+        "tooltips": {
+            "viewPortfolio": "Skoða Portfólíó",
+            "editPortfolio": "Breyta Portfólíó",
+            "deletePortfolio": "Eyða Portfólíó"
+        },
+        "search": {
+            "portfolioFound": "portfólíó fannst",
+            "portfoliosFound": "portfólíó fundust"
+        },
+        "emptyState": {
+            "title": "Engin portfólíó fundust",
+            "noSearchResults": "Reyndu að aðlaga leit- eða síuskilyrði þín.",
+            "noPortfolios": "Búðu til fyrsta portfólíó þitt til að byrja!",
+            "createFirstPortfolio": "Búa til Fyrsta Portfólíó Þitt"
+        },
+        "deleteConfirmation": "Ertu viss um að þú viljir eyða þessu portfólíói? Þessi aðgerð getur ekki verið afturkölluð.",
+        "messages": {
+            "loadError": "Tókst ekki að hlaða portfólíó",
+            "deleteSuccess": "Portfólíó eytt",
+            "deleteError": "Tókst ekki að eyða portfólíói"
+        }
+    },
+    "JobsUpdate": {
+        "JobsLandingHero": {
+          "typingEffect": {
+            "sentence1": "Finndu draumastarfið þitt í dag",
+            "sentence2": "Tengstu bestu vinnuveitendum",
+            "sentence3": "Fremja feril þinn",
+            "sentence4": "Uppgötvaðu fjarvinnu tækifæri",
+            "sentence5": "Vertu með í leiðandi fyrirtækjum"
+          },
+          "badge": "Starfsvefur",
+          "description": "Uppgötvaðu þúsundir atvinnutækifæra frá bestu fyrirtækjum. Hvort sem þú ert að leita að fjarvinnu, framgangi í starfi eða fyrsta starfi þínu, þá tengjum við hæfa sérfræðinga við hið fullkomna starf.",
+          "searchPlaceholder": "Starfsheiti, leitarorð eða fyrirtæki",
+          "locationPlaceholder": "Borg, ríki eða fjarvinna",
+          "searchButton": "Leita að störfum",
+          "browseJobs": "Skoða störf",
+          "hotBadge": "HEITT",
+          "postJob": "Setja inn starfsauglýsingu",
+          "employerBadge": "VINNUVEITANDI",
+          "careerResources": "Starfsráð",
+          "browse": "Skoða",
+          "browseDesc": "Kanna öll tækifæri",
+          "post": "Setja inn",
+          "postDesc": "Ráða hæfasta fólkið",
+          "resources": "Auðlindir",
+          "resourcesDesc": "Starfsráðgjöf og ráð",
+          "stats": {
+            "jobs": "10.000+ virk störf",
+            "rating": "4.8/5 Einkunn"
+          },
+          "features": {
+            "freeToApply": "Frítt að sækja um",
+            "verifiedEmployers": "Staðfestir vinnuveitendur"
+          }
+        },
+        "LandingJobTopCompanies": {
+          "badge": "Helstu vinnuveitendur",
+          "title": "Vertu með í leiðandi fyrirtækjum",
+          "description": "Uppgötvaðu tækifæri hjá fyrirtækjum í heimsklassa sem eru virk í ráðningum. Allt frá nýsköpunarfyrirtækjum til Fortune 500, finndu hið fullkomna starf fyrir þig.",
+          "featured": "Valin",
+          "viewAll": "Skoða öll fyrirtæki",
+          "stats": {
+            "companies": "Samstarfsfyrirtæki",
+            "jobs": "Virk störf",
+            "hires": "Árangursríkar ráðningar"
+          }
+        },
+        "LandingJobsProcess": {
+          "badge": "Hvernig það virkar",
+          "title": "Fáðu draumastarfið þitt í",
+          "titleHighlight": "4 einföldum skrefum",
+          "description": "Straumlínulagað ferli okkar gerir atvinnuleit áreynslulausa. Frá uppgötvun til ráðningar leiðbeinum við þér á hverju skrefi til að tryggja að þú finnir hið fullkomna tækifæri.",
+          "featuresTitle": "Hvers vegna að velja okkar vettvang?",
+          "featuresDescription": "Við bjóðum upp á framsækin verkfæri og eiginleika til að gera atvinnuleit þína skilvirkari og árangursríkari.",
+          "steps": {
+            "0": {
+              "title": "Leita og uppgötva",
+              "description": "Skoðaðu þúsundir atvinnutækifæra frá bestu fyrirtækjum. Notaðu háþróaða síur okkar til að finna hið fullkomna starf fyrir færni þína og óskir."
+            },
+            "1": {
+              "title": "Búa til prófíl",
+              "description": "Byggðu upp fagmannlegan prófíl þinn með ferilskrársmíðaranum okkar. Sýndu færni þína, reynslu og árangur til að skera þig úr."
+            },
+            "2": {
+              "title": "Sækja um samstundis",
+              "description": "Sæktu um mörg störf með einum smelli. Snjallt umsóknarkerfið okkar aðlagar prófílinn þinn sjálfkrafa að hverri stöðu."
+            },
+            "3": {
+              "title": "Fá ráðningu",
+              "description": "Tengstu ráðningarstjórum, skipuleggðu viðtöl og fáðu draumastarfið þitt. Við styðjum þig í gegnum allt ferlið."
+            }
+          },
+          "features": {
+            "0": {
+              "title": "AI-drifin samsvörun",
+              "description": "Greindur reiknirit okkar passar þig við viðeigandi tækifæri"
+            },
+            "1": {
+              "title": "Hagræðing ferilskrár",
+              "description": "Hagræddu ferilskrána þína sjálfkrafa fyrir hverja umsókn"
+            },
+            "2": {
+              "title": "Staðfest fyrirtæki",
+              "description": "Allir vinnuveitendur eru staðfestir fyrir áreiðanleika og gæði"
+            }
+          },
+          "cta": {
+            "title": "Tilbúin(n) að hefja ferð þína?",
+            "description": "Vertu með í þúsundum sérfræðinga sem hafa fundið draumastörf sín í gegnum vettvang okkar. Næsta tækifæri er aðeins einum smelli í burtu.",
+            "searchButton": "Byrja atvinnuleit",
+            "profileButton": "Búa til prófíl"
+          }
+        },
+        "LandingJobsFeatured": {
+          "badge": "Valin störf",
+          "title": "Uppgötvaðu þitt næsta",
+          "titleHighlight": "Draum tækifæri",
+          "description": "Kannaðu handvalin tækifæri frá bestu fyrirtækjum. Þessar valdar stöður bjóða upp á einstakan starfsþróun, samkeppnishæf laun og ótrúlegt vinnuumhverfi.",
+          "statsTitle": "Vertu með í þúsundum farsælla sérfræðinga",
+          "statsDescription": "Vettvangur okkar hefur hjálpað ótal sérfræðingum að finna draumastörf sín hjá fremstu fyrirtækjum um allan heim.",
+          "stats": {
+            "jobs": "Valin störf",
+            "success": "Árangurshlutfall",
+            "companies": "Helstu fyrirtæki"
+          },
+          "JobCard":{
+            "skills":{
+              "moreSkills":"+{0} fleiri"
+            },
+            "badges":{
+              "featured":"⭐ Valin",
+              "urgent":"🔥 Bráðnauðsynlegt",
+              "remote":"🌍 Fjarvinna"
+            },
+            "buttons":{
+              "applyNow":"Sækja um núna"
+            }
+          },
+          "viewAll": "Skoða öll störf"
+        },
+        "MainJobListings": {
+          "jobSingular": "starf",
+          "jobPlural": "störf",
+          "found": "fundust",
+          "page": "Síða",
+          "of": "af",
+          "sort": "Raða",
+          "sortNewest": "Nýjast",
+          "sortSalaryDesc": "Laun ↓",
+          "sortSalaryAsc": "Laun ↑",
+          "sortCompany": "Fyrirtæki",
+          "sortRelevance": "Viðeigandi",
+          "noJobsFound": "Engin störf fundust",
+          "tryAdjusting": "Reyndu að breyta leitarskilyrðum eða síum til að uppgötva fleiri tækifæri.",
+          "clearAllFilters": "Hreinsa allar síur",
+          "previous": "Fyrri",
+          "next": "Næsta"
+        },
+        "JobSearchBar": {
+          "heading": "Finndu þitt næsta tækifæri",
+          "subheading": "Uppgötvaðu störf frá bestu fyrirtækjum um allan heim",
+          "favorites": "Uppáhalds",
+          "postJob": "Setja inn starfsauglýsingu",
+          "filters": "Síur",
+          "searchPlaceholder": "Leita að störfum, fyrirtækjum, leitarorðum...",
+          "locationPlaceholder": "Staðsetning (borg, ríki, land)",
+          "searchButton": "Leita"
+        },
+        "JobFilters": {
+          "title": "Síur",
+          "clearAll": "Hreinsa allt",
+          "jobTypeTitle": "Tegund starfs",
+          "experienceLevelTitle": "Reynsla",
+          "workModeTitle": "Vinnuaðferð",
+          "salaryRangeTitle": "Launabil",
+          "jobType": {
+            "fullTime": "Fullt starf",
+            "partTime": "Hlutastarf",
+            "contract": "Samningsbundið",
+            "freelance": "Verktaki"
+          },
+          "experienceLevel": {
+            "entryLevel": "Byrjendastig",
+            "junior": "Junior",
+            "midLevel": "Miðstig",
+            "senior": "Sérfræðingur",
+            "seniorLevel": "Sérfræðingastig",
+            "executive": "Framkvæmdastjóri/Stjórnandi"
+          },
+          "salaryRange": {
+            "range1": "40 þús. $ - 60 þús. $",
+            "range2": "60 þús. $ - 80 þús. $",
+            "range3": "80 þús. $ - 120 þús. $",
+            "range4": "120 þús. $+ "
+          },
+          "workMode": {
+            "remote": "Fjarvinna",
+            "onSite": "Á staðnum",
+            "hybrid": "Tvískipt"
+          }
+        },
+        "JobDetailsModal": {
+          "tabs": {
+            "overview": "Yfirlit",
+            "company": "Fyrirtæki",
+            "details": "Upplýsingar"
+          },
+          "jobDescription": "Starfslýsing",
+          "responsibilities": "Ábyrgð",
+          "requirements": "Kröfur",
+          "benefits": "Fríðindi",
+          "companyInfo": "Fyrirtækisupplýsingar",
+          "location": "Staðsetning",
+          "postedOn": "Birt þann",
+          "deadline": "Frestur",
+          "apply": "Sækja um núna",
+          "share": "Deila",
+          "save": "Vista",
+          "saved": "Vistað",
+          "viewsPrefix": "👀",
+          "applicantsPrefix": "👥",
+          "viewsText": "skoðanir síðustu 24 klst.",
+          "applicantsText": "umsækjendur",
+          "noDescription": "Engin starfslýsing gefin upp.",
+          "noResponsibilities": "Engar sérstakar ábyrgðir taldar upp.",
+          "noRequirements": "Engar sérstakar kröfur taldar upp.",
+          "noBenefits": "Engar upplýsingar um fríðindi í boði.",
+          "urgencyPriority": "Forgangsatriði",
+          "fastTrack": "Hraðleið",
+          "qualifications": "Kröfur",
+          "qualifications.default": "Kröfur verða ræddar í viðtalsferlinu.",
+          "jobDetails": {
+            "title": "Upplýsingar um starf",
+            "jobType": "Tegund starfs",
+            "workMode": "Vinnuaðferð",
+            "experienceLevel": "Reynsla",
+            "location": "Staðsetning",
+            "salary": "Laun",
+            "salaryRange": "Launabil",
+            "competitive": "Samkeppnishæf",
+            "applicationDeadline": "Umsóknarfrestur",
+            "postedDate": "Birt dagsetning",
+            "notSpecified": "Ekki tilgreint"
+          },
+          "jobDescription.default": "Vertu með {{company}} sem {{title}}. Við erum að leita að hæfum fagmanni til að ganga í teymið okkar.",
+          "aboutCompany": {
+            "title": "Um fyrirtækið",
+            "defaultDescription": "Lærðu meira um {{company}} í viðtalsferlinu. Upplýsingar um fyrirtæki og menningu verða deilt með hæfum umsækjendum."
+          },
+          "actions": {
+            "applyNow": "Sækja um núna",
+            "save": "Vista",
+            "share": "Deila",
+            "contact": "Hafðu samband",
+            "expand": "Stækka",
+            "collapse": "Fella saman"
+          },
+          "stats": {
+            "viewsToday": "skoðanir í dag",
+            "applications": "umsóknir",
+            "deadline": "Frestur"
+          },
+          "defaultBenefits": {
+            "healthInsurance": {
+              "title": "Sjúkratrygging",
+              "description": "Upplýsingar um sjúkratryggingu verða ræddar"
+            },
+            "timeOff": {
+              "title": "Frí",
+              "description": "Frí og persónulegur tími"
+            },
+            "equipment": {
+              "title": "Búnaður",
+              "description": "Vinnubúnaður útvegaður"
+            },
+            "workMode": {
+              "title": "Vinnuaðferð",
+              "description": "Til að ræða"
+            }
+          },
+          "noCompanyInfo": "Engar upplýsingar um fyrirtæki í boði.",
+          "companyStats": {
+            "locationTBD": "Staðsetning ákveðin síðar"
+          },
+          "applicationProcess": {
+            "applicationReview": "Umsóknarferli",
+            "initialInterview": "Fyrsta viðtal",
+            "technicalAssessment": "Tæknimat",
+            "finalInterview": "Lokaúttekt",
+            "duration": {
+              "days2to3": "2-3 dagar",
+              "days3to5": "3-5 dagar",
+              "week1to2": "1-2 vikur",
+              "mins30to45": "30-45 mín",
+              "hours1to2": "1-2 klukkustundir",
+              "mins45to60": "45-60 mín"
+            },
+            "status": {
+              "pending": "í bið",
+              "completed": "lokið",
+              "current": "núverandi",
+              "upcoming": "væntanlegt"
+            }
+          }
+        },
+        "CreateJobModal": {
+          "title": "Búa til nýja starfsauglýsingu",
+          "requiredFields": "Allir reitir merktir með * eru skyldur",
+          "cancel": "Hætta við",
+          "submitting": "Sendi inn...",
+          "submitApplication": "Senda umsókn",
+          "creatingJob": "Bý til starf...",
+          "createJobPosting": "Búa til starfsauglýsingu",
+          "loadingCompanies": "Hleð fyrirtæki...",
+          "selectCompany": "Veldu fyrirtæki",
+          "noCompanies": "Þú hefur engin samþykkt fyrirtæki. Vinsamlegast búðu til eitt fyrst.",
+          "noCompaniesDescription": "Þú þarft að bæta við og fá samþykki fyrir að minnsta kosti einu fyrirtæki áður en þú getur sett inn störf. Notaðu hnappinn „Bæta við fyrirtæki“ á stjórnborðinu þínu.",
+          "sections": {
+            "jobInformation": "Starfsupplýsingar",
+            "location": "Staðsetning og tegund",
+            "compensation": "Laun og frestur",
+            "jobDescription": "Starfslýsing",
+            "requirements": "Kröfur og fríðindi"
+          },
+          "fields": {
+            "jobTitle": "Starfsheiti",
+            "company": "Fyrirtæki",
+            "jobType": "Tegund starfs",
+            "workMode": "Vinnuaðferð",
+            "location": "Staðsetning",
+            "country": "Land",
+            "experience": "Reynsla",
+            "minSalary": "Lágmarkslaun",
+            "maxSalary": "Hámarkslaun",
+            "deadline": "Umsóknarfrestur",
+            "jobDescription": "Starfslýsing",
+            "requirements": "Kröfur",
+            "benefits": "Fríðindi"
+          },
+          "placeholders": {
+            "jobTitle": "t.d. Senior vörustjóri",
+            "location": "Byrjaðu að slá inn borg, ríki, land...",
+            "jobDescription": "Lýstu hlutverkinu, ábyrgðinni og því sem gerir þessa stöðu spennandi...",
+            "requirement": "t.d. 2+ ára reynsla í hugbúnaðarþróun",
+            "benefit": "t.d. Sjúkratrygging, 401(k) samsvörun"
+          },
+          "actions": {
+            "addRequirement": "Bæta við kröfu",
+            "addBenefit": "Bæta við fríðindum"
+          },
+          "jobTypes": {
+            "fullTime": "Fullt starf",
+            "partTime": "Hlutastarf",
+            "contract": "Samningsbundið",
+            "freelance": "Verktaki",
+            "internship": "Starfsnám",
+            "temporary": "Tímabundið"
+          },
+          "workModes": {
+            "onSite": "Á staðnum",
+            "remote": "Fjarvinna",
+            "hybrid": "Tvískipt"
+          },
+          "experienceLevels": {
+            "entryLevel": "Byrjendastig",
+            "junior": "Junior",
+            "midLevel": "Miðstig",
+            "senior": "Sérfræðingur",
+            "executive": "Framkvæmdastjóri"
+          }
+        },
+        "FavoritesModal": {
+          "title": "Uppáhalds störf",
+          "job": "starf",
+          "jobs": "störf",
+          "saved": "vistuð",
+          "removeFromFavorites": "Fjarlægja úr eftirlæti",
+          "viewDetails": "Skoða upplýsingar",
+          "yourSavedJobs": "Vistað störf þín",
+          "browseJobs": "Skoða störf",
+          "cleanUpMissingJobs": "Hreinsa upp vantar störf",
+          "missingJobsWarning": {
+            "title": "{0} vistað starf er ekki lengur í boði",
+            "description": "Sum störf í eftirlætinu þínu gætu hafa verið fjarlægð eða eru ekki lengur virk."
+          },
+          "noSavedJobs": "Engin vistuð störf",
+          "noSavedJobsMessage": "Þú hefur ekki vistað nein störf ennþá. Smelltu á bókamerkisíkonuna á starfi til að vista það til síðari tíma."
+        },
+        "AppliedJobs": {
+          "title": "Umsóknir um störf",
+          "subtitle": "Fylgstu með atvinnuumsóknum þínum og núverandi stöðu þeirra",
+          "loading": "Hleð umsóknum þínum...",
+          "loginRequired": {
+            "title": "Vinsamlegast skráðu þig inn",
+            "message": "Þú þarft að vera innskráður til að skoða atvinnuumsóknir þínar."
+          },
+          "stats": {
+            "totalApplied": "Samtals umsóknir",
+            "pending": "Í bið",
+            "interviews": "Viðtöl",
+            "successRate": "Árangurshlutfall"
+          },
+          "search": {
+            "placeholder": "Leita að störfum, fyrirtækjum eða stöðum...",
+            "error": "Villa við hleðslu umsókna",
+            "selectThis": "Veldu þessa umsókn",
+            "createdAt": "Búið til {{date}}"
+          },
+          "filters": {
+            "allStatus": "Allar stöður",
+            "underReview": "Í endurskoðun",
+            "interview": "Viðtal",
+            "accepted": "Samþykkt",
+            "rejected": "Hafnað"
+          },
+          "sort": {
+            "byDate": "Raða eftir dagsetningu",
+            "byCompany": "Raða eftir fyrirtæki",
+            "byStatus": "Raða eftir stöðu"
+          },
+          "noApplications": {
+            "title": "Engar umsóknir fundust",
+            "filterMessage": "Reyndu að breyta leitarskilyrðum eða síum.",
+            "emptyMessage": "Þú hefur ekki sótt um nein störf ennþá. Byrjaðu að kanna tækifæri!"
+          },
+          "actions": {
+            "browseJobs": "Skoða störf",
+            "moreDetails": "Nánari upplýsingar",
+            "lessDetails": "Færri upplýsingar"
+          },
+          "jobInfo": {
+            "applied": "Sótt um",
+            "status": "Staða"
+          },
+          "jobDetails": {
+            "jobDescription": "Starfslýsing",
+            "requirements": "Kröfur",
+            "noRequirements": "Engar sérstakar kröfur taldar upp",
+            "applicationStatus": "Staða umsóknar",
+            "status": "Staða",
+            "appliedOn": "Sótt um þann",
+            "title": "Upplýsingar um starf",
+            "type": "Tegund",
+            "mode": "Aðferð",
+            "salary": "Laun"
+          }
+        },
+        "DashboardMessages": {
+          "search": {
+            "placeholder": "Leita"
+          },
+          "header": {
+            "title": "Skilaboð"
+          },
+          "noMessages": {
+            "title": "Engin skilaboð ennþá",
+            "message": "Vinnuveitendur munu hafa samband við þig hér ef þeir hafa áhuga á prófílnum þínum"
+          },
+          "status": {
+            "active": "Virkur núna"
+          },
+          "loading": {
+            "inProgress": "Hleðst...",
+            "loadMore": "Hlaða eldri skilaboðum",
+            "noMore": "Engin fleiri skilaboð",
+            "messages": "Hleð skilaboðum..."
+          },
+          "errors": {
+            "loadFailed": "Mistókst að hlaða skilaboðum",
+            "sendFailed": "Mistókst að senda skilaboð. Vinsamlegast reyndu aftur.",
+            "loadingError": "Villa við hleðslu skilaboða: {{message}}",
+            "permission": "Heimild neitað eða netvilla",
+            "connection": "Athugaðu öryggisreglur Firebase og nettenginguna þína."
+          },
+          "emptyState": {
+            "title": "Engin skilaboð í þessu samtali",
+            "description": "Þetta er upphafið að samtali þínu við {{name}}.",
+            "hint": "Skilaboð munu birtast hér"
+          },
+          "input": {
+            "placeholder": "Skrifaðu skilaboð...",
+            "sendButton": "Senda"
+          },
+          "welcome": {
+            "title": "Velkomin(n) í Skilaboð",
+            "description": "Veldu samtal úr hliðarstikunni til að byrja að spjalla við tengiliði þína.",
+            "hint": "Veldu samtal til að byrja að senda skilaboð"
+          },
+          "conversation": {
+            "noMessages": "Engin skilaboð ennþá"
+          },
+          "time": {
+            "now": "Núna",
+            "minutes": "fyrir {{count}} mín.",
+            "hours": "fyrir {{count}} klst."
+          },
+          "user": {
+            "unknown": "Óþekktur notandi"
+          }
+        },
+        "JobApplicationsModal": {
+          "header": {
+            "title": "Umsóknir fyrir",
+            "totalApplications": "heildarumsóknir"
+          },
+          "search": {
+            "placeholder": "Leita eftir nafni, tölvupósti eða færni..."
+          },
+          "filters": {
+            "allStatus": "Allar stöður",
+            "pending": "Í bið",
+            "interview": "Viðtal",
+            "accepted": "Samþykkt",
+            "rejected": "Hafnað"
+          },
+          "status": {
+            "pending": "Í bið",
+            "interview": "Viðtal",
+            "accepted": "Samþykkt",
+            "rejected": "Hafnað"
+          },
+          "emptyState": {
+            "title": "Engar umsóknir fundust",
+            "noApplications": "Enginn hefur sótt um þetta starf ennþá.",
+            "noResults": "Engar umsóknir passa við núverandi síur þínar."
+          },
+          "coverLetter": {
+            "none": "Ekkert kynningarbréf gefið upp"
+          },
+          "applicantInfo": {
+            "experience": "reynsla",
+            "resumeAttached": "Ferilskrá fylgir",
+            "more": "meira"
+          },
+          "buttons": {
+            "accept": "Samþykkja",
+            "reject": "Hafna",
+            "downloadResume": "Sækja ferilskrá",
+            "sendEmail": "Senda tölvupóst",
+            "showResume": "Sýna ferilskrá"
+          }
+        },
+        "EmployerDashboard": {
+          "loading": "Hleð starfsauglýsingum þínum...",
+          "header": {
+            "title": "Starfsauglýsingar",
+            "subtitle": "Hafðu umsjón með starfsauglýsingum þínum og skoðaðu umsóknir"
+          },
+          "buttons": {
+            "addCompany": "Bæta við fyrirtæki",
+            "company": "Fyrirtæki",
+            "postNewJob": "Bæta við nýju starfi",
+            "newJob": "Nýtt starf",
+            "postFirstJob": "Bæta við fyrsta starfi þínu",
+            "applications": "Umsóknir",
+            "editJob": "Breyta starfi",
+            "pause": "Gera hlé",
+            "activate": "Virkja",
+            "delete": "Eyða"
+          },
+          "stats": {
+            "totalJobs": "Samtals störf",
+            "active": "Virk",
+            "applications": "Umsóknir",
+            "views": "Skoðanir"
+          },
+          "search": {
+            "placeholder": "Leita að störfum eftir titli, staðsetningu...",
+            "error": "Villa",
+            "mustBeLoggedIn": "Þú verður að vera innskráður til að bæta við fyrirtæki",
+            "success": "Árangur",
+            "companyAdded": "Fyrirtæki hefur verið bætt við! Það verður endurskoðað af teyminu okkar.",
+            "failedToAdd": "Mistókst að bæta við fyrirtæki",
+            "unexpectedError": "Óvænt villa kom upp"
+          },
+          "filters": {
+            "allStatus": "Allar stöður",
+            "active": "Virk",
+            "pending": "Í bið um samþykki",
+            "paused": "Í pásu",
+            "closed": "Lokað",
+            "draft": "Drög"
+          },
+          "sort": {
+            "byDate": "Raða eftir dagsetningu",
+            "byApplications": "Umsóknir",
+            "byViews": "Skoðanir",
+            "byTitle": "Titill"
+          },
+          "emptyState": {
+            "title": "Engar starfsauglýsingar fundust",
+            "noJobs": "Þú hefur ekki sett inn nein störf ennþá. Búðu til fyrstu starfsauglýsinguna þína til að byrja!",
+            "noResults": "Engin störf passa við núverandi síur þínar. Reyndu að breyta leitarskilyrðum þínum.",
+            "addFirstCompany": "Bættu við fyrsta fyrirtækinu þínu"
+          },
+          "jobDetails": {
+            "description": "Starfslýsing",
+            "requirements": "Kröfur",
+            "moreRequirements": "+{{count}} fleiri"
+          },
+          "jobInfo": {
+            "applications": "umsóknir",
+            "views": "skoðanir",
+            "deadline": "Frestur:"
+          },
+          "AddCompanyModal": {
+            "header": {
+              "title": "Bæta við fyrirtæki",
+              "subtitle": "Bættu við upplýsingum um fyrirtæki þitt til endurskoðunar og samþykkis"
+            },
+            "info": {
+              "title": "Ferli fyrirtækis endurskoðunar",
+              "description": "Allar umsóknir fyrirtækja eru endurskoðaðar af teyminu okkar til að tryggja gæði og áreiðanleika. Þú færð tilkynningu um leið og fyrirtækið þitt er samþykkt og hægt er að nota það fyrir starfsauglýsingar."
+            },
+            "form": {
+              "companyName": "Nafn fyrirtækis *",
+              "website": "Vefsíða",
+              "companyLogo": "Merki fyrirtækis (valfrjálst)",
+              "industry": "Iðnaður *",
+              "companySize": "Fyrirtækjastærð *",
+              "location": "Staðsetning *",
+              "address": "Heimilisfang",
+              "phone": "Sími",
+              "email": "Tölvupóstur",
+              "description": "Lýsing fyrirtækis",
+              "companyNamePlaceholder": "Sláðu inn nafn fyrirtækis"
+            },
+            "validation": {
+              "nameRequired": "Nafn fyrirtækis er skylt",
+              "industryRequired": "Iðnaður er skylt",
+              "sizeRequired": "Fyrirtækjastærð er skylt",
+              "locationRequired": "Staðsetning er skylt",
+              "invalidWebsite": "Vinsamlegast sláðu inn gildan vefslóð",
+              "invalidImage": "Vinsamlegast sláðu inn gildan myndslóð",
+              "invalidEmail": "Vinsamlegast sláðu inn gildan tölvupóstfang"
+            },
+            "industries": {
+              "technology": "Tækni",
+              "healthcare": "Heilsugæsla",
+              "finance": "Fjármál",
+              "education": "Menntun",
+              "retail": "Smásala",
+              "manufacturing": "Framleiðsla",
+              "consulting": "Ráðgjöf",
+              "marketing": "Markaðssetning",
+              "realEstate": "Fasteignir",
+              "hospitality": "Gestrisni",
+              "transportation": "Samgöngur",
+              "energy": "Orka",
+              "media": "Miðlar",
+              "government": "Ríkisstjórn",
+              "nonprofit": "Sjálfseignarstofnun",
+              "other": "Annað"
+            },
+            "companySizes": {
+              "size1to10": "1-10 starfsmenn",
+              "size11to50": "11-50 starfsmenn",
+              "size51to200": "51-200 starfsmenn",
+              "size201to500": "201-500 starfsmenn",
+              "size501to1000": "501-1000 starfsmenn",
+              "size1000plus": "1000+ starfsmenn"
+            },
+            "placeholders": {
+              "selectIndustry": "Veldu iðnað",
+              "selectCompanySize": "Veldu fyrirtækjastærð"
+            },
+            "messages": {
+              "validationError": "Staðfestingarvilla",
+              "fixErrors": "Vinsamlegast lagaðu villurnar í eyðublaðinu",
+              "error": "Villa",
+              "mustBeLoggedIn": "Þú verður að vera innskráður til að bæta við fyrirtæki",
+              "success": "Árangur",
+              "companyAdded": "Fyrirtæki hefur verið bætt við! Það verður endurskoðað af teyminu okkar.",
+              "failedToAdd": "Mistókst að bæta við fyrirtæki",
+              "unexpectedError": "Óvænt villa kom upp"
+            },
+            "buttons": {
+              "cancel": "Hætta við",
+              "addCompany": "Bæta við fyrirtæki",
+              "addingCompany": "Bæti við fyrirtæki..."
+            }
+          },
+          "CompaniesManagement": {
+            "loading": {
+              "companies": "Hleð fyrirtækjum þínum..."
+            },
+            "header": {
+              "title": "Fyrirtæki mín",
+              "subtitle": "Hafðu umsjón með fyrirtækjum þínum og fylgstu með samþykkisstöðu þeirra"
+            },
+            "buttons": {
+              "addCompany": "Bæta við fyrirtæki",
+              "add": "Bæta við"
+            },
+            "infoBanner": {
+              "title": "Samþykktarferli fyrirtækja",
+              "message": "Öll fyrirtæki verða að vera samþykkt áður en þau geta verið notuð fyrir starfsauglýsingar. Aðeins samþykkt fyrirtæki munu birtast í starfsauglýsingareyðublaðinu þínu."
+            },
+            "stats": {
+              "totalCompanies": "Samtals fyrirtæki",
+              "approved": "Samþykkt",
+              "pending": "Í bið",
+              "rejected": "Hafnað"
+            },
+            "search": {
+              "placeholder": "Leita að fyrirtækjum eftir nafni, iðnaði, staðsetningu...",
+              "error": "Villa",
+              "loading": "Hleð umsóknum þínum...",
+              "loginRequired": {
+                "title": "Vinsamlegast skráðu þig inn",
+                "message": "Þú þarft að vera innskráður til að skoða umsóknir þínar um fyrirtæki."
+              },
+              "stats": {
+                "totalApplied": "Samtals umsóknir",
+                "pending": "Í bið",
+                "interviews": "Viðtöl",
+                "successRate": "Árangurshlutfall"
+              },
+              "search": {
+                "placeholder": "Leita að fyrirtækjum, stöðum eða tengiliðum..."
+              },
+              "filters": {
+                "allStatus": "Allar stöður",
+                "underReview": "Í endurskoðun",
+                "interview": "Viðtal",
+                "accepted": "Samþykkt",
+                "rejected": "Hafnað"
+              },
+              "sort": {
+                "byDate": "Raða eftir dagsetningu",
+                "byCompany": "Raða eftir fyrirtæki",
+                "byStatus": "Raða eftir stöðu"
+              },
+              "noApplications": {
+                "title": "Engar umsóknir fundust",
+                "filterMessage": "Reyndu að breyta leitarskilyrðum eða síum.",
+                "emptyMessage": "Þú hefur ekki sent inn umsóknir um fyrirtæki ennþá. Byrjaðu á því að bæta við fyrirtæki!"
+              },
+              "actions": {
+                "browseCompanies": "Skoða fyrirtæki",
+                "moreDetails": "Nánari upplýsingar",
+                "lessDetails": "Færri upplýsingar"
+              },
+              "companyInfo": {
+                "applied": "Sótt um",
+                "status": "Staða"
+              },
+              "companyDetails": {
+                "companyDescription": "Lýsing fyrirtækis",
+                "requirements": "Kröfur",
+                "noRequirements": "Engar sérstakar kröfur taldar upp",
+                "applicationStatus": "Staða umsóknar",
+                "status": "Staða",
+                "appliedOn": "Sótt um þann",
+                "title": "Upplýsingar um fyrirtæki",
+                "type": "Tegund",
+                "mode": "Aðferð",
+                "salary": "Laun"
+              }
+            },
+            "filters": {
+              "allStatus": "Allar stöður",
+              "pending": "Í bið",
+              "approved": "Samþykkt",
+              "rejected": "Hafnað"
+            },
+            "emptyState": {
+              "title": "Engin fyrirtæki fundust",
+              "noCompanies": "Þú hefur ekki bætt við neinum fyrirtækjum ennþá. Bættu við fyrsta fyrirtækinu þínu til að byrja!",
+              "noMatches": "Engin fyrirtæki passa við núverandi síur þínar. Reyndu að breyta leitarskilyrðum þínum.",
+              "addFirstCompany": "Bættu við fyrsta fyrirtækinu þínu"
+            },
+            "companyDetails": {
+              "description": "Lýsing fyrirtækis",
+              "visitWebsite": "Heimsækja vefsíðu"
+            },
+            "actions": {
+              "editCompany": "Breyta fyrirtæki",
+              "delete": "Eyða"
+            }
+          },
+          "JobCard": {
+            "badges": {
+              "featured": "⭐ Valin",
+              "urgent": "🔥 Bráðnauðsynlegt",
+              "remote": "🌍 Fjarvinna"
+            },
+            "jobDetails": {
+              "location": "Staðsetning",
+              "type": "Tegund starfs",
+              "salary": "Laun",
+              "postedTime": "Birtist"
+            },
+            "skills": {
+              "moreSkills": "+{0} fleiri"
+            },
+            "buttons": {
+              "applyNow": "Sækja um núna"
+            }
+          }
+        },
+        "JobCard2": {
+          "alerts": {
+            "signInRequired": "Vinsamlegast skráðu þig inn til að sækja um störf."
+          },
+          "applicationStatus": {
+            "loading": "Hleðst...",
+            "applyNow": "Sækja um núna",
+            "pending": "Umsókn í bið",
+            "interview": "Viðtal skipulagt",
+            "accepted": "Umsókn samþykkt",
+            "rejected": "Umsókn hafnað"
+          },
+          "jobInfo": {
+            "locationTBD": "Staðsetning ákveðin síðar",
+            "applicants": "{{applicants}} umsækjendur",
+            "requirements": "Kröfur",
+            "posted": "Birt {{postedDate}}"
+          },
+          "buttons": {
+            "viewDetails": "Skoða upplýsingar"
+          }
+        },
+        "JobApplicationModal": {
+          "title": "Sækja um {{jobTitle}}",
+          "subtitle": "Fylltu út eyðublaðið hér að neðan til að sækja um þessa stöðu",
+          "personalInfo": {
+            "heading": "Persónuupplýsingar",
+            "fullName": "Fullt nafn",
+            "email": "Netfang",
+            "phone": "Símanúmer",
+            "linkedin": "LinkedIn prófílslóð",
+            "github": "GitHub/Portfolio vefslóð",
+            "website": "Persónuleg vefsíða"
+          },
+          "resume": {
+            "heading": "Ferilskrá",
+            "selectResume": "Veldu ferilskrá",
+            "browseResumes": "Skoða ferilskrár",
+            "uploadNew": "Hlaða upp nýrri ferilskrá",
+            "preview": "Forskoða ferilskrá",
+            "noResumes": "Engar ferilskrár fundust",
+            "createResume": "Búðu til ferilskrá fyrst",
+            "loading": "Hleð ferilskrám...",
+            "error": "Villa við hleðslu ferilskráa",
+            "selectThis": "Veldu þessa ferilskrá",
+            "createdAt": "Búið til {{date}}"
+          },
+          "coverLetter": {
+            "heading": "Kynningarbréf",
+            "placeholder": "Skrifaðu stutt kynningarbréf sem útskýrir hvers vegna þú passar vel í þetta hlutverk...",
+            "loadTemplate": "Hlaða sniðmáti",
+            "templates": {
+              "standard": "Standard",
+              "professional": "Fagmannlegt",
+              "creative": "Skapandi",
+              "technical": "Tæknilegt",
+              "career": "Starfsskipti"
+            }
+          },
+          "buttons": {
+            "back": "Til baka",
+            "submit": "Senda umsókn",
+            "submitting": "Sendi inn...",
+            "cancel": "Hætta við",
+            "close": "Loka",
+            "viewMyApplications": "Skoða umsóknir mínar",
+            "browseMore": "Skoða fleiri störf"
+          },
+          "success": {
+            "title": "Umsókn send!",
+            "message": "Umsókn þín hefur verið send. Við höfum samband fljótlega."
+          },
+          "error": {
+            "title": "Umsókn mistókst",
+            "message": "Það kom upp vandamál við að senda umsókn þína. Vinsamlegast reyndu aftur.",
+            "requiredFields": "Vinsamlegast fylltu út alla nauðsynlega reiti"
+          },
+          "pagination": {
+            "prev": "Fyrri",
+            "next": "Næsta",
+            "page": "Síða {{current}} af {{total}}"
+          }
+        },
+        "ProfileDisplay2": {
+          "search": "Leita",
+          "navigation": "SIGLINGAR",
+          "menu": {
+            "dashboard": "Mælaborð",
+            "interviews": "Viðtöl",
+            "portfolios": "Eignasöfn",
+            "settings": "Stillingar",
+            "appliedJobs": "Umsóknir um störf",
+            "messages": "Skilaboð",
+            "myJobs": "Störfin mín",
+            "myCompanies": "Fyrirtækin mín"
+          }
+        },
+        "DashboardHomepageFix1":{
+          "subtitle":"Hafðu umsjón með ferilskrám og kynningarbréfum"
+        }
+      }
+}

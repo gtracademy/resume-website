@@ -1,0 +1,2482 @@
+{
+    "intro": {
+        "titleLeft": "CV-ul tău în trei",
+        "titleSpan": "pași",
+        "titleRight": "simpli",
+        "step1": "Selectează un șablon din colecția noastră.",
+        "step2": "Construiește-ți CV-ul folosind constructorul nostru de CV-uri ușor de utilizat.",
+        "step3": "Descarcă-ți CV-ul.",
+        "login": "Autentificare",
+        "selectTemplate": "Selectează Șablon",
+        "rightReserved": "Toate drepturile rezervate"
+    },
+    "selectionAction": {
+        "titleLeft": "Selectează un",
+        "titleSpan": "șablon",
+        "titleRight": "din listă.",
+        "templates": "Șabloane",
+        "account": "Contul Meu",
+        "admin": "Admin"
+    },
+    "form": {
+        "untitled": "Fără titlu",
+        "profileCompleteness": "Completitudine profil",
+        "personalDetails": "Detalii Personale",
+        "firstName": "Prenume",
+        "lastName": "Nume de familie",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "photo": "Fotografie",
+        "occupation": "Ocupație",
+        "country": "Țara",
+        "nationality": "Naționalitate",
+        "city": "Oraș",
+        "address": "Adresă",
+        "postalcode": "Cod poștal",
+        "dateOfBirth": "Data nașterii",
+        "drivingLicense": "Permis de conducere",
+        "profesionalSummary": "Sumar Profesional",
+        "profesionalSummarySubtitle": "Sumar rapid despre experiența ta generală.",
+        "employmentHistory": "Istoric Profesional",
+        "employmentHistorySubtitle": "Includeți ultimii 10 ani de experiență relevantă și datele în această secțiune. Enumerați cea mai recentă poziție prima.",
+        "jobTitle": "Titlu Post",
+        "employer": "Angajator",
+        "begin": "Început",
+        "end": "Sfârșit",
+        "description": "Descriere",
+        "education": "Educație",
+        "educationSubtitle": "Includeți ultimii 10 ani de istoric educațional și datele în această secțiune. Enumerați cea mai recentă poziție prima.",
+        "school": "Școală",
+        "degree": "Diplomă",
+        "courseDescription": "Descriere Curs",
+        "languages": "Limbi străine",
+        "laguagesSubtitle": "Vă rugăm să introduceți limbile cu care puteți lucra.",
+        "language": "Limbă",
+        "level": "Nivel",
+        "skills": "Abilități",
+        "skillsSubtitle": "Vă rugăm să introduceți abilitățile dumneavoastră și să acordați fiecăreia o evaluare.",
+        "skillName": "Nume Abilitate",
+        "rating": "Evaluare",
+        "addSkill": "Adaugă Abilitate",
+        "addLanguage": "Adaugă Limbă",
+        "addJob": "Adaugă Post",
+        "addEducation": "Adaugă Educație",
+        "showDetails": "Arată detalii suplimentare",
+        "hideDetails": "Ascunde detalii suplimentare",
+        "previous": "Anterior",
+        "next": "Următorul",
+        "selectTemplate": "Selectează Șablon",
+        "save": "Salvează",
+        "download": "Descarcă"
+    },
+    "login": {
+        "login": "Autentificare",
+        "email": "E-mail",
+        "googleLogin": "Autentificare cu ",
+        "facebookLogin": "Autentificare cu",
+        "or": "Sau",
+        "password": "Parolă",
+        "passwordRepeat": "Repetă Parola",
+        "dontHaveAcc": "Nu ai un cont? ",
+        "signup": "Înregistrare",
+        "passwordLost": "Ai pierdut parola? ",
+        "recoverPassword": "Recuperează parola",
+        "register": "Înregistrare",
+        "alreadyHaveAccount": "Ai deja un cont?",
+        "passwordRecovery": "Recuperare Parolă",
+        "recoverMyPassword": "Recuperați-mi Parola"
+    },
+    "dashboard": {
+        "homepage": "Pagina principală",
+        "dashboard": "Tablou de bord",
+        "coverLetter": "Scrisoare de intenție",
+        "dashBoard": "Tablou de bord",
+        "goToResume": "Mergi la CV",
+        "remove": "Elimină",
+        "addNew": "Adaugă Nou",
+        "addResume": "Adaugă CV",
+        "accountSettings": "Setări cont",
+        "logout": "Deconectare",
+        "settings": "Setări",
+        "personalInfo": "INFORMAȚII PERSONALE",
+        "firstname": "Prenume",
+        "lastname": "Nume de familie",
+        "changePassword": "SCHIMBĂ PAROLA",
+        "newPassword": "Parolă nouă",
+        "save": "Salvează",
+        "commingSoon": "În curând",
+        "adsManager": "Manager anunțuri",
+        "currentAds": "Anunțuri Curente",
+        "name": "Nume",
+        "date": "Data",
+        "bannerLink": "Link Banner",
+        "bannerName": "Nume Banner",
+        "destinationLink": "Link Destinație",
+        "add": "Adaugă",
+        "noAdsFound": "Niciun anunț găsit!",
+        "pages": "Pagini",
+        "currentPages": "Pagini Curente",
+        "addPages": "Adaugă Pagini",
+        "pageName": "Nume Pagină",
+        "addPage": "Adaugă Pagină"
+    },
+    "resume": {
+        "personalSummary": "Sumar Personal",
+        "employmentHistory": "Istoric Profesional",
+        "educationHistory": "Istoric Educațional",
+        "info": "Info",
+        "address": "Adresă",
+        "phone": "Telefon",
+        "email": "E-mail",
+        "languages": "Limbi Străine",
+        "skills": "Abilități"
+    },
+    "Language": {
+        "elemntary": "Elementar",
+        "Intermediate": "Intermediar",
+        "Advanced": "Avansat",
+        "Proficient": "Competent"
+    },
+    "dashNew": {
+        "noDocumentFound": "Niciun document găsit!",
+        "noDocumentFoundSub": "Poți începe prin a crea un nou CV sau scrisoare de intenție",
+        "personalDetails": "Detalii Personale",
+        "name": "Nume",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "address": "Adresă",
+        "city": "Oraș",
+        "country": "Țara",
+        "postalcode": "Cod Poștal",
+        "skills": "Abilități",
+        "searchDocuments": "Căutare Documente",
+        "resume": "CV",
+        "coverLetter": "Scrisoare de intenție",
+        "clearAll": "Șterge Tot",
+        "filter": "Filtrează",
+        "noSkillsAdded": "Nici o abilitate adăugată",
+        "shareDocument": "Distribuie acest document",
+        "link": "Link",
+        "linkDesc": "Poți folosi acest link distribuibil pentru a permite oricui să vizualizeze acest document",
+        "copy": "Copiază",
+        "copied": "Copiat",
+        "quickAccess": "Acces Rapid",
+        "quickAccessDesc": "În această secțiune vei găsi toate acțiunile pe care le poți efectua asupra documentelor tale și a contului tău.",
+        "createDocument": "Creează Document",
+        "favourites": "Favorite",
+        "settings": "Setări",
+        "statistics": "Statistici",
+        "statisticsDesc": "Aici poți vedea statisticile tale, câte documente ai generat, câte descărcări ai",
+        "documentsGenerated": "Documente generate",
+        "downloads": "Descărcări",
+        "favouitesDesc": "aceasta este o listă a documentelor tale favorite, le poți elimina de aici.",
+        "noFavouritesFound": "Nu ai încă favorite!",
+        "fullName": "Nume complet",
+        "type": "Tip",
+        "summary": "Sumar",
+        "close": "Închide",
+        "profil": "Profil",
+        "account": "Cont",
+        "upload": "Încărcați",
+        "remove": "Elimină",
+        "fullNameDesc": "Îl folosim la construirea CV-ului",
+        "emailDesc": "Pentru a vă autentifica în aplicație",
+        "description": "Descriere",
+        "descriptionDesc": "Tipul contului tău",
+        "changePassword": "Schimbă parola",
+        "newPassword": "Parolă nouă",
+        "sbsend": "Abonamentul expiră",
+        "sbsendDesc": "Data la care expiră abonamentul tău",
+        "profileUpdated": "Profil actualizat",
+        "profileUpdatedDesc": "Profil actualizat cu succes",
+        "passChanged": "Parola schimbată",
+        "passChangedDesc": "Parola a fost schimbată cu succes",
+        "passError": "Parola prea scurtă",
+        "passErrorDesc": "Parola trebuie să aibă cel puțin 6 caractere",
+        "profile": "Profil"
+    },
+    "static": {
+        "plansHeader": "Prețuri simple, transparente",
+        "plansDesc": "Pentru a descărca CV-ul tău, pur și simplu înregistrează-te pentru o Membresie Premium. Alege planul care este cel mai bun pentru tine.",
+        "month": "Lună",
+        "premiumMonth": "Premium lunar",
+        "premiumYear": "Premium 6 luni",
+        "premiumHalfYear": "Premium anual",
+        "unlimitedPDF": "Descărcări PDF nelimitate",
+        "unlimitedResumes": "CV-uri nelimitate",
+        "nonRecuring": "Plată nerecurentă.",
+        "upgradeAndDownload": "Actualizează și descarcă",
+        "payment1": "Obține jobul visurilor tale",
+        "payment2": "Plată prin intermediul unui serviciu de plată de încredere",
+        "payment3": "SSL securizat / Checkout securizat SSL de 256 de biți",
+        "payment4": "Garanție de returnare a banilor în 7 zile",
+        "payment5": "Cum pot anula?",
+        "payment6": "Îți poți anula cu ușurință abonamentul contactând simplu echipa noastră de suport prin e-mail sau telefon, sau folosind pagina noastră de contact.",
+        "payment7": "Metode de plată acceptate",
+        "payment8": "Total datorat astăzi:",
+        "payment9": "Unde sunteți localizat?",
+        "payment10": "Vă rugăm să introduceți țara și codul poștal de mai jos. Colectăm aceste informații pentru a lupta împotriva fraudei și a garanta securitatea plății dumneavoastră.",
+        "payment11": "Țara",
+        "payment12": "Cod poștal",
+        "payment13": "Plătește cu cardul",
+        "payment14": "înapoi",
+        "payment15": "Numele titularului cardului",
+        "payment16": "Adresă",
+        "nav1": "Mergi la aplicație",
+        "nav2": "Contactează-ne",
+        "footer1": "Social media",
+        "footer2": "Contactează-ne",
+        "footer3": "Politica de confidențialitate",
+        "footer4": "Urmărește-ne pe rețelele de socializare pentru a primi resurse exclusive direct în feed-ul tău",
+        "footer5": "Despre",
+        "footer6": "Copyright © 2021-2022 Toate drepturile rezervate.",
+        "footer7": "Conținut",
+        "footer8": "Acasă"
+    },
+    "navbar": {
+        "home": "Acasă",
+        "featuresNav": "Funcționalități",
+        "resumeBuilderFeatures": "Funcționalități ale constructorului de CV-uri",
+        "featureTagline": "Tot ce îți trebuie pentru un CV perfect",
+        "userCount": "Peste 50.000 de utilizatori",
+        "exploreFeatures": "Explorează Toate Funcționalitățile",
+        "freeToTry": "Gratis pentru a încerca",
+        "startBuilding": "Începe construcția",
+        "pricing": "Prețuri",
+        "contact": "Contact",
+        "signOut": "Deconectare",
+        "dashboard": "Tablou de bord",
+        "signIn": "Autentificare",
+        "getStarted": "Începeți",
+        "viewAllFeatures": "Vizualizați toate funcționalitățile",
+        "popular": "Popular",
+        "features": {
+            "atsOptimization": {
+                "title": "Optimizare ATS",
+                "description": "Învinge sistemele automate de screening",
+                "badge": "Inteligent"
+            },
+            "aiBuilder": {
+                "title": "Constructor de conținut AI",
+                "description": "Redactare CV asistată de AI",
+                "badge": "AI"
+            },
+            "templates": {
+                "title": "Șabloane profesionale",
+                "description": "Design-uri moderne, specifice industriei"
+            },
+            "export": {
+                "title": "Export în mai multe formate",
+                "description": "PDF, DOCX și alte formate"
+            },
+            "security": {
+                "title": "Confidențialitate și securitate",
+                "description": "Protecția datelor la nivel bancar",
+                "badge": "Securizat"
+            },
+            "analytics": {
+                "title": "Analiza carierei",
+                "description": "Urmărește succesul aplicațiilor tale",
+                "badge": "Pro"
+            }
+        },
+        "resources": {
+            "learn": "Învățați",
+            "documentation": {
+                "title": "Documentație",
+                "description": "Ghiduri complete și referințe API"
+            },
+            "videoTutorials": {
+                "title": "Tutoriale Video",
+                "description": "Învață cu videoclipuri pas cu pas"
+            },
+            "designCourse": {
+                "title": "Curs de Design",
+                "description": "Stăpânește bazele designului de logo",
+                "badge": "Gratuit"
+            },
+            "community": "Comunitate",
+            "communityForum": {
+                "title": "Forumul comunității",
+                "description": "Conectează-te cu alți designeri"
+            },
+            "blog": {
+                "title": "Blog",
+                "description": "Cele mai recente tendințe și sfaturi în design"
+            },
+            "support": "Suport",
+            "helpCenter": {
+                "title": "Centru de Ajutor",
+                "description": "Găsiți răspunsuri la întrebări frecvente"
+            },
+            "faq": {
+                "title": "FAQ",
+                "description": "Întrebări frecvente"
+            },
+            "contactUs": {
+                "title": "Contactează-ne",
+                "description": "Intră în legătură cu echipa noastră"
+            }
+        }
+    },
+    "homepageText": {
+        "text1": "Distinge-te de mulțime cu constructorul nostru de CV-uri online",
+        "text2": "Constructorul nostru de CV-uri este instrumentul perfect pentru a te ajuta să creezi un CV profesional și bine pus la punct în doar câteva minute. Cu designul nostru intuitiv și procesul simplu pas cu pas, poți construi cu ușurință un CV care se distinge de concurență. Fie că ești un proaspăt absolvent sau un profesionist cu experiență, aplicația noastră web are tot ce îți trebuie pentru a-ți duce cariera la nivelul următor",
+        "text3": "CV",
+        "text4": "Scrisoare de intenție",
+        "text5": "Recenzii",
+        "text6": "Selectează ce vrei să creezi.",
+        "text7": "Recenzii",
+        "text8": "Împuternicește-ți CV-ul cu funcționalitățile noastre avansate",
+        "text9": "Constructorul nostru de CV-uri oferă o varietate de funcționalități pentru a ajuta utilizatorii să creeze un CV profesional și eficient. Acestea includ sugestii de fraze pre-scrise, link distribuibil, export PDF, șabloane personalizabile, salvare automată, verificare ortografică, urmărire modificări, colaborare și resurse de branding personal. Toate aceste funcționalități fac crearea unui CV profesional ușoară și eficientă."
+    },
+    "HomepageHero": {
+        "typingEffect": {
+            "sentence1": "Construiește CV-uri profesionale cu AI",
+            "sentence2": "Alege din peste 50 de șabloane de experți",
+            "sentence3": "Obține asistență inteligentă pentru scriere",
+            "sentence4": "Prevalorează modificările în timp real",
+            "sentence5": "Reușește la interviuri cu instrumente de pregătire AI"
+        },
+        "badge": "Constructor de CV-uri asistat de AI",
+        "description": "Creează CV-uri și scrisori de intenție uimitoare, compatibile cu ATS, cu asistență AI. Alege din șabloane profesionale, obține feedback în timp real și obține mai repede jobul visurilor tale.",
+        "createResume": "Creează CV",
+        "createCoverLetter": "Creează Scrisoare de Intenție",
+        "stats": {
+            "users": "+5.000 utilizatori mulțumiți",
+            "rating": "4.9/5"
+        },
+        "features": {
+            "freeToStart": "Gratuit pentru a începe",
+            "noCreditCard": "Fără card de credit"
+        }
+    },
+    "HomepageTrustedBy": {
+        "badge": "COMPATIBIL CU PLATFORME DE TOP",
+        "title": "Funcționează Fără Problemată Cu Instrumente De Industrie",
+        "description": "Constructorul nostru de CV-uri asistat de AI se integrează cu platforme și instrumente populare utilizate de profesioniști din întreaga lume.",
+        "trustIndicators": {
+            "platforms": "Compatibil cu peste 30 de platforme majore",
+            "countries": "Utilizat în peste 120 de țări",
+            "technology": "Tehnologie de vârf în industrie"
+        }
+    },
+    "HomepageSteps": {
+        "badge": "REZULTATE DOVEDITE • DE ÎNCREDERE PENTRU PESTE 50.000 DE PROFESIONIȘTI",
+        "title": {
+            "part1": "Transformă-ți",
+            "part2": "Călătoria",
+            "part3": "Carierei"
+        },
+        "description": "Alătură-te miilor de profesioniști care și-au accelerat cariera cu constructorul nostru de CV-uri asistat de AI. Fii remarcat, obține interviuri și asigură-ți jobul visurilor mai repede ca niciodată.",
+        "benefits": [
+            {
+                "title": "Obține Mai Multe Interviuri De Angajare",
+                "description": "Șabloanele noastre optimizate pentru ATS și sugestiile de conținut asistate de AI ajută CV-ul tău să treacă de sistemele automate de screening și să ajungă în mâinile managerilor de angajare.",
+                "detail": "Alătură-te miilor de profesioniști care și-au crescut rata de interviuri de 3 ori folosind sistemul nostru dovedit."
+            },
+            {
+                "title": "Distinge-te De Concurență",
+                "description": "Cu design-uri profesionale și recomandări de conținut convingătoare, prezintă-ți propunerea de valoare unică și fii remarcat mai repede de către recrutori.",
+                "detail": "Formatarea noastră inteligentă și optimizarea cuvintelor cheie asigură că CV-ul tău captează atenția în câteva secunde."
+            },
+            {
+                "title": "Construiește Încredere În Căutarea Ta De Loc De Muncă",
+                "description": "Prezintă-ți cea mai bună versiune profesională cu un CV șlefuit, fără erori, care reflectă adevăratul tău potențial și realizările profesionale.",
+                "detail": "Simte-te încrezător știind că materialele tale de aplicație sunt create profesional și sunt conforme cu standardele industriei."
+            }
+        ],
+        "stats": [
+            { "number": "50K+", "label": "Utilizatori Mulțumiți" },
+            { "number": "98.7%", "label": "Rata de succes" },
+            { "number": "50+", "label": "Șabloane" },
+            { "number": "24 ore", "label": "Timp mediu" }
+        ],
+        "badges": {
+            "aiPowered": {
+                "title": "Asistat de AI",
+                "subtitle": "Constructor de CV-uri Inteligent"
+            },
+            "atsOptimized": {
+                "title": "✓",
+                "subtitle": "Optimizat pentru ATS"
+            }
+        },
+        "cta": {
+            "title": "Ești Gata să Obții Jobul Visurilor Tale?",
+            "description": "Alătură-te celor peste 50.000 de profesioniști care și-au transformat cariera. Începe astăzi să construiești CV-ul tău câștigător.",
+            "button": "Începe Povestea Ta de Succes",
+            "noCredit": "✨ Nu necesită card de credit • Șabloane gratuite incluse"
+        }
+    },
+    "HomepageReviews": {
+        "badge": "RECENZII CLIENTI",
+        "title": {
+            "part1": "Ce Spun",
+            "part2": "Utilizatorii",
+            "part3": " Noștri"
+        },
+        "description": "Alătură-te miilor de persoane în căutare de locuri de muncă mulțumite care și-au obținut locurile de muncă de vis cu constructorul nostru de CV-uri asistat de AI.",
+        "navigation": {
+            "previous": "Anterior",
+            "next": "Următorul",
+            "slideLabel": "Mergi la slide-ul {{number}}",
+            "pauseAutoplay": "Pune pe pauză redarea automată",
+            "startAutoplay": "Start redare automată"
+        },
+        "review": {
+            "category": "Tehnologie",
+            "verifiedBadge": "Utilizator Verificat",
+            "avatarAlt": "Imagine de profil a utilizatorului {{name}}",
+            "dateFormat": "LL/ZZ/AAAA"
+        }
+    },
+    "HomepagePricing": {
+        "badge": "PLANURI TARIFICE",
+        "header": "Alege Planul Perfect pentru Nevoile Tale",
+        "description": "Obține acces nelimitat la șabloane profesionale și funcționalități avansate cu opțiunile noastre de preț flexibile.",
+        "plans": {
+            "monthly": {
+                "title": "Premium Lunar",
+                "description": "Plătește {{currency}}{{price}} pentru 1 lună",
+                "perMonth": "lună"
+            },
+            "halfYear": {
+                "title": "Premium Semestrial",
+                "description": "Plătește {{currency}}{{price}} pentru 6 luni",
+                "perMonth": "lună",
+                "mostPopular": "🔥 Cel Mai Popular"
+            },
+            "yearly": {
+                "title": "Premium Anual",
+                "description": "{{currency}}{{price}} pentru 1 An",
+                "perMonth": "lună"
+            }
+        },
+        "features": {
+            "unlimitedPDF": "Descărcări PDF nelimitate",
+            "unlimitedResumes": "CV-uri nelimitate",
+            "nonRecurring": "Plată nerecurentă"
+        },
+        "upgradeButton": "Actualizează și Descarcă Acum",
+        "upgradeButtonStar": "Actualizează și Descarcă Acum ⭐"
+    },
+    "Homepagefaqs": {
+        "badge": "BAZĂ DE CUNOȘTINȚE",
+        "header": "Găsește-ți Răspunsul Instantaneu",
+        "subtitle": "Tot ce trebuie să știi despre crearea de CV-uri profesionale cu AI",
+        "quickStats": {
+            "resumesCreated": "CV-uri Create",
+            "avgBuildTime": "Timp Mediu Construcție CV",
+            "satisfaction": "Satisfacția Clienților",
+            "support": "Suport Disponibil"
+        },
+        "search": {
+            "placeholder": "Caută răspunsuri...",
+            "categories": "Categorii"
+        },
+        "categoryNames": {
+            "allQuestions": "Toate întrebările",
+            "gettingStarted": "Noțiuni de bază",
+            "features": "Funcționalități",
+            "billing": "Facturare",
+            "technical": "Tehnic"
+        },
+        "popularBadge": "Popular",
+        "helpfulQuestion": "A fost util?",
+        "noResults": {
+            "title": "Niciun rezultat găsit",
+            "message": "Încercați să ajustați termenii de căutare sau filtrul categoriei"
+        },
+        "contactSupport": {
+            "title": "Mai ai nevoie de ajutor?",
+            "description": "Echipa noastră de suport este aici 24/7 pentru a te ajuta să ai succes",
+            "contactButton": "Contactați Suportul",
+            "docsButton": "Răsfoiește documente"
+        },
+        "cta": {
+            "badge": "Ești gata să-ți creezi CV-ul?",
+            "title": "Transformă-ți cariera cu CV-uri asistate de AI",
+            "description": "Alătură-te miilor de profesioniști care au creat CV-uri uimitoare în câteva secunde. Începe-ți călătoria în carieră astăzi cu platforma noastră inteligentă de design.",
+            "button": "Începe să creezi gratis",
+            "freeCredits": "3 credite gratuite • Nu este necesar card de credit",
+            "support": "Suport 24/7",
+            "secure": "Securizat și privat",
+            "instant": "Rezultate instantanee"
+        },
+        "trustIndicators": {
+            "secure": "Securizat și privat",
+            "instant": "Rezultate instantanee",
+            "support": "Suport 24/7"
+        }
+    },
+    "HomepageFooter": {
+        "headings": {
+            "aboutUs": "Despre noi",
+            "quickLinks": "Linkuri rapide",
+            "stayUpdated": "Rămâneți la curent",
+            "securePayments": "Plăți securizate"
+        },
+        "aboutText": "Ajutăm persoanele în căutare de locuri de muncă să creeze CV-uri profesionale în câteva minute. Misiunea noastră este de a permite persoanelor să obțină locurile de muncă de vis cu documente de candidatură de înaltă calitate, create de AI.",
+        "links": {
+            "pricing": "Prețuri",
+            "contact": "Contact"
+        },
+        "newsletter": {
+            "description": "Abonează-te la newsletter-ul nostru pentru cele mai recente sfaturi de carieră, sfaturi despre CV și actualizări de funcționalități.",
+            "placeholder": "Introdu adresa ta de email",
+            "buttonText": "Abonare",
+            "privacyNote": "Respectăm confidențialitatea ta"
+        },
+        "paymentMethods": {
+            "visa": "visa",
+            "mastercard": "mastercard",
+            "paypal": "paypal",
+            "applepay": "applepay",
+            "googlepay": "googlepay",
+            "discover": "discover"
+        },
+        "legal": {
+            "privacyPolicy": "Politica de confidențialitate",
+            "termsOfService": "Termeni și condiții",
+            "cookiePolicy": "Politica privind cookie-urile",
+            "allRightsReserved": "Toate drepturile rezervate."
+        }
+    },
+    "ActionSelection": {
+        "templateHeading": "Alege Șablonul Tău Perfect",
+        "templateHeadingSpan": "Șablon",
+        "templateDescription": "Selectează din șabloanele noastre proiectate profesional pentru a crea un CV care se distinge",
+        "coverLetterHeading": "Selectează-ți",
+        "coverLetterHeadingSpan": "Scrisoarea de Intenție",
+        "coverLetterDescription": "Alege un șablon pentru scrisoarea de intenție care să completeze CV-ul tău",
+        "search": {
+            "searchTemplates": "Căutare șabloane...",
+            "searchCoverLetters": "Căutare scrisori de intenție...",
+            "noTemplatesFound": "Niciun șablon găsit",
+            "noTemplatesFoundDescription": "Încercați să ajustați criteriile de căutare sau să navigați prin categorii diferite",
+            "clearFilters": "Șterge Filtrele",
+            "resultsInfo": "șabloane • Se afișează",
+            "resultsCount": "rezultate",
+            "selectedTemplate": "selectat"
+        },
+        "categories": {
+            "all": "Toate",
+            "modern": "Modern",
+            "professional": "Profesional",
+            "creative": "Creativ",
+            "simple": "Simplu",
+            "standard": "Standard"
+        },
+        "sortBy": {
+            "label": "Sortare după",
+            "popular": "Popularitate",
+            "name": "Nume",
+            "newest": "Cel mai nou"
+        },
+        "viewMode": {
+            "grid": "Vizualizare grilă",
+            "list": "Vizualizare listă"
+        },
+        "templateCards": {
+            "popular": "Popular",
+            "select": "Selectează",
+            "selectTemplate": "Selectează Șablon",
+            "popularity": "% popular",
+            "templateDescriptions": {
+                "professionalClassic": "Design curat și tradițional, perfect pentru medii corporative",
+                "modernCreative": "Layout contemporan cu elemente creative",
+                "simpleElegant": "Design minimalist concentrat pe claritatea conținutului",
+                "creativeBold": "Șablon artistic pentru profesioniști creativi",
+                "executivePro": "Design sofisticat pentru poziții senior",
+                "techModern": "Șablon modern perfect pentru industria tehnologică",
+                "designerSpecial": "Layout unic pentru profesioniști în design",
+                "cleanSimple": "Simplu și profesional",
+                "corporateElite": "Șablon corporativ premium",
+                "startupReady": "Șablon dinamic pentru cultura startup-urilor",
+                "creativePro": "Șablon creativ profesional",
+                "minimalPro": "Design minimalist profesional curat",
+                "businessClassic": "Șablon de afaceri tradițional",
+                "modernEdge": "Design modern de ultimă oră",
+                "artistPortfolio": "Perfect pentru portofolii creative",
+                "standardProfessional": "Format clasic pentru scrisoare de intenție",
+                "modernAppeal": "Design contemporan pentru scrisoare de intenție",
+                "businessStandard": "Format standard de afaceri",
+                "creativeModern": "Scrisoare de intenție creativă modernă"
+            }
+        },
+        "preview": {
+            "useTemplate": "Folosește Șablonul",
+            "cancel": "Anulează"
+        },
+        "pagination": {
+            "prev": "Anterior",
+            "next": "Următorul"
+        },
+        "loading": {
+            "processingTemplate": "Procesare Șablon",
+            "settingUp": "Configurarea șablonului selectat..."
+        }
+    },
+    "ProfileDisplay": {
+        "appName": "Nolito",
+        "search": "Căutare",
+        "navigation": "NAVIGAȚIE",
+        "menu": {
+            "dashboard": "Tablou de bord",
+            "interviews": "Interviuri",
+            "settings": "Setări"
+        }
+    },
+    "DashboardHomepage": {
+        "greeting": "Salut! 👋",
+        "completeSteps": "Completează acești pași pentru a-ți obține următorul rol",
+        "stepsCompletion": "completate",
+        "showButton": "Arată",
+        "tabs": {
+            "resumes": "CV-uri",
+            "coverLetters": "Scrisori de intenție"
+        },
+        "actions": {
+            "createNew": "Creează Nou",
+            "editResume": "Editează CV",
+            "shareResume": "Distribuie CV",
+            "delete": "Șterge",
+            "createNewDocument": "Creează Document Nou"
+        },
+        "promotion": {
+            "title": "Ești gata să-ți impulsionezi căutarea de locuri de muncă și să obții mai multă expunere?",
+            "description": "Alege-ți CV-ul și îl vom trimite la sute de recrutori din domeniul tău cu doar câteva click-uri",
+            "startNow": "Începe Acum"
+        },
+        "card": {
+            "created": "Creat",
+            "untitledResume": "CV fără titlu",
+            "aiJobMatching": "Potrivire Locuri de Muncă AI",
+            "new": "NOU",
+            "newResumeTitle": "CV Nou",
+            "newResumeDescription": "Creează un CV personalizat pentru fiecare aplicație de job. Dublează-ți șansele de angajare!"
+        },
+        "emptyState": {
+            "noDocumentsFound": "Niciun Document Disponibil",
+            "emptyLibrary": "Biblioteca ta de documente este momentan goală.",
+            "createFirstDoc": "Creează-ți primul CV sau scrisoare de intenție pentru a începe."
+        },
+        "pagination": {
+            "page": "Pagină",
+            "of": "din"
+        },
+        "confirmDelete": "Sigur dorești să ștergi acest CV? Această acțiune nu poate fi anulată."
+    },
+    "DashboardSettings": {
+        "pageTitle": "Setări",
+        "pageDescription": "Gestionează setările contului și profilului tău",
+        "tabs": {
+            "profile": "Profil",
+            "account": "Cont"
+        },
+        "profile": {
+            "title": "Profil",
+            "description": "Actualizează informațiile personale și fotografia de profil",
+            "uploadPicture": "Încarcă fotografia de profil",
+            "dragOrUpload": "Trage și plasează o imagine sau dă clic pentru a încărca",
+            "uploadButton": "Încărcați",
+            "removeButton": "Elimină",
+            "fullName": "Nume complet",
+            "fullNameDesc": "Numele tău așa cum apare în contul tău",
+            "phone": "Număr de telefon",
+            "address": "Adresă",
+            "city": "Oraș",
+            "postalCode": "Cod Poștal",
+            "country": "Țara",
+            "placeholders": {
+                "fullName": "Introduceți numele complet",
+                "phone": "Introduceți numărul de telefon",
+                "address": "Introduceți adresa",
+                "city": "Introduceți orașul",
+                "postalCode": "Introduceți codul poștal",
+                "country": "Introduceți țara"
+            },
+            "saving": "Se salvează...",
+            "saveChanges": "Salvează modificările"
+        },
+        "account": {
+            "title": "Cont",
+            "description": "Gestionați securitatea contului și abonamentul",
+            "email": "Adresă de E-mail",
+            "emailDesc": "E-mailul tău nu poate fi schimbat",
+            "subscription": "Abonament",
+            "subscriptionDesc": "Planul tău actual de abonament",
+            "subscriptionEnd": "Abonamentul expiră",
+            "subscriptionEndDesc": "Data reînnoirii abonamentului tău",
+            "noActiveSubscription": "Niciun abonament activ",
+            "changePassword": "Schimbă parola",
+            "newPassword": "Parolă nouă",
+            "passwordStrength": {
+                "weak": "Slab",
+                "fair": "Moderat",
+                "good": "Bun",
+                "strong": "Puternic"
+            },
+            "passwordRequirement": "Parola trebuie să aibă cel puțin 6 caractere"
+        }
+    },
+    "contact": {
+        "title": "Luați legătura",
+        "subtitle": "Aveți o întrebare sau aveți nevoie de asistență? Trimiteți-ne un mesaj și vă vom răspunde cât mai curând posibil!",
+        "form": {
+            "fullName": "Nume complet *",
+            "fullNamePlaceholder": "Introduceți numele complet",
+            "email": "Adresă de e-mail *",
+            "emailPlaceholder": "Introduceți adresa de e-mail",
+            "message": "Mesaj *",
+            "messagePlaceholder": "Povestiți-ne despre solicitarea dumneavoastră...",
+            "sendButton": "Trimite mesaj",
+            "sendingButton": "Se trimite mesajul..."
+        },
+        "quickResponse": {
+            "title": "Răspuns rapid",
+            "text": "De obicei răspundem în termen de 24 de ore"
+        },
+        "success": {
+            "title": "Mesaj trimis cu succes!",
+            "text": "Vă mulțumim că ne-ați contactat. Vom reveni în curând la dumneavoastră.",
+            "button": "Trimite un alt mesaj"
+        },
+        "error": {
+            "general": "Ceva nu a mers bine. Vă rugăm să încercați din nou."
+        }
+    },
+    "billing": {
+        "title": "Planuri de abonament",
+        "subtitle": "Alegeți planul care funcționează cel mai bine pentru dvs.",
+        "navbar": {
+            "home": "Acasă",
+            "contact": "Contact"
+        },
+        "plans": {
+            "monthly": "Lunar",
+            "quarterly": "Trimestrial",
+            "yearly": "Anual",
+            "selectPlan": "Selectează planul",
+            "perMonth": "/lună",
+            "perQuarter": "/trimestru",
+            "perYear": "/an",
+            "mostPopular": "Cel mai popular",
+            "bestValue": "Cea mai bună valoare",
+            "unlimitedPDF": "Descărcări PDF nelimitate",
+            "unlimitedResumes": "Șabloane CV nelimitate",
+            "nonRecurring": "Plată unică, nerecurentă"
+        },
+        "checkout": {
+            "title": "Finalizați Achiziția",
+            "subtitle": "Introduceți informațiile de plată pentru a vă abona",
+            "securePayment": "Plată securizată",
+            "feature1": "Acces instant la toate funcționalitățile premium",
+            "feature2": "Fără taxe ascunse sau costuri suplimentare",
+            "feature3": "Anulează oricând prin contul tău",
+            "faqTitle": "Întrebări frecvente",
+            "faqContent": "Abonamentul tău va fi activat imediat după plată. Poți gestiona abonamentul tău prin panoul de control al contului.",
+            "totalPrice": "Preț total",
+            "locationTitle": "Locație de facturare",
+            "locationDescription": "Vă rugăm să furnizați detaliile locației de facturare",
+            "backToPlans": "Înapoi la planuri",
+            "cardDetails": "Detalii card",
+            "cardholderName": "Numele titularului cardului",
+            "cardNumber": "Număr card",
+            "expiryDate": "Data expirării",
+            "cvv": "CVV",
+            "payNow": "Plătește acum",
+            "processing": "Procesare plată...",
+            "subscriptionDetails": "Detalii abonament",
+            "plan": "Plan",
+            "price": "Preț",
+            "billingFrequency": "Frecvența de facturare",
+            "paymentMethods": {
+                "title": "Alegeți metoda de plată",
+                "subtitle": "Selectați opțiunea de plată preferată",
+                "creditCard": "Card de credit",
+                "paypal": "PayPal"
+            },
+            "cardForm": {
+                "title": "Detalii plată",
+                "subtitle": "Introduceți informațiile cardului în siguranță",
+                "cardholderName": "Numele titularului cardului",
+                "address": "Adresă de facturare",
+                "country": "Țara",
+                "postalCode": "Cod poștal"
+            },
+            "success": {
+                "title": "Plată reușită!",
+                "subtitle": "Abonamentul tău a fost activat",
+                "message": "Vă mulțumim pentru achiziție. Aveți acum acces complet la toate funcționalitățile premium.",
+                "button": "Continuați către tabloul de bord"
+            },
+            "or": "SAU"
+        },
+        "success": {
+            "title": "Plată reușită!",
+            "subtitle": "Abonamentul tău a fost activat",
+            "viewAccount": "Vezi contul",
+            "returnHome": "Întoarce-te acasă"
+        },
+        "error": {
+            "payment": "Plată eșuată. Vă rugăm să încercați din nou.",
+            "login": "Vă rugăm să vă autentificați pentru a finaliza plata.",
+            "general": "Ceva nu a mers bine. Vă rugăm să încercați din nou."
+        }
+    },
+    "DashboardInterviews": {
+        "configurationScreen": {
+            "title": "Configurați interviul dumneavoastră",
+            "subtitle": "Personalizați-vă experiența de interviu furnizând ocupația și preferințele dvs.",
+            "occupationLabel": "Ocupația dvs.",
+            "occupationPlaceholder": "Ex: Inginer Software, Profesor, Asistent Medical, Fermier, Bucătar...",
+            "occupationHint": "Fiți specific cu privire la rolul dvs. pentru întrebări mai țintite",
+            "questionCountLabel": "Numărul de Întrebări",
+            "questionsText": "întrebări",
+            "estimatedTime": "Timp Estimativ:",
+            "minutesPerQuestion": "minute pe întrebare",
+            "interviewDetails": "Detalii Interviu",
+            "type": "Tip:",
+            "questions": "Întrebări:",
+            "timeLimit": "Limită de Timp:",
+            "passingScore": "Punctaj de trecere:",
+            "errorGenerating": "Eroare la generarea interviului:",
+            "tryAgainError": "Vă rugăm să încercați din nou sau să alegeți o altă ocupație.",
+            "generatingQuestions": "Se generează {{count}} întrebări personalizate pentru interviu...",
+            "generatingHint": "Acest lucru poate dura câteva secunde. Pregătim întrebări specifice pentru ocupația dvs.",
+            "back": "Înapoi",
+            "startAssessment": "Începe Evaluarea",
+            "generatingInterview": "Se generează Interviul..."
+        },
+        "selectionScreen": {
+            "title": "Evaluare Interviu",
+            "subtitle": "Alegeți tipul de evaluare și completați procesul de interviu",
+            "technicalTitle": "Evaluare Tehnică",
+            "technicalDepartment": "Departament Tehnic",
+            "technicalDescription": "Evaluați competențele tehnice, limbajele de programare, framework-urile, metodologiile și abilitățile de rezolvare a problemelor specifice rolului dvs.",
+            "behavioralTitle": "Evaluare Comportamentală",
+            "behavioralDepartment": "Resurse Umane",
+            "behavioralDescription": "Evaluați calitățile de lider, abilitățile de comunicare, abilitățile de lucru în echipă și modul în care gestionați situațiile de la locul de muncă.",
+            "focusAreas": "Domenii de Interes:",
+            "technicalSkills": "Competențe Tehnice",
+            "problemSolving": "Rezolvare de Probleme",
+            "bestPractices": "Bune Practici",
+            "toolsTechnologies": "Unelte și Tehnologii",
+            "leadership": "Leadership",
+            "communication": "Comunicare",
+            "teamwork": "Lucru în Echipă",
+            "assessmentGuidelines": "Ghiduri de Evaluare",
+            "bestPracticesTitle": "✅ Bune Practici",
+            "thingsToAvoid": "❌ Lucruri de Evitat",
+            "guideline1": "• Citiți fiecare întrebare cu atenție înainte de a răspunde",
+            "guideline2": "• Folosiți funcția de semnalizare pentru a marca întrebările pentru revizuire",
+            "guideline3": "• Gestionați-vă timpul în mod eficient",
+            "guideline4": "• Profitați de funcția de pauză dacă este necesar",
+            "avoid1": "• Nu vă grăbiți la răspunsuri",
+            "avoid2": "• Nu lăsați întrebări fără răspuns",
+            "avoid3": "• Nu comutați între aplicații",
+            "avoid4": "• Nu vă gândiți prea mult la răspunsurile dvs.",
+            "continueToConfiguration": "Continuați la Configurare",
+            "configurationHint": "Configurați ocupația și preferințele dvs. de interviu"
+        },
+        "resultsScreen": {
+            "title": "Evaluare Finalizată!",
+            "noDataAvailable": "Nu sunt disponibile date din interviu",
+            "technicalInterview": "Tehnic",
+            "behavioralInterview": "Comportamental",
+            "questionsText": "Întrebări",
+            "overallPerformance": "Performanță Generală",
+            "passedAssessment": "✅ Evaluare Promovată",
+            "failedAssessment": "❌ Nu s-a atins scorul de trecere (70%)",
+            "correctAnswers": "Răspunsuri Corecte",
+            "incorrectAnswers": "Răspunsuri Incorecte"
+        },
+        "performanceLevels": {
+            "exceptional": "Excepțional",
+            "excellent": "Excelent",
+            "good": "Bun",
+            "satisfactory": "Satisfăcător",
+            "needsImprovement": "Necesită Îmbunătățire"
+        },
+        "metricsScreen": {
+            "timeAnalysis": "Analiza Timpului",
+            "totalTime": "Timp Total",
+            "avgPerQuestion": "Mediu per Întrebare",
+            "fastest": "Cel mai rapid",
+            "slowest": "Cel mai lent",
+            "activitySummary": "Rezumat Activitate",
+            "questionsAnswered": "Întrebări Răspunse",
+            "questionsFlagged": "Întrebări Semnalizate",
+            "completionRate": "Rata de Finalizare",
+            "performanceByCategory": "Performanță pe Categorie",
+            "retakeAssessment": "Reluare Evaluare",
+            "reviewAnswers": "Revizuire Răspunsuri",
+            "downloadReport": "Descărcare Raport",
+            "backToDashboard": "Înapoi la Dashboard",
+            "answerReview": "Revizuire Răspunsuri",
+            "question": "Întrebare",
+            "difficulty": {
+                "easy": "Ușor",
+                "intermediate": "Mediu",
+                "hard": "Dificil"
+            },
+            "correct": "✓ Corect",
+            "yourAnswer": "✗ Răspunsul Dvs.",
+            "explanation": "Explicație",
+            "timeSpent": "Timp petrecut:"
+        },
+        "interviewScreen": {
+            "loadingData": "Se încarcă datele interviului...",
+            "professionalEvaluation": "Evaluare Profesională",
+            "timeRemaining": "Timp Rămas",
+            "resume": "Reluare",
+            "pause": "Pauză",
+            "questionProgress": "Întrebarea {current} din {total}",
+            "complete": "% Complet",
+            "interviewPaused": "Interviu în Pauză",
+            "pauseMessage": "Apăsați Reluare pentru a continua evaluarea",
+            "flag": "Semnalizare",
+            "flagged": "Semnalizat",
+            "previous": "Anterior",
+            "nextQuestion": "Următoarea Întrebare",
+            "finishAssessment": "Finalizare Evaluare"
+        },
+        "confirmationModal": {
+            "title": "Finalizare Evaluare?",
+            "message": "Sunteți sigur că doriți să trimiteți evaluarea? Nu veți putea modifica răspunsurile.",
+            "questionsAnswered": "Întrebări Răspunse:",
+            "questionsFlagged": "Întrebări Semnalizate:",
+            "timeUsed": "Timp Utilizat:",
+            "unansweredWarning": "⚠️ Aveți {count} întrebări fără răspuns",
+            "continueInterview": "Continuare Interviu",
+            "submitNow": "Trimitere Acum"
+        },
+        "common": {
+            "toggleSidebar": "Comutare panou lateral",
+            "min": "min"
+        }
+    },
+    "BuildResume": {
+        "steps": {
+            "personalInfo": "Informații Personale",
+            "workHistory": "Istoric Profesional",
+            "education": "Educație",
+            "skills": "Competențe",
+            "summary": "Rezumat"
+        },
+        "navigation": {
+            "previous": "Anterior",
+            "next": "Următor",
+            "preview": "Previzualizare",
+            "download": "Descărcare",
+            "downloading": "Se descarcă...",
+            "complete": "Complet",
+            "current": "Curent",
+            "nextStep": "Următor: {{stepName}}"
+        },
+        "progress": {
+            "progress": "Progres",
+            "completed": "completat",
+            "of": "din",
+            "step": "Pasul {{current}}/{{total}}",
+            "completeness": "Completitudine"
+        },
+        "sidebar": {
+            "helpSupport": "Ajutor și Suport",
+            "privacyPolicy": "Politica de Confidențialitate",
+            "copyright": "© 2025 Bold Limited. Toate drepturile rezervate."
+        },
+        "preview": {
+            "livePreview": "Previzualizare Live",
+            "autoUpdating": "Actualizare automată",
+            "clickToView": "Faceți clic pentru a vizualiza la scară completă",
+            "changeTemplate": "Schimbă Șablonul",
+            "viewFullSize": "Vizualizare la Scară Completă",
+            "trustedBy": "Având încrederea a peste 50.000 de profesioniști",
+            "joinSuccess": "Alăturați-vă poveștilor de succes",
+            "resumePdf": "CV.pdf"
+        },
+        "templates": {
+            "professionalClassic": "Profesional Clasic",
+            "modernCreative": "Modern Creativ",
+            "creativeBold": "Creativ Îndrăzneț",
+            "executivePro": "Profesional Executiv",
+            "techModern": "Tehnologic Modern",
+            "simpleElegant": "Simplu Elegant",
+            "designerSpecial": "Special Designer",
+            "cleanSimple": "Curat Simplu",
+            "corporateElite": "Elite Corporativ",
+            "startupReady": "Pregătit pentru Startup-uri",
+            "creativePro": "Profesional Creativ",
+            "minimalPro": "Minimalist Profesional",
+            "businessClassic": "Afaceri Clasic",
+            "modernEdge": "Modern Avangardist",
+            "artistPortfolio": "Portofoliu Artist",
+            "techInnovation": "Inovație Tehnologică",
+            "executiveSuite": "Suite Executivă",
+            "creativeShowcase": "Expoziție Creativă",
+            "cleanProfessional": "Curat Profesional",
+            "futureForward": "Orientat spre Viitor Modern",
+            "professional21": "Profesional 21",
+            "professional22": "Profesional 22",
+            "professional23": "Profesional 23",
+            "professional24": "Profesional 24",
+            "professional25": "Profesional 25",
+            "professional26": "Profesional 26",
+            "professional27": "Profesional 27",
+            "professional28": "Profesional 28",
+            "professional29": "Profesional 29",
+            "professional30": "Profesional 30",
+            "professional31": "Profesional 31",
+            "professional32": "Profesional 32",
+            "professional33": "Profesional 33",
+            "professional34": "Profesional 34",
+            "professional35": "Profesional 35",
+            "professional36": "Profesional 36",
+            "professional37": "Profesional 37",
+            "professional38": "Profesional 38",
+            "professional39": "Profesional 39",
+            "professional40": "Profesional 40",
+            "professional41": "Profesional 41",
+            "professional42": "Profesional 42",
+            "professional43": "Profesional 43",
+            "professional44": "Profesional 44",
+            "professional45": "Profesional 45",
+            "professional46": "Profesional 46",
+            "professional47": "Profesional 47",
+            "professional48": "Profesional 48",
+            "professional49": "Profesional 49",
+            "professional50": "Profesional 50"
+        },
+        "errors": {
+            "downloadFailed": "Descărcarea a eșuat. Încercați din nou.",
+            "templateError": "Eroare Șablon",
+            "usingDefault": "Utilizare șablon implicit"
+        },
+        "analytics": {
+            "templateChanged": "Șablon modificat în: {{templateName}} ({{templateId}})"
+        }
+    },
+    "HeadingStep": {
+        "title": "Informații Personale și de Contact",
+        "subtitle": "Povestiți-ne despre dvs. pentru ca angajatorii să vă poată contacta cu ușurință. Toate câmpurile obligatorii trebuie completate pentru a continua.",
+        "progress": {
+            "label": "Progres: {{completed}}/{{total}} câmpuri obligatorii",
+            "percentage": "{{percentage}}%"
+        },
+        "sections": {
+            "personalInfo": {
+                "title": "Informații Personale",
+                "badge": "{{completed}}/3 Completat"
+            },
+            "contactInfo": {
+                "title": "Informații de Contact",
+                "badge": "{{completed}}/2 Completat"
+            },
+            "locationInfo": {
+                "title": "Informații Locație",
+                "badge": "Opțional",
+                "badgeWithCount": "{{completed}}/4 Opțional"
+            }
+        },
+        "fields": {
+            "profilePhoto": {
+                "label": "Fotografie Profil",
+                "hint": "Recomandat: Fotografie pătrată, max 5 MB"
+            },
+            "firstName": {
+                "label": "Prenume",
+                "placeholder": "Introduceți prenumele dvs."
+            },
+            "lastName": {
+                "label": "Nume",
+                "placeholder": "Introduceți numele dvs."
+            },
+            "jobTitle": {
+                "label": "Titlu Post / Ocupație",
+                "placeholder": "ex. Inginer Software, Manager Marketing, Analist Date",
+                "hint": "Acesta va fi afișat proeminent în CV-ul dvs."
+            },
+            "email": {
+                "label": "Adresă Email",
+                "placeholder": "dumneavoastra.email@exemplu.ro",
+                "hint": "Folosiți o adresă de email profesională"
+            },
+            "phone": {
+                "label": "Număr de Telefon",
+                "placeholder": "+40 7XX XXX XXX",
+                "hint": "Includeți codul țării dacă este cazul"
+            },
+            "address": {
+                "label": "Adresă",
+                "placeholder": "Stradă (opțional)",
+                "hint": "Adresa completă este opțională, orașul și țara sunt de obicei suficiente"
+            },
+            "city": {
+                "label": "Oraș",
+                "placeholder": "Oraș"
+            },
+            "postalCode": {
+                "label": "Cod Poștal",
+                "placeholder": "Cod Poștal"
+            },
+            "country": {
+                "label": "Țară",
+                "placeholder": "Țară"
+            }
+        },
+        "tips": {
+            "contactInfo": {
+                "title": "Sfaturi pentru Informații de Contact",
+                "description": "Utilizați o adresă de e-mail profesională și asigurați-vă că numărul dvs. de telefon este actualizat. Acesta este modul în care angajatorii vă vor contacta."
+            },
+            "locationInfo": {
+                "title": "Informații Locație",
+                "description": "Adăugarea locației ajută angajatorii să înțeleagă disponibilitatea dvs. pentru poziții locale și preferințele dvs. pentru lucrul de la distanță."
+            }
+        },
+        "completion": {
+            "title": "Secțiune Completată!",
+            "description": "Excelent! Toate informațiile necesare au fost furnizate. Acum puteți trece la următoarea secțiune sau puteți continua să adăugați detalii opționale."
+        },
+        "errors": {
+            "required": "{{field}} este obligatoriu",
+            "invalidEmail": "Vă rugăm să introduceți o adresă de email validă",
+            "invalidPhone": "Vă rugăm să introduceți un număr de telefon valid"
+        }
+    },
+    "WorkHistoryStep": {
+        "title": "Spuneți-ne despre experiența dvs. de lucru",
+        "subtitle": "Începeți cu cea mai recentă poziție și lucrați în sens invers. Includeți ultimii 10 ani de experiență relevantă.",
+        "requiredNote": "* Indică un câmp obligatoriu",
+        "defaultValues": {
+            "untitledPosition": "Poziție fără Titlu",
+            "noCompany": "Nicio companie specificată",
+            "present": "Prezent"
+        },
+        "fields": {
+            "jobTitle": {
+                "label": "Titlu Post",
+                "placeholder": "Inginer Software"
+            },
+            "company": {
+                "label": "Companie",
+                "placeholder": "Google Inc."
+            },
+            "startDate": {
+                "label": "Data Începerii",
+                "placeholder": "Ianuarie 2020"
+            },
+            "endDate": {
+                "label": "Data Finalizării",
+                "placeholder": "Decembrie 2023"
+            },
+            "currentWork": {
+                "label": "Lucrez aici în prezent"
+            },
+            "description": {
+                "label": "Descriere Post",
+                "placeholder": "Descrieți responsabilitățile și realizările cheie în detaliu. Ce impact ați avut? Ce abilități ați folosit?"
+            }
+        },
+        "actions": {
+            "addPosition": "Adăugare Poziție Suplimentară",
+            "collapse": "Restrânge",
+            "expand": "Extinde",
+            "remove": "Eliminare Poziție Actuală"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestii AI",
+            "tooltip": "Generare sugestii AI",
+            "tooltipDisabled": "Completați mai întâi Titlul Postului și Compania"
+        }
+    },
+    "EducationStep": {
+        "title": "Spuneți-ne despre educația dvs.",
+        "subtitle": "Includeți istoricul educațional. Începeți cu cea mai recentă educație.",
+        "requiredNote": "* Indică un câmp obligatoriu",
+        "defaultValues": {
+            "school": "Nume Școală",
+            "degree": "Niciun titlu nu este specificat",
+            "present": "Prezent"
+        },
+        "fields": {
+            "school": {
+                "label": "Școală",
+                "placeholder": "Universitatea din California"
+            },
+            "degree": {
+                "label": "Diplomă",
+                "placeholder": "Licență în Științe"
+            },
+            "startDate": {
+                "label": "Data Începerii",
+                "placeholder": "Septembrie 2018"
+            },
+            "endDate": {
+                "label": "Data Finalizării",
+                "placeholder": "Mai 2022"
+            },
+            "currentStudy": {
+                "label": "Studiez aici în prezent"
+            },
+            "description": {
+                "label": "Descriere Educație",
+                "placeholder": "Cursuri relevante, realizări, onoruri, medie generală, proiecte de cercetare, lucrări de diplomă, etc..."
+            }
+        },
+        "actions": {
+            "addEducation": "Adăugare Educație Suplimentară",
+            "collapse": "Restrânge",
+            "expand": "Extinde",
+            "remove": "Eliminare Educație Actuală"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestii AI",
+            "tooltip": "Generare sugestii AI",
+            "tooltipDisabled": "Completați mai întâi Școala și Diploma"
+        }
+    },
+    "SkillsStep": {
+        "title": "Ce abilități doriți să evidențiați?",
+        "subtitle": "Alegeți abilitățile cele mai relevante pentru postul pentru care aplicați. Includeți atât abilități tehnice, cât și soft skills.",
+        "requiredNote": "* Adăugați cel puțin 3 abilități pentru cele mai bune rezultate",
+        "defaultValues": {
+            "skillName": "Nume Abilitate",
+            "clickToAdd": "Faceți clic pentru a adăuga detalii despre abilitate"
+        },
+        "fields": {
+            "skillName": {
+                "label": "Nume Abilitate",
+                "placeholder": "ex. JavaScript, Leadership, Management de Proiect"
+            },
+            "proficiencyLevel": {
+                "label": "Nivel de Competență"
+            }
+        },
+        "skillLevels": {
+            "beginner": "Începător",
+            "intermediate": "Intermediar",
+            "advanced": "Avansat",
+            "expert": "Expert"
+        },
+        "actions": {
+            "addSkill": "Adăugare Abilitate Suplimentară",
+            "collapse": "Restrânge",
+            "expand": "Extinde",
+            "remove": "Eliminare Abilitate Actuală"
+        },
+        "ai": {
+            "suggestions": "✨ Sugestii AI",
+            "generating": "Se generează..."
+        },
+        "quickAdd": {
+            "title": "Adăugare Rapidă Abilități",
+            "subtitle": "Faceți clic pentru a adăuga instantaneu abilități populare"
+        },
+        "popularSkills": ["JavaScript", "Python", "React", "Node.js", "SQL", "Git", "Comunicare", "Leadership", "Rezolvare de Probleme", "Lucru în Echipă", "Management de Proiect", "Analiză Date"]
+    },
+    "SummaryStep": {
+        "title": "Scrieți un rezumat profesional",
+        "subtitle": "Rezumatul profesional este o declarație scurtă care evidențiază calificările cheie și obiectivele de carieră.",
+        "professionalSummary": {
+            "title": "Rezumat Profesional",
+            "description": "Evidențiați-vă experiența și obiectivele de carieră"
+        },
+        "progress": {
+            "tooShort": "Prea scurt - adăugați mai multe detalii",
+            "gettingThere": "Se apropie - adăugați mai mult conținut",
+            "goodLength": "Lungime bună - luați în considerare adăugarea mai multor elemente",
+            "greatLength": "Lungime excelentă - bine detaliat",
+            "excellent": "Excelent - rezumat cuprinzător"
+        },
+        "characterCount": "{{current}}/{{max}} caractere",
+        "content": {
+            "label": "Conținut Rezumat",
+            "placeholder": "Scrieți un rezumat convingător care să prezinte experiența dvs. profesională, abilitățile cheie și obiectivele de carieră. Evidențiați propunerea dvs. de valoare unică și ceea ce vă face să ieșiți în evidență..."
+        },
+        "ai": {
+            "generate": "✨ Generare cu AI",
+            "generating": "Se generează...",
+            "tooltip": "Generați un rezumat îmbunătățit cu AI"
+        },
+        "errors": {
+            "noOccupation": "Vă rugăm să completați ocupația dvs. în pasul Informații Personale mai întâi pentru a genera un rezumat AI.",
+            "generationFailed": "Generarea rezumatului AI a eșuat. Vă rugăm să încercați din nou."
+        }
+    },
+    "EducationSuggestionModal": {
+        "title": "Sugestii Educație AI",
+        "subtitle": "Generați descrieri profesionale pe baza detaliilor educaționale",
+        "educationDetails": {
+            "title": "Detalii Educație",
+            "school": "Școală:",
+            "degree": "Diplomă:",
+            "duration": "Durată:",
+            "notSpecified": "Nespecificat",
+            "present": "Prezent"
+        },
+        "generateButton": {
+            "generate": "Generare Descrieri AI",
+            "generating": "Se generează Sugestii AI..."
+        },
+        "requirements": {
+            "fillFields": "Vă rugăm să completați mai întâi câmpurile Școală și Diplomă"
+        },
+        "suggestions": {
+            "title": "Descrieri Sugerate:",
+            "suggestionLabel": "Sugestie {{number}}",
+            "useThis": "Folosește Aceasta"
+        },
+        "instructions": {
+            "title": "Faceți clic pe \"Generare Descrieri AI\" pentru a primi sugestii personalizate pentru parcursul dvs. educațional."
+        },
+        "actions": {
+            "close": "Închide"
+        },
+        "errors": {
+            "requiredFields": "Școala și diploma sunt necesare pentru generarea sugestiilor",
+            "failed": "Generarea sugestiilor a eșuat. Vă rugăm să încercați din nou."
+        }
+    },
+    "InputField": {
+        "required": "Acest câmp este obligatoriu",
+        "accessibility": {
+            "required": "Acest câmp este obligatoriu"
+        }
+    },
+    "PhotoUpload": {
+        "actions": {
+            "addPhoto": "Adăugare Fotografie",
+            "dropPhotoHere": "Plasați fotografia aici",
+            "clickOrDrag": "Faceți clic sau Trageți",
+            "changePhoto": "Schimbare Fotografie",
+            "removePhoto": "Eliminare Fotografie",
+            "processing": "Procesare..."
+        },
+        "hints": {
+            "recommended": "Recomandat: Fotografie pătrată, max 5 MB"
+        },
+        "errors": {
+            "sizeLimit": "Imaginea depășește limita de 5 MB",
+            "processingError": "Eroare la procesarea imaginii",
+            "readingError": "Eroare la citirea fișierului"
+        }
+    },
+    "ProgressCard": {
+        "accessibility": {
+            "progressBar": "Progres: {{value}} din {{maxValue}}"
+        }
+    },
+    "SectionCard": {
+        "accessibility": {
+            "section": "Secțiune: {{title}}"
+        }
+    },
+    "WorkHistorySuggestionModal": {
+        "title": "Sugestii Descriere AI",
+        "subtitle": "Generați descrieri profesionale pe baza detaliilor postului dvs.",
+        "positionDetails": {
+            "title": "Detalii Post",
+            "jobTitle": "Titlu Post:",
+            "company": "Companie:",
+            "duration": "Durată:",
+            "notSpecified": "Nespecificat",
+            "present": "Prezent"
+        },
+        "generateButton": {
+            "generate": "Generare Descrieri AI",
+            "generating": "Se generează Sugestii AI..."
+        },
+        "requirements": {
+            "fillFields": "Vă rugăm să completați mai întâi câmpurile Titlu Post și Companie"
+        },
+        "suggestions": {
+            "title": "Descrieri Sugerate:",
+            "suggestionLabel": "Sugestie {{number}}",
+            "useThis": "Folosește Aceasta"
+        },
+        "instructions": {
+            "title": "Faceți clic pe \"Generare Descrieri AI\" pentru a primi sugestii personalizate pentru experiența dvs. de lucru."
+        },
+        "actions": {
+            "close": "Închide"
+        },
+        "errors": {
+            "requiredFields": "Titlul Postului și Compania sunt necesare pentru a genera sugestii",
+            "failed": "Generarea sugestiilor a eșuat. Vă rugăm să încercați din nou."
+        }
+    },
+    "PreviewModal": {
+        "title": "Previzualizare CV",
+        "subtitle": "{{templateName}} - Vizualizare profesională a CV-ului dvs.",
+        "actions": {
+            "downloadPdf": "Descărcare PDF",
+            "generatingPdf": "Generare PDF...",
+            "close": "Închidere Previzualizare"
+        },
+        "keyboard": {
+            "escToClose": "pentru închidere"
+        },
+        "errors": {
+            "noTemplate": "Niciun component șablon furnizat",
+            "templateError": "Eroare Previzualizare Șablon",
+            "tryDifferent": "Încercați un șablon diferit"
+        }
+    },
+    "TemplateSelectionModal": {
+        "header": {
+            "title": "Selectare Șablon",
+            "subtitle": "Selectați un șablon profesional pentru CV-ul dvs.",
+            "closeLabel": "Închidere selecție șablon"
+        },
+        "search": {
+            "placeholder": "Căutare șabloane...",
+            "resultsFound": "{{count}} șabloane găsite",
+            "noResults": {
+                "title": "Niciun șablon găsit",
+                "message": "Încercați să ajustați filtrele de căutare sau categorie",
+                "clearFilters": "Ștergere Filtre"
+            }
+        },
+        "categories": {
+            "all": "Toate",
+            "professional": "Profesionale",
+            "modern": "Moderne",
+            "creative": "Creative",
+            "simple": "Simple"
+        },
+        "sorting": {
+            "popular": "Cele mai Populare",
+            "name": "Nume A-Z"
+        },
+        "viewMode": {
+            "grid": "Vizualizare Grilă",
+            "list": "Vizualizare Listă"
+        },
+        "templateCard": {
+            "badges": {
+                "popular": "Popular",
+                "current": "Curent"
+            },
+            "actions": {
+                "favorite": "Adăugare la favorite",
+                "unfavorite": "Eliminare din favorite",
+                "preview": "Previzualizare Șablon",
+                "select": "Selectare Șablon",
+                "currentTemplate": "Șablon Curent"
+            },
+            "popularity": "{{percentage}}% popularitate"
+        },
+        "templateNames": {
+            "professionalClassic": "Profesional Clasic",
+            "modernCreative": "Modern Creativ",
+            "creativeBold": "Creativ Îndrăzneț",
+            "executivePro": "Profesional Executiv",
+            "techModern": "Tehnologic Modern",
+            "simpleElegant": "Simplu Elegant",
+            "designerSpecial": "Special Designer",
+            "cleanSimple": "Curat Simplu",
+            "corporateElite": "Elite Corporativ",
+            "startupReady": "Pregătit pentru Startup-uri",
+            "creativePro": "Profesional Creativ",
+            "minimalPro": "Minimalist Profesional",
+            "businessClassic": "Afaceri Clasic",
+            "modernEdge": "Modern Avangardist",
+            "artistPortfolio": "Portofoliu Artist",
+            "techInnovation": "Inovație Tehnologică",
+            "executiveSuite": "Suite Executivă",
+            "creativeShowcase": "Expoziție Creativă",
+            "cleanProfessional": "Curat Profesional",
+            "futureForward": "Orientat spre Viitor Modern",
+            "professional21": "Profesional 21",
+            "professional22": "Profesional 22",
+            "professional23": "Profesional 23",
+            "professional24": "Profesional 24",
+            "professional25": "Profesional 25",
+            "professional26": "Profesional 26",
+            "professional27": "Profesional 27",
+            "professional28": "Profesional 28",
+            "professional29": "Profesional 29",
+            "professional30": "Profesional 30",
+            "professional31": "Profesional 31",
+            "professional32": "Profesional 32",
+            "professional33": "Profesional 33",
+            "professional34": "Profesional 34",
+            "professional35": "Profesional 35",
+            "professional36": "Profesional 36",
+            "professional37": "Profesional 37",
+            "professional38": "Profesional 38",
+            "professional39": "Profesional 39",
+            "professional40": "Profesional 40",
+            "professional41": "Profesional 41",
+            "professional42": "Profesional 42",
+            "professional43": "Profesional 43",
+            "professional44": "Profesional 44",
+            "professional45": "Profesional 45",
+            "professional46": "Profesional 46",
+            "professional47": "Profesional 47",
+            "professional48": "Profesional 48",
+            "professional49": "Profesional 49",
+            "professional50": "Profesional 50"
+        },
+        "templateDescriptions": {
+            "professionalClassic": "Design curat și tradițional, perfect pentru mediile corporative",
+            "modernCreative": "Aspect modern cu elemente creative",
+            "creativeBold": "Șablon artistic pentru profesioniști creativi",
+            "executivePro": "Design sofisticat pentru poziții de conducere",
+            "techModern": "Șablon modern, perfect pentru industria tehnologică",
+            "simpleElegant": "Design minimalist axat pe claritatea conținutului",
+            "designerSpecial": "Aspect unic pentru profesioniști în design",
+            "cleanSimple": "Curat și simplu",
+            "corporateElite": "Șablon corporativ premium",
+            "startupReady": "Șablon pregătit pentru startup-uri",
+            "creativePro": "Șablon creativ profesional",
+            "minimalPro": "Design profesional minimalist curat",
+            "businessClassic": "Șablon clasic de afaceri",
+            "modernEdge": "Design modern de ultimă generație",
+            "artistPortfolio": "Perfect pentru portofolii creative",
+            "techInnovation": "Design inovator pentru profesioniști tehnici",
+            "executiveSuite": "Suite executivă premium",
+            "creativeShowcase": "Prezentați-vă munca creativă",
+            "cleanProfessional": "Aspect curat profesional",
+            "futureForward": "Design modern orientat spre viitor",
+            "professional21": "Design șablon profesional",
+            "professional22": "Design șablon profesional",
+            "professional23": "Design șablon profesional",
+            "professional24": "Design șablon profesional",
+            "professional25": "Design șablon profesional",
+            "professional26": "Design șablon profesional",
+            "professional27": "Design șablon profesional",
+            "professional28": "Design șablon profesional",
+            "professional29": "Design șablon profesional",
+            "professional30": "Design șablon profesional",
+            "professional31": "Design șablon profesional",
+            "professional32": "Design șablon profesional",
+            "professional33": "Design șablon profesional",
+            "professional34": "Design șablon profesional",
+            "professional35": "Design șablon profesional",
+            "professional36": "Design șablon profesional",
+            "professional37": "Design șablon profesional",
+            "professional38": "Design șablon profesional",
+            "professional39": "Design șablon profesional",
+            "professional40": "Design șablon profesional",
+            "professional41": "Design șablon profesional",
+            "professional42": "Design șablon profesional",
+            "professional43": "Design șablon profesional",
+            "professional44": "Design șablon profesional",
+            "professional45": "Design șablon profesional",
+            "professional46": "Design șablon profesional",
+            "professional47": "Design șablon profesional",
+            "professional48": "Design șablon profesional",
+            "professional49": "Design șablon profesional",
+            "professional50": "Design șablon profesional"
+        },
+        "pagination": {
+            "previous": "Anterior",
+            "next": "Următor"
+        },
+        "preview": {
+            "title": "Previzualizare Șablon",
+            "popularity": "{{percentage}}% popularitate",
+            "actions": {
+                "cancel": "Anulare",
+                "useTemplate": "Utilizează Șablon"
+            }
+        },
+        "keyboard": {
+            "escToClose": "pentru a închide"
+        },
+        "selectedTemplate": "\"{{templateId}}\" selectat"
+    },
+    "missing1": {
+        "quickBuilder": {
+            "title": "Rapid",
+            "badge": "RECOMANDAT"
+        },
+        "stepByStep": {
+            "title": "Ghidat",
+            "badge": "NOU"
+        },
+        "portfolioBuilder": {
+            "title": "Portofoliu",
+            "badge": "NOU"
+        }
+    },
+    "DashboardPortfolios": {
+        "title": "Portofoliile Mele",
+        "subtitle": "Gestionați și prezentați colecția dvs. de portofolii",
+        "createPortfolio": "Creare Portofoliu",
+        "searchPlaceholder": "Căutare portofolii...",
+        "themes": {
+            "allThemes": "Toate Teme",
+            "default": "Implicit",
+            "darkTheme": "Temă Întunecată",
+            "minimal": "Minimalist",
+            "creative": "Creativ",
+            "professional": "Profesional"
+        },
+        "status": {
+            "published": "Publicat",
+            "draft": "Schiță"
+        },
+        "actions": {
+            "view": "Vizualizare",
+            "edit": "Editare",
+            "delete": "Ștergere",
+            "viewPreview": "Vizualizare Previzualizare"
+        },
+        "stats": {
+            "views": "Vizualizări",
+            "updated": "Actualizat"
+        },
+        "table": {
+            "portfolio": "Portofoliu",
+            "theme": "Temă",
+            "views": "Vizualizări",
+            "updated": "Actualizat",
+            "actions": "Acțiuni"
+        },
+        "tooltips": {
+            "viewPortfolio": "Vizualizare Portofoliu",
+            "editPortfolio": "Editare Portofoliu",
+            "deletePortfolio": "Ștergere Portofoliu"
+        },
+        "search": {
+            "portfolioFound": "portofoliu găsit",
+            "portfoliosFound": "portofolii găsite"
+        },
+        "emptyState": {
+            "title": "Niciun portofoliu găsit",
+            "noSearchResults": "Încercați să ajustați criteriile de căutare sau de filtrare.",
+            "noPortfolios": "Creați primul portofoliu pentru a începe!",
+            "createFirstPortfolio": "Creare Primul Portofoliu"
+        },
+        "deleteConfirmation": "Sunteți sigur că doriți să ștergeți acest portofoliu? Această acțiune nu poate fi anulată.",
+        "messages": {
+            "loadError": "Eroare la încărcarea portofoliilor",
+            "deleteSuccess": "Portofoliu șters cu succes",
+            "deleteError": "Eroare la ștergerea portofoliului"
+        }
+    },
+    "JobsUpdate": {
+        "JobsLandingHero": {
+          "typingEffect": {
+            "sentence1": "Găsește-ți jobul visurilor tale astăzi",
+            "sentence2": "Conectează-te cu angajatori de top",
+            "sentence3": "Avancează-ți cariera",
+            "sentence4": "Descoperă oportunități de la distanță",
+            "sentence5": "Alătură-te companiilor de top"
+          },
+          "badge": "Portal de locuri de muncă",
+          "description": "Descoperiți mii de oportunități de angajare de la companii de top. Indiferent dacă sunteți în căutarea unui loc de muncă la distanță, a unei promovări în carieră sau a primului loc de muncă, conectăm profesioniști talentați cu potrivirea lor perfectă.",
+          "searchPlaceholder": "Titlul postului, cuvinte cheie sau companie",
+          "locationPlaceholder": "Oraș, stat sau la distanță",
+          "searchButton": "Căutați locuri de muncă",
+          "browseJobs": "Răsfoiți locuri de muncă",
+          "hotBadge": "FIERBINTE",
+          "postJob": "Publică un loc de muncă",
+          "employerBadge": "ANGAJATOR",
+          "careerResources": "Sfaturi pentru carieră",
+          "browse": "Răsfoiește",
+          "browseDesc": "Explorează toate oportunitățile",
+          "post": "Publică",
+          "postDesc": "Angajează talente de top",
+          "resources": "Resurse",
+          "resourcesDesc": "Consultanță și sfaturi pentru carieră",
+          "stats": {
+            "jobs": "Peste 10.000 de locuri de muncă active",
+            "rating": "Evaluare 4.8/5"
+          },
+          "features": {
+            "freeToApply": "Gratuit de aplicat",
+            "verifiedEmployers": "Angajatori verificați"
+          }
+        },
+        "LandingJobTopCompanies": {
+          "badge": "Angajatori de top",
+          "title": "Alătură-te companiilor de top",
+          "description": "Descoperiți oportunități la companii de clasă mondială care angajează activ. De la startup-uri la Fortune 500, găsiți potrivirea perfectă.",
+          "featured": "Recomandate",
+          "viewAll": "Vezi toate companiile",
+          "stats": {
+            "companies": "Companii partenere",
+            "jobs": "Locuri de muncă active",
+            "hires": "Angajări de succes"
+          }
+        },
+        "LandingJobsProcess": {
+          "badge": "Cum funcționează",
+          "title": "Obține-ți jobul visurilor tale în",
+          "titleHighlight": "4 pași simpli",
+          "description": "Procesul nostru simplificat face căutarea unui loc de muncă fără efort. De la descoperire la angajare, vă ghidăm la fiecare pas pentru a vă asigura că găsiți oportunitatea perfectă.",
+          "featuresTitle": "De ce să alegi platforma noastră?",
+          "featuresDescription": "Oferim instrumente și funcționalități de ultimă generație pentru a face căutarea unui loc de muncă mai eficientă și mai productivă.",
+          "steps": {
+            "0": {
+              "title": "Căută și descoperă",
+              "description": "Răsfoiți mii de oportunități de angajare de la companii de top. Folosește filtrele noastre avansate pentru a găsi potrivirea perfectă pentru abilitățile și preferințele tale."
+            },
+            "1": {
+              "title": "Creare profil",
+              "description": "Construiește-ți profilul profesional cu ajutorul constructorului nostru de CV-uri. Arată-ți abilitățile, experiența și realizările pentru a te evidenția din mulțime."
+            },
+            "2": {
+              "title": "Aplică instantaneu",
+              "description": "Aplică la mai multe locuri de muncă cu un singur clic. Sistemul nostru inteligent de aplicații îți adaptează automat profilul la fiecare poziție."
+            },
+            "3": {
+              "title": "Fii angajat",
+              "description": "Conectează-te cu managerii de angajare, programează interviuri și obține jobul visurilor tale. Te susținem pe tot parcursul procesului."
+            }
+          },
+          "features": {
+            "0": {
+              "title": "Potrivire bazată pe inteligență artificială",
+              "description": "Algoritmul nostru inteligent te potrivește cu oportunități relevante"
+            },
+            "1": {
+              "title": "Optimizare CV",
+              "description": "Optimizează-ți automat CV-ul pentru fiecare aplicație"
+            },
+            "2": {
+              "title": "Companii verificate",
+              "description": "Toți angajatorii sunt verificați pentru autenticitate și calitate"
+            }
+          },
+          "cta": {
+            "title": "Ești gata să începi călătoria ta?",
+            "description": "Alătură-te miilor de profesioniști care și-au găsit jobul visurilor prin intermediul platformei noastre. Următoarea ta oportunitate este la doar un clic distanță.",
+            "searchButton": "Începe căutarea de locuri de muncă",
+            "profileButton": "Creare profil"
+          }
+        },
+        "LandingJobsFeatured": {
+          "badge": "Locuri de muncă recomandate",
+          "title": "Descoperă următoarea ta",
+          "titleHighlight": "Oportunitate de vis",
+          "description": "Explorează oportunități selectate de la companii de top. Aceste poziții recomandate oferă o creștere excepțională în carieră, compensații competitive și medii de lucru uimitoare.",
+          "statsTitle": "Alătură-te miilor de profesioniști de succes",
+          "statsDescription": "Platforma noastră a ajutat nenumărați profesioniști să-și găsească jobul visurilor la companii de top din întreaga lume.",
+          "stats": {
+            "jobs": "Locuri de muncă recomandate",
+            "success": "Rată de succes",
+            "companies": "Companii de top"
+          },
+          "JobCard":{
+            "skills":{
+              "moreSkills":"+{0} mai multe"
+            },
+            "badges":{
+              "featured":"⭐ Recomandat",
+              "urgent":"🔥 Urgent",
+              "remote":"🌍 La distanță"
+            },
+            "buttons":{
+              "applyNow":"Aplică acum"
+            }
+          },
+          "viewAll": "Vezi toate locurile de muncă"
+        },
+        "MainJobListings": {
+          "jobSingular": "loc de muncă",
+          "jobPlural": "locuri de muncă",
+          "found": "găsite",
+          "page": "Pagina",
+          "of": "din",
+          "sort": "Sortează",
+          "sortNewest": "Cele mai noi",
+          "sortSalaryDesc": "Salariu ↓",
+          "sortSalaryAsc": "Salariu ↑",
+          "sortCompany": "Companie",
+          "sortRelevance": "Relevanță",
+          "noJobsFound": "Nu au fost găsite locuri de muncă",
+          "tryAdjusting": "Încercați să ajustați criteriile de căutare sau filtrele pentru a descoperi mai multe oportunități.",
+          "clearAllFilters": "Șterge toate filtrele",
+          "previous": "Anterior",
+          "next": "Următorul"
+        },
+        "JobSearchBar": {
+          "heading": "Găsește-ți următoarea oportunitate",
+          "subheading": "Descoperă locuri de muncă de la companii de top din întreaga lume",
+          "favorites": "Favorite",
+          "postJob": "Publică loc de muncă",
+          "filters": "Filtre",
+          "searchPlaceholder": "Căutați locuri de muncă, companii, cuvinte cheie...",
+          "locationPlaceholder": "Locație (oraș, stat, țară)",
+          "searchButton": "Căutare"
+        },
+        "JobFilters": {
+          "title": "Filtre",
+          "clearAll": "Șterge toate",
+          "jobTypeTitle": "Tip de loc de muncă",
+          "experienceLevelTitle": "Nivel de experiență",
+          "workModeTitle": "Mod de lucru",
+          "salaryRangeTitle": "Interval salarial",
+          "jobType": {
+            "fullTime": "Full-time",
+            "partTime": "Part-time",
+            "contract": "Contract",
+            "freelance": "Freelance"
+          },
+          "experienceLevel": {
+            "entryLevel": "Nivel Începător",
+            "junior": "Junior",
+            "midLevel": "Nivel Mediu",
+            "senior": "Senior",
+            "seniorLevel": "Nivel Senior",
+            "executive": "Executiv/Director"
+          },
+          "salaryRange": {
+            "range1": "40.000 $ - 60.000 $",
+            "range2": "60.000 $ - 80.000 $",
+            "range3": "80.000 $ - 120.000 $",
+            "range4": "120.000 $+ "
+          },
+          "workMode": {
+            "remote": "La distanță",
+            "onSite": "La sediu",
+            "hybrid": "Hibrid"
+          }
+        },
+        "JobDetailsModal": {
+          "tabs": {
+            "overview": "Prezentare generală",
+            "company": "Companie",
+            "details": "Detalii"
+          },
+          "jobDescription": "Descrierea postului",
+          "responsibilities": "Responsabilități",
+          "requirements": "Cerințe",
+          "benefits": "Beneficii",
+          "companyInfo": "Informații despre companie",
+          "location": "Locație",
+          "postedOn": "Publicat pe",
+          "deadline": "Termen limită",
+          "apply": "Aplică acum",
+          "share": "Partajează",
+          "save": "Salvează",
+          "saved": "Salvat",
+          "viewsPrefix": "👀",
+          "applicantsPrefix": "👥",
+          "viewsText": "vizualizări ultimele 24h",
+          "applicantsText": "candidați",
+          "noDescription": "Nu s-a furnizat descrierea postului.",
+          "noResponsibilities": "Nu sunt listate responsabilități specifice.",
+          "noRequirements": "Nu sunt listate cerințe specifice.",
+          "noBenefits": "Nu sunt disponibile informații despre beneficii.",
+          "urgencyPriority": "Prioritate",
+          "fastTrack": "Cale rapidă",
+          "qualifications": "Cerințe",
+          "qualifications.default": "Cerințele vor fi discutate în timpul procesului de interviu.",
+          "jobDetails": {
+            "title": "Detalii post",
+            "jobType": "Tip de loc de muncă",
+            "workMode": "Mod de lucru",
+            "experienceLevel": "Nivel de experiență",
+            "location": "Locație",
+            "salary": "Salariu",
+            "salaryRange": "Interval salarial",
+            "competitive": "Competitiv",
+            "applicationDeadline": "Termen limită pentru depunerea cererii",
+            "postedDate": "Data publicării",
+            "notSpecified": "Nu este specificat"
+          },
+          "jobDescription.default": "Alătură-te {{company}} ca {{title}}. Căutăm un profesionist talentat care să se alăture echipei noastre.",
+          "aboutCompany": {
+            "title": "Despre companie",
+            "defaultDescription": "Aflați mai multe despre {{company}} în timpul procesului de interviu. Detaliile companiei și informațiile despre cultură vor fi partajate cu candidații calificați."
+          },
+          "actions": {
+            "applyNow": "Aplică acum",
+            "save": "Salvează",
+            "share": "Partajează",
+            "contact": "Contact",
+            "expand": "Extinde",
+            "collapse": "Restrânge"
+          },
+          "stats": {
+            "viewsToday": "vizualizări astăzi",
+            "applications": "aplicații",
+            "deadline": "Termen limită"
+          },
+          "defaultBenefits": {
+            "healthInsurance": {
+              "title": "Asigurare de sănătate",
+              "description": "Detalii despre acoperirea medicală vor fi discutate"
+            },
+            "timeOff": {
+              "title": "Timp liber",
+              "description": "Concediu și timp personal"
+            },
+            "equipment": {
+              "title": "Echipament",
+              "description": "Echipament de lucru furnizat"
+            },
+            "workMode": {
+              "title": "Mod de lucru",
+              "description": "De discutat"
+            }
+          },
+          "noCompanyInfo": "Nu sunt disponibile informații despre companie.",
+          "companyStats": {
+            "locationTBD": "Locație de stabilit"
+          },
+          "applicationProcess": {
+            "applicationReview": "Revizuirea cererii",
+            "initialInterview": "Interviu inițial",
+            "technicalAssessment": "Evaluare tehnică",
+            "finalInterview": "Interviu final",
+            "duration": {
+              "days2to3": "2-3 zile",
+              "days3to5": "3-5 zile",
+              "week1to2": "1-2 săptămâni",
+              "mins30to45": "30-45 min",
+              "hours1to2": "1-2 ore",
+              "mins45to60": "45-60 min"
+            },
+            "status": {
+              "pending": "în așteptare",
+              "completed": "finalizat",
+              "current": "curent",
+              "upcoming": "viitor"
+            }
+          }
+        },
+        "CreateJobModal": {
+          "title": "Creați o nouă postare de loc de muncă",
+          "requiredFields": "Toate câmpurile marcate cu * sunt obligatorii",
+          "cancel": "Anulează",
+          "submitting": "Se trimite...",
+          "submitApplication": "Trimite aplicația",
+          "creatingJob": "Se creează jobul...",
+          "createJobPosting": "Creează postare de job",
+          "loadingCompanies": "Se încarcă companiile...",
+          "selectCompany": "Selectează o companie",
+          "noCompanies": "Nu ai nicio companie aprobată. Te rugăm să creezi una mai întâi.",
+          "noCompaniesDescription": "Trebuie să adaugi și să obții aprobarea pentru cel puțin o companie înainte de a posta locuri de muncă. Folosește butonul \"Adaugă companie\" din tabloul de bord.",
+          "sections": {
+            "jobInformation": "Informații despre loc de muncă",
+            "location": "Locație și tip",
+            "compensation": "Remunerație și termen limită",
+            "jobDescription": "Descrierea postului",
+            "requirements": "Cerințe și beneficii"
+          },
+          "fields": {
+            "jobTitle": "Titlul postului",
+            "company": "Companie",
+            "jobType": "Tip de loc de muncă",
+            "workMode": "Mod de lucru",
+            "location": "Locație",
+            "country": "Țară",
+            "experience": "Nivel de experiență",
+            "minSalary": "Salariu minim",
+            "maxSalary": "Salariu maxim",
+            "deadline": "Termen limită pentru depunerea cererii",
+            "jobDescription": "Descrierea postului",
+            "requirements": "Cerințe",
+            "benefits": "Beneficii"
+          },
+          "placeholders": {
+            "jobTitle": "ex., Manager de produs senior",
+            "location": "Începeți să tastați oraș, stat, țară...",
+            "jobDescription": "Descrieți rolul, responsabilitățile și ce face această poziție interesantă...",
+            "requirement": "ex., 2+ ani de experiență în dezvoltare software",
+            "benefit": "ex., Asigurare de sănătate, contribuții 401(k)"
+          },
+          "actions": {
+            "addRequirement": "Adaugă cerință",
+            "addBenefit": "Adaugă beneficiu"
+          },
+          "jobTypes": {
+            "fullTime": "Full-time",
+            "partTime": "Part-time",
+            "contract": "Contract",
+            "freelance": "Freelance",
+            "internship": "Internship",
+            "temporary": "Temporar"
+          },
+          "workModes": {
+            "onSite": "La sediu",
+            "remote": "La distanță",
+            "hybrid": "Hibrid"
+          },
+          "experienceLevels": {
+            "entryLevel": "Nivel Începător",
+            "junior": "Junior",
+            "midLevel": "Nivel Mediu",
+            "senior": "Senior",
+            "executive": "Executiv"
+          }
+        },
+        "FavoritesModal": {
+          "title": "Locuri de muncă favorite",
+          "job": "loc de muncă",
+          "jobs": "locuri de muncă",
+          "saved": "salvate",
+          "removeFromFavorites": "Elimină din favorite",
+          "viewDetails": "Vezi detalii",
+          "yourSavedJobs": "Locurile tale de muncă salvate",
+          "browseJobs": "Răsfoiți locuri de muncă",
+          "cleanUpMissingJobs": "Curăță locurile de muncă lipsă",
+          "missingJobsWarning": {
+            "title": "{0} locuri de muncă salvate nu mai sunt disponibile",
+            "description": "Unele locuri de muncă din favoritele tale ar fi putut fi eliminate sau nu mai sunt active."
+          },
+          "noSavedJobs": "Niciun loc de muncă salvat",
+          "noSavedJobsMessage": "Nu ai salvat încă niciun loc de muncă. Dă clic pe pictograma marcajului de carte la un loc de muncă pentru a-l salva pentru mai târziu."
+        },
+        "AppliedJobs": {
+          "title": "Locuri de muncă aplicate",
+          "subtitle": "Urmăriți-vă aplicațiile de job și starea lor actuală",
+          "loading": "Se încarcă aplicațiile tale...",
+          "loginRequired": {
+            "title": "Vă rugăm să vă conectați",
+            "message": "Trebuie să fiți conectat pentru a vizualiza aplicațiile dvs. de locuri de muncă."
+          },
+          "stats": {
+            "totalApplied": "Total aplicate",
+            "pending": "În așteptare",
+            "interviews": "Interviuri",
+            "successRate": "Rată de succes"
+          },
+          "search": {
+            "placeholder": "Căutați locuri de muncă, companii sau locații..."
+          },
+          "filters": {
+            "allStatus": "Toate statusurile",
+            "underReview": "În curs de examinare",
+            "interview": "Interviu",
+            "accepted": "Acceptat",
+            "rejected": "Respins"
+          },
+          "sort": {
+            "byDate": "Sortează după dată",
+            "byCompany": "Sortează după companie",
+            "byStatus": "Sortează după status"
+          },
+          "noApplications": {
+            "title": "Nicio aplicație găsită",
+            "filterMessage": "Încercați să ajustați criteriile de căutare sau de filtrare.",
+            "emptyMessage": "Nu ați aplicat încă la niciun loc de muncă. Începeți să explorați oportunitățile!"
+          },
+          "actions": {
+            "browseJobs": "Răsfoiți locuri de muncă",
+            "moreDetails": "Mai multe detalii",
+            "lessDetails": "Mai puține detalii"
+          },
+          "jobInfo": {
+            "applied": "Aplicat",
+            "status": "Status"
+          },
+          "jobDetails": {
+            "jobDescription": "Descrierea postului",
+            "requirements": "Cerințe",
+            "noRequirements": "Nu sunt listate cerințe specifice",
+            "applicationStatus": "Statusul aplicației",
+            "status": "Status",
+            "appliedOn": "Aplicat pe",
+            "title": "Detalii post",
+            "type": "Tip",
+            "mode": "Mod",
+            "salary": "Salariu"
+          }
+        },
+        "DashboardMessages": {
+          "search": {
+            "placeholder": "Căutare"
+          },
+          "header": {
+            "title": "Mesaje"
+          },
+          "noMessages": {
+            "title": "Niciun mesaj încă",
+            "message": "Angajatorii te vor contacta aici când sunt interesați de profilul tău"
+          },
+          "status": {
+            "active": "Activ acum"
+          },
+          "loading": {
+            "inProgress": "Se încarcă...",
+            "loadMore": "Încarcă mesaje mai vechi",
+            "noMore": "Fără mesaje",
+            "messages": "Se încarcă mesajele..."
+          },
+          "errors": {
+            "loadFailed": "Nu s-au putut încărca mesajele",
+            "sendFailed": "Nu s-a putut trimite mesajul. Vă rugăm să încercați din nou.",
+            "loadingError": "Eroare la încărcarea mesajelor: {{message}}",
+            "permission": "Permisiune refuzată sau eroare de rețea",
+            "connection": "Verificați regulile de securitate Firebase și conexiunea la rețea."
+          },
+          "emptyState": {
+            "title": "Niciun mesaj în această conversație",
+            "description": "Acesta este începutul conversației tale cu {{name}}.",
+            "hint": "Mesajele vor apărea aici"
+          },
+          "input": {
+            "placeholder": "Introduceți un mesaj...",
+            "sendButton": "Trimite"
+          },
+          "welcome": {
+            "title": "Bun venit la Mesaje",
+            "description": "Selectează o conversație din bara laterală pentru a începe să discuți cu contactele tale.",
+            "hint": "Alege o conversație pentru a începe mesageria"
+          },
+          "conversation": {
+            "noMessages": "Niciun mesaj încă"
+          },
+          "time": {
+            "now": "Acum",
+            "minutes": "acum {{count}} min",
+            "hours": "acum {{count}} ore"
+          },
+          "user": {
+            "unknown": "Utilizator necunoscut"
+          }
+        },
+        "JobApplicationsModal": {
+          "header": {
+            "title": "Aplicații pentru",
+            "totalApplications": "total aplicații"
+          },
+          "search": {
+            "placeholder": "Căutați după nume, email sau abilități..."
+          },
+          "filters": {
+            "allStatus": "Toate statusurile",
+            "pending": "În așteptare",
+            "interview": "Interviu",
+            "accepted": "Acceptat",
+            "rejected": "Respins"
+          },
+          "status": {
+            "pending": "În așteptare",
+            "interview": "Interviu",
+            "accepted": "Acceptat",
+            "rejected": "Respins"
+          },
+          "emptyState": {
+            "title": "Nicio aplicație găsită",
+            "noApplications": "Nimeni nu a aplicat încă la acest loc de muncă.",
+            "noResults": "Nicio aplicație nu se potrivește cu filtrele tale actuale."
+          },
+          "coverLetter": {
+            "none": "Nicio scrisoare de intenție furnizată"
+          },
+          "applicantInfo": {
+            "experience": "experiență",
+            "resumeAttached": "CV atașat",
+            "more": "mai multe"
+          },
+          "buttons": {
+            "accept": "Acceptă",
+            "reject": "Respinge",
+            "downloadResume": "Descarcă CV",
+            "sendEmail": "Trimite e-mail",
+            "showResume": "Arată CV"
+          }
+        },
+        "EmployerDashboard": {
+          "loading": "Se încarcă postările tale de locuri de muncă...",
+          "header": {
+            "title": "Postări de locuri de muncă",
+            "subtitle": "Gestionează-ți postările de locuri de muncă și revizuiește aplicațiile"
+          },
+          "buttons": {
+            "addCompany": "Adaugă companie",
+            "company": "Companie",
+            "postNewJob": "Publică un job nou",
+            "newJob": "Job nou",
+            "postFirstJob": "Publică primul tău job",
+            "applications": "Aplicații",
+            "editJob": "Editează jobul",
+            "pause": "Pauză",
+            "activate": "Activează",
+            "delete": "Șterge"
+          },
+          "stats": {
+            "totalJobs": "Total locuri de muncă",
+            "active": "Active",
+            "applications": "Aplicații",
+            "views": "Vizualizări"
+          },
+          "search": {
+            "placeholder": "Căutați locuri de muncă după titlu, locație..."
+          },
+          "filters": {
+            "allStatus": "Toate statusurile",
+            "active": "Active",
+            "pending": "În așteptarea aprobării",
+            "paused": "În pauză",
+            "closed": "Închise",
+            "draft": "Ciornă"
+          },
+          "sort": {
+            "byDate": "Sortează după dată",
+            "byApplications": "Aplicații",
+            "byViews": "Vizualizări",
+            "byTitle": "Titlu"
+          },
+          "emptyState": {
+            "title": "Nicio postare de loc de muncă găsită",
+            "noJobs": "Nu ai postat încă niciun loc de muncă. Creează prima ta postare de loc de muncă pentru a începe!",
+            "noResults": "Nicio postare de loc de muncă nu se potrivește cu filtrele tale actuale. Încearcă să ajustezi criteriile de căutare."
+          },
+          "jobDetails": {
+            "description": "Descrierea postului",
+            "requirements": "Cerințe",
+            "moreRequirements": "+{{count}} mai multe"
+          },
+          "jobInfo": {
+            "applications": "aplicații",
+            "views": "vizualizări",
+            "deadline": "Termen limită:"
+          },
+          "AddCompanyModal": {
+            "header": {
+              "title": "Adaugă companie",
+              "subtitle": "Adaugă detaliile companiei tale pentru revizuire și aprobare"
+            },
+            "info": {
+              "title": "Procesul de verificare a companiei",
+              "description": "Toate înregistrările companiilor sunt revizuite de echipa noastră pentru a asigura calitatea și autenticitatea. Vei fi notificat odată ce compania ta este aprobată și poate fi folosită pentru postări de joburi."
+            },
+            "form": {
+              "companyName": "Numele companiei *",
+              "website": "Site web",
+              "companyLogo": "Logo-ul companiei (Opțional)",
+              "industry": "Industrie *",
+              "companySize": "Mărimea companiei *",
+              "location": "Locație *",
+              "address": "Adresă",
+              "phone": "Telefon",
+              "email": "Email",
+              "description": "Descrierea companiei",
+              "companyNamePlaceholder": "Introduceți numele companiei"
+            },
+            "validation": {
+              "nameRequired": "Numele companiei este obligatoriu",
+              "industryRequired": "Industria este obligatorie",
+              "sizeRequired": "Mărimea companiei este obligatorie",
+              "locationRequired": "Locația este obligatorie",
+              "invalidWebsite": "Vă rugăm să introduceți o adresă URL validă pentru site-ul web",
+              "invalidImage": "Vă rugăm să introduceți o adresă URL validă pentru imagine",
+              "invalidEmail": "Vă rugăm să introduceți o adresă de e-mail validă"
+            },
+            "industries": {
+              "technology": "Tehnologie",
+              "healthcare": "Sănătate",
+              "finance": "Finanțe",
+              "education": "Educație",
+              "retail": "Retail",
+              "manufacturing": "Producție",
+              "consulting": "Consulting",
+              "marketing": "Marketing",
+              "realEstate": "Imobiliare",
+              "hospitality": "Ospitalitate",
+              "transportation": "Transport",
+              "energy": "Energie",
+              "media": "Media",
+              "government": "Guvern",
+              "nonprofit": "Organizație non-profit",
+              "other": "Altele"
+            },
+            "companySizes": {
+              "size1to10": "1-10 angajați",
+              "size11to50": "11-50 angajați",
+              "size51to200": "51-200 angajați",
+              "size201to500": "201-500 angajați",
+              "size501to1000": "501-1000 angajați",
+              "size1000plus": "Peste 1000 de angajați"
+            },
+            "placeholders": {
+              "selectIndustry": "Selectează industria",
+              "selectCompanySize": "Selectează mărimea companiei"
+            },
+            "messages": {
+              "validationError": "Eroare de validare",
+              "fixErrors": "Vă rugăm să remediați erorile din formular",
+              "error": "Eroare",
+              "mustBeLoggedIn": "Trebuie să fii conectat pentru a adăuga o companie",
+              "success": "Succes",
+              "companyAdded": "Compania a fost adăugată cu succes! Va fi revizuită de echipa noastră.",
+              "failedToAdd": "Nu s-a putut adăuga compania",
+              "unexpectedError": "A apărut o eroare neașteptată"
+            },
+            "buttons": {
+              "cancel": "Anulează",
+              "addCompany": "Adaugă companie",
+              "addingCompany": "Se adaugă compania..."
+            }
+          },
+          "CompaniesManagement": {
+            "loading": {
+              "companies": "Se încarcă companiile tale..."
+            },
+            "header": {
+              "title": "Companiile mele",
+              "subtitle": "Gestionează-ți companiile și urmărește-le statusul aprobării"
+            },
+            "buttons": {
+              "addCompany": "Adaugă companie",
+              "add": "Adaugă"
+            },
+            "infoBanner": {
+              "title": "Procesul de aprobare a companiei",
+              "message": "Toate companiile trebuie să fie aprobate înainte de a putea fi folosite pentru postări de joburi. Doar companiile aprobate vor apărea în formularul tău de postare a joburilor."
+            },
+            "stats": {
+              "totalCompanies": "Total companii",
+              "approved": "Aprobate",
+              "pending": "În așteptare",
+              "rejected": "Respinse"
+            },
+            "search": {
+              "placeholder": "Căutați companii după nume, industrie, locație..."
+            },
+            "filters": {
+              "allStatus": "Toate statusurile",
+              "pending": "În așteptare",
+              "approved": "Aprobate",
+              "rejected": "Respinse"
+            },
+            "emptyState": {
+              "title": "Nicio companie găsită",
+              "noCompanies": "Nu ai adăugat încă nicio companie. Adaugă prima ta companie pentru a începe!",
+              "noMatches": "Nicio companie nu se potrivește cu filtrele tale actuale. Încearcă să ajustezi criteriile de căutare.",
+              "addFirstCompany": "Adaugă prima ta companie"
+            },
+            "companyDetails": {
+              "description": "Descrierea companiei",
+              "visitWebsite": "Vizitează site-ul"
+            },
+            "actions": {
+              "editCompany": "Editează compania",
+              "delete": "Șterge"
+            }
+          },
+          "JobCard": {
+            "badges": {
+              "featured": "⭐ Recomandat",
+              "urgent": "🔥 Urgent",
+              "remote": "🌍 La distanță"
+            },
+            "jobDetails": {
+              "location": "Locație",
+              "type": "Tip de loc de muncă",
+              "salary": "Salariu",
+              "postedTime": "Ora publicării"
+            },
+            "skills": {
+              "moreSkills": "+{0} mai multe"
+            },
+            "buttons": {
+              "applyNow": "Aplică acum"
+            }
+          }
+        },
+        "JobCard2": {
+          "alerts": {
+            "signInRequired": "Vă rugăm să vă conectați pentru a aplica la locuri de muncă."
+          },
+          "applicationStatus": {
+            "loading": "Se încarcă...",
+            "applyNow": "Aplică acum",
+            "pending": "Aplicație în așteptare",
+            "interview": "Interviu programat",
+            "accepted": "Aplicație acceptată",
+            "rejected": "Aplicație respinsă"
+          },
+          "jobInfo": {
+            "locationTBD": "Locație de stabilit",
+            "applicants": "{{applicants}} candidați",
+            "requirements": "Cerințe",
+            "posted": "Publicat la {{postedDate}}"
+          },
+          "buttons": {
+            "viewDetails": "Vezi detalii"
+          }
+        },
+        "JobApplicationModal": {
+          "title": "Aplică pentru {{jobTitle}}",
+          "subtitle": "Completează formularul de mai jos pentru a aplica la această poziție",
+          "personalInfo": {
+            "heading": "Informații personale",
+            "fullName": "Nume complet",
+            "email": "Adresă de e-mail",
+            "phone": "Număr de telefon",
+            "linkedin": "URL profil LinkedIn",
+            "github": "URL GitHub/Portofoliu",
+            "website": "Site web personal"
+          },
+          "resume": {
+            "heading": "CV",
+            "selectResume": "Selectează CV",
+            "browseResumes": "Răsfoiește CV-uri",
+            "uploadNew": "Încarcă CV nou",
+            "preview": "Previzualizează CV",
+            "noResumes": "Nu s-au găsit CV-uri",
+            "createResume": "Creează un CV mai întâi",
+            "loading": "Se încarcă CV-uri...",
+            "error": "Eroare la încărcarea CV-urilor",
+            "selectThis": "Selectează acest CV",
+            "createdAt": "Creat la {{date}}"
+          },
+          "coverLetter": {
+            "heading": "Scrisoare de intenție",
+            "placeholder": "Scrie o scurtă scrisoare de intenție explicând de ce te potrivești pentru acest rol...",
+            "loadTemplate": "Încarcă șablon",
+            "templates": {
+              "standard": "Standard",
+              "professional": "Profesional",
+              "creative": "Creativ",
+              "technical": "Tehnic",
+              "career": "Schimbare de carieră"
+            }
+          },
+          "buttons": {
+            "back": "Înapoi",
+            "submit": "Trimite aplicația",
+            "submitting": "Se trimite...",
+            "cancel": "Anulează",
+            "close": "Închide",
+            "viewMyApplications": "Vezi aplicațiile mele",
+            "browseMore": "Răsfoiește mai multe joburi"
+          },
+          "success": {
+            "title": "Aplicație trimisă!",
+            "message": "Aplicația ta a fost trimisă cu succes. Te vom contacta în curând."
+          },
+          "error": {
+            "title": "Aplicație eșuată",
+            "message": "A apărut o problemă la trimiterea aplicației tale. Vă rugăm să încercați din nou.",
+            "requiredFields": "Vă rugăm să completați toate câmpurile obligatorii"
+          },
+          "pagination": {
+            "prev": "Anterior",
+            "next": "Următorul",
+            "page": "Pagina {{current}} din {{total}}"
+          }
+        },
+        "ProfileDisplay2": {
+          "search": "Căutare",
+          "navigation": "NAVIGAȚIE",
+          "menu": {
+            "dashboard": "Tablou de bord",
+            "interviews": "Interviuri",
+            "portfolios": "Portofolii",
+            "settings": "Setări",
+            "appliedJobs": "Locuri de muncă aplicate",
+            "messages": "Mesaje",
+            "myJobs": "Locurile mele de muncă",
+            "myCompanies": "Companiile mele"
+          }
+        },
+        "DashboardHomepageFix1":{
+          "subtitle":"Gestionează-ți CV-urile și scrisorile de intenție"
+        }
+      }
+}

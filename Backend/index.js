@@ -13,7 +13,7 @@ puppeteer.use(StealthPlugin());
 require('dotenv').config();
 const app = express();
 const port = 8080;
-const websiteName = 'srv1128102.hstgr.cloud'; // Replace with your domain
+const websiteName = 'placementecosystem.gtracademy.org'; // Replace with your domain
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
 
@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // --- CORS Middleware ---
-const allowedOrigins = ['http://127.0.0.1:3000', 'http://localhost:3000', `https://${websiteName}`];
+const allowedOrigins = ['http://127.0.0.1:3000', 'http://localhost:3000', `https://${websiteName}` , `http://${websiteName}`];
 app.use((req, res, next) => {
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {

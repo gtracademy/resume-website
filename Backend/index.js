@@ -13,7 +13,7 @@ puppeteer.use(StealthPlugin());
 require('dotenv').config();
 const app = express();
 const port = 8080;
-const websiteName = 'domain.com'; // Replace with your domain
+const websiteName = 'srv1128102.hstgr.cloud'; // Replace with your domain
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
 

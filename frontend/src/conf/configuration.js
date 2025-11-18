@@ -10,7 +10,7 @@ var config = {
     // Legacy PayPal config (remove this after updating)
 
     stripe_publishable_key: '', // Make sure its th publishable key
-    backendUrl: 'srv1128102.hstgr.cloud', // our domain in this format :  domain.com . if you use subdomain for the app then it should be like : subdomain.domain.com,
-    provider: 'http',
+    backendUrl: 'srv1128102.hstgr.cloud/', // our domain in this format :  domain.com . if you use subdomain for the app then it should be like : subdomain.domain.com,
+    provider: 'https',
 };
 export default config;

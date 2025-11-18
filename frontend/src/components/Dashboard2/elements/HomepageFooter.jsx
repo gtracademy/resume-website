@@ -255,7 +255,7 @@ useEffect(() => {
             <div className="relative">
               <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
                 <div className="w-1.5 h-1.5 rounded-full bg-purple-500/50 animate-pulse"></div>
-                <p> {new Date().getFullYear()} Resumen. {t('HomepageFooter.legal.allRightsReserved')}</p>
+                <p> {new Date().getFullYear()} Powered By GTR Academy {t('HomepageFooter.legal.allRightsReserved')}</p>
                 <div className="w-1.5 h-1.5 rounded-full bg-purple-500/50 animate-pulse"></div>
               </div>
             </div>

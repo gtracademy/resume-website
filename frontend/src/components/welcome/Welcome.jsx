@@ -1280,8 +1280,8 @@ class Welcome extends Component {
             <div className="wrapper">
                 {/* Dynamic SEO Meta Management */}
                 <MetaManager 
-                    title={this.state.websiteTitle || 'Resume Builder App'}
-                    description={this.state.websiteDescription || 'Professional Resume Builder - Create stunning resumes and cover letters'}
+                    title={this.state.websiteTitle || 'GTR Resume Builder'}
+                    description={this.state.websiteDescription || 'GTR Academy Professional Resume Builder - Create stunning resumes and cover letters'}
                     keywords={this.state.websiteKeywords || 'resume, cv, cover letter, job application, professional'}
                     language={this.state.websiteLanguage || 'English'}
                 />

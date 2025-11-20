@@ -46,7 +46,7 @@ import { AiOutlineLoading3Quarters } from 'react-icons/ai';
                     {t('dashNew.createDocument')}                        
                     </Link>
                     <Link
-                        to="#"
+                        to=""
                         onClick={() => {
                             props.showFavorites();
                         }}

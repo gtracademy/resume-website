@@ -244,14 +244,14 @@ const LandingJobsFeatured = ({ t }) => {
                     </div>
 
                     {/* CTA Button */}
-                    <div className="text-center">
+                    {/* <div className="text-center">
                         <button
                             onClick={handleViewAllJobs}
                             className="inline-flex items-center gap-2 px-8 py-4 bg-[#4a6cf7] text-white rounded-lg hover:bg-[#3b5ce6] transition-all duration-300 font-semibold text-base shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98]">
                             <FiBriefcase className="w-5 h-5" />
                             <span>{t('JobsUpdate.LandingJobsFeatured.viewAll', 'View All Jobs')}</span>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -8,8 +8,8 @@ import { getFeaturedCompanies, getFrontendStats } from '../../firestore/dbOperat
 const topCompanies = [
     {
         id: 1,
-        name: 'Google',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+        name: 'The Learning Station',
+        logo: './CompanyLogos/client-5.jpg',
         openJobs: 245,
         industry: 'Technology',
         location: 'Mountain View, CA',
@@ -17,8 +17,8 @@ const topCompanies = [
     },
     {
         id: 2,
-        name: 'Microsoft',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg',
+        name: 'MedVantage',
+        logo: './CompanyLogos/client-6.jpg',
         openJobs: 189,
         industry: 'Technology',
         location: 'Redmond, WA',
@@ -26,8 +26,8 @@ const topCompanies = [
     },
     {
         id: 3,
-        name: 'Apple',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
+        name: 'Hindustan Times',
+        logo: './CompanyLogos/htmedia.png',
         openJobs: 156,
         industry: 'Technology',
         location: 'Cupertino, CA',
@@ -35,8 +35,8 @@ const topCompanies = [
     },
     {
         id: 4,
-        name: 'Amazon',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
+        name: 'Paytm',
+        logo: './CompanyLogos/Paytm_logo.jpg',
         openJobs: 312,
         industry: 'E-commerce',
         location: 'Seattle, WA',
@@ -44,8 +44,8 @@ const topCompanies = [
     },
     {
         id: 5,
-        name: 'Meta',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg',
+        name: 'Spinny',
+        logo: './CompanyLogos/spinny.png',
         openJobs: 98,
         industry: 'Social Media',
         location: 'Menlo Park, CA',
@@ -53,8 +53,8 @@ const topCompanies = [
     },
     {
         id: 6,
-        name: 'Netflix',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg',
+        name: 'SMC Insurance',
+        logo: './CompanyLogos/smclogo.png',
         openJobs: 67,
         industry: 'Entertainment',
         location: 'Los Gatos, CA',
@@ -62,8 +62,8 @@ const topCompanies = [
     },
     {
         id: 7,
-        name: 'Tesla',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg',
+        name: 'Speed Jet',
+        logo: './CompanyLogos/SpeedJet.jpg',
         openJobs: 134,
         industry: 'Automotive',
         location: 'Austin, TX',
@@ -71,8 +71,8 @@ const topCompanies = [
     },
     {
         id: 8,
-        name: 'Spotify',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg',
+        name: 'QBS Learning',
+        logo: './CompanyLogos/qbs.jpg',
         openJobs: 45,
         industry: 'Music',
         location: 'Stockholm, Sweden',
@@ -212,12 +212,12 @@ const LandingJobTopCompanies = ({ t }) => {
                                     </h3>
                                     
                                     <div className="space-y-2 text-sm text-gray-600">
-                                        {/* <div className="flex items-center justify-center gap-1">
+                                        <div className="flex items-center justify-center gap-1">
                                             <FiBriefcase className="w-4 h-4 text-blue-500" />
                                             <span className="font-medium">{company.openJobs} open jobs</span>
-                                        </div> */}
+                                        </div>
                                         
-                                        <div className="flex items-center justify-center gap-1">
+                                        {/* <div className="flex items-center justify-center gap-1">
                                             <FiTrendingUp className="w-4 h-4 text-green-500" />
                                             <span>{company.industry}</span>
                                         </div>
@@ -225,7 +225,7 @@ const LandingJobTopCompanies = ({ t }) => {
                                         <div className="flex items-center justify-center gap-1">
                                             <FiMapPin className="w-4 h-4 text-gray-400" />
                                             <span className="text-xs">{company.location}</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
     

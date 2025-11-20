@@ -9,11 +9,11 @@ import AuthWrapper from '../../auth/authWrapper/AuthWrapper';
 import { motion, AnimatePresence } from 'framer-motion';
 // Optimized sentences for better impact - will be loaded from translations
 const defaultSentences = [
-    'Build professional resumes with AI',
+    'Build professional resumes with GTR Academy',
     'Choose from 50+ expert templates',
     'Get intelligent writing assistance',
     'Preview changes in real-time',
-    'Ace interviews with AI prep tools',
+    'Ace interviews with GTR Academy prep tools',
 ];
 
 const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStepByStepBuilder, goToPortfolioBuilder }) => {
@@ -314,6 +314,7 @@ const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStep
             <div className="absolute bottom-8 right-8 w-4 h-4 border-b-3 border-r-3 border-pink-500 rounded-br-lg" /> */}
                     </div>
                 </div>
+                
             </div>
 
             {/* Auth Modal */}

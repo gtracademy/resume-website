@@ -260,9 +260,9 @@
         "badge": "Smart"
       },
       "aiBuilder": {
-        "title": "AI Content Builder",
-        "description": "AI-powered resume writing",
-        "badge": "AI"
+        "title": "GTR Academy Content Builder",
+        "description": "GTR Academy-powered resume writing",
+        "badge": "GTR Academy"
       },
       "templates": {
         "title": "Professional Templates",
@@ -335,14 +335,14 @@
   },
   "HomepageHero": {
     "typingEffect": {
-      "sentence1": "Build professional resumes with AI",
+      "sentence1": "Welcome To Placment Eco System GTR Academy",
       "sentence2": "Choose from 50+ expert templates",
       "sentence3": "Get intelligent writing assistance",
       "sentence4": "Preview changes in real-time",
-      "sentence5": "Ace interviews with AI prep tools"
+      "sentence5": "Ace interviews with GTR Academy prep tools"
     },
-    "badge": "AI-Powered Resume Builder",
-    "description": "Create stunning, ATS-friendly resumes and cover letters with AI assistance. Choose from professional templates, get real-time feedback, and land your dream job faster.",
+    "badge": "GTR Powered Resume Builder",
+    "description": "Create stunning, ATS-friendly resumes and cover letters with GTR Academy assistance. Choose from professional templates, get real-time feedback, and land your dream job faster.",
     "createResume": "Create Resume",
     "createCoverLetter": "Create Cover Letter",
     "stats": {
@@ -357,7 +357,7 @@
   "HomepageTrustedBy": {
     "badge": "COMPATIBLE WITH LEADING PLATFORMS",
     "title": "Seamlessly Works With Industry Tools",
-    "description": "Our AI-powered resume builder integrates with popular platforms and tools used by professionals worldwide.",
+    "description": "Our GTR powered resume builder integrates with popular platforms and tools used by professionals worldwide.",
     "trustIndicators": {
       "platforms": "Compatible with 30+ major platforms",
       "countries": "Used in 120+ countries",
@@ -371,7 +371,7 @@
       "part2": "Your Career",
       "part3": "Journey"
     },
-    "description": "Join thousands of professionals who've accelerated their careers with our AI-powered resume builder. Get noticed, land interviews, and secure your dream job faster than ever before.",
+    "description": "Join thousands of professionals who've accelerated their careers with our GTR-powered resume builder. Get noticed, land interviews, and secure your dream job faster than ever before.",
     "benefits": [
       {
         "title": "Land More Job Interviews",
@@ -419,7 +419,7 @@
       "part2": "Users",
       "part3": " Are Saying"
     },
-    "description": "Join thousands of satisfied job seekers who have landed their dream jobs with our AI-powered resume builder.",
+    "description": "Join thousands of satisfied job seekers who have landed their dream jobs with our GTR-powered resume builder.",
     "navigation": {
       "previous": "Previous",
       "next": "Next",
@@ -520,7 +520,7 @@
       "stayUpdated": "Stay Updated",
       "securePayments": "Secure Payments"
     },
-    "aboutText": "We help job seekers create professional resumes in minutes. Our mission is to empower individuals to land their dream jobs with high-quality, AI-crafted application documents.",
+    "aboutText": "We help job seekers create professional resumes in minutes. Our mission is to empower individuals to land their dream jobs with high-quality, GTR Academy crafted application documents.",
     "links": {
       "pricing": "Pricing",
       "contact": "Contact"
@@ -666,7 +666,7 @@
       "steps": {
         "createResume": {
           "title": "Create your first resume",
-          "description": "Create or edit resumes with our easy-to-use builder, 20+ templates and advanced AI capabilities for customization and job-specific tailoring."
+          "description": "Create or edit resumes with our easy-to-use builder, 20+ templates and advanced GTR Academy capabilities for customization and job-specific tailoring."
         }
       }
     },
@@ -687,7 +687,7 @@
     "card": {
       "created": "Created",
       "untitledResume": "Untitled Resume",
-      "aiJobMatching": "AI Job Matching",
+      "aiJobMatching": "GTR Academy Job Matching",
       "new": "NEW",
       "newResumeTitle": "New Resume",
       "newResumeDescription": "Create a tailored resume for each job application. Double your chances of getting hired!"
@@ -1284,8 +1284,8 @@
       "remove": "Remove this position"
     },
     "ai": {
-      "suggestions": "✨ AI Suggestions",
-      "tooltip": "Generate AI suggestions",
+      "suggestions": "✨ GTR Academy Suggestions",
+      "tooltip": "GTR Academy suggestions",
       "tooltipDisabled": "Fill in Job Title and Company first"
     }
   },
@@ -1330,8 +1330,8 @@
       "remove": "Remove this education"
     },
     "ai": {
-      "suggestions": "✨ AI Suggestions",
-      "tooltip": "Generate AI suggestions",
+      "suggestions": "✨ GTR Academy Suggestions",
+      "tooltip": "Generate GTR Academy suggestions",
       "tooltipDisabled": "Fill in School and Degree first"
     }
   },
@@ -1365,7 +1365,7 @@
       "remove": "Remove this skill"
     },
     "ai": {
-      "suggestions": "✨ AI Suggestions",
+      "suggestions": "✨ GTR Academy Suggestions",
       "generating": "Generating..."
     },
     "quickAdd": {
@@ -1407,17 +1407,17 @@
       "placeholder": "Write a compelling summary that showcases your professional background, key skills, and career objectives. Highlight your unique value proposition and what makes you stand out..."
     },
     "ai": {
-      "generate": "✨ AI Generate",
+      "generate": "✨ GTR Academy",
       "generating": "Generating...",
-      "tooltip": "Generate AI-enhanced summary"
+      "tooltip": "Generate GTR Academy enhanced summary"
     },
     "errors": {
-      "noOccupation": "Please fill in your occupation in the Personal Info step first to generate an AI summary.",
-      "generationFailed": "Failed to generate AI summary. Please try again."
+      "noOccupation": "Please fill in your occupation in the Personal Info step first to generate an GTR Academy summary.",
+      "generationFailed": "Failed to generate GTR Academy summary. Please try again."
     }
   },
   "EducationSuggestionModal": {
-    "title": "AI Education Suggestions",
+    "title": "GTR Academy Education Suggestions",
     "subtitle": "Generate professional descriptions based on your education details",
     "educationDetails": {
       "title": "Education Details",
@@ -1428,8 +1428,8 @@
       "present": "Present"
     },
     "generateButton": {
-      "generate": "Generate AI Descriptions",
-      "generating": "Generating AI Suggestions..."
+      "generate": "GTR Academy Descriptions",
+      "generating": "Generating GTR Academy Suggestions..."
     },
     "requirements": {
       "fillFields": "Please fill in the school and degree fields first"
@@ -1440,7 +1440,7 @@
       "useThis": "Use This"
     },
     "instructions": {
-      "title": "Click \"Generate AI Descriptions\" to get personalized suggestions for your education background."
+      "title": "Click \"Generate GTR Academy Descriptions\" to get personalized suggestions for your education background."
     },
     "actions": {
       "close": "Close"
@@ -1485,7 +1485,7 @@
     }
   },
   "WorkHistorySuggestionModal": {
-    "title": "AI Description Suggestions",
+    "title": "GTR Academy Description Suggestions",
     "subtitle": "Generate professional descriptions based on your job details",
     "positionDetails": {
       "title": "Position Details",
@@ -1496,8 +1496,8 @@
       "present": "Present"
     },
     "generateButton": {
-      "generate": "Generate AI Descriptions",
-      "generating": "Generating AI Suggestions..."
+      "generate": "Generate GTR Academy Descriptions",
+      "generating": "Generating GTR Academy Suggestions..."
     },
     "requirements": {
       "fillFields": "Please fill in the job title and company fields first"
@@ -1508,7 +1508,7 @@
       "useThis": "Use This"
     },
     "instructions": {
-      "title": "Click \"Generate AI Descriptions\" to get personalized suggestions for your work experience."
+      "title": "Click \"Generate GTR Academy Descriptions\" to get personalized suggestions for your work experience."
     },
     "actions": {
       "close": "Close"
@@ -1843,7 +1843,7 @@
       },
       "features": {
         "0": {
-          "title": "AI-Powered Matching",
+          "title": "GTR Academy-Powered Matching",
           "description": "Our intelligent algorithm matches you with relevant opportunities"
         },
         "1": {

@@ -408,7 +408,7 @@ const ProfileDisplay = ({ profile, image, user, t, onSidebarToggle, sidebarColla
                                     ) : (
                                         <span className="inline-flex items-center px-2 py-0.5 text-xs font-medium text-gray-700 bg-gray-100 rounded-md border border-gray-200">
                                             <span className="w-1 h-1 bg-gray-400 rounded-full mr-1.5"></span>
-                                            Free Plan
+                                            GTR Learner
                                         </span>
                                     )}
                                 </div>

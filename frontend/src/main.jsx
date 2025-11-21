@@ -13,6 +13,8 @@ import fire from './conf/fire'; // Import fire
 import GA4Provider from './components/GA4Provider';
 import i18n from './i18n';
 import GoogleMapsProvider from './components/JobsListings/GoogleMapsProvider';
+import PrivacyPolicy from './components/Pages/PrivacyPolicy';
+import TermsAndConditions from './components/Pages/TermsAndConditions';
 
 // Create a Context for authentication
 export const AuthContext = createContext(null);
@@ -101,6 +103,8 @@ const AuthWrapper = () => {
                             <Route path="/blog/:slug" element={<BlogPost />} />
                             <Route path="/blog-editor" element={<BlogEditor />} />
                             <Route path="/blog-editor/:postId" element={<BlogEditor />} />
+                            <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+                            <Route path='/terms-and-condition' element={<TermsAndConditions/>}/>
                           {/* Export routes*/}
                             {/* Generate CV template routes dynamically */}
                             {Array.from({ length: 51 }, (_, i) => i + 1).map((num) => (

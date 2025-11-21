@@ -239,18 +239,18 @@ useEffect(() => {
               </a>
               <a
                 className="text-gray-400 hover:text-purple-300 transition-all duration-300 relative group text-sm"
-                href="/terms-of-service"
+                href="/terms-and-condition"
               >
                 <span className="relative z-10">{t('HomepageFooter.legal.termsOfService')}</span>
                 <span className="absolute inset-x-0 -bottom-0.5 h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               </a>
-              <a
+              {/* <a
                 className="text-gray-400 hover:text-purple-300 transition-all duration-300 relative group text-sm"
                 href="/cookie-policy"
               >
                 <span className="relative z-10">{t('HomepageFooter.legal.cookiePolicy')}</span>
                 <span className="absolute inset-x-0 -bottom-0.5 h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-              </a>
+              </a> */}
             </div>
             <div className="relative">
               <div className="flex items-center justify-center gap-2 text-sm text-gray-500">

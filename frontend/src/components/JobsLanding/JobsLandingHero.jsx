@@ -104,7 +104,7 @@ const JobsLandingHero = ({ t, authBtnHandler, user: propUser }) => {
     const handlePostJob = () => {
         if (user) {
             // User is logged in, navigate to dashboard (since /jobs/post doesn't exist yet)
-            navigate('/dashboard');
+            navigate('/dashboard/add-job');
         } else {
             // User not logged in, show auth modal
             if (authBtnHandler) {

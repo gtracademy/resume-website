@@ -27,6 +27,7 @@ import EmployerDashboard from '../EmployerDashboard/EmployerDashboard';
 import CompaniesManagement from '../EmployerDashboard/CompaniesManagement';
 import DashboardMessages from '../DashboardMessages/DashboardMessages';
 import i18n from '../../../i18n';
+import CreateJob from '../../JobsListings/CreateJob';
 class DashboardMain extends Component {
     constructor(props) {
         super(props);
@@ -334,6 +335,7 @@ class DashboardMain extends Component {
                             <Route path="my-employments" element={<EmployerDashboard showToast={this.showToast} sidebarCollapsed={this.state.sidebarCollapsed} handleSidebarToggle={this.handleSidebarToggle} />} />
                             <Route path="my-companies" element={<CompaniesManagement showToast={this.showToast} sidebarCollapsed={this.state.sidebarCollapsed} />} />
                             <Route path="job-matching" element={<DashboardJobMatching showToast={this.showToast} sidebarCollapsed={this.state.sidebarCollapsed} />} />
+                            <Route path="add-job" element={<CreateJob/>}/>
                         </Routes>
                     </div>
                 </div>

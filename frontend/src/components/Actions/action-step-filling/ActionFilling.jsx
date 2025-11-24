@@ -592,7 +592,7 @@ class ActionFilling extends Component {
                     <div className="actionFilling__headAction">
                         <button onClick={this.toggleAIModal} className="ai-generation-button">
                             <AiOutlineRobot className="ai-icon" />
-                            AI Generate
+                            GTR Generate
                         </button>
                         <button
                             onClick={() => {

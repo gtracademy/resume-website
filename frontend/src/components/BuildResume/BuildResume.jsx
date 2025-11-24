@@ -839,27 +839,25 @@ const BuildResume = () => {
                                                     handleStepClick(step.path);
                                                     setIsMobileMenuOpen(false);
                                                 }}
-                                                className={`w-full flex items-center text-left p-3 rounded-lg transition-all duration-200 group relative ${
-                                                    isActive
+                                                className={`w-full flex items-center text-left p-3 rounded-lg transition-all duration-200 group relative ${isActive
                                                         ? 'bg-blue-50 border border-blue-200 text-blue-900 shadow-sm'
                                                         : isCompleted || isPrevious
-                                                        ? 'text-slate-700 hover:bg-slate-50 hover:border-slate-200 border border-transparent'
-                                                        : 'text-slate-400 hover:text-slate-600 border border-transparent'
-                                                }`}
+                                                            ? 'text-slate-700 hover:bg-slate-50 hover:border-slate-200 border border-transparent'
+                                                            : 'text-slate-400 hover:text-slate-600 border border-transparent'
+                                                    }`}
                                                 disabled={!isCompleted && !isPrevious && !isActive}
                                                 aria-current={isActive ? 'step' : undefined}>
                                                 <div className="flex items-center">
                                                     {/* Step Icon/Number */}
                                                     <div
-                                                        className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-semibold mr-3 transition-all duration-200 ${
-                                                            isActive
+                                                        className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-semibold mr-3 transition-all duration-200 ${isActive
                                                                 ? 'bg-blue-600 text-white shadow-sm'
                                                                 : isCompleted
-                                                                ? 'bg-green-500 text-white'
-                                                                : isPrevious
-                                                                ? 'bg-slate-200 text-slate-600'
-                                                                : 'bg-slate-100 text-slate-400'
-                                                        }`}>
+                                                                    ? 'bg-green-500 text-white'
+                                                                    : isPrevious
+                                                                        ? 'bg-slate-200 text-slate-600'
+                                                                        : 'bg-slate-100 text-slate-400'
+                                                            }`}>
                                                         {isCompleted ? (
                                                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                                                                 <path
@@ -914,13 +912,12 @@ const BuildResume = () => {
                                         <div className="flex items-center justify-between">
                                             <span className="text-sm font-semibold text-slate-800">Plan:</span>
                                             <span
-                                                className={`text-xs font-bold px-2.5 py-1 rounded-full ${
-                                                    userData.membership === 'Premium' ||
-                                                    userData.subscriptionsStatus === false ||
-                                                    (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false)
+                                                className={`text-xs font-bold px-2.5 py-1 rounded-full ${userData.membership === 'Premium' ||
+                                                        userData.subscriptionsStatus === false ||
+                                                        (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false)
                                                         ? 'bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 border border-green-200/80'
                                                         : 'bg-gradient-to-r from-gray-100 to-slate-100 text-gray-700 border border-gray-200/80'
-                                                }`}>
+                                                    }`}>
                                                 {userData.subscriptionsStatus === false || (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false)
                                                     ? 'Free Access'
                                                     : userData.membership}
@@ -990,11 +987,10 @@ const BuildResume = () => {
                                             setIsMobileMenuOpen(false);
                                         }}
                                         disabled={isDownloading}
-                                        className={`w-full py-3 px-4 font-medium transition-all duration-200 text-sm rounded-lg flex items-center justify-center space-x-2 ${
-                                            isDownloading
+                                        className={`w-full py-3 px-4 font-medium transition-all duration-200 text-sm rounded-lg flex items-center justify-center space-x-2 ${isDownloading
                                                 ? 'border border-slate-300 text-slate-400 cursor-not-allowed'
                                                 : 'border border-emerald-300 text-emerald-700 hover:bg-emerald-50 hover:border-emerald-400'
-                                        }`}>
+                                            }`}>
                                         {isDownloading ? (
                                             <>
                                                 <div className="w-4 h-4 border-2 border-slate-400 border-t-transparent rounded-full animate-spin"></div>
@@ -1172,27 +1168,25 @@ const BuildResume = () => {
                                 <button
                                     key={step.id}
                                     onClick={() => handleStepClick(step.path)}
-                                    className={`w-full flex items-center text-left p-2 rounded-lg transition-all duration-200 group relative ${
-                                        isActive
+                                    className={`w-full flex items-center text-left p-2 rounded-lg transition-all duration-200 group relative ${isActive
                                             ? 'bg-blue-50 border border-blue-200 text-blue-900 shadow-sm'
                                             : isCompleted || isPrevious
-                                            ? 'text-slate-700 hover:bg-slate-50 hover:border-slate-200 border border-transparent'
-                                            : 'text-slate-400 hover:text-slate-600 border border-transparent'
-                                    }`}
+                                                ? 'text-slate-700 hover:bg-slate-50 hover:border-slate-200 border border-transparent'
+                                                : 'text-slate-400 hover:text-slate-600 border border-transparent'
+                                        }`}
                                     disabled={!isCompleted && !isPrevious && !isActive}
                                     aria-current={isActive ? 'step' : undefined}>
                                     <div className="flex items-center">
                                         {/* Step Icon/Number */}
                                         <div
-                                            className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-semibold mr-2 transition-all duration-200 ${
-                                                isActive
+                                            className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-semibold mr-2 transition-all duration-200 ${isActive
                                                     ? 'bg-blue-600 text-white shadow-sm'
                                                     : isCompleted
-                                                    ? 'bg-green-500 text-white'
-                                                    : isPrevious
-                                                    ? 'bg-slate-200 text-slate-600'
-                                                    : 'bg-slate-100 text-slate-400'
-                                            }`}>
+                                                        ? 'bg-green-500 text-white'
+                                                        : isPrevious
+                                                            ? 'bg-slate-200 text-slate-600'
+                                                            : 'bg-slate-100 text-slate-400'
+                                                }`}>
                                             {isCompleted ? (
                                                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                                     <path
@@ -1244,11 +1238,10 @@ const BuildResume = () => {
                             <div className="flex items-center justify-between">
                                 <span className="text-sm font-semibold text-slate-800">Plan:</span>
                                 <span
-                                    className={`text-xs font-bold px-2.5 py-1 rounded-full ${
-                                        userData.membership === 'Premium' || userData.subscriptionsStatus === false || (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false)
+                                    className={`text-xs font-bold px-2.5 py-1 rounded-full ${userData.membership === 'Premium' || userData.subscriptionsStatus === false || (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false)
                                             ? 'bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 border border-green-200/80'
                                             : 'bg-gradient-to-r from-gray-100 to-slate-100 text-gray-700 border border-gray-200/80'
-                                    }`}>
+                                        }`}>
                                     {userData.subscriptionsStatus === false || (userData.subscriptionsStatus && userData.subscriptionsStatus.state === false) ? 'Free Access' : userData.membership}
                                     {(userData.membership === 'Premium' ||
                                         userData.subscriptionsStatus === false ||
@@ -1386,11 +1379,10 @@ const BuildResume = () => {
                                 <button
                                     onClick={handleDownload}
                                     disabled={isDownloading}
-                                    className={`flex items-center px-2 md:px-3 py-2 font-medium transition-all duration-200 text-xs rounded-lg ${
-                                        isDownloading
+                                    className={`flex items-center px-2 md:px-3 py-2 font-medium transition-all duration-200 text-xs rounded-lg ${isDownloading
                                             ? 'border border-slate-300 text-slate-400 cursor-not-allowed'
                                             : 'border border-emerald-300 text-emerald-700 hover:bg-emerald-50 hover:border-emerald-400'
-                                    }`}>
+                                        }`}>
                                     {isDownloading ? (
                                         <>
                                             <div className="w-3 h-3 border-2 border-slate-400 border-t-transparent rounded-full animate-spin mr-1"></div>

@@ -412,19 +412,19 @@ const AIGenerationModal = ({ closeModal, currentStep, handleStep, t, handleInput
         switch (currentStep) {
             case 1:
                 return (
-                    <motion.div className="flex flex-col items-center text-center space-y-6 px-6 py-4" initial="hidden" animate="visible" exit="exit" variants={slideVariants}>
+                    <motion.div className=" flex flex-col items-center text-center space-y-6 px-6 py-4" initial="hidden" animate="visible" exit="exit" variants={slideVariants}>
                         {/* Header */}
-                        <div className="relative flex flex-col items-center space-y-3">
-                            <div className="relative">
+                        <div className=" relative flex flex-col items-center space-y-3 ">
+                            {/* <div className="relative">
                                 <div className="w-16 h-16 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
                                     <FaBrain className="text-2xl text-white" />
                                 </div>
                                 <div className="absolute -top-1 -right-1">
                                     <BsStars className="text-yellow-400 text-lg animate-pulse" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="space-y-2">
-                                <h2 className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">AI Resume Builder</h2>
+                                <h2 className="text-xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">GTR Resume Builder</h2>
                                 <div className="w-16 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full mx-auto"></div>
                             </div>
                         </div>
@@ -466,7 +466,7 @@ const AIGenerationModal = ({ closeModal, currentStep, handleStep, t, handleInput
                         </div>
 
                         {/* Testimonial */}
-                        <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-lg p-4 border border-indigo-100 max-w-md">
+                        {/* <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-lg p-4 border border-indigo-100 max-w-md">
                             <div className="flex justify-center space-x-1 mb-2">
                                 {[...Array(5)].map((_, i) => (
                                     <span key={i} className="text-yellow-400 text-sm">
@@ -476,7 +476,7 @@ const AIGenerationModal = ({ closeModal, currentStep, handleStep, t, handleInput
                             </div>
                             <p className="text-gray-700 text-xs italic mb-2 leading-relaxed">"Saved me hours of work and created better content than I could have written myself!"</p>
                             <div className="text-xs font-semibold text-gray-800">- Michael S.</div>
-                        </div>
+                        </div> */}
 
                         {/* CTA Button */}
                         <button
@@ -495,7 +495,7 @@ const AIGenerationModal = ({ closeModal, currentStep, handleStep, t, handleInput
                         {/* Header */}
                         <div className="text-center space-y-2">
                             <h2 className="text-xl font-bold text-gray-900">Tell us about yourself</h2>
-                            <p className="text-sm text-gray-600 leading-relaxed">Provide details so our AI can generate the most relevant content for your resume.</p>
+                            {/* <p className="text-sm text-gray-600 leading-relaxed">Provide details so our GTR can generate the most relevant content for your resume.</p> */}
                         </div>
 
                         {/* Form */}

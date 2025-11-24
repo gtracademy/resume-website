@@ -560,9 +560,8 @@ class BoardFilling extends Component {
                                             <button
                                                 key={color}
                                                 onClick={() => this.handleColorChange('primary', color)}
-                                                className={`w-10 h-10 rounded-lg border-2 transition-all ${
-                                                    primaryColor === color ? 'border-gray-400 scale-110' : 'border-gray-200 hover:border-gray-300'
-                                                }`}
+                                                className={`w-10 h-10 rounded-lg border-2 transition-all ${primaryColor === color ? 'border-gray-400 scale-110' : 'border-gray-200 hover:border-gray-300'
+                                                    }`}
                                                 style={{ backgroundColor: color }}
                                                 title={color}
                                             />
@@ -602,13 +601,13 @@ class BoardFilling extends Component {
                                     {/* Main preview container */}
                                     <div
                                         id="Resume"
-                                        className="relative bg-white/95 backdrop-blur-sm w-[470px] h-[700px] mx-auto overflow-hidden overflow-y-scroll rounded-3xl shadow-md border border-white/20 transition-all duration-500"
+                                        className="relative bg-white/95 backdrop-blur-sm w-[470px] h-[70vh] mx-auto overflow-hidden overflow-y-scroll rounded-3xl shadow-md border border-white/20 transition-all duration-500"
                                         style={{
                                             paddingRight: '17px',
                                             boxSizing: 'content-box',
                                         }}>
                                         {/* Shine effect */}
-                                        <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent animate-shine pointer-events-none rounded-3xl"></div>
+                                        <div className="absolute h-20 inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent animate-shine pointer-events-none rounded-3xl"></div>
 
                                         {/* Content */}
                                         <div className="transform-gpu origin-top scale-[0.625] relative -left-[90px] ">
@@ -651,11 +650,10 @@ class BoardFilling extends Component {
                                                 whileHover={{ scale: 1.02 }}
                                                 whileTap={{ scale: 0.98 }}
                                                 onClick={this.toggleColorPanel}
-                                                className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md ${
-                                                    this.state.showColorPanel
+                                                className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md ${this.state.showColorPanel
                                                         ? 'bg-[#4a6cf7] text-white border border-[#4a6cf7]'
                                                         : 'bg-white border border-gray-300 text-gray-700 hover:border-[#4a6cf7] hover:text-[#4a6cf7]'
-                                                }`}>
+                                                    }`}>
                                                 <div className="w-3 h-3 rounded-sm border border-white/50" style={{ backgroundColor: primaryColor }} />
                                                 <span>Colors</span>
                                             </motion.button>
@@ -671,11 +669,10 @@ class BoardFilling extends Component {
                                                 whileTap={{ scale: 0.98 }}
                                                 onClick={(event) => this.saveToDatabase(event)}
                                                 disabled={this.state.isSaving}
-                                                className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md ${
-                                                    this.state.isSaving
+                                                className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md ${this.state.isSaving
                                                         ? 'bg-gray-400 text-white cursor-not-allowed border border-gray-400'
                                                         : 'bg-green-500 hover:bg-green-600 text-white border border-green-500'
-                                                }`}>
+                                                    }`}>
                                                 {this.state.isSaving ? (
                                                     <>
                                                         <div className="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></div>
@@ -696,11 +693,10 @@ class BoardFilling extends Component {
                                             whileTap={{ scale: 0.98 }}
                                             onClick={() => this.startDownload()}
                                             disabled={this.state.isSaving}
-                                            className={`inline-flex items-center gap-2 px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 shadow-sm hover:shadow-md ${
-                                                this.state.isSaving
+                                            className={`inline-flex items-center gap-2 px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 shadow-sm hover:shadow-md ${this.state.isSaving
                                                     ? 'bg-gray-400 text-white cursor-not-allowed border border-gray-400'
                                                     : 'bg-[#4a6cf7] hover:bg-[#3d5af5] text-white border border-[#4a6cf7]'
-                                            }`}>
+                                                }`}>
                                             <FaDownload className="w-4 h-4" />
                                             <span>{t('form.download')}</span>
                                         </motion.button>

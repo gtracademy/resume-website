@@ -424,7 +424,7 @@ class Welcome extends Component {
         } catch (error) {
             console.error('Error during initial data fetch:', error);
             // Set safe defaults
-            this.setState({ 
+            this.setState({
                 pages: [],
                 loaded: true,
                 subscriptionsStatus: {
@@ -798,7 +798,7 @@ class Welcome extends Component {
         });
 
         this.setState(newState, () => {
-            
+
         });
     }
 
@@ -1248,7 +1248,7 @@ class Welcome extends Component {
             country: this.state.country,
             dateofbirth: this.state.dateofbirth,
             dateOfBirth: this.state.dateOfBirth,
-            city: this.state.city, 
+            city: this.state.city,
             // email: this.state.email,
             phone: this.state.phone,
             employments: this.state.employments,
@@ -1279,7 +1279,7 @@ class Welcome extends Component {
         return (
             <div className="wrapper">
                 {/* Dynamic SEO Meta Management */}
-                <MetaManager 
+                <MetaManager
                     title={this.state.websiteTitle || 'GTR Resume Builder'}
                     description={this.state.websiteDescription || 'GTR Academy Professional Resume Builder - Create stunning resumes and cover letters'}
                     keywords={this.state.websiteKeywords || 'resume, cv, cover letter, job application, professional'}

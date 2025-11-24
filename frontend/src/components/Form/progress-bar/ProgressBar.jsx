@@ -31,7 +31,7 @@ class ProgressBar extends Component {
 
         const v = this.props.values || {};
         const bool = (x) => (x !== undefined && x !== null && String(x).trim() !== '');
-        const hasContent = (arr) => Array.isArray(arr) && arr.some(item => 
+        const hasContent = (arr) => Array.isArray(arr) && arr.some(item =>
             item && typeof item === 'object' && Object.values(item).some(val => bool(val))
         );
 
@@ -87,10 +87,10 @@ class ProgressBar extends Component {
         debug.push(`Languages: Optional section = ${langScore} points`);
 
         const percent = Math.max(0, Math.min(100, Math.round(score)));
-        
+
         // Debug logging (remove in production)
         console.log('Progress calculation:', debug.join(', '), `Total: ${score.toFixed(1)}/100 = ${percent}%`);
-        
+
         this.setState({ progress: percent });
     }
 
@@ -129,9 +129,9 @@ class ProgressBar extends Component {
                         <span className="progress-value">{pct}%</span>
                     </div>
                 )}
-                
+
                 <div className="progress-track">
-                    <div 
+                    <div
                         className="progress-fill"
                         style={{
                             width: `${pct}%`,
@@ -139,7 +139,7 @@ class ProgressBar extends Component {
                         }}
                     />
                 </div>
-                
+
                 {this.props.textHidden === false && (
                     <div className="progress-status">{statusText}</div>
                 )}

@@ -601,7 +601,7 @@ class BoardFilling extends Component {
                                     {/* Main preview container */}
                                     <div
                                         id="Resume"
-                                        className="relative bg-white/95 backdrop-blur-sm w-[80vw] sm:w-[470px] h-[55vh] sm:h-[70vh] mx-auto overflow-hidden overflow-y-scroll rounded-3xl shadow-md border border-white/20 transition-all duration-500"
+                                        className="relative bg-white/95 backdrop-blur-sm w-[80vw] sm:w-[470px] h-[40vh] sm:h-[70vh] mx-auto overflow-hidden overflow-y-scroll rounded-3xl shadow-md border border-white/20 transition-all duration-500"
                                         style={{
                                             paddingRight: '17px',
                                             boxSizing: 'content-box',

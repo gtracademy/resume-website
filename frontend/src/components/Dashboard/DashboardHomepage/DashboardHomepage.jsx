@@ -11,7 +11,7 @@ import {
 } from "../../../firestore/dbOperations";
 import LoaderAnimation from "../../../assets/animations/lottie-loader.json";
 import { withTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useLottie } from "lottie-react";
 import {
   FaCheckCircle,
@@ -36,6 +36,7 @@ import axios from "axios";
 import download from "downloadjs";
 import config from "../../../conf/configuration";
 import { trackDownload, trackEvent, trackEngagement } from "../../../utils/ga4";
+import BuildResume from "../../BuildResume/BuildResume";
 
 
 
@@ -760,7 +761,7 @@ class DashboardHomepage extends Component {
               </div>
               <button 
                 className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2.5 rounded-md flex items-center gap-2 transition-colors text-sm font-medium shadow-sm"
-                onClick={() => this.props.navigate("/")}
+                onClick={() => this.props.navigate("/build-resume/heading")}
               >
                 <FaPlus className="w-3.5 h-3.5" />
                 <span className="hidden sm:inline">{t("HomepageHero.createResume", "Create Resume")}</span>
@@ -1052,7 +1053,7 @@ class DashboardHomepage extends Component {
 
             {/* Create new resume card - only show when not loading */}
             {!this.state.isPaginating && !this.state.isfetcing && (
-              <div className="bg-white rounded-lg shadow-sm border-2 border-dashed border-slate-300 hover:border-slate-400 hover:bg-slate-50 transition-all duration-200 cursor-pointer group" onClick={() => this.props.navigate("/")}>
+            <Link to="/build-resume/heading"><div className="bg-white rounded-lg shadow-sm border-2 border-dashed border-slate-300 hover:border-slate-400 hover:bg-slate-50 transition-all duration-200 cursor-pointer group" onClick={() => this.props.navigate("/")}>
                 <div className="p-8 text-center h-full flex flex-col items-center justify-center">
                   <div className="w-16 h-16 bg-slate-100 group-hover:bg-slate-200 rounded-full flex items-center justify-center mb-6 transition-colors">
                     <FaPlus className="w-6 h-6 text-slate-600" />
@@ -1070,7 +1071,9 @@ class DashboardHomepage extends Component {
                     )}
                   </p>
                 </div>
-              </div>
+              </div></Link>
+            
+              
             )}
           </div>
 

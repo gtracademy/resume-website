@@ -53,9 +53,9 @@ function formatTimeAgo(date) {
 
 function formatSalaryRange(minSalary, maxSalary) {
     if (!minSalary && !maxSalary) return 'Salary not specified';
-    if (minSalary && maxSalary) return `$${minSalary.toLocaleString()} - $${maxSalary.toLocaleString()}`;
-    if (minSalary) return `From $${minSalary.toLocaleString()}`;
-    if (maxSalary) return `Up to $${maxSalary.toLocaleString()}`;
+    if (minSalary && maxSalary) return `Rs.${minSalary.toLocaleString()} - Rs.${maxSalary.toLocaleString()}`;
+    if (minSalary) return `From Rs.${minSalary.toLocaleString()}`;
+    if (maxSalary) return `Up to Rs.${maxSalary.toLocaleString()}`;
     return 'Salary not specified';
 }
 

@@ -269,7 +269,7 @@ const JobDetailsModal = ({ job, isOpen, onClose, isSaved, onToggleSaved, onApply
 
                                             <div className="flex flex-wrap items-center gap-2 mb-4">
                                                 <span className="px-4 py-2 bg-amber-50 text-amber-700 text-sm font-medium rounded-full flex items-center gap-1 border border-amber-200">
-                                                    <FaDollarSign className="w-3 h-3" />${enhancedJob.salaryRange.min / 1000}k - ${enhancedJob.salaryRange.max / 1000}k
+                                                   Rs.{enhancedJob.salaryRange.min / 1000}k - Rs.{enhancedJob.salaryRange.max / 1000}k
                                                 </span>
                                                 <span className="px-3 py-1.5 bg-emerald-50 text-emerald-700 text-xs font-medium rounded-full border border-emerald-200">{enhancedJob.workMode}</span>
                                                 <span className="flex items-center gap-1 px-3 py-1.5 bg-blue-50 text-blue-700 text-xs font-medium rounded-full border border-blue-200">

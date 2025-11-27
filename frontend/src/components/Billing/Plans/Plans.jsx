@@ -68,7 +68,7 @@ class Billing extends Component {
             AUD: 'AUD',
         };
 
-        return currencyMap[currency] || 'USD'; // Default to USD if currency not found
+        return currencyMap[currency] || 'INR'; // Default to USD if currency not found
     }
 
     nextStep(plan) {

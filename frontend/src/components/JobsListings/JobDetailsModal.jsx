@@ -368,7 +368,7 @@ const JobDetailsModal = ({ job, isOpen, onClose, isSaved, onToggleSaved, onApply
                                                             <span className="text-slate-500">{t('JobsUpdate.JobDetailsModal.jobDetails.salaryRange', 'Salary Range')}:</span>
                                                             <span className="ml-2 text-slate-900 font-medium">
                                                                 {enhancedJob.salaryRange.min > 0 && enhancedJob.salaryRange.max > 0
-                                                                    ? `$${enhancedJob.salaryRange.min.toLocaleString()} - $${enhancedJob.salaryRange.max.toLocaleString()}`
+                                                                    ? `Rs.${enhancedJob.salaryRange.min.toLocaleString()} - Rs.${enhancedJob.salaryRange.max.toLocaleString()}`
                                                                     : enhancedJob.salary || t('JobsUpdate.JobDetailsModal.jobDetails.competitive', 'Competitive')}
                                                             </span>
                                                         </div>

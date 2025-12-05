@@ -5,6 +5,7 @@ import {
     FaBriefcase,
     FaMapMarkerAlt,
     FaDollarSign,
+    FaRupeeSign,
     FaFileAlt,
     FaSave,
     FaTimes,
@@ -512,7 +513,7 @@ const EditJobModal = ({ isOpen, onClose, job, onJobUpdated, showToast, t }) => {
                                     <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
                                         <div className="bg-gray-50 px-4 py-3 border-b border-gray-200">
                                             <div className="flex items-center gap-2">
-                                                <FaDollarSign className="w-4 h-4 text-blue-600" />
+                                                <FaRupeeSign className="w-4 h-4 text-blue-600" />
                                                 <h3 className="font-semibold text-gray-900 text-base">{t('JobsUpdate.EditJobModal.sections.compensationDeadline', 'Compensation & Deadline')}</h3>
                                             </div>
                                         </div>

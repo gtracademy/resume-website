@@ -339,10 +339,10 @@ const EmployerDashboard = ({ showToast, sidebarCollapsed, t }) => {
     const formatSalaryDisplay = (minSalary, maxSalary) => {
         if (!minSalary && !maxSalary) return 'Salary not specified';
         if (minSalary && maxSalary) {
-            return `$${(minSalary / 1000).toFixed(0)}k - $${(maxSalary / 1000).toFixed(0)}k`;
+            return `Rs.${(minSalary / 1000).toFixed(0)}k - Rs.${(maxSalary / 1000).toFixed(0)}k`;
         }
-        if (minSalary) return `$${(minSalary / 1000).toFixed(0)}k+`;
-        if (maxSalary) return `Up to $${(maxSalary / 1000).toFixed(0)}k`;
+        if (minSalary) return `Rs.${(minSalary / 1000).toFixed(0)}k+`;
+        if (maxSalary) return `Up to Rs.${(maxSalary / 1000).toFixed(0)}k`;
         return 'Salary not specified';
     };
 

@@ -4,6 +4,7 @@ import {
     FaBuilding,
     FaMapMarkerAlt,
     FaDollarSign,
+    FaRupeeSign,
     FaClock,
     FaUsers,
     FaGraduationCap,

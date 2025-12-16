@@ -1940,10 +1940,10 @@
         "executive": "Executive/Director"
       },
       "salaryRange": {
-        "range1": "$40k - $60k",
-        "range2": "$60k - $80k",
-        "range3": "$80k - $120k",
-        "range4": "$120k+"
+        "range1": "Rs.40k - Rs.60k",
+        "range2": "Rs.60k - Rs.80k",
+        "range3": "Rs.80k - Rs.120k",
+        "range4": "Rs.120k+"
       },
       "workMode": {
         "remote": "Remote",

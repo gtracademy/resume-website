@@ -9,6 +9,7 @@ import {
     FaCalendar,
     FaMapMarkerAlt,
     FaDollarSign,
+    FaRupeeSign,
     FaEye,
     FaClock,
     FaCheckCircle,
@@ -389,7 +390,7 @@ const AppliedJobs = ({ showToast, sidebarCollapsed, t }) => {
                                                     <span>{job.location}</span>
                                                 </div>
                                                 <div className="flex items-center gap-1">
-                                                    <FaDollarSign className="w-3 h-3" />
+                                                    <FaRupeeSign className="w-3 h-3" />
                                                     <span>{job.salary}</span>
                                                 </div>
                                                 <div className="flex items-center gap-1">

@@ -2,6 +2,16 @@ const express = require('express');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const router = express.Router();
 
+
+// ✅ ADD THIS HERE
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Resume generation endpoint
 router.post('/generate-resume', async (req, res) => {
     try {
@@ -469,10 +479,23 @@ router.post('/generate-interview', async (req, res) => {
             const jsonData = JSON.parse(jsonStr);
 
             // Ensure we have the correct number of questions
-            if (jsonData.questions && jsonData.questions.length !== validQuestionCount) {
-                jsonData.questions = jsonData.questions.slice(0, validQuestionCount);
-                jsonData.totalQuestions = validQuestionCount;
+            // if (jsonData.questions && jsonData.questions.length !== validQuestionCount) {
+            //     jsonData.questions = jsonData.questions.slice(0, validQuestionCount);
+            //     jsonData.totalQuestions = validQuestionCount;
+            // }
+
+            // ✅ SHUFFLE QUESTIONS
+            if (Array.isArray(jsonData.questions)) {
+                jsonData.questions = shuffleArray(jsonData.questions)
+                    .slice(0, validQuestionCount)
+                    .map((q, index) => ({
+                        ...q,
+                        id: index + 1
+                    }));
+
+                jsonData.totalQuestions = jsonData.questions.length;
             }
+
 
             res.json(jsonData);
         } catch (parseError) {
@@ -813,10 +836,10 @@ function generateFallbackSummary(name, jobTitle, experience, skills, achievement
     const skillsList =
         typeof skills === 'string'
             ? skills
-                  .split(',')
-                  .slice(0, 3)
-                  .map((s) => s.trim())
-                  .join(', ')
+                .split(',')
+                .slice(0, 3)
+                .map((s) => s.trim())
+                .join(', ')
             : 'various industry-relevant skills';
 
     // Extract first name for more natural templates
@@ -1053,7 +1076,10 @@ const generateDefaultInterview = (occupation, interviewType, questionCount = 10,
     const remainingQuestions =
         interviewType === 'technical' ? behavioralQuestions.slice(0, 5).map((q, i) => ({ ...q, id: i + 6 })) : technicalQuestions.slice(0, 5).map((q, i) => ({ ...q, id: i + 6 }));
 
-    const allQuestions = [...questions, ...remainingQuestions];
+    const combined = [...questions, ...remainingQuestions];
+
+    // take only how many user asked for
+    const allQuestions = combined.slice(0, questionCount);
 
     // Create appropriate categories based on questions
     const categories = [...new Set(allQuestions.map((q) => q.category))];
@@ -1066,7 +1092,10 @@ const generateDefaultInterview = (occupation, interviewType, questionCount = 10,
         totalQuestions: allQuestions.length,
         passingScore: 70,
         categories,
-        questions: allQuestions,
+        questions: shuffleArray(allQuestions).map((q, index) => ({
+            ...q,
+            id: index + 1
+        })),
     };
 };
 
@@ -1403,29 +1432,29 @@ const generateDefaultResumeData = (occupation, experienceLevel, yearsOfExperienc
         'entry-level':
             targetLanguage === 'English'
                 ? `Enthusiastic ${positionTitle} with ${yearsOfExperience.max} years of experience, specializing in ${selectedKeywords.join(
-                      ', '
-                  )}. Passionate about delivering high-quality results and continuously developing expertise in ${occupation}.`
+                    ', '
+                )}. Passionate about delivering high-quality results and continuously developing expertise in ${occupation}.`
                 : `Enthousiaste ${positionTitle} avec ${yearsOfExperience.max} années d'expérience, spécialisé en ${selectedKeywords.join(
-                      ', '
-                  )}. Passionné par la livraison de résultats de haute qualité et le développement continu de l'expertise en ${occupation}.`,
+                    ', '
+                )}. Passionné par la livraison de résultats de haute qualité et le développement continu de l'expertise en ${occupation}.`,
 
         'mid-level':
             targetLanguage === 'English'
                 ? `Results-driven ${positionTitle} with ${yearsOfExperience.max} years of experience delivering successful outcomes through ${selectedKeywords.join(
-                      ', '
-                  )}. Proven ability to combine technical expertise with strong collaboration skills.`
+                    ', '
+                )}. Proven ability to combine technical expertise with strong collaboration skills.`
                 : `${positionTitle} axé sur les résultats avec ${yearsOfExperience.max} années d'expérience offrant des résultats réussis grâce à ${selectedKeywords.join(
-                      ', '
-                  )}. Capacité prouvée à combiner l'expertise technique avec de solides compétences de collaboration.`,
+                    ', '
+                )}. Capacité prouvée à combiner l'expertise technique avec de solides compétences de collaboration.`,
 
         'senior-level':
             targetLanguage === 'English'
                 ? `Accomplished ${positionTitle} with over ${yearsOfExperience.min} years of progressive experience in ${selectedKeywords.join(
-                      ', '
-                  )}. Demonstrated success in implementing innovative solutions to complex challenges.`
+                    ', '
+                )}. Demonstrated success in implementing innovative solutions to complex challenges.`
                 : `${positionTitle} accompli avec plus de ${yearsOfExperience.min} années d'expérience progressive en ${selectedKeywords.join(
-                      ', '
-                  )}. Succès démontré dans la mise en œuvre de solutions innovantes aux défis complexes.`,
+                    ', '
+                )}. Succès démontré dans la mise en œuvre de solutions innovantes aux défis complexes.`,
     };
 
     // Generate employment history
@@ -1977,7 +2006,7 @@ const generateFallbackSkills = (occupation, experienceLevel = 'mid-level', targe
 function generateFallbackGrammarCheck(text, targetLanguage = 'English') {
     // Simple fallback grammar check - looks for common issues
     const corrections = [];
-    
+
     // Basic checks for common grammar issues
     const commonErrors = [
         { pattern: /\bi\b/g, suggestion: 'I', type: 'grammar', explanation: 'Personal pronoun should be capitalized' },
@@ -1988,7 +2017,7 @@ function generateFallbackGrammarCheck(text, targetLanguage = 'English') {
         { pattern: /\s+\./g, suggestion: '.', type: 'punctuation', explanation: 'No space before period' },
         { pattern: /\s+,/g, suggestion: ',', type: 'punctuation', explanation: 'No space before comma' }
     ];
-    
+
     commonErrors.forEach(error => {
         let match;
         while ((match = error.pattern.exec(text)) !== null) {
@@ -2006,12 +2035,12 @@ function generateFallbackGrammarCheck(text, targetLanguage = 'English') {
             });
         }
     });
-    
+
     return {
         hasErrors: corrections.length > 0,
         corrections: corrections.slice(0, 5), // Limit to 5 corrections
-        overallSuggestion: corrections.length > 0 ? 
-            `Found ${corrections.length} potential issues. Consider reviewing for grammar and formatting.` : 
+        overallSuggestion: corrections.length > 0 ?
+            `Found ${corrections.length} potential issues. Consider reviewing for grammar and formatting.` :
             `Text appears to be well-written with no obvious grammar errors.`
     };
 }
@@ -2059,7 +2088,7 @@ router.post('/check-grammar', async (req, res) => {
 
         // Initialize the Gemini API with enhanced configuration for grammar checking
         const genAI = new GoogleGenerativeAI(apiKey);
-        const model = genAI.getGenerativeModel({ 
+        const model = genAI.getGenerativeModel({
             model: 'gemini-2.0-flash',
             generationConfig: {
                 temperature: 0.1, // Low temperature for more consistent, focused analysis
@@ -2162,12 +2191,12 @@ router.post('/check-grammar', async (req, res) => {
 
         try {
             const grammarResult = JSON.parse(jsonText);
-            
+
             if (grammarResult && typeof grammarResult === 'object') {
                 console.log('Successfully generated AI grammar check for language:', targetLanguage);
                 console.log('Found errors:', grammarResult.hasErrors);
                 console.log('Number of corrections:', grammarResult.corrections?.length || 0);
-                
+
                 res.json(grammarResult);
             } else {
                 throw new Error('Invalid response format');
@@ -2175,7 +2204,7 @@ router.post('/check-grammar', async (req, res) => {
         } catch (parseError) {
             console.error('Error parsing AI response:', parseError);
             console.log('Attempting fallback parsing...');
-            
+
             // Try to extract information from non-JSON response
             const fallbackData = generateFallbackGrammarCheck(text, targetLanguage);
             res.json(fallbackData);
@@ -2216,7 +2245,7 @@ router.get('/test-ai-config', async (req, res) => {
         console.log('- NODE_ENV:', process.env.NODE_ENV);
         console.log('- GEMINI_API_KEY exists:', !!process.env.GEMINI_API_KEY);
         console.log('- GEMINI_API_KEY length:', process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.length : 0);
-        
+
         if (!process.env.GEMINI_API_KEY) {
             return res.status(500).json({
                 error: 'GEMINI_API_KEY is not configured',
@@ -2231,9 +2260,9 @@ router.get('/test-ai-config', async (req, res) => {
         const result = await model.generateContent('Test connection. Just respond with "API working".');
         const response = await result.response;
         const text = response.text();
-        
+
         console.log('✅ AI API test successful:', text);
-        
+
         res.json({
             configured: true,
             apiWorking: true,

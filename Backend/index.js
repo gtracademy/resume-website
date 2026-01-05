@@ -4,6 +4,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch'); // polyfill for fetch
+const admin = require('firebase-admin');
+const serviceAccount = require('./serviceAccountKey.json');
 global.fetch = fetch;
 
 const puppeteer = require('puppeteer-extra');
@@ -16,6 +18,11 @@ const port = 8080;
 const websiteName = 'placementecosystem.gtracademy.org'; // Replace with your domain
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
+
+// Admin Initialise Firebase 
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+});
 
 // --- Middleware ---
 app.use(express.json());
@@ -140,5 +147,49 @@ app.get('/api/linkedin-scraper', async (req, res) => {
     }
 });
 
+
+
+
+// User Password Reset Route
+
+app.post('/api/reset-password', async (req, res) => {
+    try {
+        const { email, newPassword } = req.body;
+
+        if (!email || !newPassword) {
+            return res.status(400).json({
+                success: false,
+                message: 'Email aur newPassword required hai',
+            });
+        }
+
+        if (newPassword.length < 6) {
+            return res.status(400).json({
+                success: false,
+                message: 'Password minimum 6 characters ka hona chahiye',
+            });
+        }
+
+        const user = await admin.auth().getUserByEmail(email);
+
+        await admin.auth().updateUser(user.uid, {
+            password: newPassword,
+        });
+
+        res.json({
+            success: true,
+            message: 'Password successfully reset ho gaya',
+        });
+    } catch (error) {
+        console.error('Reset password error:', error);
+        res.status(500).json({
+            success: false,
+            message: error.message,
+        });
+    }
+});
+
+
 // --- Start Server ---
 app.listen(port, () => console.log(`Server running on port ${port}`));
+ 

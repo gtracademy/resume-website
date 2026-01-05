@@ -1029,7 +1029,7 @@
       "timeRemaining": "Time Remaining",
       "resume": "Resume",
       "pause": "Pause",
-      "questionProgress": "Question {current} of {total}",
+      "questionProgress": "Question {{current}} of {{total}}",
       "complete": "% Complete",
       "interviewPaused": "Interview Paused",
       "pauseMessage": "Click Resume to continue your assessment",
@@ -1045,7 +1045,7 @@
       "questionsAnswered": "Questions Answered:",
       "questionsFlagged": "Questions Flagged:",
       "timeUsed": "Time Used:",
-      "unansweredWarning": "⚠️ You have {count} unanswered questions",
+      "unansweredWarning": "⚠️ You have {{count}} unanswered questions",
       "continueInterview": "Continue Interview",
       "submitNow": "Submit Now"
     },

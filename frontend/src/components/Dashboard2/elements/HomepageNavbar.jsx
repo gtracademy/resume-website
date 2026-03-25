@@ -428,9 +428,9 @@ const HomepageNavbar = ({ authBtnHandler, user, logout }) => {
                             )}
                         </div>
 
-                        <Link to="/billing/plans" className="block px-3 py-2 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50/70 transition-all duration-300 font-medium">
+                        {/* <Link to="/billing/plans" className="block px-3 py-2 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50/70 transition-all duration-300 font-medium">
                             Pricing
-                        </Link>
+                        </Link> */}
                         <Link to="/blog" className="block px-3 py-2 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50/70 transition-all duration-300 font-medium">
                             Blog
                         </Link>

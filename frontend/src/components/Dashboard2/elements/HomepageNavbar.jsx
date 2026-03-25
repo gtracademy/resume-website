@@ -284,7 +284,7 @@ const HomepageNavbar = ({ authBtnHandler, user, logout }) => {
                                                     </div>
 
                                                     {/* CTA */}
-                                                    <div className="mt-3 pt-3 border-t border-gray-100">
+                                                    {/* <div className="mt-3 pt-3 border-t border-gray-100">
                                                         <div className="flex items-center justify-between">
                                                             <Link
                                                                 to="/features"
@@ -299,7 +299,7 @@ const HomepageNavbar = ({ authBtnHandler, user, logout }) => {
                                                                 <div className="font-medium text-purple-600 text-xs">{t('navbar.freeToTry')}</div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -307,7 +307,7 @@ const HomepageNavbar = ({ authBtnHandler, user, logout }) => {
                                 </div>
 
                                 <a 
-                                    href="/jobs" 
+                                    href="/jobs/portal" 
                                     className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 relative group"
                                 >
                                     {t('JobsUpdate.JobsLandingHero.badge')}

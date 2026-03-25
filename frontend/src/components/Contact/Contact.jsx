@@ -7,6 +7,9 @@ import LoaderAnimation from '../../assets/animations/lottie-loader.json';
 import { getPages, getWebsiteData, getSocialLinks, addContactMessage } from '../../firestore/dbOperations';
 import HomepageFooter from '../../components/Dashboard2/elements/HomepageFooter';  
 import HomepageNavbar from '../../components/Dashboard2/elements/HomepageNavbar';
+import { IoCallOutline } from "react-icons/io5";
+import "react-phone-input-2/lib/style.css";
+import PhoneInput from 'react-phone-input-2';
 
 const Contact = ({ user, t }) => {
   const [state, setState] = useState({
@@ -17,6 +20,7 @@ const Contact = ({ user, t }) => {
     websiteName: '',
     name: '',
     message: '',
+    phone:'',
     isSuccessShowed: false,
     loaded: false,
     isSubmitting: false,
@@ -83,34 +87,70 @@ const Contact = ({ user, t }) => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    
-    if (!state.email || !state.name || !state.message) {
-      alert(t('contact.error.general'));
-      return;
-    }
+  e.preventDefault();
 
-    setState(prev => ({ ...prev, isSubmitting: true }));
+  if (!state.email || !state.name || !state.message || !state.phone) {
+    alert(t('contact.error.general'));
+    return;
+  }
 
-    try {
-      await addContactMessage(state.email, state.name, state.message);
-      
-      setTimeout(() => {
-        setState(prev => ({
-          ...prev,
-          isSuccessShowed: true,
-          isSubmitting: false,
-          email: '',
-          name: '',
-          message: '',
-        }));
-      }, 1000);
-    } catch (error) {
-      console.error('Error submitting message:', error);
-      setState(prev => ({ ...prev, isSubmitting: false }));
-      alert(t('contact.error.general'));
-    }
-  };
+  setState(prev => ({ ...prev, isSubmitting: true }));
+
+  try {
+    // ✅ Bitrix24 API
+    const response = await fetch(
+      "https://gtracademy.bitrix24.in/rest/1/ig9bb5odmrgj0qxj/crm.lead.add.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fields: {
+            TITLE: "Website Contact Lead",
+            NAME: state.name,
+            PHONE: [
+              { VALUE: state.phone, VALUE_TYPE: "WORK" }
+            ],
+            EMAIL: [
+              { VALUE: state.email, VALUE_TYPE: "WORK" }
+            ],
+            COMMENTS: state.message,
+
+            // ✅ Lead Source (IMPORTANT)
+            SOURCE_ID: "Placement Website Contact Page",
+
+            // ✅ Custom Field (Course etc if needed)
+            // UF_CRM_1773478934503: "Website Contact Form"
+          }
+        }),
+      }
+    );
+
+    const data = await response.json();
+    console.log("Bitrix Response:", data);
+
+    // Optional: Firebase save (remove if not needed)
+    await addContactMessage(state.email, state.name, state.message);
+
+    setTimeout(() => {
+      setState(prev => ({
+        ...prev,
+        isSuccessShowed: true,
+        isSubmitting: false,
+        email: '',
+        name: '',
+        phone: '',
+        message: '',
+      }));
+    }, 1000);
+
+  } catch (error) {
+    console.error('Error submitting:', error);
+    setState(prev => ({ ...prev, isSubmitting: false }));
+    alert("Something went wrong!");
+  }
+};
 
   const handleDismissSuccess = () => {
     setState(prev => ({ ...prev, isSuccessShowed: false }));
@@ -227,6 +267,27 @@ const Contact = ({ user, t }) => {
                     </div>
                   </div>
 
+
+                 <div className="group/input">
+  <label className="block text-sm font-semibold text-gray-700 mb-3">
+    {t('contact.form.phone')}
+  </label>
+
+  <PhoneInput
+    country={'in'} // default India
+    value={state.phone}
+    onChange={(phone) => handleInputChange('phone', phone)}
+    
+    inputClass="!w-full !pl-14 !py-6 !border !border-gray-200 !rounded-lg !focus:ring-2 !focus:ring-[#4a6cf7]/50 !focus:border-[#4a6cf7] !outline-none !bg-white !text-gray-900"
+    
+    containerClass="!w-full"
+    buttonClass="!border-gray-200 !bg-white"
+    
+    enableSearch={true} // 🔍 search country
+    disableSearchIcon={false}
+  />
+</div>
+
                   {/* Message Textarea */}
                   <div className="group/input">
                     <label className="block text-sm font-semibold text-gray-700 mb-3">
@@ -291,7 +352,7 @@ const Contact = ({ user, t }) => {
       {/* Footer */}
       <HomepageFooter />
     </div>
-  );
+  );  
 };
 
 const ContactWithTranslation = withTranslation('common')(Contact);

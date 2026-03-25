@@ -43,6 +43,8 @@ const AuthWrapper = () => {
     const [user, setUser] = useState(null);
     const [authLoading, setAuthLoading] = useState(true);
 
+    
+
     useEffect(() => {
         const unsubscribe = fire.auth().onAuthStateChanged((user) => {
             setUser(user);

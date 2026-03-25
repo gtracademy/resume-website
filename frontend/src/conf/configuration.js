@@ -1,8 +1,8 @@
 var config = {
-    adminEmail: 'admin@admin.com', // The website will consider this email  as an admin
+    adminEmail: 'gtracadmey@gmail.com', // The website will consider this email  as an admin
     brand: {
         useImg: true, // 320X70 Preferable Size , replace with true if you want to use image logo. and keep false if you want to keep the logo as text
-        name: 'Resumen', // This will be shown in the absence of the logo
+        name: 'GTR Academy', // This will be shown in the absence of the logo
     },
     // PayPal Configuration
     paypalClientID: '', // Replace with your actual PayPal Client ID

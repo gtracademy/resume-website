@@ -138,14 +138,14 @@ const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStep
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
-                            <span>{t('missing1.quickBuilder.title', 'Quick')}</span>
+                            <span>{t('missing1.quickBuilder.title', 'Quick')} Resume</span>
                             <span className="absolute -top-1 -right-1 bg-green-500 text-white text-xs px-1.5 py-0.5 rounded-full font-semibold leading-none">
                                 {t('missing1.quickBuilder.badge', 'RECOMMENDED')}
                             </span>
                         </button>
 
                         {/* Step-by-Step Builder - Secondary */}
-                        <a
+                        {/* <a
                             href="/build-resume/heading"
                             className="relative flex items-center justify-center gap-2 px-5 py-3 bg-white border border-[#4a6cf7] text-[#4a6cf7] rounded-lg hover:bg-blue-50 transition-all duration-200 font-medium text-sm shadow-md hover:shadow-lg min-w-[140px] group">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +155,7 @@ const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStep
                             <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-xs px-1.5 py-0.5 rounded-full font-semibold leading-none">
                                 {t('missing1.stepByStep.badge', 'NEW')}
                             </span>
-                        </a>
+                        </a> */}
 
                         {/* Portfolio Builder */}
                         <button
@@ -193,8 +193,8 @@ const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStep
 
                     {/* Simple explanation */}
                     <div className="text-center text-xs text-gray-500 mb-6 max-w-lg mx-auto">
-                        <span className="font-medium text-[#4a6cf7]">{t('HomepageHero.quick', 'Quick')}</span> - {t('HomepageHero.quickDesc', 'Choose template & write')} •{' '}
-                        <span className="font-medium text-[#4a6cf7]">{t('HomepageHero.guided', 'Guided')}</span> - {t('HomepageHero.guidedDesc', 'AI-powered step-by-step')} •{' '}
+                        <span className="font-medium text-[#4a6cf7]">{t('HomepageHero.quick', 'Quick Resume')}</span> - {t('HomepageHero.quickDesc', 'Choose template & write')} •{' '}
+                        <span className="font-medium text-[#4a6cf7]">{t('HomepageHero.guided', 'Guided')}</span> - {t('HomepageHero.guidedDesc', 'GTR-powered step-by-step')} •{' '}
                         <span className="font-medium text-purple-600">{t('HomepageHero.portfolio', 'Portfolio')}</span> - {t('HomepageHero.portfolioDesc', 'Drag & drop website builder')}
                     </div>
 

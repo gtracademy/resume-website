@@ -5,7 +5,7 @@ import 'firebase/compat/functions';
 import 'firebase/compat/database';
 
 const config = {
-    apiKey: import.meta.env.VITE_FIREBASE_KEY,
+    apiKey: import.meta.env.VITE_FIREBASE_KEY, 
     authDomain: import.meta.env.VITE_FIREBASE_DOMAIN,
     databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
     projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,

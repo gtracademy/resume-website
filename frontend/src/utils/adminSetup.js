@@ -1,5 +1,6 @@
 import fire from '../conf/fire';
 
+
 // Function to check current user's admin status
 export async function checkCurrentUserAdminStatus() {
     const user = fire.auth().currentUser;

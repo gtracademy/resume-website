@@ -33,7 +33,7 @@ const HomepageCompatibility = () => {
                         <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-gray-50/90 to-transparent z-10"></div>
 
                         {/* Logo container */}
-                        <div className="overflow-hidden rounded-xl bg-white">
+                        <div className="hidden overflow-hidden rounded-xl bg-white">
                             <div className="flex overflow-hidden py-6 px-4">
                                 {/* Animated logo marquee - with duplication for continuous effect */}
                                 <div className={`flex gap-8 items-center ${shouldAnimate ? 'animate-marquee' : 'justify-center w-full'}`}>
@@ -48,12 +48,14 @@ const HomepageCompatibility = () => {
                                     {shouldAnimate &&
                                         trustedCompanies.map((company, index) => (
                                             <div key={`duplicate-${index}`} className="w-[120px] flex-shrink-0">
-                                                <img src={company.imageUrl} alt={`${company.name}-dup`} className="object-contain h-12 mx-auto" />
+                                                {/* <img src={company.imageUrl} alt={`${company.name}-dup`} className="object-contain h-12 mx-auto" /> */}
                                             </div>
                                         ))}
                                 </div>
                             </div>
                         </div>
+
+                        
                     </div>
 
                     {/* Trust indicators */}

@@ -174,7 +174,7 @@ const Sidebar = ({ sidebarCollapsed: initialSidebarCollapsed, onSidebarToggle: n
                                 {/* Brand Name - changed from Nolito SVG to text */}
                                 <Link to="/" className="flex items-center gap-2 group">
                                     {/* You can put an SVG logo here if you have one for Resumen Admin */}
-                                    <span className="font-semibold text-xl text-gray-900 group-hover:text-purple-700 transition-colors">Resumen Admin</span>
+                                    <span className="font-semibold text-xl text-gray-900 group-hover:text-purple-700 transition-colors">Admin Dashboard</span>
                                 </Link>
 
                                 <button

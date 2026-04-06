@@ -633,6 +633,7 @@ class DashboardHomepage extends Component {
       country: document?.item?.country || "USA",
       postalcode: document?.item?.postalcode || "10001",
       photo: document?.item?.photo || null,
+      
       summary:
         document?.item?.summary ||
         "Experienced software developer with expertise in web technologies.",
@@ -747,7 +748,7 @@ class DashboardHomepage extends Component {
                 <div className="p-2 bg-slate-100 rounded-lg">
                   <FaFileAlt className="w-5 h-5 text-slate-600" />
                 </div>
-                <div className="flex-1 min-w-0">
+                <div className="flex-1 mt-5 min-w-0">
                   <h1 className="text-xl sm:text-2xl font-semibold text-slate-900 tracking-tight truncate">
                     {t("DashboardHomepage.tabs.resumes", "My Resumes")}
                   </h1>

@@ -192,7 +192,7 @@ const [selectedApplication, setSelectedApplication] = useState(null);
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.95 }}
-                    className="bg-white rounded-lg shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden border border-slate-200"
+                    className="bg-white rounded-lg shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto border border-slate-200"
                     onClick={(e) => e.stopPropagation()}>
                     {/* Header */}
                     <div className="flex items-center justify-between p-4 border-b border-slate-200">

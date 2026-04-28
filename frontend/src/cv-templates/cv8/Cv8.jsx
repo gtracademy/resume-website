@@ -140,15 +140,24 @@ class Cv8 extends Component {
                             </div>
                             {/* End Employments */}
                             {/* Employments */}
-                            <div className="cv8-profile">
-                                <div className="cv8-SectionTitle">
-                                    <span className="cv8-SectionTitleName" style={{ color: primaryColor }}>
-                                        {t('resume.educationHistory')}
-                                    </span>
-                                </div>
-                                {/* Employment */}
-                                {this.returnEducations()}
-                            </div>
+                            {this.props.values.educations &&
+                                this.props.values.educations.some(
+                                    (edu) => edu && (edu.school || edu.degree)
+                                ) && (
+                                    <div className="cv8-profile">
+                                        <div className="cv8-SectionTitle">
+                                            <span
+                                                className="cv8-SectionTitleName"
+                                                style={{ color: primaryColor }}
+                                            >
+                                                {t('resume.educationHistory')}
+                                            </span>
+                                        </div>
+
+                                        {/* Education */}
+                                        {this.returnEducations()}
+                                    </div>
+                                )}
                             {/* End Employments */}
                         </div>
                         <div className="cv8-leftSide">

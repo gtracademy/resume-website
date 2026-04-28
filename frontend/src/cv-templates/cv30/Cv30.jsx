@@ -195,15 +195,23 @@ class Cv30 extends Component {
                                 </div>
                             </section>
 
-                            <section className="experience-section">
-                                <h2 className="section-title">
-                                    <FaBriefcase className="title-icon" />
-                                    <span>{t('resume.employmentHistory')}</span>
-                                </h2>
-                                <div className="section-content">
-                                    <div className="timeline">{this.returnEmployments()}</div>
-                                </div>
-                            </section>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <section className="experience-section">
+                                        <h2 className="section-title">
+                                            <FaBriefcase className="title-icon" />
+                                            <span>{t('resume.employmentHistory')}</span>
+                                        </h2>
+
+                                        <div className="section-content">
+                                            <div className="timeline">
+                                                {this.returnEmployments()}
+                                            </div>
+                                        </div>
+                                    </section>
+                                )}
 
                             <section className="education-section">
                                 <h2 className="section-title">

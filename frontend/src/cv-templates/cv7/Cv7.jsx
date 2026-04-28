@@ -121,11 +121,16 @@ class Cv7 extends Component {
                             </div>
                             {/* End - Summary */}
                             {/* EXPERIENCE */}
-                            <div className="cv7-title">
-                                <h3 class="cv7-titleText" style={{ color: primaryColor }}>
-                                    {t('resume.employmentHistory')}
-                                </h3>
-                            </div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <div className="cv7-title">
+                                        <h3 className="cv7-titleText" style={{ color: primaryColor }}>
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+                                    </div>
+                                )}
                             <div className="cv7-employments">
                                 {/* Employment Item */}
                                 {this.returnEmployments()}

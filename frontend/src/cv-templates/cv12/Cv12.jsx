@@ -115,11 +115,21 @@ class Cv12 extends Component {
                                 <p dangerouslySetInnerHTML={{ __html: this.props.values?.summary }}></p>
                             </div>
                             {/* Section title */}
-                            <div className="cv12-section-title">
-                                <h2>{t('resume.employmentHistory')}</h2>
-                            </div>
-                            {/* Employments items */}
-                            <div className="cv12-employments">{this.returnEmployments()}</div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <>
+                                        <div className="cv12-section-title">
+                                            <h2>{t('resume.employmentHistory')}</h2>
+                                        </div>
+
+                                        {/* Employments items */}
+                                        <div className="cv12-employments">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </>
+                                )}
                             {/* Section title */}
                             <div className="cv12-section-title">
                                 <h2>{t('resume.educationHistory')}</h2>

@@ -151,13 +151,23 @@ class Cv18 extends Component {
                             </div>
                         </div>
 
-                        <div className="cv18-section">
-                            <div className="cv18-section-header">
-                                <FaBriefcase className="cv18-section-icon" />
-                                <h3 className="cv18-section-title">{t('resume.employmentHistory')}</h3>
-                            </div>
-                            <div className="cv18-experience">{this.returnEmployments()}</div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv18-section">
+                                    <div className="cv18-section-header">
+                                        <FaBriefcase className="cv18-section-icon" />
+                                        <h3 className="cv18-section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+                                    </div>
+
+                                    <div className="cv18-experience">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
 
                         <div className="cv18-section">
                             <div className="cv18-section-header">

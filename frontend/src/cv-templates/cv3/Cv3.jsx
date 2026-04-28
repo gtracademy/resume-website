@@ -120,15 +120,24 @@ class Cv3 extends Component {
                             </div>
                         </div>
                         {/* Body Section */}
-                        <div className="cv-bodySection cv2-bodySection" style={{ borderTop: `2px solid ${this.getSecondaryColor()}` }}>
-                            <div className="cv-bodySection-left">
-                                <span> {t('resume.employmentHistory')}</span>
-                            </div>
-                            <div className="cv-bodySection-right cv2-bodySection-right">
-                                {/* Employments Here */}
-                                {this.returnEmployments()}
-                            </div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div
+                                    className="cv-bodySection cv2-bodySection"
+                                    style={{ borderTop: `2px solid ${this.getSecondaryColor()}` }}
+                                >
+                                    <div className="cv-bodySection-left">
+                                        <span>{t('resume.employmentHistory')}</span>
+                                    </div>
+
+                                    <div className="cv-bodySection-right cv2-bodySection-right">
+                                        {/* Employments Here */}
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
                         {/* Body Section */}
                         <div className="cv-bodySection cv2-bodySection" style={{ borderTop: `2px solid ${this.getSecondaryColor()}` }}>
                             <div className="cv-bodySection-left">

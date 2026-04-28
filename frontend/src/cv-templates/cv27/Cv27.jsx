@@ -211,13 +211,21 @@ class Cv27 extends Component {
                                 </div>
                             </div>
 
-                            <div className="section work-section">
-                                <h3 className="section-title with-icon">
-                                    <FaBriefcase className="section-icon" />
-                                    {t('resume.employmentHistory')}
-                                </h3>
-                                <div className="timeline">{this.returnEmployments()}</div>
-                            </div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <div className="section work-section">
+                                        <h3 className="section-title with-icon">
+                                            <FaBriefcase className="section-icon" />
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+
+                                        <div className="timeline">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </div>
+                                )}
 
                             <div className="section education-section">
                                 <h3 className="section-title with-icon">

@@ -192,13 +192,21 @@ class Cv26 extends Component {
                             </section>
 
                             {/* Experience Section */}
-                            <section className="cv26-section experience-section">
-                                <div className="section-header">
-                                    <FaHistory className="section-icon" />
-                                    <h3>{t('resume.employmentHistory')}</h3>
-                                </div>
-                                <div className="experience-timeline">{this.returnEmployments()}</div>
-                            </section>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <section className="cv26-section experience-section">
+                                        <div className="section-header">
+                                            <FaHistory className="section-icon" />
+                                            <h3>{t('resume.employmentHistory')}</h3>
+                                        </div>
+
+                                        <div className="experience-timeline">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </section>
+                                )}
 
                             {/* Education Section */}
                             <section className="cv26-section education-section">

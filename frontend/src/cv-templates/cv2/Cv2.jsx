@@ -177,14 +177,21 @@ class Cv2 extends Component {
                         </div>{' '}
                         {/* End bodySection */}
                         {/* bodySection */}
-                        <div className="cv-bodySection">
-                            <div className="cv-sectionLeft">{t('resume.employmentHistory')}</div>
-                            <div className="cv-sectionRight">
-                                {/* Job Item */}
-                                {this.returnEmployments()}
-                            </div>{' '}
-                            {/* End Section Right */}
-                        </div>{' '}
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv-bodySection">
+                                    <div className="cv-sectionLeft">
+                                        {t('resume.employmentHistory')}
+                                    </div>
+
+                                    <div className="cv-sectionRight">
+                                        {/* Job Item */}
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
                         {/* End bodySection */}
                         {/* bodySection */}
                         <div className="cv-bodySection">

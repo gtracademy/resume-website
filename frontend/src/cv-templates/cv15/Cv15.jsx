@@ -167,12 +167,22 @@ class Cv15 extends Component {
                         <div className="cv15-right-side">
                             <div className="cv15-right-side-body">
                                 {/* Right title */}
-                                <div className="cv15-right-title">
-                                    <FaAngleDoubleRight className="cv15-right-title-icon" />
-                                    <span>{t('resume.employmentHistory')}</span>
-                                </div>
-                                {/* Work history */}
-                                <div className="cv15-work-history">{this.returnEmployments()}</div>
+                                {this.props.values.employments &&
+                                    this.props.values.employments.some(
+                                        (emp) => emp && (emp.jobTitle || emp.employer)
+                                    ) && (
+                                        <>
+                                            <div className="cv15-right-title">
+                                                <FaAngleDoubleRight className="cv15-right-title-icon" />
+                                                <span>{t('resume.employmentHistory')}</span>
+                                            </div>
+
+                                            {/* Work history */}
+                                            <div className="cv15-work-history">
+                                                {this.returnEmployments()}
+                                            </div>
+                                        </>
+                                    )}
                                 {/* Right title */}
                                 <div className="cv15-right-title">
                                     <FaAngleDoubleRight className="cv15-right-title-icon" />

@@ -162,10 +162,20 @@ class Cv28 extends Component {
                         {/* Left Column */}
                         <div className="left-column">
                             {/* Experience Section */}
-                            <section className="experience-section">
-                                <h3 className="section-title">{t('resume.employmentHistory')}</h3>
-                                <div className="experiences-container">{this.returnEmployments()}</div>
-                            </section>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <section className="experience-section">
+                                        <h3 className="section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+
+                                        <div className="experiences-container">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </section>
+                                )}
 
                             {/* Education Section */}
                             <section className="education-section">

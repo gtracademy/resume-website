@@ -152,15 +152,25 @@ class Cv19 extends Component {
                             </div>
                         </section>
 
-                        <section className="cv19-section">
-                            <div className="cv19-section-header">
-                                <div className="cv19-section-icon-container">
-                                    <MdKeyboardArrowRight className="cv19-section-icon" />
-                                </div>
-                                <h3 className="cv19-section-title">{t('resume.employmentHistory')}</h3>
-                            </div>
-                            <div className="cv19-section-content cv19-work-list">{this.returnEmployments()}</div>
-                        </section>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <section className="cv19-section">
+                                    <div className="cv19-section-header">
+                                        <div className="cv19-section-icon-container">
+                                            <MdKeyboardArrowRight className="cv19-section-icon" />
+                                        </div>
+                                        <h3 className="cv19-section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+                                    </div>
+
+                                    <div className="cv19-section-content cv19-work-list">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </section>
+                            )}
 
                         <section className="cv19-section">
                             <div className="cv19-section-header">

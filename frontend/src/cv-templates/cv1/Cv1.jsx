@@ -202,8 +202,18 @@ class Cv1 extends Component {
                             {/* Right section  : Employment*/}
                             <div className="rightSection">
                                 <div className="sectionTitle">
-                                    <h1>{t('resume.employmentHistory')}</h1>
-                                    <div style={{ width: '100%', backgroundColor: primaryColor }} className="sectionTitle__underLine"></div>
+                                    {this.props.values.employments &&
+                                        this.props.values.employments.some(
+                                            (emp) => emp && (emp.jobTitle || emp.employer)
+                                        ) && (
+                                            <>
+                                                <h1>{t('resume.employmentHistory')}</h1>
+                                                <div
+                                                    style={{ width: '100%', backgroundColor: primaryColor }}
+                                                    className="sectionTitle__underLine"
+                                                ></div>
+                                            </>
+                                        )}
                                     {/* Employment Item */}
                                     {this.returnEmployments()}
                                 </div>

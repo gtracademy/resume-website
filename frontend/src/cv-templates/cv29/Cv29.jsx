@@ -165,10 +165,20 @@ class Cv29 extends Component {
                                 <p className="summary-text" dangerouslySetInnerHTML={{ __html: this.props.values.summary }}></p>
                             </section>
 
-                            <section className="experience-section">
-                                <h3 className="section-title">{t('resume.employmentHistory')}</h3>
-                                <div className="timeline">{this.returnEmployments()}</div>
-                            </section>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <section className="experience-section">
+                                        <h3 className="section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+
+                                        <div className="timeline">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </section>
+                                )}
 
                             <section className="education-section">
                                 <h3 className="section-title">{t('resume.educationHistory')}</h3>

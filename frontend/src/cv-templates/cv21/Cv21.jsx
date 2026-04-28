@@ -142,13 +142,23 @@ class Cv21 extends Component {
                             </div>
                         </div>
 
-                        <div className="cv21-experience-section">
-                            <div className="cv21-section-header">
-                                <IoMdBriefcase className="cv21-section-icon" />
-                                <h3 className="cv21-section-title">{t('resume.employmentHistory')}</h3>
-                            </div>
-                            <div className="cv21-experience-content">{this.returnEmployments()}</div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv21-experience-section">
+                                    <div className="cv21-section-header">
+                                        <IoMdBriefcase className="cv21-section-icon" />
+                                        <h3 className="cv21-section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+                                    </div>
+
+                                    <div className="cv21-experience-content">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
 
                         <div className="cv21-education-section">
                             <div className="cv21-section-header">

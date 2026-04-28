@@ -110,11 +110,19 @@ class Cv11 extends Component {
                             <p className="cv11-summary" dangerouslySetInnerHTML={{ __html: this.props.values?.summary }}></p>
 
                             {/* Professional experience */}
-                            <div className="cv11-sectionTitle">
-                                <h2>{t('resume.employmentHistory')}</h2>
-                            </div>
-                            {/* Job Items */}
-                            {this.returnEmployments()}
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <>
+                                        <div className="cv11-sectionTitle">
+                                            <h2>{t('resume.employmentHistory')}</h2>
+                                        </div>
+
+                                        {/* Job Items */}
+                                        {this.returnEmployments()}
+                                    </>
+                                )}
 
                             {/* Education  */}
                             <div className="cv11-sectionTitle">

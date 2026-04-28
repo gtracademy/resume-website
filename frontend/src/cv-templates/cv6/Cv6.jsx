@@ -164,13 +164,21 @@ class Cv6 extends Component {
                             </div>
                             {/* End : Summary */}
                             {/* Experience */}
-                            <div className="cv5-experience">
-                                <div className="cv5-rightSectionTitle">
-                                    <span style={{ color: this.getPrimaryColor() }}>{t('resume.employmentHistory')}</span>
-                                </div>
-                                {/* Employment Item */}
-                                {this.returnEmployments()}
-                            </div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <div className="cv5-experience">
+                                        <div className="cv5-rightSectionTitle">
+                                            <span style={{ color: this.getPrimaryColor() }}>
+                                                {t('resume.employmentHistory')}
+                                            </span>
+                                        </div>
+
+                                        {/* Employment Item */}
+                                        {this.returnEmployments()}
+                                    </div>
+                                )}
                             {/* End:Experience */}
                             {/* Education */}
                             <div className="cv5-experience">

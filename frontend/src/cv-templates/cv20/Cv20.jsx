@@ -188,10 +188,20 @@ class Cv20 extends Component {
                             </div>
                         </div>
 
-                        <div className="cv20-experience-section">
-                            <h3 className="cv20-section-title">{t('resume.employmentHistory')}</h3>
-                            <div className="cv20-experience-content">{this.returnEmployments()}</div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv20-experience-section">
+                                    <h3 className="cv20-section-title">
+                                        {t('resume.employmentHistory')}
+                                    </h3>
+
+                                    <div className="cv20-experience-content">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
 
                         <div className="cv20-education-section">
                             <h3 className="cv20-section-title">{t('resume.educationHistory')}</h3>

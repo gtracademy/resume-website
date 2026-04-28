@@ -192,13 +192,23 @@ class Cv23 extends Component {
                     </div>
 
                     <div className="cv23-main-content">
-                        <div className="cv23-experience-section">
-                            <div className="cv23-section-header">
-                                <MdWork className="cv23-section-icon" />
-                                <h3 className="cv23-section-title">{t('resume.employmentHistory')}</h3>
-                            </div>
-                            <div className="cv23-employment-grid">{this.returnEmployments()}</div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv23-experience-section">
+                                    <div className="cv23-section-header">
+                                        <MdWork className="cv23-section-icon" />
+                                        <h3 className="cv23-section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+                                    </div>
+
+                                    <div className="cv23-employment-grid">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
 
                         <div className="cv23-education-section">
                             <div className="cv23-section-header">

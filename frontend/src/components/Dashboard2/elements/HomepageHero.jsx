@@ -281,7 +281,7 @@ const HomepageHero = ({ t, goToResumeSelectionStep, goToCoverSelection, goToStep
                                         padding: '0px 0 0px 0px',
                                     }}>
                                     <iframe
-                                        src="https://app.supademo.com/embed/cmbhuzzr76b1dsn1reikdvlaq?v_email=EMAIL&embed_v=2"
+                                        src="https://app.supademo.com/embed/cmoi7x8w13u0mza2iue4gl2nu?embed_v=2&utm_source=embed"
                                         loading="lazy"
                                         title="Supademo Demo"
                                         allow="clipboard-write"

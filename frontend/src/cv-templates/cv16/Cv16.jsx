@@ -147,13 +147,21 @@ class Cv16 extends Component {
                             </div>
                         </div>
 
-                        <div className="cv16-section">
-                            <div className="cv16-section-title">
-                                <BsArrowRightCircleFill className="cv16-section-icon" />
-                                <h3>{t('resume.employmentHistory')}</h3>
-                            </div>
-                            <div className="cv16-experience">{this.returnEmployments()}</div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div className="cv16-section">
+                                    <div className="cv16-section-title">
+                                        <BsArrowRightCircleFill className="cv16-section-icon" />
+                                        <h3>{t('resume.employmentHistory')}</h3>
+                                    </div>
+
+                                    <div className="cv16-experience">
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
 
                         <div className="cv16-section">
                             <div className="cv16-section-title">

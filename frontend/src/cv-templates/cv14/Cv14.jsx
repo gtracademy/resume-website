@@ -111,7 +111,7 @@ class Cv14 extends Component {
                         {/* Left side head */}
                         <div className="cv14-left-side-head">
                             <div className="cv14-image">
-                            {this.props.values.photo !== null ? <img alt='photoOf' className="photo" src={this.props.values.photo} /> : "photo"}
+                                {this.props.values.photo !== null ? <img alt='photoOf' className="photo" src={this.props.values.photo} /> : "photo"}
 
                             </div>
                         </div>
@@ -171,12 +171,22 @@ class Cv14 extends Component {
                         <div className="cv14-right-side">
                             <div className="cv14-right-side-body">
                                 {/* Right title */}
-                                <div className="cv14-right-title">
-                                    <FaAngleDoubleRight className="cv14-right-title-icon" />
-                                    <span>{t('resume.employmentHistory')}</span>
-                                </div>
-                                {/* Work history */}
-                                <div className="cv14-work-history">{this.returnEmployments()}</div>
+                                {this.props.values.employments &&
+                                    this.props.values.employments.some(
+                                        (emp) => emp && (emp.jobTitle || emp.employer)
+                                    ) && (
+                                        <>
+                                            <div className="cv14-right-title">
+                                                <FaAngleDoubleRight className="cv14-right-title-icon" />
+                                                <span>{t('resume.employmentHistory')}</span>
+                                            </div>
+
+                                            {/* Work history */}
+                                            <div className="cv14-work-history">
+                                                {this.returnEmployments()}
+                                            </div>
+                                        </>
+                                    )}
                                 {/* Right title */}
                                 <div className="cv14-right-title">
                                     <FaAngleDoubleRight className="cv14-right-title-icon" />
@@ -184,9 +194,9 @@ class Cv14 extends Component {
                                 </div>
                                 {/* Education history */}
                                 <div className="cv14-work-history">
-                                   {
-                                 this.returnEducations()
-                                   }
+                                    {
+                                        this.returnEducations()
+                                    }
                                 </div>
                             </div>
                         </div>

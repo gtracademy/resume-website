@@ -196,10 +196,20 @@ class Cv24 extends Component {
 
                         <div className="cv24-main-content">
                             {/* Experience Section */}
-                            <section className="main-section">
-                                <h3 className="section-title">{t('resume.employmentHistory')}</h3>
-                                <div className="timeline">{this.returnEmployments()}</div>
-                            </section>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <section className="main-section">
+                                        <h3 className="section-title">
+                                            {t('resume.employmentHistory')}
+                                        </h3>
+
+                                        <div className="timeline">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </section>
+                                )}
 
                             {/* Education Section */}
                             <section className="main-section">

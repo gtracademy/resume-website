@@ -127,15 +127,26 @@ class Cv9 extends Component {
                             </div>
                         </div>
                         {/* Body Section */}
-                        <div className="cv-bodySection cv9-bodySection" style={{ borderTopColor: primaryColor }}>
-                            <div className="cv-bodySection-left">
-                                <span style={{ color: primaryColor }}>{t('resume.employmentHistory')}</span>
-                            </div>
-                            <div className="cv-bodySection-right cv9-bodySection-right">
-                                {/* Employments Here */}
-                                {this.returnEmployments()}
-                            </div>
-                        </div>
+                        {this.props.values.employments &&
+                            this.props.values.employments.some(
+                                (emp) => emp && (emp.jobTitle || emp.employer)
+                            ) && (
+                                <div
+                                    className="cv-bodySection cv9-bodySection"
+                                    style={{ borderTopColor: primaryColor }}
+                                >
+                                    <div className="cv-bodySection-left">
+                                        <span style={{ color: primaryColor }}>
+                                            {t('resume.employmentHistory')}
+                                        </span>
+                                    </div>
+
+                                    <div className="cv-bodySection-right cv9-bodySection-right">
+                                        {/* Employments Here */}
+                                        {this.returnEmployments()}
+                                    </div>
+                                </div>
+                            )}
                         {/* Body Section */}
                         <div className="cv-bodySection cv9-bodySection" style={{ borderTopColor: primaryColor }}>
                             <div className="cv-bodySection-left">

@@ -191,13 +191,21 @@ class Cv25 extends Component {
 
                     <div className="cv25-body">
                         <div className="cv25-main">
-                            <div className="cv25-section">
-                                <div className="section-header">
-                                    <FaBriefcase className="section-icon" />
-                                    <h3>{t('resume.employmentHistory')}</h3>
-                                </div>
-                                <div className="section-content">{this.returnEmployments()}</div>
-                            </div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <div className="cv25-section">
+                                        <div className="section-header">
+                                            <FaBriefcase className="section-icon" />
+                                            <h3>{t('resume.employmentHistory')}</h3>
+                                        </div>
+
+                                        <div className="section-content">
+                                            {this.returnEmployments()}
+                                        </div>
+                                    </div>
+                                )}
 
                             <div className="cv25-section">
                                 <div className="section-header">

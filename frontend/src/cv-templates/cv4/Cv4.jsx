@@ -165,15 +165,24 @@ class Cv4 extends Component {
                                 <div dangerouslySetInnerHTML={{ __html: this.props.values.summary }} />
                             </div>
                             {/* Employments */}
-                            <div className="cv4-profile">
-                                <div className="cv4-SectionTitle">
-                                    <span className="cv4-SectionTitleName" style={{ color: this.getPrimaryColor() }}>
-                                        {t('resume.employmentHistory')}
-                                    </span>
-                                </div>
-                                {/* Employment */}
-                                {this.returnEmployments()}
-                            </div>
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <div className="cv4-profile">
+                                        <div className="cv4-SectionTitle">
+                                            <span
+                                                className="cv4-SectionTitleName"
+                                                style={{ color: this.getPrimaryColor() }}
+                                            >
+                                                {t('resume.employmentHistory')}
+                                            </span>
+                                        </div>
+
+                                        {/* Employment */}
+                                        {this.returnEmployments()}
+                                    </div>
+                                )}
                             {/* End Employments */}
                             {/* Employments */}
                             <div className="cv4-profile">

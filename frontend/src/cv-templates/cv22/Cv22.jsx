@@ -195,13 +195,23 @@ class Cv22 extends Component {
                         </div>
                     </div>
 
-                    <div className="cv22-main-section">
-                        <div className="cv22-section-header">
-                            <RiBriefcase4Line className="cv22-section-icon" />
-                            <h3 className="cv22-section-title">{t('resume.employmentHistory')}</h3>
-                        </div>
-                        <div className="cv22-experience-content">{this.returnEmployments()}</div>
-                    </div>
+                    {this.props.values.employments &&
+                        this.props.values.employments.some(
+                            (emp) => emp && (emp.jobTitle || emp.employer)
+                        ) && (
+                            <div className="cv22-main-section">
+                                <div className="cv22-section-header">
+                                    <RiBriefcase4Line className="cv22-section-icon" />
+                                    <h3 className="cv22-section-title">
+                                        {t('resume.employmentHistory')}
+                                    </h3>
+                                </div>
+
+                                <div className="cv22-experience-content">
+                                    {this.returnEmployments()}
+                                </div>
+                            </div>
+                        )}
 
                     <div className="cv22-main-section">
                         <div className="cv22-section-header">

@@ -135,18 +135,29 @@ class Cv10 extends Component {
                             <p style={{ marginBottom: '0px', marginTop: '10px' }} className="cv10-summary" dangerouslySetInnerHTML={{ __html: this.props.values.summary }}></p>
 
                             {/* Professional experience */}
-                            <div className="cv10-sectionTitle" style={{ borderBottomColor: secondaryColor }}>
-                                <h2>{t('resume.employmentHistory')}</h2>
-                            </div>
-                            {/* Job Items */}
-                            {this.returnEmployments()}
+                            {this.props.values.employments &&
+                                this.props.values.employments.some(
+                                    (emp) => emp && (emp.jobTitle || emp.employer)
+                                ) && (
+                                    <>
+                                        <div
+                                            className="cv10-sectionTitle"
+                                            style={{ borderBottomColor: secondaryColor }}
+                                        >
+                                            <h2>{t('resume.employmentHistory')}</h2>
+                                        </div>
+
+                                        {/* Job Items */}
+                                        {this.returnEmployments()}
+                                    </>
+                                )}
 
                             {/* Education  */}
                             <div className="cv10-sectionTitle" style={{ borderBottomColor: secondaryColor }}>
                                 <h2>{t('resume.educationHistory')} </h2>
                             </div>
 
-                            {/* Ecuations */}
+                            {/* Educations */}
                             {this.returnEducations()}
                         </div>
                         {/* Right Side */}

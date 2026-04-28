@@ -9,6 +9,7 @@ import HomepagePricing from './elements/HomepagePricing';
 import Homepagefaqs from './elements/Homepagefaqs';
 import HomepageFooter from './elements/HomepageFooter';
 import GridBackground from './elements/GridBackground';
+import GtrCourse from './elements/GtrCourse';
 
 class MyPageComponent extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class MyPageComponent extends React.Component {
                 <div className="relative z-10 bg-transparent h-full w-full">
                     <HomepageNavbar authBtnHandler={authBtnHandler} user={user} logout={logout} />
                     <HomepageHero goToResumeSelectionStep={goToResumeSelectionStep} goToCoverSelection={goToCoverSelection} />
+                    <GtrCourse/>
                     <HomepageTrustedBy />
                     <HomepageSteps />
                     <HomepageReviews />

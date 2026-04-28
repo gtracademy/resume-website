@@ -435,7 +435,7 @@ const Homepagefaqs = () => {
                   {t('Homepagefaqs.cta.description')}
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                   <a
                     className="inline-flex items-center justify-center px-8 py-4 bg-white text-indigo-900 font-semibold rounded-2xl shadow-lg hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 group"
                     href="/sign-up"
@@ -447,10 +447,10 @@ const Homepagefaqs = () => {
                     <FaStar className="text-yellow-400 w-4 h-4" />
                     <span>{t('Homepagefaqs.cta.freeCredits')}</span>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Trust indicators */}
-                <div className="flex items-center justify-center gap-8 text-white/60 text-sm">
+                {/* <div className="flex items-center justify-center gap-8 text-white/60 text-sm">
                   <div className="flex items-center gap-2">
                     <FaUserShield className="w-4 h-4" />
                     {t('Homepagefaqs.cta.secure', 'Secure & Private')}
@@ -463,7 +463,7 @@ const Homepagefaqs = () => {
                     <FaHeart className="w-4 h-4" />
                     {t('Homepagefaqs.cta.support', '24/7 Support')}
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

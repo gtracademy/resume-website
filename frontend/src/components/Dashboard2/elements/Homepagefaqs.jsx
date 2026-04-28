@@ -379,7 +379,7 @@ const Homepagefaqs = () => {
           </div>
 
           {/* Contact Support Section */}
-          <div
+          {/* <div
             data-animate="contact-section"
             className={`text-center transform transition-all duration-700 delay-700 ${
               isVisible['contact-section'] ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
@@ -405,7 +405,7 @@ const Homepagefaqs = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

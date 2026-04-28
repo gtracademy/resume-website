@@ -261,7 +261,6 @@ class BoardFilling extends Component {
         console.log('saveToDatabase called');
 
         event == !undefined && event.preventDefault();
-
         if (this.props.currentStep === 'Cover Filling') {
             // Generate currentCoverId if it doesn't exist
             if (localStorage.getItem('currentCoverId') === null) {

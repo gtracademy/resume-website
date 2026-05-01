@@ -390,7 +390,25 @@ const [selectedApplication, setSelectedApplication] = useState(null);
                                                     </div>
 
                                                     <div className="flex flex-col gap-2">
-                                                        <button className="flex items-center gap-2 px-3 py-2 bg-slate-50 text-slate-700 rounded-md hover:bg-slate-100 transition-colors text-xs font-medium border border-slate-200">
+                                                        <button 
+                                                            onClick={() => {
+                                                                let resumeUrl = application.resumeUrl || application.selectedResume?.shareableLink || application.resume;
+                                                                if (resumeUrl && typeof resumeUrl === 'string' && resumeUrl.startsWith('http')) {
+                                                                    if (resumeUrl.includes('/resume/')) {
+                                                                        resumeUrl = resumeUrl.replace('/resume/', '/shared/');
+                                                                    }
+                                                                    const link = document.createElement('a');
+                                                                    link.href = resumeUrl;
+                                                                    link.download = `${application.applicantName || 'resume'}.pdf`;
+                                                                    link.target = '_blank';
+                                                                    document.body.appendChild(link);
+                                                                    link.click();
+                                                                    document.body.removeChild(link);
+                                                                } else {
+                                                                    alert('Resume file not available for download.');
+                                                                }
+                                                            }}
+                                                            className="flex items-center gap-2 px-3 py-2 bg-slate-50 text-slate-700 rounded-md hover:bg-slate-100 transition-colors text-xs font-medium border border-slate-200">
                                                             <FaDownload className="w-3 h-3" />
                                                             {t('JobsUpdate.JobApplicationsModal.buttons.downloadResume', 'Download Resume')}
                                                         </button>

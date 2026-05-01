@@ -104,6 +104,9 @@ app.post('/api/export', async (req, res) => {
 const aiRoutes = require('./routes/ai'); // keep your AI routes as they are
 app.use('/api', aiRoutes);
 
+const resumeParserRoutes = require('./routes/resumeParser');
+app.use('/api', resumeParserRoutes);
+
 // --- Test Route ---
 app.get('/api/return', (req, res) => res.send('Hello World'));
 

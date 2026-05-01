@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import InputField from './components/InputField';
 import SectionCard from './components/SectionCard';
 import PhotoUpload from './components/PhotoUpload';
+import ResumeUploader from './components/ResumeUploader';
+import { MdUpload } from 'react-icons/md';
 
 const HeadingStep = ({ resumeData, updateResumeData }) => {
     const { t } = useTranslation('common');
@@ -21,6 +23,7 @@ const HeadingStep = ({ resumeData, updateResumeData }) => {
 
     const [errors, setErrors] = useState({});
     const [touched, setTouched] = useState({});
+    const [showUploader, setShowUploader] = useState(false);
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -132,6 +135,40 @@ const HeadingStep = ({ resumeData, updateResumeData }) => {
                             <h1 className="text-lg sm:text-xl font-bold text-slate-900">{t('HeadingStep.title')}</h1>
                         </div>
                         <p className="text-slate-600 text-sm mb-4">{t('HeadingStep.subtitle')}</p>
+
+                        {/* Upload Resume Button */}
+                        <button
+                            onClick={() => setShowUploader((prev) => !prev)}
+                            className="flex items-center space-x-2 mb-4 px-4 py-2 rounded-lg border border-blue-300 text-blue-700 bg-blue-50 hover:bg-blue-100 transition-colors text-sm font-medium">
+                            <MdUpload className="text-base" />
+                            <span>{showUploader ? 'Hide uploader' : 'Import from existing resume (PDF)'}</span>
+                        </button>
+
+                        {/* Resume Uploader Panel */}
+                        {showUploader && (
+                            <div className="mb-5">
+                                <ResumeUploader
+                                    updateResumeData={(parsed) => {
+                                        // Sync parsed data into local formData for fields this step owns
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            firstname: parsed.firstname || prev.firstname,
+                                            lastname: parsed.lastname || prev.lastname,
+                                            email: parsed.email || prev.email,
+                                            phone: parsed.phone || prev.phone,
+                                            occupation: parsed.occupation || prev.occupation,
+                                            country: parsed.country || prev.country,
+                                            city: parsed.city || prev.city,
+                                            address: parsed.address || prev.address,
+                                            postalcode: parsed.postalcode || prev.postalcode,
+                                        }));
+                                        // Push everything (including employments, educations, skills, etc.) up to BuildResume
+                                        updateResumeData(parsed);
+                                    }}
+                                    onClose={() => setShowUploader(false)}
+                                />
+                            </div>
+                        )}
 
                         {/* Progress Bar */}
                         <div className="mb-4">

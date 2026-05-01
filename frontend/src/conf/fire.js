@@ -3,6 +3,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/functions';
 import 'firebase/compat/database';
+import 'firebase/compat/storage';
 
 const config = {
     apiKey: import.meta.env.VITE_FIREBASE_KEY, 

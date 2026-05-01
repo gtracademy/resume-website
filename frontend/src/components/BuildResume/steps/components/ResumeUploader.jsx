@@ -2,9 +2,9 @@ import React, { useState, useRef, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { MdUpload, MdCheckCircle, MdError, MdClose, MdAutoAwesome } from 'react-icons/md';
 import axios from 'axios';
-import config from '../../../conf/configuration';
-import { AuthContext } from '../../../main';
-import fire from '../../../conf/fire';
+import config from '../../../../conf/configuration';
+import { AuthContext } from '../../../../main';
+import fire from '../../../../conf/fire';
 
 /**
  * ResumeUploader
